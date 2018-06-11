@@ -110,11 +110,11 @@ When a topic is important enough to debate with another person, there are usuall
 
 Live debates can only be an approximation of the whole picture. Take, for example, the formal structure of Oxford-style debates:
 
-One member of the team in support of the "motion" makes their case, to the best of their ability, in favor of the topic under discussion, within a given time limit.
-A panelist from the side opposing the motion gets their chance to make the case against the statement within the time limit given.
-This continues for each pair of additional panelists.
-There is a limited question-and-response segment in which participants, moderators and/or observers can ask questions. Each side is allowed a chance to respond.
-The two sides then give their closing statements, again within the limited time frame.
+# One member of the team in support of the "motion" makes their case, to the best of their ability, in favor of the topic under discussion, within a given time limit.
+# A panelist from the side opposing the motion gets their chance to make the case against the statement within the time limit given.
+# This continues for each pair of additional panelists.
+# There is a limited question-and-response segment in which participants, moderators and/or observers can ask questions. Each side is allowed a chance to respond.
+# The two sides then give their closing statements, again within the limited time frame.
 
 While this is a very interesting and civilized form of discussion, the limited time frame requires each side to choose which facts and arguments they wish to present. Furthermore, the structure does not allow one side to stop the other if it disputes a specific claim. There is no process to "dive deep" into single point so that its impact may be fully established.
 
@@ -755,103 +755,120 @@ This would be an INCREDIBLE tool for understanding one another
 (hint, by the way: the answer is beliefs, and trade offs in values - which is something I’ll go into another time)
  
 
-Scoring
-It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, Gruff supports several different formulas for rating, or "Scoring" Claims and Arguments.
-Purpose
-Scoring serves the following purposes:
-Sort Arguments in terms of their effectiveness
-Reveal popular opinions on debates
-Allow users to view debates through the lens of their own beliefs
-Allow users to view the same debates through the lens of other users (anonymously)
-Reveal how the validity (or lack thereof) of underlying Claims can strengthen or weaken Arguments
-Reveal inconsistencies in the beliefs of a user
-Reveal hidden biases
+===3.3 Scoring.===
 
-Important!
+It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, Gruff supports several different formulas for rating, or "Scoring" Claims and Arguments.
+
+====3.3.1 Purpose.====
+
+Scoring serves the following purposes:
+
+* Sort Arguments in terms of their effectiveness
+* Reveal popular opinions on debates
+* Allow users to view debates through the lens of their own beliefs
+* Allow users to view the same debates through the lens of other users (anonymously)
+* Reveal how the validity (or lack thereof) of underlying Claims can strengthen or weaken Arguments
+* Reveal inconsistencies in the beliefs of a user
+* Reveal hidden biases
+
+''Important!''
 Scoring should not be about who "wins". The goal is not to put your side on top! (although that seems like the obvious point). The point is to get a clearer view of your own personal viewpoint on the debate. When this is what is given the focus, the value of the debate becomes clearer. 
 
-Criteria
+====3.3.2 Criteria.====
+
 Before designing a scoring method, it's important to reflect on what are characteristics we want in a scoring algorithm. Certainly, the method should help us achieve each of the goals listed in the section above. No one algorithm (at least so far) is perfectly suited to every objective, and so Gruff supports several different approaches, as described below. Multiple equations were tried and discarded, and others were maintained.
 
 The following guidelines were used in the selection process. None of the methods satisfies all of them in every case.
 
-The result of just one Argument shouldn’t be better than the Strength of that argument
+'''''The result of just one Argument shouldn’t be better than the Strength of that argument'''''
 
 It would be misleading, for example, to award a score of 100% to a Claim that is supported by only one Argument with a Strength Score of 30% (because it's either possibly untrue, or largely irrelevant).
 
-Adding another Argument on a side should increase the weight on that side
+'''''Adding another Argument on a side should increase the weight on that side'''''
 
 If a Claim is supported by an Argument with nearly 100% Strength, and a second, weaker Argument is provided to prop up the first, it wouldn't make sense to take an average (for example), which would reduce the overall support of the Claim. 
 
 As a corollary to this, increasing the score of one of the Arguments should always increase the weight on that side, or at least not be harmful to its case.
 
-A single Argument with a Strength of 100% and no opposition should have a result of 100%
+'''''A single Argument with a Strength of 100% and no opposition should have a result of 100%''''
 
 And, correspondingly, a 100% effective counter-argument should result in a score of 0%, assuming there are no supporting Arguments. A good example of this is a piece of irrefutable evidence: just one good piece of evidence should be enough to prove a Claim.
 
-Adding an Argument with a Score of 0% should not affect the result
+'''''Adding an Argument with a Score of 0% should not affect the result'''''
 
 An Argument with a Score of 0% is either completely false, totally irrelevant, or both. It would definitely be a problem if participants could alter the outcome of a debate by spamming the discussion with ineffective Arguments.
 
-Re-grouping shouldn’t change the outcome significantly
+'''''Re-grouping shouldn’t change the outcome significantly'''''
 
 This is the hardest criteria to support mathematically. Intuitively, assuming that all Arguments have been sufficiently vetted, rebutted and voted, performing a Group Arguments curation to place several weaker Arguments beneath a more general heading should not weaken or exaggerate the outcome for that side. Three partially-relevant Arguments (30% each, let's say), should be just as effective separately as one more relevant (e.g. 65%) Argument that has them as supporting Arguments.
 
-The outcome should match human intuition
+'''''The outcome should match human intuition'''''
 
 This is the necessary catch-all for any criteria we may have missed. If the outcome of a calculation doesn't match what people would expect (and this is hard to define, since each person has a slightly different intuition), then we must pause and consider what we were expecting and why. Then, adjust the algorithm accordingly.
 
 Some of the more difficult questions to consider here are:
-If both sides have 100% convincing (Strong) Arguments, but one side has extra supporting Arguments, should we declare that side to be more convincing? (What does 100% mean in this case?)
-Is one 80% Strength Argument more effective, the same, or less than two 40% Strength Arguments?
-If not, how many 40% Arguments would it take to defeat an 80% Argument
-Scoring Methods
-Claim vs. Argument
+
+* If both sides have 100% convincing (Strong) Arguments, but one side has extra supporting Arguments, should we declare that side to be more convincing? (What does 100% mean in this case?)
+* Is one 80% Strength Argument more effective, the same, or less than two 40% Strength Arguments?
+* If not, how many 40% Arguments would it take to defeat an 80% Argument
+
+====3.3.3 Scoring Methods.====
+
+=====3.3.3.1 Claim vs. Argument.=====
+
 The Score of a Claim is a representation of its truthfulness, the confidence that people can have that the statement represents a true statement. Since this is synonymous with a debate, arriving at a Truth Score for the Claim can be considered the objective of that debate. However, as will be shown below, the Truth Score of a Claim is an important factor in the scores of Arguments upon which they are based. In other words, the Truth Score reflects on any debate in which a Claim is used.
 
 Debates over an Argument affect its Relevance Score. These debates take the form of other Arguments in support of or attacking the relevance or significance of the Argument in the context of this debate (arguments against the accuracy of the argument are actually Arguments applied to the base Claim, rather than the Argument itself).
 
 Depending on the Scoring Method, as described below, the way a Relevance Score is calculated may or may not be mathematically equivalent to the way a Truth Score is derived.
-Popular Vote
+
+=====3.3.3.2 Popular Vote.=====
+
 The Popular Vote is a very straightforward mechanism for scoring. On any Claim or Argument, Debaters can register their opinion on the Score of an element. The Popular Vote, then, is simply the average of all votes.
 
 Popular voting can be considered a "dangerous" form of viewing the results of a debate. There are several reasons for this:
 
-It can be subject to attack by dishonest voters, especially those with many fake accounts
+'''''It can be subject to attack by dishonest voters, especially those with many fake accounts'''''
 
 This is a very genuine concern. It is critical that debates not be influenced or dominated by bad actors with fake accounts. As stated in the Principles, the system must guarantee to the best of our ability that there is only one account per person. 
 
-Just showing the Popular Vote can distort the outcome, due to popularity bias
+'''''Just showing the Popular Vote can distort the outcome, due to popularity bias'''''
 
 There will certainly be some distortion due to this effect - there is no escaping the way our brain works, not completely. However, the main purpose here is not to see which side wins, but rather to provide the tools to help people understand themselves, which is the first tool in the fight against cognitive bias. 
 
-There is no guarantee the popular outcome is the right outcome
+'''''There is no guarantee the popular outcome is the right outcome'''''
 
-This is true, but the Popular Score here is not meant to be used as THE measure used for a vote. Rather, it is meant to help each potential voter figure out where they stand on the issue when the time comes to vote. The "tyranny of the majority" is a problem for a democracy, and therefore outside the scope of this system. For more information on how this can be resolved, see the Democracy Earth white paper. With the creation of this system, we certainly hope that the majority will be much more understanding and accommodating, rather than tyrannical.
-Personal Vote
+This is true, but the Popular Score here is not meant to be used as THE measure used for a vote. Rather, it is meant to help each potential voter figure out where they stand on the issue when the time comes to vote. The "tyranny of the majority" is a problem for a democracy, and therefore outside the scope of this system. For more information on how this can be resolved, see the [https://github.com/DemocracyEarth/paper Democracy Earth white paper]. With the creation of this system, we certainly hope that the majority will be much more understanding and accommodating, rather than tyrannical.
+
+=====3.3.3.3 Personal Vote.=====
+
 The Personal Vote is the simplest scoring mechanism of all. It is simply a view of a Claim or Argument which shows the score the user chose, rather than the Popular Vote. Note, however, that on Claims or Arguments on which a user has not yet voted, the Score shown would instead be the Popular Vote (shown in such a way as to signal to the user that they have yet to register their Score).
-Roll-up Score
+
+=====3.3.3.4 Roll-up Score.=====
+
 When one looks at the Popular or Personal Vote of a Claim or an Argument, they are looking at the final overall opinion attributed to that topic. Oddly, that Score is in no way influenced by the Arguments given for or against the topic, except as they indirectly influence the opinions of the people that cast a vote.
 
 It would be very interesting to see how those votes compare to the sum total of the Arguments that were given on each side of that debate. Consider a very simple case:
 
-Claim A, with a Popular Vote of 65%
-Argument A, with a Popular Vote of 70%
-Argument B, with a Popular Vote of 70%
+* Claim A, with a Popular Vote of 65%
+* Argument A, with a Popular Vote of 70%
+* Argument B, with a Popular Vote of 70%
 
 If we are to look at only the Popular Vote of Claim A, we will see that it is "winning", at least in the sense that it has been given more than a 50/50 confidence rating. However, if you look at the Arguments on either side, they seem to balance each other out. Knowing that there is a significant difference between the two can help highlight some disconnect in popular (or personal) thinking, which may have resulted from:
 
-An incomplete debate, with key Arguments missing
-Some source of bias in the voting, which is causing people to internally disregard key Arguments or weigh them differently
-Simple laziness - perhaps many users preferred to vote only on the top Claim without giving the Arguments enough consideration to vote
+* An incomplete debate, with key Arguments missing
+* Some source of bias in the voting, which is causing people to internally disregard key Arguments or weigh them differently
+* Simple laziness - perhaps many users preferred to vote only on the top Claim without giving the Arguments enough consideration to vote
 
 Hopefully, by illustrating the difference between these Scores, the system can help counteract the causes of this type of disconnect. 
 
 Since the Scores of each of the Arguments, one for and one against, are identical, it is natural to assume that they cancel each other out. It would seem, then, that the correct Score for Claim A from this perspective would be 50%, rather than 65%. Since the 50% is calculated from the bottom (the Arguments) up, we call this the Roll-up Score.
-Strength Score
+
+=====3.3.3.4.1 Strength Score.=====
+
 Now, consider the following situation: Argument A has a Relevance Score of 70%, and Argument B has a Relevance Score of -70%; however, the Claim underlying Argument A (let's call this Claim AC) has a Truth Score of only 50%, while the Claim underlying Argument B (Claim BC) has a Truth Score of 100% (everyone magically seems to agree with it). How should that impact Claim A? Should an Argument that stands on shakier grounds be considered just as strong as one that doesn't?
 
-For this, we can borrow a basic principle from software engineering: if you have one system that is down 90% of the time, and it depends on another that is also offline 90% of the time, how reliable is it? The answer to this problem is to multiply the two reliabilities to get the reliability of the system as a whole: 
+For this, we can borrow a basic principle from software engineering: if you have one system that is down 90% of the time, and it depends on another that is also offline 90% of the time, how reliable is it? The answer to this problem is to [http://www.weibull.com/hotwire/issue181/article181.htm multiply the two reliabilities] to get the reliability of the system as a whole: 
 
 0.9 x 0.9 = 0.81, or 81%
 
@@ -861,7 +878,8 @@ Therefore, the Strength Score S of an Argument A, with a Relevance Score of RA, 
 
 S = RA * TC
 
-Roll-up from Strength Scores
+=====3.3.3.4.2 Roll-up from Strength Scores.=====
+
 Given the example above, of an Argument A with a Relevance Score of 70%, and a Claim of Truth 50%, we can now calculate that its Strength Score is:
 
 0.7 * 0.5 = 0.35, or 35%
@@ -871,7 +889,9 @@ Meanwhile, the Strength Score of Argument B is:
 0.7 * 1.0 = 0.7, or 70%
 
 How should we calculate the Truth Score of Claim A now? We know that when Arguments are completely balanced, it makes sense to give it an even score of 50%. Also, it makes no sense to go below 0%, nor above 100%, and no matter how many Arguments are for or against the Claim, one Argument on the opposite side should move the needle to place at least some doubt on the Truth of the Claim.
+
 Average of Scores
+
 The simplest way to calculate the Roll-up Score would be to take an average of the Strength Scores of the Arguments, and use that to find where the Truth lies on the range of possible scores (we will use the notation SSpro for Strength Scores in favor of a Claim or Argument, and SScon for those against, and npro and ncon for the number of Arguments in favor and against, respectively):
 
 TS = 0.5 + 0.5 * (∑SSpro - ∑SScon) / (npro + ncon)
@@ -889,6 +909,7 @@ The naive version of this approach also fails another test: Adding an Argument w
 TA = 0.5 + 0.5 * (0.8 - 0.0)/2 = 0.5 + 0.5 * 0.4 = 0.5 + 0.2 = 0.7, only 70%
 
 Divide by Total
+
 A slight change in the previous formula offers a solution to the problem of averages. If we perform a weighted average by dividing by the sum of the magnitude of all scores, we get:
 
 TS = 0.5 + 0.5 *  (∑SSpro - ∑SScon) / (∑SSpro + ∑SScon)
@@ -918,7 +939,9 @@ Now, suppose the Arguments B3 through B10 are distinct, but fall under one gener
 TS = 0.5 + 0.5 * -0.9 / 3.9 = 0.5 - 0.115 = 0.385, or 38.5%
 
 The simple, and necessary, act of reorganization significantly weakened the case against the Claim. 
+
 Aggregate Strength Score
+
 In order to reduce this effect, and the effect of Argument spamming, Gruff therefore takes a slightly different approach to calculating the Roll-up Score, known as the Aggregate Strength Score:
 
 Find the Aggregate Strength of the Arguments for a Claim
@@ -970,6 +993,7 @@ TS = 50%
 
 
 Paired Ranking
+
 This final approach builds on the concept of the Aggregate Strength Score, but adds one more intuition:
 
 Two arguments of equal Strength, one for and one against, should cancel each other out
@@ -1113,7 +1137,8 @@ TS = 0%
 
 That seems a little counterintuitive (the 100% Strength Argument in favor seems like it should have some impact), but it is still better than the result given by pure AS.
 
-Roll-up Levels
+=====3.3.3.5 Roll-up Levels.=====
+
 The previous examples only considered the Roll-up Scores based on the Arguments immediately for a single Claim. It is important to note, however, that the Arguments may have Arguments of their own, as may their base Claims. What if we want to see the impact of those sub-Arguments on the debate?
 
 You could say that we want to look down another "level", and so this is the official term for the "depth" of a Roll-up calculation: Level. In the previous section, the calculations referred to Roll-up Level 1. In order to see how the Arguments on the Arguments stack up, we can look at the Roll-up level 2 Score.
@@ -1153,15 +1178,18 @@ AS1B = (0.5 + 0.5 * (ASBA - ASBB)) * TSBC
 
 For the calculation, we have recursed down one level on both aspects of an Argument: its pro and con Arguments, and its base Claim. But since we have only gone one level deeper, we do not consider the Roll-up Truth Score of the base Claims of its Arguments. For this, we would need to go one level deeper, and calculate the Level 3 Roll-up (and so on).
 
-Arguments and Claims without Arguments
+=====3.3.3.5.1 Arguments and Claims without Arguments.=====
+
 What should we do for the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it will not be possible to calculate any deeper than this. Instead, the calculation will have to substitute this for its Popular Score; that is, its Strength Score or Truth Score, without any other weighting.
 
 In the case of a Claim with no Popular Score (no votes), the default Score of 50% is used. For an Argument with no Popular Score, the default Score of 0% is used.
-Belief Score
+
+=====3.3.3.6 Belief Score.=====
+
 Scoring up to this point has been based on using the average of the Popular Score for each element. This is fine when what one wants is a census on popular opinion. However, this is not enough to support two of the main objectives of this platform:
 
-Provide tools for people to understand themselves
-Provide ways for people to see the world from another’s perspective
+'''''Provide tools for people to understand themselves'''''
+'''''Provide ways for people to see the world from another’s perspective'''''
 
 An individual's vote on the score of a Claim or an Argument is, in essence, a statement of their Belief on that subject. For example, it may fine to see that 56% of participants believe that a particular person was telling the truth when they made a statement, but if you believe they were lying, you would want to see that reflected in the Truth Score as a 0%, not as 56%.
 
@@ -1195,11 +1223,15 @@ B1 (Popular Score: 40%, other user's Belief Score 0%)
 Investigating deeper might reveal that this specific user tends to agree very strongly and unquestionably with some public figure, perhaps the subject of the debate, or that they tend to find a certain subject (reflected in Argument B1) as unimportant.
 
 By allowing users to highlight specific Beliefs in this manner, the platform is able to provide the introspection and deep understanding that is our goal.
-Reason Score
+
+=====3.3.4 Reason Score.=====
+
 Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Arguments and counter-Arguments, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Arguments according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Argument. Instead of casting a vote you provide a claim  to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Arguments. 
 
 As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
+
 Calculation
+
 The Reason Score for any Claim is a percentage measure of confidence in the validity of the Claim. There is no Reason Score per se for Arguments, although they are given a relative weight, as described below.
 
 A Reason Score can be interpreted as:
@@ -1258,33 +1290,39 @@ Note that this is a recursive equation, so care must be taken either to prevent 
 Averaging the weights is the default calculation. There are rare circumstances where different calculations will be preferred such as
 The lowest claim is used. This is for when the claim is an absolute and any counter proof would dismiss the whole claim.
 The highest claim is used. This is used when any positive proof will prove the claim true.
-Ranking of Arguments
+
+=====3.3.5 Ranking of Arguments.=====
+
 One of the most important roles for scoring is to enable the ranking of Arguments, from "best" (strongest or most relevant) to worst. This is, most of all, in support of the Objective:
 
-It should be possible to grasp the principle arguments of a debate in 30 seconds or less
+'''''It should be possible to grasp the principle arguments of a debate in 30 seconds or less'''''
 
 By assigning a Score based on popular or personal opinion, or on the preponderance of facts, it becomes possible to design an interface which highlights the most salient information in a given debate. 
 
 One type of user interface currently under consideration is the possibility of voting by ranking. The ability to manually sort Arguments in order of "best" to "worst", and use this as a mechanism for voting is a compelling possibility. It remains to be decided what such a ranking would mean, however. Would the average user be sophisticated enough to sort ONLY by Relevance, or would the ranking have to be considered its overall Strength, according to how convincing the user considers each Argument to be (and how, then, would one register a Relevance Score for an Argument with a base Claim that is totally false)?
-Viewing
-Search
-Read debate
-See underlying Claim
-See underlying Arguments
-See popular Score
-See Roll-up Score to N levels
-See my Roll-up
-See Rolls-up by "type" (clustered types of opinion)
-Debating
-Create Claim
 
-Create Argument from Claim
+===3.4 Viewing.===
 
-Create Argument without Claim
+* Search
+* Read debate
+* See underlying Claim
+* See underlying Arguments
+* See popular Score
+* See Roll-up Score to N levels
+* See my Roll-up
+* See Rolls-up by "type" (clustered types of opinion)
 
-Vote
+===3.5 Debating.===
 
-Curation
+====3.5.1 Create Claim.====
+
+====3.5.2 Create Argument from Claim.====
+
+====3.5.3 Create Argument without Claim.====
+
+====3.5.4 Vote.====
+
+===3.6 Curation.===
 
 
 Who Should Curate?
