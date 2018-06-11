@@ -1,16 +1,17 @@
 <pre>
   DEF: 1
-  Title: The Social Smart Contract
-  Author: @DemocracyEarth.
+  Title: The Canonical Debate
+  Author: @CanonicalDebateLab.
   Comments-Summary: No comments yet.
   Status: Active
   Type: Paper
-  Created: 2017-07-14
+  Created: 2018-06-11
   License: MIT
   Replaces: 0
 </pre>
 
 =The Canonical Debate.=
+
 A proposal to fix the current state of online discourse through the promotion of fact-based reasoning, and the accumulation of human knowledge, brought to you by the Canonical Debate Lab, a community project of the [http://democracy.earth Democracy Earth Foundation].
 
 ==i. Abstract.==
@@ -45,46 +46,48 @@ The state of debate and collective deliberation, both online and off, appears to
 
 The state of debate as it occurs via the available suite of "online" tools is particularly disappointing. None of the technologies in use today (with the exception of email and a few others) were available twenty years ago, and yet with this incredible growth in capability, we have failed to address fundamental issues with deliberation, and created many new ones.
 
-Debates are scattered
+'''''Debates are scattered'''''
 
 As in the pre-Internet era, there is no one place to look for information regarding a single topic of debate. It requires more work than the average person is willing to do to collect all the relevant information. Given the overhead involved in a task as small as verifying the facts behind even a single news article, no single person can ever hope to gain a complete understanding of our most complex and important issues.
 
-Arguments are made in silos
+'''''Arguments are made in silos'''''
 
-Rather than responding point by point to each argument, online debate is generally executed in long form, where a single person or group offers a complete set of opinions on a single, or possibly multiple subjects. This format makes it nearly impossible for one side to completely address the points of the other side, and gives leeway to gloss over them with only a superficial treatment, or even ignore them completely. As such, it is difficult to every fully resolve the case regarding even a single fact. It also enables many fallacies, such as the Strawman Fallacy and Cherry Picking.
+Rather than responding point by point to each argument, online debate is generally executed in long form, where a single person or group offers a complete set of opinions on a single, or possibly multiple subjects. This format makes it nearly impossible for one side to completely address the points of the other side, and gives leeway to gloss over them with only a superficial treatment, or even ignore them completely. As such, it is difficult to every fully resolve the case regarding even a single fact. It also enables many fallacies, such as the [https://en.wikipedia.org/wiki/Straw_man Strawman Fallacy] and [https://en.wikipedia.org/wiki/Cherry_picking Cherry Picking].
 
-Effort is wasted in repetition
+'''''Effort is wasted in repetition'''''
 
-Because debates are held in multiple places, with multiple overlapping, incomplete sets of of information at varying levels of specificity, accuracy and truth, most of effort in debate is wasted in repetition. There is currently no efficient way to "onboard" newcomers to the debate with the accumulated set of information that has been discussed. More knowledgeable participants must inevitably answer the same questions multiple times, and rebut arguments that have been made to them before, with no way to resolve a question once and for all.
+Because debates are held in multiple places, with multiple overlapping, incomplete sets of of information at varying levels of specificity, accuracy and truth, most of effort in debate is wasted in repetition. There is currently no efficient way to "onboard" newcomers to the debate with the accumulated set of information that has been discussed. More knowledgeable participants must inevitably answer the same questions multiple times, and rebut arguments that have been made to them before, with no way to resolve a question [https://theflatearthsociety.org/home/ once and for all].
 
-Models promote polarization
+'''''Models promote polarization'''''
 
 Trends in the polarization of political opinion have been traced back in large degree to current models of online discussion and information sources, which increase engagement by way of learning user preferences, and giving them more of the same. The result is what's known as information bubbles, or echo chambers, in which people rarely come into contact with information or opinions contrary to the user's own. 
  
 This trend to some degree seems to be an unexpected negative consequence of the ability of the individual to choose between multiple sources of information, and so can be traced prior to the internet to other events, such as the proliferation of opinionated news channels on cable TV. The Internet has certainly exacerbated the situation, giving the uncountable options of information platforms available.
  
 Recent studies have shown how such one-sided interactions lead to increasing radicalization of opinions, as people encounter a wide variety of opinions of varying extremes, but all biased towards one side of the debate. Unfortunately, this problem appears to be an essential part of the structure and business model of most information sources online:
-In order to compete, news sites find it advantageous to carve out a niche by adopting a consistent editorial slant
-Social media sites encourage users to improve their experience by organizing into groups of people with shared interest and opinions
-Ad-driven business models find success in giving users more of what they want, rather than showing them something that will upset them
-Superficial, entertaining, and sensationalist reporting generally gets more attention (and gives better financial returns) than balanced, information-rich text
+* In order to compete, news sites find it advantageous to carve out a niche by adopting a consistent editorial slant.
+* Social media sites encourage users to improve their experience by organizing into groups of people with shared interest and opinions.
+* Ad-driven business models find success in giving users more of what they want, rather than showing them something that will upset them.
+* Superficial, entertaining, and sensationalist reporting generally gets more attention (and gives better financial returns) than balanced, information-rich text.
 
-Trolling is rewarded
+'''''Trolling is rewarded'''''
 
 Many Internet destinations which encourage interaction with the public do so in a format that favors "trolling" or "flame bait": flippant remarks designed to insult or enrage readers, or to get a cheap laugh, without substantially advancing the conversation. Comments sections in news and video sites, as well as most unmoderated forums, are notorious for this problem, resulting in a perverse circus-like competition of comments which often cross the line to hate speech. Many news sites have chosen to turn off public comments entirely, and it is a common joke that "the comments section may be hazardous to your health."
  
 Microblog formats, like Twitter, do better in some respects, but suffer from similar problems, though in less concentrated doses. The brief format works best for sound bites, quick jokes, or off-the-cuff opinions, rather than deep and detailed reasoning. The fully public nature of the platform, coupled with the incentive to gain "followers" and "likes", rewards phrasing and entertainment value at least as much as the ideas that are being represented. Twitter icons like Ann Coulter have mastered the technique of retrying the same comment or joke multiple times until it has reached the right pitch of phrasing, humor and controversy to "go viral". This is a necessary skill that unfortunately not many scientists, field experts or deep thinkers possess.
  
-Research into the psychology of online trolling has found that there is a notably sadistic tendency to those which exhibit this behavior. Their intention is specifically to cause some form of emotional harm to their readers, who have no reasonable recourse other than try to ignore such comments. A direct response only worsens the situation, giving more opportunity for the troll to insult or enrage the reader. It is unfortunate, then, that most sites do not have enough resources nor the proper structure to moderate open conversation. Trolls are thus given a much louder voice than those with more moderate tendencies, leading to the misperception that the majority of people in the world have extreme and insulting opinions. 
-Debate is tied to reputation
+Research into the psychology of online trolling has found that there is a notably sadistic tendency to those which exhibit this behavior. Their intention is specifically to cause some form of emotional harm to their readers, who have no reasonable recourse other than try to ignore such comments. A direct response only worsens the situation, giving more opportunity for the troll to insult or enrage the reader. It is unfortunate, then, that most sites do not have enough resources nor the proper structure to moderate open conversation. Trolls are thus given a much louder voice than those with more moderate tendencies, leading to the misperception that the majority of people in the world have [https://www.facebook.com/Million-Moderate-March-161343150543101/ extreme and insulting opinions]. 
+
+'''''Debate is tied to reputation'''''
 
 When a controversial issue is discussed online in an official capacity, rather than anonymously or pseudonymously, it means the arguments being made are tied to a person or entity with a reputation to establish and maintain. This creates a bias in the arguments that can be made. In order to expand human knowledge and make the best decisions, it is necessary to confront all possibilities, no matter how controversial they may at first seem. Unfortunately, public entities reasonably fear making unpopular arguments, or alienating their supporters or readers. 
 
 Exploratory arguments are especially dangerous, in that they may be misunderstood or taken (intentionally or unintentionally) out of context. Online, it can be very difficult to establish a safe place for "blue sky" thinking, or using the brainstorming practice of gathering all possible ideas free from any evaluation so that the best ideas may then be selected. It would be easy for casual readers to mistake fanciful out-of-the-box ideas as the actual opinions of the person expressing them.
 
-While this may appear to be an insignificant issue, there is an exaggerated danger online of reputational damage that can be very difficult to undo. Many people have lost their job expressing an unpopular opinion online. The cartoonist Scott Adams was labeled a misogynist (correctly or not) for posting thought experiments on his blog, prompting him to preface many of his subsequent posts with a disclaimer. More recently, the author and podcaster Sam Harris dared to discuss with an open mind the controversial research of Charles Murray and found himself placed on a list of racist leaders. There is a very real risk in tackling controversy online, with very little chance of recovering from reputational damage.
+While this may appear to be an insignificant issue, there is an exaggerated danger online of reputational damage that can be very difficult to undo. Many people have [https://www.nytimes.com/2015/02/21/your-money/speaking-about-politics-can-cost-you-your-job.html lost their job] expressing an unpopular opinion online. The cartoonist Scott Adams was labeled a misogynist (correctly or not) for posting thought experiments on his blog, prompting him to preface many of his subsequent posts with a [http://blog.dilbert.com/2011/11/09/cains-inexplicably-high-polling/ disclaimer]. More recently, the author and podcaster Sam Harris dared to discuss with an open mind the controversial research of Charles Murray and found himself placed on [https://twitter.com/SamHarrisOrg/status/987378512813219840 a list of racist leaders]. There is a very real risk in tackling controversy online, with very little chance of recovering from reputational damage.
 
-Experts are drowned out
+'''''Experts are drowned out'''''
+
 One of the great achievements of the internet is the extent to which it has enabled just about anyone to join in on the global conversation, to publish writings and opinions with little to no cost and effort. The internet can be compared to the revolution created by the Gutenberg printing press in terms of its impacts on communications and society. 
 
 Unfortunately, quantity is not the same thing as quality. While it is much easier to find some amount of information on just about anything, there are few mechanisms in place for selecting based on quality and depth.
@@ -93,14 +96,15 @@ Especially in the case of real-time news, it is much easier to get a sense of ge
 
 Real information is commonly buried in academic papers, and primary sources are hard to find. The format and language used by experts is generally too dense and erudite to be useful to the average person.
 
-Debates can be "hacked"
+'''''Debates can be "hacked"'''''
+
 As difficult as it may be with the cacophony of superficial opinions to find a vein of expert and verified information, the problem can easily be exacerbated by those who do not want the truth to be known. Through use of bots, fake accounts and other guerrilla marketing techniques the online debate can be swayed by a false sense of popularity for otherwise unfounded positions.
 
-Such were the findings of the U.S. House Intelligence Committee, which found that a Russian agency was created specifically to sew distrust and division in the U.S. via online ads. Networks of fake accounts were also used to promote falsified information that would also increase the internal strife. While politicians may label "fake news" as anything with which they do not agree, there is a real threat of sophisticated attacks on our online information systems which are intended to promote false versions of the truth.
+Such were the findings of the U.S. House Intelligence Committee, which found that a Russian agency was created specifically to sew distrust and division in the U.S. via [https://www.usnews.com/news/politics/articles/2018-05-10/lawmakers-release-thousands-of-russian-facebook-ads online ads]. Networks of fake accounts were also used to promote falsified information that would also increase the internal strife. While politicians may label "fake news" as [http://nymag.com/daily/intelligencer/2018/05/trump-admits-he-calls-all-negative-news-fake.html anything with which they do not agree], there is a real threat of sophisticated attacks on our online information systems which are intended to promote false versions of the truth.
 
-The Problem With Debate Offline
+===1.2 The Problem With Debate Offline.===
 
-Not enough time
+'''''Not enough time'''''
 
 When a topic is important enough to debate with another person, there are usually multiple arguments on either side that must be considered. Each argument must be based on one or more facts that to their own merit may require justification, and so on. In-person debates, whether between an informal group of people, or formally presented and moderated in front of an audience, are too short to cover all the relevant points, to the final level of detail. 
 
@@ -116,439 +120,505 @@ While this is a very interesting and civilized form of discussion, the limited t
 
 This limitation exists in formal debate, but holds for informal discussion as well. In order to not distract from the "main point", we have to pick and choose which points are worth discussing at any given moment.
 
-Not enough memory
+'''''Not enough memory'''''
 
 Humans cannot possibly hold in their minds a complete picture of all the information related to a specific debate. Even experts on a subject would be expected to have to refer to documents, studies and other primary sources of information in order to hold a comprehensive discussion on a topic of debate. When a debate is held in real time, to compensate, points must often be made on the basis of “feelings”. At best, an aggregated opinion based on previous in-depth studies can be expressed, but it must be taken on faith by the other parties, or disregarded entirely. This is yet one more reason why the act of passing on important information from one person to the next can only be partially successful.
 
-It's usually about "winning"
+'''''It's usually about "winning"'''''
 
 If discussion were always a cooperative activity in which parties joined forces (memory and intellect) to come to the best conclusion, then it is possible that humankind would be able to overcome the limitations cited above. Unfortunately, debates are often adversarial in nature, and too often focus on which side can “win” the debate, either by making the best show of things to an external audience, or by convincing their "opponents" that they are in the right (or at least overwhelming them with better arguments). Under such conditions, truth is only a secondary concern, and it can be tempting to employ logical fallacies in the name of making a point.
 
 Unfortunately, as common as this posture is, truth may not be the only casualty here. The adversarial approach belies a lack of empathy for other participants, and can lead to alienation between those of differing opinions, driving a wedge between those that would otherwise benefit from cooperation.
 
-Preparation matters
+'''''Preparation matters'''''
 
 Under ideal circumstances, a debate would have the best representation possible from all perspectives. Unfortunately, in addition to the limitations cited above of time and human memory, there is the problem of unevenness of knowledge and experience between individuals. A debate may be won or lost based on which side has studied the subject in more depth, and is more prepared to relate and defend their arguments. No real-time debate can be said to present a complete picture, and witnesses and participants can therefore be swayed by whichever side is better prepared to represent their half.
 
-Eloquence matters
+'''''Eloquence matters'''''
 
 One final variable in the result of a debate that is immaterial to the actual substance of the subject is the way in which the arguments are made. Unfortunately, the "winner" of a debate may be decided by who is the better speaker, rather than by which side has the strongest case. 
 
-The Problem with Politics
+===1.3 The Problem with Politics.===
 
 To be honest, politics has never really been about truth in debates. tunnel
 
-Risk aversion
+'''''Risk aversion'''''
+
 Politics is a strange form of popularity contest, in which careers are based and world-changing decisions made on the basis of getting the most votes (for a person, not an issue). This means that bold or risky opinions are discouraged, as are blue-sky brainstorms and general speculation.
 
-Uncertainty is not allowed
+'''''Uncertainty is not allowed'''''
+
 Politicians are discouraged from showing uncertainty. This reduces the level of honesty in the discussion, and closes the door on external discourse.
 
-Changing opinions is a sign of weakness
+'''''Changing opinions is a sign of weakness'''''
 
 It is considered a lack of leadership, intelligence and/or backbone to change one’s opinion in public as a politician. This almost completely eliminates the purpose of constructive discourse, which is to arrive at a consensus cooperatively.
 
-Ambiguity is rewarded
+'''''Ambiguity is rewarded'''''
+
 In order to appeal to a larger group, and to avoid risking the accusation of being a “waffler”, statements from politicians tend to be as abstract, unspecific and non-committal as possible, while still trying to strike an emotional chord. This kind of discourse avoids the difficult questions rather than facing them head-on.
 
-The problems are too complex
-Rational Ignorance: When it takes more effort to understand something well enough (to vote on it) than is worth it, people won’t do it.
+'''''The problems are too complex'''''
 
-Politics of the possible
+[https://en.wikipedia.org/wiki/Rational_ignorance Rational Ignorance]: When it takes more effort to understand something well enough (to vote on it) than is worth it, people won’t do it.
+
+'''''Politics of the possible'''''
+
 There are a lot of concepts mixed in here, not sure how to sort them out. BUT,
+
 There is a problem with the way legislation is designed and proposed. It is designed based on what the authors THINK will be passable, then goes through a round of horse-trading, in which items get slipped into the bill totally unrelated to the purpose of the legislation in order to “buy” the votes of specific representatives. In the end, decisions are made at least partially not on whether or not it is a good idea, but rather, that it is a “passable” idea.
+
 Decisions may be rushed: either presented and rushed to vote before all the delegates have had a chance to read it, or rushed so that there can be a vote before the session ends, before vacation, or before dynamics change (elections).
 Then there are the “at least we tried” bills: legislation proposed insincerely as a form of showing constituents that an attempt was made, without really trying.
+
 Finally, most bills do not attempt to be holistic about a solution. For example, the recent FOSTA-SESTA bill was written (and passed) as a way to curb child sex trafficking, but also closed a door on some safety mechanisms for adult sex workers. While the problem was acknowledged (and stats show that these mechanisms helped reduce murders of ALL women by nearly 20% in areas where they existed), no effort was made to made regular (but illegal) sex work safer due to social taboos.
 
-Focus on the wrong things
+'''''Focus on the wrong things'''''
+
 Politics very often focuses on the character of the candidate, rather than on the issues they support.
 
-The real debate is hidden
+'''''The real debate is hidden'''''
+
 We know that much of what really happens in the process of policy decisions happens behind closed doors, off the public record. Whether it’s in conversations with lobbyists, political whips, large donors, personal family influence, conversations with a pastor, or something else, much of what goes into making up the mind of a representative happens out of sight, through personal contact. Once a decision has been made, a conscious effort is made to find a way to frame it to the public in such a way that it can be “justified”. While this is actually a natural part of the process (imagine if you were a representative - wouldn’t you want feedback from family and friends?), as a side effect, it actually disempowers the remainder of a representative’s constituents.
 
-Lack of local information
+'''''Lack of local information'''''
+
 Especially for local elections and referendums, which should be more familiar with voters, there is ironically a severe lack of relevant information.
 
-The Human Condition
+===1.4 The Human Condition.===
 
-People don't know how to argue
+'''''People don't know how to argue'''''
 
 A large percentage of the world population does not know what makes for a reasonable argument. People need to learn about logical fallacies, cognitive dissonance, etc.
 
-People assume the worst
+'''''People assume the worst'''''
 
 It appears at least that most people arguing (especially online) assume the worst of people that disagree with them. This is in part due to tribalism. But it seems to have become a social norm to assume bad intentions (or stupidity), rather than an honest difference of opinion, as the source of disagreement.
 
-This problem could be solved if everyone were to adopt the Principle of Charity. Unfortunately, it would be hoping too much to expect this to happen any time soon.
+This problem could be solved if everyone were to adopt the [https://en.wikipedia.org/wiki/Principle_of_charity Principle of Charity]. Unfortunately, it would be hoping too much to expect this to happen any time soon.
 
-People are lazy
+'''''People are lazy'''''
 
 Humans are generally too lazy to do the research necessary to verify if any supposed fact they read online is actually true. There is a natural bias towards believing information that supports a pre-existing opinion, and doubting one that debunks it. This leads to certain lies spreading very quickly online.
 
+===1.5 Current State of the Art.===
 
-Current State of the Art
+'''''Centralization of control'''''
 
-Centralization of control
 If the debate is “owned” by a single entity (in terms of who can edit the data), without complete and trustworthy transparency and history, the solution is subject to accusations of favoritism. This therefore can degrade trust in the substance of the debate itself.
 
-Centralization of data
+'''''Centralization of data'''''
+
 If the content of the debate is owned by a single party, there is a risk that the debate will one day disappear with the end of that entity, and all work will be lost (or sold!). This undermines the perceived value in participation.
 
-Conflicts of interest
+'''''Conflicts of interest'''''
+
 Commercial implementations (e.g. Kialo) will need to find a profitable business model. This creates the risk of selling personal data to advertisers (and political parties and beyond!).
 
-Fake accounts
+'''''Fake accounts'''''
+
 Most implementations do not provide adequate protection against “Sybil” accounts (fake accounts). Any solution that includes voting (upvotes, scoring, etc.) is therefore subject to “attacks” by networks of fake accounts attempting to sway the outcome of the debate.
-Not reusable
+
+'''''Not reusable'''''
+
 Most solutions seen so far do not treat the debates as canonical. That is, they treat each debate as a separate, isolated entity, whose result cannot be used in future debates. This prevents knowledge from accumulating to the degree we believe possible.
 
-Not popular
+'''''Not popular'''''
+
 No solution so far has managed to become THE place for debate.
 
-Insufficient curation
+'''''Insufficient curation'''''
+
 Many implementations lack the tools necessary to keep the debate organized, clean and productive
 
-Bad user experience
+'''''Bad user experience'''''
+
 Debate is a VERY complex activity. It needs to be trivially easy to read and to use. Kialo is the best attempt I’ve seen so far. C.f. the comment regarding Argunet here: https://www.lesswrong.com/posts/dJJYgmaYYFmHoQM4L/debate-tools-an-experience-report
 
-Overly simplified model
+'''''Overly simplified model'''''
+
 This is a catch-all for features otherwise not called out in this section. The solution just doesn’t offer all the features we consider necessary. (That is, they don’t solve all the concerns listed in the Problems section).
 
-No context
-Solutions generally don’t take a rigorous approach to “context” (specifically as defined in our white paper).
+'''''No context'''''
 
-Inadequate scoring
+Solutions generally don’t take a rigorous approach to "context" (specifically as defined in our white paper).
+
+'''''Inadequate scoring'''''
+
 The scoring system offered by the solution is non-existent or oversimplified.
 
-No concept of generic vs. complete
+'''''No concept of generic vs. complete'''''
+
 No concept of “generic” claims, tied to concrete claims. That is, no way to discuss generally about a controversial topic (e.g. abortion), and then tie it to a more specific case (e.g. late-term abortions).
 
-No tools for contemplation
+'''''No tools for contemplation'''''
+
 Debates are generally treated as a fixed entity, with only the overall popular consensus considered. There is no way to inspect the debate specifically from the perspective of the user, or from the perspective of someone else.
 
-Boring
+'''''Boring'''''
+
 Deconstructed debates, removed from individuals and avoiding incendiary speech can unfortunately be very dry. This makes it difficult to achieve mass adoption.
 
+<div id="Principles"></div>
 
+==2. Principles.==
 
-
-
-
-Principles
 These problems can be solved given the right solution. There have been many good attempts in the past, but so far we have not seen one successful enough to make a significant change. In part, we believe it is because each seems to lack one or more critical elements necessary to avoid the pitfalls of the problems listed above.
+
+===2.1 Guiding Principles.===
 
 We present here a list of guiding principles that we believe are necessary to follow in order to create an antidote to these problems, and to avoid the pitfalls that have come before. 
 
-Knowledge should accumulate
+'''''Knowledge should accumulate'''''
 
-Respect human nature
+'''''Respect human nature'''''
 
-Focus on what matters
+'''''Focus on what matters'''''
 
+'''''Be trustworthy'''''
 
-Be trustworthy
+'''''Include everyone'''''
 
-Include everyone
+'''''It's about learning, not winning'''''
 
-It's about learning, not winning
+===2.2 Beliefs.===
 
-Beliefs
-Inspire with emotion; Argue with reason
+'''''Inspire with emotion; Argue with reason'''''
 
-Debating brings people together
+'''''Debating brings people together'''''
 
-Honest disagreements are about beliefs, values and priorities
+'''''Honest disagreements are about beliefs, values and priorities'''''
 
-We can get closer to the truth
+'''''We can get closer to the truth'''''
 
+===2.3 Design Goals.===
 
-Design Goals
-Create the canonical debate
-Make debates reusable
-Promote constructive discourse
-Teach people about debates
-Promote the best arguments
-Require context
-Reduce sources of bias
-Make arguments anonymous
-Prevent spam and fake accounts
-Be fully transparent
-Be fully distributed
-Make the platform last
-Eliminate conflicts of interest
-Foster an ecosystem
-Keep it organized
-Make it effortless
-Promote engagement
-Include everyone
-Respect the individual
-Illuminate different perspectives
-Bring people together
+'''''Create the canonical debate'''''
+'''''Make debates reusable'''''
+'''''Promote constructive discourse'''''
+'''''Teach people about debates'''''
+'''''Promote the best arguments'''''
+'''''Require context'''''
+'''''Reduce sources of bias'''''
+'''''Make arguments anonymous'''''
+'''''Prevent spam and fake accounts'''''
+'''''Be fully transparent'''''
+'''''Be fully distributed'''''
+'''''Make the platform last'''''
+'''''Eliminate conflicts of interest'''''
+'''''Foster an ecosystem'''''
+'''''Keep it organized'''''
+'''''Make it effortless'''''
+'''''Promote engagement'''''
+'''''Include everyone'''''
+'''''Respect the individual'''''
+'''''Illuminate different perspectives'''''
+'''''Bring people together'''''
 
-Solution
+==3. Solution.==
+
 Work in Progress - these are just notes taken from the Slack channel
+
 The solution is to build the missing piece to the internet. The problem is a structural one. But it is possible to build a fix, one that can change the way people interact. There are several examples of this. Think how the world was before and after each of these pieces were added:
-Google
-Wikipedia
-Text messaging
-Twitter
-Facebook
+* Google
+* Wikipedia
+* Text messaging
+* Twitter
+* Facebook
+
 None of these pieces have fulfilled the “promise of the internet”, but they have radically changed the way we interact, for better or worse. What, then, is needed to fulfill that promise?
 
 
-Basic Elements
-There is a general academic consensus regarding the structure of a debate, at least as it relates to argumentation in the form of a dialectic. However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
+===3.1 Basic Elements.===
+
+There is a general academic consensus regarding the structure of a debate, at least as it relates to [https://en.wikipedia.org/wiki/Argumentation_theory argumentation] in the form of a dialectic. However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
 
 What follows is a description of the principle elements of such a debate, and how they relate to one another.
 
-Claim
-A Claim in Gruff is a proposition, a statement which is intended to be taken as fact, or as the truth. In many cases (in fact, in the majority of cases), agreement on the validity of the statement is not universal. These differences of opinion form the foundation for debate, and the purpose of Gruff is to provide the tools for participants to work together to come to the best possible vision regarding the validity of a Claim.
-Examples of and Variations on Claims
+====3.1.1 Claim.===
+
+A Claim in Gruff is a [https://en.wikipedia.org/wiki/Proposition proposition], a statement which is intended to be taken as fact, or as the truth. In many cases (in fact, in the majority of cases), agreement on the validity of the statement is not universal. These differences of opinion form the foundation for debate, and the purpose of Gruff is to provide the tools for participants to work together to come to the best possible vision regarding the validity of a Claim.
+
+=====3.1.1.1 Examples of and Variations on Claims.=====
+
 Although deceptively simple in concept, in practice there is a lot to consider (and for Gruff to support). Gruff can work with several types of Claim:
 
-A proposed fact: The Earth is not flat.
-A statement of subjective opinion: This reporter is a moron.
-A proposed course of action: We should dedicate all our resources towards preventing meteor impacts.
+* A proposed fact: ''The Earth is not flat.''
+* A statement of subjective opinion: '''This reporter is a moron.'''
+* A proposed course of action: ''We should dedicate all our resources towards preventing meteor impacts.''
 
 In each of these examples, there is a slightly different set of possible outcomes to the debate:
 
-Fact: true or false
-Opinion: agree or disagree
-Proposal: yes or no
+* Fact: ''true'' or ''false''
+* Opinion: ''agree'' or ''disagree''
+* Proposal: ''yes'' or ''no''
 
-What they all have in common is that their outcome is binary. In other words, a Claim is a Dialectic. 
-Canonicality
+What they all have in common is that their outcome is binary. In other words, a Claim is a [https://en.wikipedia.org/wiki/Dialectic Dialectic].
+
+=====3.1.1.2 Canonicality.=====
+
 One of the problems stated in the first section of this white paper is that the quality of our debates is weakened by the fractured nature of current discussions. A common fact may be discussed ad nauseum online, and yet reach no conclusion as each new participant must start from a position of ignorance. A mixture of impatience and limited memory leads to each new participant receiving an abbreviated or erroneous version of the debate, upon which they must build their opinions and pass on to the next person.
 
-In the Gruff platform, Claims are created, and their debate can result in a large number of arguments and counter arguments. Even a simple example, such as the previous "The Earth is not flat" Claim can generate a large quantity of proofs and counter-proofs. But that's not the end of life for a Claim: the validity of one Claim can affect the debate over another. For example, the statement "We should sail west to reach the Indies" could hang quite critically on whether or not the Earth is a sphere. Likewise, a statement about how long the sun stays up in the summer on the North Pole would depend on this.
+In the Gruff platform, Claims are created, and their debate can result in a large number of arguments and counter arguments. Even a simple example, such as the previous "The Earth is not flat" Claim can generate [https://www.popsci.com/10-ways-you-can-prove-earth-is-round#page-2 a large quantity of proofs] and counter-proofs. But that's not the end of life for a Claim: the validity of one Claim can affect the debate over another. For example, the statement "We should sail west to reach the Indies" could hang quite critically on whether or not the Earth is a sphere. Likewise, a statement about how long the sun stays up in the summer on the North Pole would depend on this.
 
 All too common what happens in a one-on-one debate is that we use claims that we take for granted to prove the proposition at hand, only to discover that the other party doesn't agree with our statement. It's one thing if it's a difference of opinion, but it is a problem if the other party doesn't have the same information as you regarding your claim, or has information that you don't have. In such cases, we can either ignore this problem (in which case the counterpart will probably just ignore your claim), or divert attention from the main debate at hand to go into detail rehashing a debate over this new claim.
 
-Debate platforms like Gruff must also deal with this problem: What happens when a Claim that has already been fully debated is used in a totally separate debate? Many systems ignore this issue, and leave it up to the users to restate their Claims in each new debate, resulting in a repetition of the previous debate, often skipping some arguments, and perhaps adding new ones that were missed the first time around.
+Debate platforms must also deal with this problem: What happens when a Claim that has already been fully debated is used in a totally separate debate? Many systems ignore this issue, and leave it up to the users to restate their Claims in each new debate, resulting in a repetition of the previous debate, often skipping some arguments, and perhaps adding new ones that were missed the first time around.
 
-Gruff solves this problem by making Claims canonical. For each Claim, there can and must be only one place to debate its validity. When a Claim is used in a debate with another Claim, it would be a waste to make a new copy. Instead, that debate refers to the Claim (and all its discussions) in its canonical place so that none of the original debate is lost. Furthermore, should new arguments or information ever arise relating to the Claim, it can be added to the canonical debate, and its impact will ripple across all other debates that have relied on this Claim in some form.
-Attributes
-Unique ID
-Title
-Description
-Links
-Related media
-Context
-Truth Score
-Arguments For/Against the Claim
-Arguments based on this Claim
+We can solve this problem by making Claims ''canonical''. For each Claim, there can and must be only one place to debate its validity. When a Claim is used in a debate with another Claim, it would be a waste to make a new copy. Instead, that debate refers to the Claim (and all its discussions) in its [https://en.wikipedia.org/wiki/Canonical_form canonical] place so that none of the original debate is lost. Furthermore, should new arguments or information ever arise relating to the Claim, it can be added to the canonical debate, and its impact will ripple across all other debates that have relied on this Claim in some form.
 
-Confidence/Belief
+=====3.1.1.3 Attributes.=====
+
+* Unique ID
+* Title
+* Description
+* Links
+* Related media
+* Context
+* Truth Score
+* Arguments For/Against the Claim
+* Arguments based on this Claim
+
+=====3.1.1.4 Confidence/Belief.=====
+
 TODO: talk about the sliding scale of confidence in a Claim. Even though a Claim is a binary proposition, it doesn't mean we have to believe it completely. And since debates are done as a group, the veracity score is really a measure of the overall group's belief in the statement.
-Complex Claims
+
+=====3.1.1.5 Complex Claims.=====
+
 Multiple premises, etc.
 
-Changing Perspectives
-Positive vs. Negative vs. Question
-Argument
-When a Claim is used in a debate to prove or disprove another Claim, we call this an Argument. Arguments are generally made either in favor of a Claim or against it (although sometimes it can go either way - see below). There are a few different, but synonymous ways to describe which side of the debate an Argument supports:
-Argument In Favor/Argument Against
-Argument For/Argument Against
-Pro Argument/Con Argument
-Supporting Argument/Attacking Argument (or Opposing Argument)
+=====3.1.1.6 Changing Perspectives.=====
 
-Although an Argument may be confused with the Claim it represents, it is not the same thing. It may have an identical title as the Claim on which it's based, but generally it will have a title that's more suiting or conversational for the debate (e.g. Claim: John Doe hates Jane Blow; Argument: I hate your mother).
-Relevance
+Positive vs. Negative vs. Question
+
+====3.1.2 Argument.====
+
+When a Claim is used in a debate to prove or disprove another Claim, we call this an Argument. Arguments are generally made either in favor of a Claim or against it (although sometimes it can go either way - see below). There are a few different, but synonymous ways to describe which side of the debate an Argument supports:
+
+* Argument In Favor/Argument Against
+* Argument For/Argument Against
+* Pro Argument/Con Argument
+* Supporting Argument/Attacking Argument (or Opposing Argument)
+
+Although an Argument may be confused with the Claim it represents, it is not the same thing. It may have an identical title as the Claim on which it's based, but generally it will have a title that's more suiting or conversational for the debate (e.g. Claim: ''John Doe hates Jane Blow''; Argument: ''I hate your mother'').
+
+=====3.1.2.1 Relevance.=====
+
 While the veracity of the Claim is important on its own, what is important for an Argument is its relevance. That is, it's important to judge not only whether or not the Claim is true, but whether or not using it in the debate is meaningful. 
 
-The most common example of an Argument that is by nature irrelevant is the well-known ad hominem fallacy, in which the arguer attacks the nature of their opponent rather than the substance of their arguments. For example, the statement You have something green stuck between your teeth may be absolutely true, but that would have no consequence in a debate against the Claim The Earth is spherical.
+The most common example of an Argument that is by nature irrelevant is the well-known [https://en.wikipedia.org/wiki/Ad_hominem ad hominem fallacy], in which the arguer attacks the nature of their opponent rather than the substance of their arguments. For example, the statement You have something green stuck between your teeth may be absolutely true, but that would have no consequence in a debate against the Claim The Earth is spherical.
 
-A subtle distinction could be made between the relevance of an Argument (is it related to the topic at hand?) and its importance (how much should we care?). After some reflection, it was decided that the distinction between these two characteristics is unimportant for the purpose of this platform, and so the two are grouped together into the single attribute called Relevance.
-Argument for an Argument
-As we like to say at Gruff, "everything's debatable". That includes the Relevance of an Argument. One person may find it totally acceptable that the mattress is missing a spring in the corner; another may consider that the most important part of the bed. In this case, it becomes important for each side to make Arguments for or against the Argument, rather than the Claim (or Argument!) the Argument is attacking or supporting.
-Argument: The mattress is missing a spring in the corner
-For: I need to sit on that corner to put on my shoes
-Against: We can turn the mattress around so that the corner you sit on has a spring
-Against: But then it will be where my head always ends up
-Against: We can put in a new spring
+A subtle distinction could be made between the ''relevance'' of an Argument (is it related to the topic at hand?) and its ''importance'' (how much should we care?). After some reflection, it was decided that the distinction between these two characteristics is unimportant for the purpose of this platform, and so the two are grouped together into the single attribute called Relevance.
+
+=====3.1.2.2 Argument for an Argument.=====
+
+As we like to say, "everything's debatable". That includes the Relevance of an Argument. One person may find it totally acceptable that the mattress is missing a spring in the corner; another may consider that the most important part of the bed. In this case, it becomes important for each side to make Arguments for or against the Argument, rather than the Claim (or Argument!) the Argument is attacking or supporting.
+
+* Argument: ''The mattress is missing a spring in the corner''
+** For: ''I need to sit on that corner to put on my shoes''
+*** Against: ''We can turn the mattress around so that the corner you sit on has a spring''
+**** Against: ''But then it will be where my head always ends up''
+** Against: ''We can put in a new spring''
 
 A number of Arguments and counter-Arguments have been provided in this example. The main Argument has two sub-Arguments, one arguing in favor and one against its Relevance. The argument in favor then has one Argument against its Relevance, and that sub-Argument has an Argument against.
 
 What is only implicit in the example is that each of these Arguments and sub-Arguments are themselves based on a Claim (as with ALL Arguments). A more explicit version of the Arguments, with their Claims, would be as follows:
 
-Argument: The mattress is missing a spring in the corner 
-Claim: The mattress is missing a spring in the corner
-Argument For Argument: I need to sit on that corner to put on my shoes
-Claim: John Doe needs to sit on the corner of the mattress that is missing a spring in order to put on his shoes
-Argument Against Argument: We can turn the mattress around so that the corner you sit on has a spring
-Claim: The mattress can be turned so that the missing spring is not in the corner where John Doe needs to put on his shoes
-Argument Against Argument: But then it will be where my head always ends up
-Claim: If the mattress is rotated so that the missing spring is away from the place where John Doe puts on his shoes, it will place the missing spring where his head ends up at night
-Argument Against Argument: We can put in a new spring
-Claim: A new spring can be placed in the mattress at the corner where one is missing
+* Argument: ''The mattress is missing a spring in the corner''
+* Claim: ''The mattress is missing a spring in the corner''
+** Argument For Argument: ''I need to sit on that corner to put on my shoes''
+** Claim: ''John Doe needs to sit on the corner of the mattress that is missing a spring in order to put on his shoes''
+*** Argument Against Argument: ''We can turn the mattress around so that the corner you sit on has a spring''
+*** Claim: ''The mattress can be turned so that the missing spring is not in the corner where John Doe needs to put on his shoes''
+**** Argument Against Argument: ''But then it will be where my head always ends up''
+**** Claim: ''If the mattress is rotated so that the missing spring is away from the place where John Doe puts on his shoes, it will place the missing spring where his head ends up at night''
+** Argument Against Argument: ''We can put in a new spring''
+** Claim: ''A new spring can be placed in the mattress at the corner where one is missing''
 
-Relevance vs. Truth: Strength
+=====3.1.2.3 Relevance vs. Truth: Strength.=====
+
 While an Argument is concerned with its Relevance, its Claim is concerned with its Truth. 
 
+=====3.1.2.4 Arguments That Are Pro AND Con.=====
 
-
-
-Arguments That Are Pro AND Con
 TODO: What about Arguments that can be considered for OR against something. Ex: "If we don't get a new mattress, my mother can't come stay with us?" Depending on one's feelings about the person's mother, that could be a very strong argument for OR against the proposition. How should Gruff handle this?
-Put scoring on a scale of -100 to 100, rather than 0 to 100 (for example)
-Allow debaters to add the same Claim to the debate twice, once via an Argument FOR the Claim, and once via an Argument AGAINST. It would then be up to each debater to make sure they have balanced their votes on each side… (20 for one side and 80 for the other, for example)
+
+* Put scoring on a scale of -100 to 100, rather than 0 to 100 (for example)
+* Allow debaters to add the same Claim to the debate twice, once via an Argument FOR the Claim, and once via an Argument AGAINST. It would then be up to each debater to make sure they have balanced their votes on each side… (20 for one side and 80 for the other, for example)
 
 It's interesting to consider the impact on sub-arguments in each of these cases (and roll-up!). Take, for example, the Argument above:
 
-Should we get a new mattress?
-For/Against: If we don't, my mother can't stay with us
-For: I love my mother (Score: 100 for)
-Against: You hate my mother (Score: 100 against/-100 for)
+''Should we get a new mattress?''
+* For/Against: ''If we don't, my mother can't stay with us''
+** For: ''I love my mother'' (Score: 100 for)
+** Against: ''You hate my mother'' (Score: 100 against/-100 for)
 
 Vs.
 
-Should we get a new mattress?
-For: If we don't, my mother can't stay with us
-For: I love my mother (Score: 100)
-Against: You hate my mother (Score: 100)
-Against: If we don't, my mother can't stay with us
-For: You hate my mother (Score: 100)
-Against: I love my mother (Score: 100)
+''Should we get a new mattress?''
+* For: ''If we don't, my mother can't stay with us''
+** For: ''I love my mother'' (Score: 100)
+** Against: ''You hate my mother'' (Score: 100)
+* Against: ''If we don't, my mother can't stay with us''
+** For: ''You hate my mother'' (Score: 100)
+** Against: ''I love my mother'' (Score: 100)
 
 In both cases, the Argument is a wash. But in the first case, the representation of the Argument is confused (on which side of the debate do you show it?) and the scoring even more so. In the second case, the representation is redundant, and the Arguments will have to be duplicated on both sides (which seems contrary to the canonical philosophy).
-Attributes
+
+=====3.1.2.5 Attributes.=====
+
 Arguments have many of the same attributes as Claims, at least in terms of displaying them to debaters. In fact, the average person may not understand the concept of separating an Argument from its Claim; when one writes out the main points in a debate, they generally provide ONLY the Argument (with its Context-relative title), and the Claim itself remains implicit.
 
 Nevertheless, Arguments do have a few differences:
 
-Unique ID
-Title
-Description
-Relevance Score
-The Claim upon which the Argument is based
-Arguments For/Against the Argument
-The Claim or Argument which this Argument supports or attacks (the Target)
+* Unique ID
+* Title
+* Description
+* Relevance Score
+* The Claim upon which the Argument is based
+* Arguments For/Against the Argument
+* The Claim or Argument which this Argument supports or attacks (the Target)
 
 In terms of the user interface, the Argument could also be displayed with some of the properties of its base Claim, such as:
 
-Relevant links
-Media
-Context
-The Debate Graph
+* Relevant links
+* Media
+* Context
+
+=====3.1.2.6 The Debate Graph.=====
+
 TODO: Claims are the nodes; Arguments are the edges
 
-Common Argument Types
+=====3.1.2.7 Common Argument Types.=====
+
 Although the platform will probably not provide explicit support for the Argument types below, it is interesting to note them here and discuss how they will be represented in the system.
-Evidence
+
+======3.1.2.7.1 Evidence.======
+
 Supporting evidence is essentially an objective fact presented as some sort of "proof" for a Claim. Common types of evidence include:
 
-A photo, video or other documentation of a supposed event
-Formal documentation of a fact (e.g. a birth certificate)
-Scientific studies
-Eye-witness reports
+* A photo, video or other documentation of a supposed event
+* Formal documentation of a fact (e.g. a birth certificate)
+* Scientific studies
+* Eye-witness reports
 
-Unlike other forms of argumentation, evidence has a very strong history of formal use in the practice of law. This includes the importance of proving the provenance and authenticity of the evidence, as well as its reliability.
+Unlike other forms of argumentation, evidence has a very strong history of [https://en.wikipedia.org/wiki/Evidence_(law) formal use in the practice of law]. This includes the importance of proving the provenance and authenticity of the evidence, as well as its reliability.
 
 As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be in practical measures impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
-Logical and Informal Fallacies
-The first thing one learns when studying rhetoric is the notion of a logical fallacy. Some fallacies are formal, and so, if an Argument is shown to be an example of one, it can be shown to be completely ineffective (i.e. a Relevance Score of 0). Others are informal, and may in fact maintain some validity even in the face of an accusation of being a fallacy.
 
-Take, for example, an Appeal to Authority:
+======3.1.2.7.2 Logical and Informal Fallacies.======
 
-Warren Buffet, the most successful investor of all time, says that it would be unwise to invest in cryptocurrencies.
+The first thing one learns when studying rhetoric is the notion of a [https://en.wikipedia.org/wiki/Fallacy logical fallacy]. Some fallacies are formal, and so, if an Argument is shown to be an example of one, it can be shown to be completely ineffective (i.e. a Relevance Score of 0). Others are informal, and may in fact maintain some validity even in the face of an accusation of being a fallacy.
+
+Take, for example, an [https://en.wikipedia.org/wiki/Argument_from_authority Appeal to Authority]:
+
+''Warren Buffet, the most successful investor of all time, says that it would be unwise to invest in cryptocurrencies.''
 
 An Argument that could be used against the Strength of this Argument would be:
 
-This is an Appeal to Authority, and doesn't help explain why one shouldn't invest.
+''This is an Appeal to Authority, and doesn't help explain why one shouldn't invest.''
 
 In Gruff, every Argument must have an underlying Claim, and in this case that Claim would be:
 
-Using an Appeal to Authority as an Argument does not help support a debate logically
+''Using an Appeal to Authority as an Argument does not help support a debate logically''
 
 Once this Claim has been presented (and debated - and this topic is, in fact, contentious) in the system, it is ready to be reused for any other debate as needed. And so it should be for the entire list of both formal and informal fallacies.
 
 Note that deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies.
-Basic Values and Principles
+
+======3.1.2.7.3 Basic Values and Principles.======
+
 TODO
 
-Request for Information (RFI)
+====3.1.3 Request for Information (RFI)====
+
 A placeholder argument requesting that someone with expertise in the field provide some concrete information (e.g. "What is the difference in relative salary between men and women for college graduates for the period from 2010 through 2017?"). 
 
 It is common for people in a debate to realize that information outside the scope of their knowledge could dramatically sway their opinion on a matter, assuming it could be trusted. In a live debate, those points can only be avoided, but in the canonical debate, there is the opportunity to request for experts to fill in the blanks. Much like Quora, it should be possible for users to follow specific topics (Contexts) in order to receive notifications for RFIs in their area of expertise.
 
-Debate
-Although the whole purpose of the project is to facilitate debates, a debate is not really a first-class citizen in Gruff. Debate is more of a verb than a noun. In fact, there is no object or element in the design of Gruff specifically called a "Debate". Rather, we say that everything on Gruff (Claims, Arguments, Evidence) is debatable. Debating is the process of working as a group to come to a consensus, if not on the truth of a Claim, at least on what are the principle points of difference, the beliefs and the set of values that each one must know and balance.
-Supporting Elements
-Context
+====3.1.4 Debate.====
+
+Although the whole purpose of the project is to facilitate debates, a debate is not really a first-class citizen in Gruff. Debate is more of a verb than a noun. In fact, there is no object or element in the design of Gruff specifically called a "Debate". Rather, we say that everything on the platform (Claims, Arguments, Evidence) is ''debatable''. Debating is the process of working as a group to come to a consensus, if not on the truth of a Claim, at least on what are the principle points of difference, the beliefs and the set of values that each one must know and balance.
+
+===3.2 Supporting Elements.===
+
+====3.2.1 Context.====
+
 Many logical fallacies are made during the course of debates just on the basis of using evidence, statistics or supposed facts from one context and applying them within the very different context of the debate. Another common problem is cherry-picking a study from one very specific place, and obscuring or removing its context in an attempt to make a much more general statement. It is also very common to witness a disconnect between the two sides of a debate as one side focuses on one context and the other focuses on another.
 
-The Gruff platform resolves this problem through the explicit declaration of Context elements for each Claim. These elements to some degree can be thought of as the dictionary definition of each of the words used in the Claim itself. For example, in the argument: John Doe hates my mother, the Context could be declared as follows:
+The Gruff platform resolves this problem through the explicit declaration of Context elements for each Claim. These elements to some degree can be thought of as the dictionary definition of each of the words used in the Claim itself. For example, in the argument: ''John Doe hates my mother'', the Context could be declared as follows:
 
-John Doe (Context: Jonathan Randall Joe, SSN: 112-12-0234, USA) 
+'''John Doe''' (''Context: Jonathan Randall Joe, SSN: 112-12-0234, USA'') 
 hates 
-my mother (Janathan Rosalyn Blow, SSN: 052-33-0101, USA)
+'''my mother''' (''Janathan Rosalyn Blow, SSN: 052-33-0101, USA'')
 
 This Claim has been declared with two Contexts which, presumably, avoid confusion about which individuals we are discussing. However, this still leaves some wiggle room for an Argument of the type:
 
 No
-I (Context: Jonathan Randall Joe, SSN: 112-12-0234, USA)
+'''I''' (''Context: Jonathan Randall Joe, SSN: 112-12-0234, USA'')
 do not. I merely despise
-her (Janathan Rosalyn Blow, SSN: 052-33-0101, USA).
+'''her''' (''Janathan Rosalyn Blow, SSN: 052-33-0101, USA'').
 
 Thus, it would be desirable to provide Context definitions even for verbs, although that may prove difficult to achieve.
-Knowledge Graphs
+
+=====3.2.1.1 Knowledge Graphs.=====
+
 It would be a phenomenal task to attempt to build a database of all the possible Contexts that could be required for public debates. Fortunately, there are some incredible organizations that have already shouldered this burden. These include:
-Wikidata
-Wikipedia
-Google Knowledge Graph
-DBPedia
+
+* [https://www.wikidata.org/wiki/Wikidata:Main_Page Wikidata]
+* [https://www.wikipedia.org/ Wikipedia]
+* [https://www.google.com/intl/bn/insidesearch/features/search/knowledge.html Google Knowledge Graph]
+* [http://wiki.dbpedia.org/ DBPedia]
 
 Any of these online databases can be used as the source for a Context element, which includes an external link to the specific definition.
 
-Donald Trump does not wear a toupée.
+[https://en.wikipedia.org/wiki/Donald_Trump_Jr. Donald Trump] does not wear a [https://en.wikipedia.org/wiki/Toup%C3%A9e toupée].
 
 However, if none of these sources provides the required reference, it should be possible to define one, either within the system itself, or via some other external source.
-Context to Refine Debates
-One very common problem in debates is the tendency to generalize the statistics in one context to a much larger context, without any clear indication that it is reasonable to do so. This is known as the Hasty Generalization fallacy, and is only one example of fallacies due to loose or uncareful use of Context. One of the benefits of making Context explicit is the ability to identify when this is the case, and correct for it.
+
+=====3.2.1.2 Context to Refine Debates.=====
+
+One very common problem in debates is the tendency to generalize the statistics in one context to a much larger context, without any clear indication that it is reasonable to do so. This is known as the [https://en.wikipedia.org/wiki/Hasty_generalization Hasty Generalization fallacy], and is only one example of fallacies due to loose or uncareful use of Context. One of the benefits of making Context explicit is the ability to identify when this is the case, and correct for it.
 
 Consider the following Claim:
 
-Immigrants are responsible for higher rates of crime.
+''[https://en.wikipedia.org/wiki/Immigration Immigrants] are responsible for higher rates of [https://en.wikipedia.org/wiki/Crime crime].''
 
 This is an extremely general statement. There should therefore be a much greater burden to prove such a statement than, for example, what the original author of the Claim intended to say:
 
-Undocumented immigrants in the United States in the decades between 2000 and 2018 have been the principle cause of an increase in violent crime in the cities where they are most present.
-
+''[https://en.wikipedia.org/wiki/Illegal_immigration_to_the_United_States Undocumented immigrants in the United States] in the [https://en.wikipedia.org/wiki/Decade decades] between [https://en.wikipedia.org/wiki/2000s_(decade) 2000] and [https://en.wikipedia.org/wiki/2010s 2018] have been the principle cause of an [https://en.wikipedia.org/wiki/Crime_statistics#Measures increase] in [https://en.wikipedia.org/wiki/Violent_crime violent crime] in the [https://en.wikipedia.org/wiki/Illegal_immigration_to_the_United_States#Breakdown_by_state cities where they are most present].''
 
 This would be a relatively easier Claim to prove, and perhaps a better place to start for a much more complex debate. However, it's easy to envision breakdowns of this one Claim by city, and perhaps even by neighborhood, year, or population, should it interest the debating public.
-Context and Arguments
+
+=====3.2.1.3 Context and Arguments.=====
+
 This section began by discussing the relationship between Context and Claims, and yet the first examples were really relating Contexts to Arguments. This was a bit misleading, as Arguments do not themselves possess any Context. Arguments merely provide a link between two separate Claims, each of which has its own set of Contexts. Therefore, the Context of an Argument is actually the Context of its underlying Claim (which is being used within the Context of the target Claim or Argument).
-Context and Relevance
+
+=====3.2.1.4 Context and Relevance.=====
+
 Consider then the following Claim:
 
-Study X conducted by the University of Lalaland shows that violent crime rates in communities in the U.S. with a high population of Nambian refugees shows an unusually high number of violent crimes between 2014 and 2017.
+''Study X conducted by the University of Lalaland shows that violent crime rates in communities in the U.S. with a high population of Nambian refugees shows an unusually high number of violent crimes between 2014 and 2017.''
 
 Should this Claim be used as an Argument in the prior debate regarding crime rates, a few things should become evident regarding its Context:
-It refers to refugees, rather than undocumented immigrants
-The study covers only a portion of the time period being debated in the Claim
+
+# It refers to refugees, rather than undocumented immigrants
+# The study covers only a portion of the time period being debated in the Claim
 
 This implies that the Relevance score of the Argument itself should NOT be the maximum possible score. It cannot conclusively prove the Claim because its Context is not a perfect match. In fact the first point implies that this Argument may not be relevant at all.
 Likewise, if the study were regarding undocumented immigrants in Germany rather than the United States, or during a previous century, its relevance would also be in question. What this reveals is that Context is directly linked to the Relevance of Arguments that are used for or against a Claim.
 
 In the current iteration of Gruff, no attempt is being made to automate calculations of relevance based on Context; however, Context may be used to flag to users when there is no match whatsoever, or to recommend Claims that seem to have Contexts that match the target Claim.
-Autocomplete, Duplicate Argument reduction, etc.
 
+=====3.2.1.4 Autocomplete, Duplicate Argument reduction, etc..=====
 
+====3.2.2 User.====
 
+=====3.2.2.1 Debater.=====
 
-User
+=====3.2.2.2 Curator.=====
 
-Debater
-
-
-Curator
-
-
-
-Reference (Link)
-
-
+====3.2.3 Reference (Link).====
 
  
 #paper_agora Slack channel
