@@ -1227,18 +1227,6 @@ By allowing users to highlight specific Beliefs in this manner, the platform is 
 
 =====3.3.4 Reason Score.=====
 
-Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Arguments and counter-Arguments, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Arguments according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Argument. Instead of casting a vote you provide a claim  to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Arguments. 
-
-As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
-
-Calculation
-
-The Reason Score for any Claim is a percentage measure of confidence in the validity of the Claim. There is no Reason Score per se for Arguments, although they are given a relative weight, as described below.
-
-A Reason Score can be interpreted as:
-
-=====3.3.4 Reason Score.=====
-
 Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Claims according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote you provide a claim to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Claims. 
 
 As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
@@ -1274,8 +1262,24 @@ For each child claim calculate its Strength which is slightly different between 
 Con Strength = Weight * (-RS)</pre>
 To calculate the final Reason Score divide the sum of the pro and con weights by the sum of the strengths. 
 <pre>RS = sum(Weights)/sum(Strengths)</pre>
-The whole formula could be expressed by the following if Pro Claims are PC and Con Claims are CC:
-<pre>RS = sum(max(0,PC))+sum(max(0,CC)) / sum(PC)+sum(-CC)</pre>
+
+Here is some sample code of the simplest interpretation. This does not include relevance:
+<pre>
+function calculateReasonScore(childClaims) {
+	let strengthTotal = 0;
+	let weightTotal = 0;
+	for (let child of childClaims) {
+		const weight = Math.max(0,child.score);
+		weightTotal += weight;
+		if (child.pro){
+			strengthTotal += weight * child.score
+		} else {
+			strengthTotal += weight * -child.score
+		}
+	}
+	return strengthTotal/weightTotal;
+}
+</pre>
 
 Note that this is a recursive equation, so care must be taken either to prevent cyclical Arguments, or to replace a repeated value with a default Score (e.g. 1).
 
