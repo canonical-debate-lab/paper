@@ -1282,7 +1282,9 @@ function calculateReasonScore(childClaims) {
 	return strengthTotal/weightTotal;
 }
 </pre>
-[https://jsfiddle.net/BentleyDavis/kuxg2e5c/ Jsfiddle example]
+[https://jsfiddle.net/BentleyDavis/kuxg2e5c/ Jsfiddle simple example code]
+
+[https://jsfiddle.net/BentleyDavis/6hsL1x8y/ JSFiddle example code with relevance]
 
 Note that this is a recursive equation, so care must be taken either to prevent cyclical Arguments, or to replace a repeated value with a default Score (e.g. 1).
 
