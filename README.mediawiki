@@ -1263,6 +1263,8 @@ Con Strength = Weight * (-RS)</pre>
 To calculate the final Reason Score divide the sum of the pro and con weights by the sum of the strengths. 
 <pre>RS = sum(Weights)/sum(Strengths)</pre>
 
+[https://docs.google.com/spreadsheets/d/17GFYS2uxZ1vcnP8lWq4VJ80gNVIveTRDeQhJXsP5IeI Formulas in a sample spreadsheet]
+
 Here is some sample code of the simplest interpretation. This does not include relevance:
 <pre>
 function calculateReasonScore(childClaims) {
@@ -1280,6 +1282,7 @@ function calculateReasonScore(childClaims) {
 	return strengthTotal/weightTotal;
 }
 </pre>
+[https://jsfiddle.net/BentleyDavis/kuxg2e5c/ Jsfiddle example]
 
 Note that this is a recursive equation, so care must be taken either to prevent cyclical Arguments, or to replace a repeated value with a default Score (e.g. 1).
 
