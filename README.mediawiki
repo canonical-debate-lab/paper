@@ -1227,64 +1227,64 @@ By allowing users to highlight specific Beliefs in this manner, the platform is 
 
 =====3.3.4 Reason Score.=====
 
-Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Arguments and counter-Arguments, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Arguments according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Argument. Instead of casting a vote you provide a claim  to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Arguments. 
+Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Claims according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote you provide a claim to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Claims. 
 
 As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
 
 Calculation
 
-The Reason Score for any Claim is a percentage measure of confidence in the validity of the Claim. There is no Reason Score per se for Arguments, although they are given a relative weight, as described below.
+The Reason Score for any Claim is a number between 1 and -1 (often displayed as a percentage between 100% and -100%) It is a measure of confidence in the validity of the Claim based on the descendant claims.
 
 A Reason Score can be interpreted as:
 
+{| class="wikitable"
+!Score!!Percentage!!Description
+|-
+| 1||100%|| Absolutely True
+|-
+| .5||50%|| Likely true
+|- 
+| 0||0%|| Undecided
+|-
+| -.5|| -50%|| Not Likely True
+|-
+| -1|| -100%|| Absolutely Not True
+|-
+|}
 
-Score
-Description
-100%
-Absolutely True
-50%
-Likely true
-0%
-Undecided
--50%
-Unlikely to be True
--100%
-Not True
+To Calculate the Reason Score (RS):
 
-The Reason Score RS for a Claim with supporting Arguments with weights WA1 through WAn and attacking Arguments with weights WB1 through WBm is calculated using the simple formula:
+For each child claim calculate its Weight which is the same as its Reason Score except we want to eliminate false claims so we zero out any negative Reason Score by taking the max between the Reason Score or zero:
+<pre>Weight = Max(0,RS)</pre>
 
-RS = 100 * (∑WA +∑(100 - WB)) / (n + m)
+For each child claim calculate its Strength which is slightly different between a pro and a con.
+<pre>Pro Strength = Weight * RS
+Con Strength = Weight * (-RS)</pre>
+To calculate the final Reason Score divide the sum of the pro and con weights by the sum of the strengths. 
+<pre>RS = sum(Weights)/sum(Strengths)</pre>
 
-In other words, Arguments against a Claim are treated as if they had a weight of 100 minus their weight. The Reason Score is then an average of the weights adjusted in this manner, converted into a percent value.
+[https://docs.google.com/spreadsheets/d/17GFYS2uxZ1vcnP8lWq4VJ80gNVIveTRDeQhJXsP5IeI Formulas in a sample spreadsheet]
 
-A Claim with no Arguments for or against it is given a starting score of 100% (it is assumed to be correct until challenged).
+Here is some sample code of the simplest interpretation. This does not include relevance:
+<pre>
+function calculateReasonScore(childClaims) {
+	let strengthTotal = 0;
+	let weightTotal = 0;
+	for (let child of childClaims) {
+		const weight = Math.max(0,child.score);
+		weightTotal += weight;
+		if (child.pro){
+			strengthTotal += weight * child.score
+		} else {
+			strengthTotal += weight * -child.score
+		}
+	}
+	return strengthTotal/weightTotal;
+}
+</pre>
+[https://jsfiddle.net/BentleyDavis/kuxg2e5c/ Jsfiddle simple example code]
 
-The weight of a child Argument CW is equal to the Reason Score of its base Claim RS, treated as a number from 0 to 1 rather than as a percent (that is, Reason Score / 100), but adjusted as follows:
-
-CW = MAX(0, RS)
-
-
-Child Score
-Child Weight
-100%
-100%
-50%
-50%
-0%
-0%
--50%
-0%
--100
-0%
-In other words, Arguments with a base Claim below 50% will be ignored.
-
-Arguments for or against an Argument act as multipliers or divisors of the result from the base Claim. Each Argument supporting an Argument doubles its weight, while each Argument against it halves the final value. The total calculation of the child weight CW of an Argument with n Arguments in favor and m Arguments against it is therefore:
-
-CW = 2 * MAX(0, RS - 50%) * 2^(n-m)
-
-However, this equation ignores two important factors: the validity of the base Claim of each of the Arguments, and the influence of any sub-Arguments each of these Arguments may have. In order to account for this, we must simply replace the count of Arguments with the Child Weight (CWA for pro Arguments and CWB for con Arguments) of each of those Arguments, like so:
-
-CW = 2 * MAX(0, RS - 50%) * 2^(∑CWA-∑CWB)
+[https://jsfiddle.net/BentleyDavis/6hsL1x8y/ JSFiddle example code with relevance]
 
 Note that this is a recursive equation, so care must be taken either to prevent cyclical Arguments, or to replace a repeated value with a default Score (e.g. 1).
 
