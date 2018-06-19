@@ -547,7 +547,7 @@ Although the whole purpose of the project is to facilitate debates, a debate is 
 
 Many logical fallacies are made during the course of debates just on the basis of using evidence, statistics or supposed facts from one context and applying them within the very different context of the debate. Another common problem is cherry-picking a study from one very specific place, and obscuring or removing its context in an attempt to make a much more general statement. It is also very common to witness a disconnect between the two sides of a debate as one side focuses on one context and the other focuses on another.
 
-The Gruff platform resolves this problem through the explicit declaration of Context elements for each Claim. These elements to some degree can be thought of as the dictionary definition of each of the words used in the Claim itself. For example, in the argument: ''John Doe hates my mother'', the Context could be declared as follows:
+The canonical debate platform resolves this problem through the explicit declaration of Context elements for each Claim. These elements to some degree can be thought of as the dictionary definition of each of the words used in the Claim itself. For example, in the argument: ''John Doe hates my mother'', the Context could be declared as follows:
 
 '''John Doe''' (''Context: Jonathan Randall Joe, SSN: 112-12-0234, USA'') 
 hates 
@@ -621,141 +621,6 @@ In the current iteration of Gruff, no attempt is being made to automate calculat
 
 ====3.2.3 Reference (Link).====
 
- 
-#paper_agora Slack channel
-Paula Berman
-@timothy.high ví esse link que pode te interessar https://www.nexojornal.com.br/expresso/2017/11/21/Como-funciona-a-rede-social-que-quer-organizar-o-debate-na-internet
-Timothy High [10:47 PM]
-@paulaberman thanks for the tip!
-I’m looking at the site right now
-it’s already a lot closer to what I was imagining than anything I’ve seen before
-and I’m really impressed at their topology graph
-this is a view I hadn’t imagined:
-https://democracyearth.slack.com/files/U3Z715L02/F873NMMV4/screenshot_2017-11-27_22.50.19.png
-https://democracyearth.slack.com/files/U3Z715L02/F873P6N3G/screenshot_2017-11-27_22.52.24.png
-https://democracyearth.slack.com/files/U3Z715L02/F85HGQ7JL/screenshot_2017-11-27_22.53.01.png
-Timothy High [10:53 PM]
-There are a LOT of interesting features already here
-this view especially is intense, although not sure how useful it is:
-https://democracyearth.slack.com/files/U3Z715L02/F85HHSQRE/screenshot_2017-11-27_22.56.05.png
-So, the negatives:
-Only one REAL negative: it’s a private company with a CEO
-I’ll pin to the top of this channel a discussion of what this whole thing is about, but basically a fundamental concept behind making THE debate site is that “you never have to repeat an argument"
-that is, public discussion never seems to go anywhere because claims and counterclaims are made over and over again between different parties, and the amount of information is never consistent.
-our knowledge doesn’t ACCUMULATE - instead, we handle debates like they’re some kind of game of “telephone”, where each person repeats what they heard to the next person, but with less context, less information, and only some of the original arguments
-In order to end this style of debate, we need one central, CANONICAL source for claims and arguments
-then, when someone makes an offhanded comment in Twitter or FB, (like “A UBI could eliminate competition and thus diminish progress in a variety of areas”) instead of it being superficial, you would know it was backed by all the data the world could provide up to now.
-So, getting back to the first negative of Kialo, it would be WAY too risky in many many ways to place the one canonical location for debates in the hands of a private corporation.
-What are the alternatives that I have considered?
-1a) A Wikipedia-like foundation that guarantees an open source technology underlying a creative commons-type license, with a complete, traceable history of all modifications
-1b) Blockchain
-The problem with Blockchain is that, until someone can convince me otherwise (maybe through sharding, for example), it’s just way too slow and bulky
-(wait to you hear how complicated moderation can be…)
-This is actually related to the first issue, but: How can anyone fully trust a company that needs to make money to host THE site that holds all our political opinions
-I thought about launching this idea as a private company at one point (a guy’s gotta pay bills, right?), and came to a horrifying conclusion:
-we’re already afraid that Facebook has too much power, and all we give it are likes. imagine a private company where we cast actual votes and contribute arguments to a central debate that affects humanity. How much could you sell that for?
-Worse, how long until someone starts accusing the company of weighting the odds in favor of one candidate over another? Of promoting the debates it thinks are important over the others? And so on. And who’s to say the accusations are wrong??
-Now a quick list of features they seem to be missing from my concept (which is by no means a criticism - they only just launched, and I am impressed!)
-Context: their context seems to be limited to that of a debate. The problem is, the results of a debate can change just with subtle context switches
-ex:
-The crime rate in communities of illegal immigrants is higher than the average (hard to conclude such a broad claim)
-The crime rate in communities of illegal immigrants in the U.S. is higher than the average (still full of subtleties)
-The crime rate in communities of illegal immigrants in the U.S. in the 21st century is higher than the average (getting closer to something you could prove)
-The crime rate in communities of illegal immigrants in the U.S. in the 21st century is higher than the average for communities of similar socio-economic status (statistically shown to not be true by most analyses)
-The crime rate in communities of illegal Somali immigrants in the U.S. in the 21st century is higher than the average for communities of similar socio-economic status (actually true - although I think it was for legal immigrants of refugee status, but just to complete the example…)
-So, at some point, there needs to be a way to attach contexts (immigrants, 21st century, United States, Somali refugees, crime (what kind??)) to a debate.
-Also, a way to “clone” a debate in order to create variations based on changing contexts
-I’ve been thinking about this, and realized that machine learning could help a lot with assigning contexts automatically based on content, but would still require human curation
-Also, something like the Google Knowledge Graph, or Wikidata could be the source for contexts
-Pat Harrington [11:50 PM]
-yeah, so there should definitely be a place for debates in Democracy Earth and the UX will be complex but important (people may already be working on this). The notion of repeating a debate is really interesting. How do you have thousands of people understand and inform debates without repeating prior arguments? And debates are never finished. As we learn more information, we should return to certain debates and update our position based on new knowledge.
-From a design perspective, it would be really hard to get all this right the first time. So I would suggest “prototyping it” by building a simple debating tool and handing it to small groups of people to use. Then ask them what’s missing and how it can be improved (by design and by technology).
-Agreed!
-So, the site that @paulaberman showed me today turns out to be a GREAT prototype starting point, that’s already working
-https://www.kialo.com
-I’m using that basically as a jumping-off point for what I think the next steps would be
-And debates are never finished. As we learn more information, we should return to certain debates and update our position based on new knowledge.
-Right. My underlying belief is that debates are never really over
-but they sloooooow down as we run out of new information (assuming we are able to stop people from repeating the same arguments)
-This means, also, that there’s no final answer… just an evolution towards some kind of equilibrium (that new data may disturb)
-that’s not to say you can’t make a decision - you need to draw a line somewhere and just decide
-but what’s interesting is that decisions can be revisited if the debate changes
-for example: “let’s remove this regulation. It should stimulate the economy, and shouldn’t in practice be worse for the environment"
-if in 3 years, that turns out to be totally wrong, it may change the debate, and lead to a new vote
-More missing features:
-Scores of “truth” (on claims) and “relevance” on arguments
-Actually, let me back that up a bit…
-Claims vs. Arguments
-In my conception of a canonical debate, you make claims (as they have). But while claims can be debated, they stand on their own
-An ARGUMENT is a claim used in a debate for another claim
-So, let me take another example from Kialo (thanks again @paulaberman! Now I don’t have to come up with examples on my own!)
-https://www.kialo.com/eating-meat-is-wrong-1229/1229.0=1229.1/=1229.1
-Kialo
-Eating Meat is Wrong
-The ethics of eating meat has been long debating by philosophers, activists, and religious leaders. Today, in the West at least, vegetarianism and veganism is… (81 kB)
-The top “claim” here is “Humans should stop eating meat"
-Sounds debatable, right?
-What’s the first pro argument?
-https://www.kialo.com/eating-meat-is-wrong-1229/1229.0=1229.1+1229.2074
-Kialo
-Eating and producing meat heavily contributes to climate…
-Eating and producing meat heavily contributes to climate change. (81 kB)
-May 20th, 2016 at 2:21 AM
-That right there is another “claim” (true/false) that can be debated
-But it’s also an argument being used to support the other claim
-There are two parts to whether or not it’s a good argument:
-Is it true? (or, do you agree?)
-Is it relevant, and is it important?
-Here’s a con argument that shows the point better:
-https://www.kialo.com/eating-meat-is-wrong-1229/1229.0=1229.1-1229.12
-Kialo
-Ceasing to eat meat would harm the economy.
-Ceasing to eat meat would harm the economy. (81 kB)
-Is that true?
-We have an argument that says yes it is:
-https://www.kialo.com/eating-meat-is-wrong-1229/1229.0=1229.1-1229.12+1229.1248
-Kialo
-Livestock production accounts for 1.4% of the world’s total…
-Livestock production accounts for 1.4% of the world’s total GDP. The production and sale of animal products account for 1.3 billion people’s jobs, and 987… (81 kB)
-That’s a “truth” argument
-there should be a score for “how true” it is
-there should also be a score for “how relevant” it is
-if it’s 1.4% of the worlds GDP, that’s MORE impactful than 0.5%, and LESS than 3%, and that should be reflects
-This argument here is actually a “relevance” argument - because, yes!, the relevance of an argument is debatable:
-https://www.kialo.com/eating-meat-is-wrong-1229/1229.0=1229.1-1229.12-1229.2368
-Kialo
-Whether or not something is good for the economy does not…
-Whether or not something is good for the economy does not impact whether it is morally acceptable. (81 kB)
-However, here’s my point: in order for debates to be canonical and reusable, you need to be able to separate the CLAIM (which is just about whether or not it’s true) from it
-s use as an ARGUMENT (the meat industry suffering from total vegetarianism may be true, but make no difference if you’re debating whether or not Donald Trump is a jerk…)
-Now, let’s invert this… we’ve been debating whether or not humans should stop eating meat.
-What is that? A claim. A standalone claim. Not an argument itself.
-But, let’s say it’s “winning” (60% in agreement…)
-you could go ahead and use that as an ARGUMENT in a debate of another claim:
-“We should put a moritorium on all expansion of ranch lands meant for the purpose of raising animals for human consumption"
-Get it? A claim, debatable on its own rights, can be applied in a debate on another claim. AND, that application (i.e. argument) can be debated in terms of relevance and imp
-act
-Roll up of scores
-You should be able to see which side of any debate is “winning” and by how much… but this is more complicated than you think!
-A good argument made on shaky foundations is itself a shaky argument to make
-In other words, a claim that is supported by untruthful and/or irrelevant claims should itself not be considered 100% truthful. And if it, in turn, is used as an argument, t
-he claim it is supporting should only gain support relative to the strength of that original claim.
-Scores should “roll up” from bottom to top, giving a very simple summary view of the claim at the top (edited)
-Beliefs
-But… wait! Just because other people don’t agree with me, that doesn’t me I don’t have a right to my own opinion.
-What if 80% of the world agrees that humans should not eat meat, but I think it’s perfectly fine?
-How does that affect the ranch land expansion moritorium debate for ME?
-There should be at least 3 ways to view any debate:
-The consensus view (the average scores as voted by everyone who cared to vote, all rolled up)
-MY view - you should be able to declare your “beliefs” (that is, your opinion on the truthfulness of each claim), and see how the top-level claim shapes up according to y
-our world view
-Hypothetical views - it should be possible to see what a debate would look like IF YOU BELIEVED something you didn’t actually state is your belief
-e.g. What if I believed in Classical Economic theory instead of a Keynesian viewpoint? How would that change everything?
-One of the main goals of debating (once all the facts are out in the open!) is to understand what makes someone else think differently from you.
-This would be an INCREDIBLE tool for understanding one another
-(hint, by the way: the answer is beliefs, and trade offs in values - which is something I’ll go into another time)
- 
-
 ===3.3 Scoring.===
 
 It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, Gruff supports several different formulas for rating, or "Scoring" Claims and Arguments.
@@ -823,7 +688,50 @@ Debates over an Argument affect its Relevance Score. These debates take the form
 
 Depending on the Scoring Method, as described below, the way a Relevance Score is calculated may or may not be mathematically equivalent to the way a Truth Score is derived.
 
-=====3.3.3.2 Popular Vote.=====
+======3.3.3.1.1 Truth Score.======
+
+======3.3.3.1.2 Strength Score.======
+
+Now, consider the following situation: Argument A has a Relevance Score of 70%, and Argument B has a Relevance Score of -70%; however, the Claim underlying Argument A (let's call this Claim AC) has a Truth Score of only 50%, while the Claim underlying Argument B (Claim BC) has a Truth Score of 100% (everyone magically seems to agree with it). How should that impact Claim A? Should an Argument that stands on shakier grounds be considered just as strong as one that doesn't?
+
+For this, we can borrow a basic principle from software engineering: if you have one system that is down 90% of the time, and it depends on another that is also offline 90% of the time, how reliable is it? The answer to this problem is to [http://www.weibull.com/hotwire/issue181/article181.htm multiply the two reliabilities] to get the reliability of the system as a whole: 
+
+0.9 x 0.9 = 0.81, or 81%
+
+This makes a lot of intuitive sense for a Strength Score, as well. If an Argument has a Relevance of 100% (absolutely definitive, if true) and its Claim has a Truth of 100% (absolutely true), then the Strength should be 100% (you can't possibly do better than that). If both are 0% (totally irrelevant, and false), then Strength would have to be 0%. But also, something that is 100% convincing, but based on a total lie should be 0% effective, as with an absolute truth that is completely off the subject. And, what about something that is absolutely convincing if true, but we're only 50% sure it's true? A Strength of 50% seems perfectly reasonable.
+
+Therefore, the Strength Score S of an Argument A, with a Relevance Score of RA, which is based on a Claim C, with a Truth Score of TC, is:
+
+S = RA * TC
+
+======3.3.3.1.3 Roll-up Scores.======
+
+TODO: explain the idea behind roll-up scores
+
+
+=======3.3.3.1.3.1 Roll-up Levels.=======
+
+TODO: explain that for many algorithms, you choose how deep you want to go
+
+=======3.3.3.1.3.2 Arguments and Claims without Arguments.=======
+
+What should we do for the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it will not be possible to calculate any deeper than this. Instead, the calculation will have to substitute this for its Popular Score; that is, its Strength Score or Truth Score, without any other weighting.
+
+In the case of a Claim with no Popular Score (no votes), the default Score of 50% is used. For an Argument with no Popular Score, the default Score of 0% is used.
+
+
+=====3.3.3.2 Types of Scores.=====
+
+======3.3.3.2.1 Objective Scoring.======
+
+Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Claims according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote you provide a claim to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Claims. 
+
+As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
+
+
+======3.3.3.2.2 Personal Scores.======
+
+======3.3.3.2.3 Popular Vote.======
 
 The Popular Vote is a very straightforward mechanism for scoring. On any Claim or Argument, Debaters can register their opinion on the Score of an element. The Popular Vote, then, is simply the average of all votes.
 
@@ -841,351 +749,9 @@ There will certainly be some distortion due to this effect - there is no escapin
 
 This is true, but the Popular Score here is not meant to be used as THE measure used for a vote. Rather, it is meant to help each potential voter figure out where they stand on the issue when the time comes to vote. The "tyranny of the majority" is a problem for a democracy, and therefore outside the scope of this system. For more information on how this can be resolved, see the [https://github.com/DemocracyEarth/paper Democracy Earth white paper]. With the creation of this system, we certainly hope that the majority will be much more understanding and accommodating, rather than tyrannical.
 
-=====3.3.3.3 Personal Vote.=====
+=====3.3.3.3 Score Perspectives.=====
 
-The Personal Vote is the simplest scoring mechanism of all. It is simply a view of a Claim or Argument which shows the score the user chose, rather than the Popular Vote. Note, however, that on Claims or Arguments on which a user has not yet voted, the Score shown would instead be the Popular Vote (shown in such a way as to signal to the user that they have yet to register their Score).
-
-=====3.3.3.4 Roll-up Score.=====
-
-When one looks at the Popular or Personal Vote of a Claim or an Argument, they are looking at the final overall opinion attributed to that topic. Oddly, that Score is in no way influenced by the Arguments given for or against the topic, except as they indirectly influence the opinions of the people that cast a vote.
-
-It would be very interesting to see how those votes compare to the sum total of the Arguments that were given on each side of that debate. Consider a very simple case:
-
-* Claim A, with a Popular Vote of 65%
-* Argument A, with a Popular Vote of 70%
-* Argument B, with a Popular Vote of 70%
-
-If we are to look at only the Popular Vote of Claim A, we will see that it is "winning", at least in the sense that it has been given more than a 50/50 confidence rating. However, if you look at the Arguments on either side, they seem to balance each other out. Knowing that there is a significant difference between the two can help highlight some disconnect in popular (or personal) thinking, which may have resulted from:
-
-* An incomplete debate, with key Arguments missing
-* Some source of bias in the voting, which is causing people to internally disregard key Arguments or weigh them differently
-* Simple laziness - perhaps many users preferred to vote only on the top Claim without giving the Arguments enough consideration to vote
-
-Hopefully, by illustrating the difference between these Scores, the system can help counteract the causes of this type of disconnect. 
-
-Since the Scores of each of the Arguments, one for and one against, are identical, it is natural to assume that they cancel each other out. It would seem, then, that the correct Score for Claim A from this perspective would be 50%, rather than 65%. Since the 50% is calculated from the bottom (the Arguments) up, we call this the Roll-up Score.
-
-=====3.3.3.4.1 Strength Score.=====
-
-Now, consider the following situation: Argument A has a Relevance Score of 70%, and Argument B has a Relevance Score of -70%; however, the Claim underlying Argument A (let's call this Claim AC) has a Truth Score of only 50%, while the Claim underlying Argument B (Claim BC) has a Truth Score of 100% (everyone magically seems to agree with it). How should that impact Claim A? Should an Argument that stands on shakier grounds be considered just as strong as one that doesn't?
-
-For this, we can borrow a basic principle from software engineering: if you have one system that is down 90% of the time, and it depends on another that is also offline 90% of the time, how reliable is it? The answer to this problem is to [http://www.weibull.com/hotwire/issue181/article181.htm multiply the two reliabilities] to get the reliability of the system as a whole: 
-
-0.9 x 0.9 = 0.81, or 81%
-
-This makes a lot of intuitive sense for a Strength Score, as well. If an Argument has a Relevance of 100% (absolutely definitive, if true) and its Claim has a Truth of 100% (absolutely true), then the Strength should be 100% (you can't possibly do better than that). If both are 0% (totally irrelevant, and false), then Strength would have to be 0%. But also, something that is 100% convincing, but based on a total lie should be 0% effective, as with an absolute truth that is completely off the subject. And, what about something that is absolutely convincing if true, but we're only 50% sure it's true? A Strength of 50% seems perfectly reasonable.
-
-Therefore, the Strength Score S of an Argument A, with a Relevance Score of RA, which is based on a Claim C, with a Truth Score of TC, is:
-
-S = RA * TC
-
-=====3.3.3.4.2 Roll-up from Strength Scores.=====
-
-Given the example above, of an Argument A with a Relevance Score of 70%, and a Claim of Truth 50%, we can now calculate that its Strength Score is:
-
-0.7 * 0.5 = 0.35, or 35%
-
-Meanwhile, the Strength Score of Argument B is:
-
-0.7 * 1.0 = 0.7, or 70%
-
-How should we calculate the Truth Score of Claim A now? We know that when Arguments are completely balanced, it makes sense to give it an even score of 50%. Also, it makes no sense to go below 0%, nor above 100%, and no matter how many Arguments are for or against the Claim, one Argument on the opposite side should move the needle to place at least some doubt on the Truth of the Claim.
-
-Average of Scores
-
-The simplest way to calculate the Roll-up Score would be to take an average of the Strength Scores of the Arguments, and use that to find where the Truth lies on the range of possible scores (we will use the notation SSpro for Strength Scores in favor of a Claim or Argument, and SScon for those against, and npro and ncon for the number of Arguments in favor and against, respectively):
-
-TS = 0.5 + 0.5 * (∑SSpro - ∑SScon) / (npro + ncon)
-
-In the case of our simple example, the Truth Score TA of Claim A would be:
-
-TA = 0.5 + 0.5 * (0.35 - 0.70)/2 = 0.5 + 0.5 * -0.175 = 0.5 - 0.088 = 0.413, or 41.3%
-
-This approach has the advantage of ease of comprehension and implementation. It also works fairly well against our criteria in the case of having Arguments on both sides of the debate. However, it fails to satisfy one of the main criteria: Adding another argument on a side should increase the weight on that side. 
-
-Consider the case of a Claim with only a single, strong Argument to support it, with, say, a Strength of 80%. On its own, the final score would be 90%. However, if an Argument with a Score of 40% were added in support, the Truth Score would actually decrease to 80%.
-
-The naive version of this approach also fails another test: Adding an Argument with a Score of 0% should not affect the result. If a participant counters the aforementioned 80% Argument with a complete lie, the Truth Score would nevertheless become:
-
-TA = 0.5 + 0.5 * (0.8 - 0.0)/2 = 0.5 + 0.5 * 0.4 = 0.5 + 0.2 = 0.7, only 70%
-
-Divide by Total
-
-A slight change in the previous formula offers a solution to the problem of averages. If we perform a weighted average by dividing by the sum of the magnitude of all scores, we get:
-
-TS = 0.5 + 0.5 *  (∑SSpro - ∑SScon) / (∑SSpro + ∑SScon)
-
-This immediately solves the problem of weakening your side just by adding a poor Argument. If all the Arguments are on one side, then no matter how many there are, the final score will be either 100% or 0%, depending on which side they reside. Any new Arguments will always (except in the case of a 0% Argument) add Strength to to side it supports, while lowering the average Effectiveness for the other side. Also, any 0% Arguments are completely ignored, since  a Score of 0 affects neither the divisor nor the dividend.
-
-Now let's look how it performs in more robust situations. In the case of our simple example, the Truth Score TA of Claim A would be:
-
-TA = 0.5 + 0.5 * (0.35 - 0.70)/(0.35 + 0.70) = 0.5 + 0.5 * -0.33 = 0.5 - 0.167 = 0.333, or 33.3%
-
-This seems like a fairly reasonable approach, at least in the case of a stable debate, with no duplicate Arguments. However, the previous sentence already indicates one form of dishonest attack that could be used to change the scores in a debate: it would be possible to spam the Claim with duplicate or similar Arguments. If you have one Argument A in favort with 100% Strength, and then another Argument B against with 100% Strength, the Roll-up Score is a 50/50 outcome. If someone were to create just one copy of Argument A, it would change the Roll-up to 66.7%, with no material change in the debate, from the perspective of reasoning.
-
-Furthermore, the very useful and common act of curation known as Group Arguments (see Curation, below) can have a serious negative impact on the score for the side that is receiving the reorganization. Consider the following case: A Claim with Arguments A1, A2 and A3 for the Claim, and Arguments B1 through B10 against the Claim, with the following Strength Scores:
-A1: 70%
-A2: 50%
-A3: 30%
-B1: 80%
-B2: 60%
-B3 through B10: 30% each
-
-This yields a Roll-up Score of:
-
-TS = 0.5 + 0.5 * -2.3 / 5.3 = 0.5 - 0.217 = 0.283, or 28.3%
-
-Now, suppose the Arguments B3 through B10 are distinct, but fall under one generally related category that's better expressed as a single Argument. Even in the strongest case, a new Argument with 100% Strength, the result would change:
-
-TS = 0.5 + 0.5 * -0.9 / 3.9 = 0.5 - 0.115 = 0.385, or 38.5%
-
-The simple, and necessary, act of reorganization significantly weakened the case against the Claim. 
-
-Aggregate Strength Score
-
-In order to reduce this effect, and the effect of Argument spamming, Gruff therefore takes a slightly different approach to calculating the Roll-up Score, known as the Aggregate Strength Score:
-
-Find the Aggregate Strength of the Arguments for a Claim
-Find the Aggregate Strength of the Arguments against a Claim
-Calculate the total Roll-up Score as an average of the Aggregate Scores, as above
-
-We define the Aggregate Strength Score AS via the following algorithm:
-
-Sort the Arguments on the appropriate side (for or against) by the value of their Strength Scores SS
-Set the current AS to the absolute value of the SS of the top Score
-For each remaining Argument, in order of the sorted list, set the AS to be the current AS, plus the SS of the current Argument times the amount that remains towards reaching 100%
-
-AS = AS + SS * (1.0 - AS)
-
-Thus, for three Arguments A1, A2 and A3 with SS of 30%, 70% and 50%, respectively, we get an AES of:
-
-AS = 0.7 + 0.5 * (1.0 - 0.7) + 0.3 * (1.0 - (0.7 + 0.5 * (1.0 - 0.7))) 
-= 0.7 + 0.15 + 0.045 = 0.895, or 89.5%
-
-The equation for the Roll-up Score then becomes:
-
-TS = 0.5 + 0.5 * (ASpro - AScon)
-
-Going back to our previous example of the Group Arguments action, we see that before the reorganization, the Truth Score would be:
-
-ASpro = 89.5%
-AScon = 99.54%
-TS = 44.98%
-
-After the reorganization, there is a change, but it's a lot less pronounced (assuming, again, that the newly grouped Argument has a Strength Score of 100%):
-
-AES for = 89.5%
-AES against = 100.00%
-TS = 44.75%
-
-Again, we see issues with this approach. The more arguments there are, the closer the final score tends towards 50%, which isn't very informative, and may go against human intuition. This solution also violates the principle that Adding another Argument on a side should increase the weight on that side.
-
-Consider the simple case of two 100% strong Arguments, one in support and another against the Claim:
-
-ASpro = 100%
-AScon = 100%
-TS = 50%
-
-Now imagine that a second Argument is added against the Claim, again with a 100% Strength. In this case, the score remains unchanged:
-
-ASpro = 100%
-AScon = 100%
-TS = 50%
-
-
-Paired Ranking
-
-This final approach builds on the concept of the Aggregate Strength Score, but adds one more intuition:
-
-Two arguments of equal Strength, one for and one against, should cancel each other out
-
-Since it would be rare to see two Arguments with exactly the same Strength Score, the solution has to be a bit more flexible. We solve this problem in the following manner:
-
-Sort all Arguments on each side by their Strength Scores, from strongest to least
-Pair up the Arguments on each side according to their order
-Count the Score of the lesser of each paired Argument as 0, and the Score of the greater Argument as its Score minus the Score of the lesser
-Calculate the Score using the AS method as above, using the new Scores
-
-Consider a debate with Arguments A1 70%, A2 50% and A3 30% vs. B1 100%, B2 80% and B3 60%:
-
-Score for
-Paired Score for
-Score against
-Paired Score against
-70%
-0%
-100%
-30%
-50%
-0%
-80%
-30%
-30%
-0%
-60%
-30%
-
-This gives us:
-
-ASpro = 0%
-AScon = 65.7%
-TS = 17.2%
-
-If we add 3 more Arguments A4 30%, A5 30% and A6 20%, the Score becomes as follows:
-
-
-Score for
-Paired Score for
-Score against
-Paired Score against
-70%
-0%
-100%
-30%
-50%
-0%
-80%
-30%
-30%
-0%
-60%
-30%
-30%
-30%
-
-
-
-
-30%
-30%
-
-
-
-
-20%
-20%
-
-
-
-
-
-ASpro = 60.8%
-AScon = 65.7%
-TS = 47.55%
-
-And if the top Argument in favor becomes 90%:
-
-
-Score for
-Paired Score for
-Score against
-Paired Score against
-90%
-0%
-100%
-10%
-50%
-0%
-80%
-30%
-30%
-0%
-60%
-30%
-30%
-30%
-
-
-
-
-30%
-30%
-
-
-
-
-20%
-20%
-
-
-
-
-
-ASpro = 60.8%
-AScon = 55.9%
-TS = 52.45%
-
-Finally, if we look at the debate that started us down this path, we get:
-
-Score for
-Paired Score for
-Score against
-Paired Score against
-100%
-0%
-100%
-0%
-
-
-
-
-100%
-100%
-
-ASpro = 0%
-AScon = 100%
-TS = 0%
-
-That seems a little counterintuitive (the 100% Strength Argument in favor seems like it should have some impact), but it is still better than the result given by pure AS.
-
-=====3.3.3.5 Roll-up Levels.=====
-
-The previous examples only considered the Roll-up Scores based on the Arguments immediately for a single Claim. It is important to note, however, that the Arguments may have Arguments of their own, as may their base Claims. What if we want to see the impact of those sub-Arguments on the debate?
-
-You could say that we want to look down another "level", and so this is the official term for the "depth" of a Roll-up calculation: Level. In the previous section, the calculations referred to Roll-up Level 1. In order to see how the Arguments on the Arguments stack up, we can look at the Roll-up level 2 Score.
-
-Remember that the formula for a Level 1 Roll-up on the Truth Score of a Claim (we'll use Aggregate Strength Score for simplicity) is:
-
-TS = 0.5 + 0.5 * (ASpro - AScon)
-
-We can generalize this to say that the Level 1 Roll-up Score on any one element is:
-
-RuS1 = 0.5 + 0.5 * (ASpro - AScon)
-
-This equation applies equally to the Truth Score of a Claim as it does to the Relevance Score of any Argument.
-
-Taking a simplified version of our Claim A, with pro Argument A1 and con Argument B1, if we know their Strength Scores, we can calculate the Level 1 Roll-up of Claim A. In this case, for a Level 2 Roll-up, we simply replace the Strength Scores with the Roll-up Strength Scores of the Arguments. Roll-up Strength Score can be defined as:
-
-RuSS = RuRS * RuTS
-
-That is, the Roll-up Relevance Score times the Roll-up Truth Score of its base Claim. This means that we basically just replace the voted Score of the Arguments with their Roll-up Scores. If the two are the same (the voting and the roll-ups), the Level 2 Score for Claim A will be the same as its Level 1. If the scores are different, then the result will vary accordingly.
-
-For our Claim A, consider the following:
-
-Claim A: Popular Score 60%
-Argument A (for): Popular Score 70%
-Argument AA (for): Popular Score 80%, Strength Score: 70%
-Argument AB (against): Popular Score 60%, Strength Score 50%
-Base Claim AC: Popular Score 90%
-Argument B (against): Popular Score 50%
-Argument BA (for): Popular Score 55%, Strength Score 40%
-Base Claim BC: Popular Score 60%
-
-The Level 2 Roll-up Score for Claim A would then be:
-
-TS2 = 0.5 + 0.5 * (AS1A - AS1B)
-AS1A = (0.5 + 0.5 * (ASAA - ASAB)) * TSAC
-AS1B = (0.5 + 0.5 * (ASBA - ASBB)) * TSBC
-
-For the calculation, we have recursed down one level on both aspects of an Argument: its pro and con Arguments, and its base Claim. But since we have only gone one level deeper, we do not consider the Roll-up Truth Score of the base Claims of its Arguments. For this, we would need to go one level deeper, and calculate the Level 3 Roll-up (and so on).
-
-=====3.3.3.5.1 Arguments and Claims without Arguments.=====
-
-What should we do for the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it will not be possible to calculate any deeper than this. Instead, the calculation will have to substitute this for its Popular Score; that is, its Strength Score or Truth Score, without any other weighting.
-
-In the case of a Claim with no Popular Score (no votes), the default Score of 50% is used. For an Argument with no Popular Score, the default Score of 0% is used.
-
-=====3.3.3.6 Belief Score.=====
+======3.3.3.3.1 Belief Perspective.======
 
 Scoring up to this point has been based on using the average of the Popular Score for each element. This is fine when what one wants is a census on popular opinion. However, this is not enough to support two of the main objectives of this platform:
 
@@ -1225,74 +791,7 @@ Investigating deeper might reveal that this specific user tends to agree very st
 
 By allowing users to highlight specific Beliefs in this manner, the platform is able to provide the introspection and deep understanding that is our goal.
 
-=====3.3.4 Reason Score.=====
-
-Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Claims according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote you provide a claim to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Claims. 
-
-As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
-
-Calculation
-
-The Reason Score for any Claim is a number between 1 and -1 (often displayed as a percentage between 100% and -100%) It is a measure of confidence in the validity of the Claim based on the descendant claims.
-
-A Reason Score can be interpreted as:
-
-{| class="wikitable"
-!Score!!Percentage!!Description
-|-
-| 1||100%|| Absolutely True
-|-
-| .5||50%|| Likely true
-|- 
-| 0||0%|| Undecided
-|-
-| -.5|| -50%|| Not Likely True
-|-
-| -1|| -100%|| Absolutely Not True
-|-
-|}
-
-To Calculate the Reason Score (RS):
-
-For each child claim calculate its Weight which is the same as its Reason Score except we want to eliminate false claims so we zero out any negative Reason Score by taking the max between the Reason Score or zero:
-<pre>Weight = Max(0,RS)</pre>
-
-For each child claim calculate its Strength which is slightly different between a pro and a con.
-<pre>Pro Strength = Weight * RS
-Con Strength = Weight * (-RS)</pre>
-To calculate the final Reason Score divide the sum of the pro and con weights by the sum of the strengths. 
-<pre>RS = sum(Weights)/sum(Strengths)</pre>
-
-[https://docs.google.com/spreadsheets/d/17GFYS2uxZ1vcnP8lWq4VJ80gNVIveTRDeQhJXsP5IeI Formulas in a sample spreadsheet]
-
-Here is some sample code of the simplest interpretation. This does not include relevance:
-<pre>
-function calculateReasonScore(childClaims) {
-	let strengthTotal = 0;
-	let weightTotal = 0;
-	for (let child of childClaims) {
-		const weight = Math.max(0,child.score);
-		weightTotal += weight;
-		if (child.pro){
-			strengthTotal += weight * child.score
-		} else {
-			strengthTotal += weight * -child.score
-		}
-	}
-	return strengthTotal/weightTotal;
-}
-</pre>
-[https://jsfiddle.net/BentleyDavis/kuxg2e5c/ Jsfiddle simple example code]
-
-[https://jsfiddle.net/BentleyDavis/6hsL1x8y/ JSFiddle example code with relevance]
-
-Note that this is a recursive equation, so care must be taken either to prevent cyclical Arguments, or to replace a repeated value with a default Score (e.g. 1).
-
-Averaging the weights is the default calculation. There are rare circumstances where different calculations will be preferred such as
-The lowest claim is used. This is for when the claim is an absolute and any counter proof would dismiss the whole claim.
-The highest claim is used. This is used when any positive proof will prove the claim true.
-
-=====3.3.5 Ranking of Arguments.=====
+====3.3.5 Ranking of Arguments.====
 
 One of the most important roles for scoring is to enable the ranking of Arguments, from "best" (strongest or most relevant) to worst. This is, most of all, in support of the Objective:
 
@@ -1582,77 +1081,13 @@ Grouping Arguments, then, consists of the following Fundamental and Compound Act
 One thing to keep in mind, is that for some subjects, the most popular arguments are in fact significantly overlapping with each other. So if we always just regrouped, we may end up regrouping some arguments deeper down where (casual reader) people won't see them. This has some negativity in that if we link people to the discussion, they may be confused by that half of the points they find convincing were moved to a deeper level, making them think the content added is not fairly representing their side. If they searched, they would find it, but many people wouldn't try that on their first visits. I'm not saying this is a critical issue necessarily, just bringing it up for consideration.
 (The overlap rating solution has a similar problem in that it pushes arguments down in the ordering, so it doesn't solve it either. Just bringing the subject up.) (edited)
 
-Venryx [10:04 AM]
-Here's an example of where overlap ratings might be helpful. It's not a great example -- I will try to think of better ones -- but it's something to start a discussion at least.
-- Spaces are better than tabs for indentation (root claim)
--- Spaces are always the same width so give consistent renderings regardless of program or website (supporting argument)
--- Spaces don't require the user to process their text before inputting onto a site with differing tab indent-widths (supporting argument)
+=======3.6.2.2.5.1 Heuristics for Grouping Arguments.=======
 
-These arguments hit on some of the same "basis" of "consistent width", but they can't be just merged because they're still different. You could try to group them under some intermediate, but it's not obvious what that regrouping should be, so if you did so it would most likely appear to casual readers that one or both of those points just were never brought up properly. (since the regrouping wouldn't be obvious enough of a parent for those two that they would know to expand to them)
-I suppose the best way to try regrouping would be:
-- Spaces are better than tabs for indentation (root claim)
--- Spaces are always the same width
---- Relevant because: this means they have the same appearance regardless of program or website (supporting argument)
---- Relevant because: it means users don't have to process their text before inputting onto a site with differing tab indent-widths (supporting argument)
-I guess that is sufficient, though some people would probably prefer them to stay listed separately/as direct children.
-I will see if I can think of a better example.
+TODO: establish a list of guidelines
 
-timothy.high [10:12 AM]
-the problem with that regrouping is that there’s no conclusion
-“Spaces are always the same width”…so…. that’s good or bad?
+* Arguments that can be grouped as proving a broader premise should be regrouped under a new claim, and that single claim used as an argument in the parent
 
-Venryx [10:12 AM]
-Yeah; it lists the reasons it's good/bad, except as children "relevance arguments". Which is why some people wouldn't like it organized that way. (edited)
-
-timothy.high [10:12 AM]
-I don’t think that would be a good regrouping
-
-Venryx [10:13 AM]
-Do you know of a better one?
-
-timothy.high [10:13 AM]
-I’d say the two are distinct arguments that shouldn’t be grouped together. This is interesting to consider: what’s important is the conclusion, not the underlying fact?
-
-Venryx [10:14 AM]
-Okay, but if they're not grouped, I don't think they should be giving 100% weight each, because they have substantial "overlap".
-
-timothy.high [10:14 AM]
-I don’t see the overlap being a problem at all
-the overlap is in the underlying claim “Spaces are always the same width’, not in the conclusion
-so they have their own independent relevances
-
-Venryx [10:15 AM]
-It seems like listed separately they are going to be having more impact than using the regrouping above, though.
-
-timothy.high [10:15 AM]
-“Spaces have the same appearance regardless of program or website” - “who cares"
-“With spaces, users don’t have to process their text before inputting onto a site with differing tab indent-widths” - “yeah, that’s a serious pain"
-
-Venryx [10:16 AM]
-And the regrouping above seems fair to me (though confusing). So if the flat way is fair, how can the other way be fair as well? (given that the impact differ) (edited)
-
-timothy.high [10:16 AM]
-I don’t see the overlap being a problem here at all
-
-Venryx [10:16 AM]
-But do you agree that flat vs reorganized (as above) would yield different impact amounts for the two arguments? (edited)
-
-timothy.high [10:17 AM]
-It depends on the scoring algorithm (remember, that’s one of the principles of a good scoring algorithm)
-
-Venryx [10:18 AM]
-Yes. I suppose we'll have to answer this concern at the same time that we develop the default scoring algorithm, since they go hand in hand.
-
-timothy.high [10:18 AM]
-but, a bad regrouping is not a good guide for this
-
-Venryx [10:18 AM]
-I definitely think that in some scoring models, the impacts would change with the reorganizing above.
-
-timothy.high [10:19 AM]
-this discussion DOES have a very interesting outcome for me: regroupings make sense when all the arguments are making the same inference and conclusion
-but not because they are based on the same premise (edited)
-
+.... something about specific to general (e.g. Study A, Study B, Study C... should be regrouped as "Studies show")
 
 ======3.6.2.2.6 Clone Claim.======
 
@@ -1707,101 +1142,6 @@ Moving a lot will start to piss people off...
 
 ====3.6.3 Viewing Previous Versions.====
 
-
-
-Curation
-I’m sure they have something on their back end, but we don’t get to see it.
-The curation component needs to do some REALLY COMPLEX stuff:
-— Merge/de-dupe arguments and claims
-How do you keep it from getting messy? You need to take two identical but differently-worded items and merge them into one. But what happens to their supporting arguments? A
-nd to the votes on those arguments?
-— Split claims
-“Eating meat is really bad for you, and also those cows are soooo cute!"
-Well, those are actually two separate claims, so they should be broken up. What happens to THEIR arguments and scores?? (don’t forget context!)
-— Rearrange
-This argument in Kialo is interesting:
-https://www.kialo.com/eating-meat-is-wrong-1229/1229.0=1229.1-1229.12-1229.2624
-Kialo
-Harvesting human organs and reselling them would be good for…
-Harvesting human organs and reselling them would be good for the economy. This does not make it morally acceptable, and this debate centres around the morals… (81 kB)
-What’s going on there? You actually have a disagreement about what they’re even debating (this happens SO OFTEN in live Oxford-style debates)
-because the title says “Eating meat is wrong”, but the topology says the topic of the debate is “Humans should stop eating meat”, you have a confusion of arguments
-How could we solve that problem?
-You create a new claim: “Eating meat is immoral"
-You then move ALL arguments about morality under that topic
-then you use that new claim as an argument in favor of “Humans should stop eating meat"
-That’s what curation is about - making sense of a jumble of public thoughts on the topic, and putting them where they need to go
- 
-More things that the debate platform should provide:
-Anonymous voting
-Looks like Kialo does that
-Open to everyone
-Kialo allows this, too
-Protection against Sybil attacks
-This is something necessary to preserve the authenticity of the debates. Unfortunately, Kialo does not do this.
-The PoI component of Sovereign, however, would, within reason
-Evidence
-Evidence is something LIKE a claim, but different
-–> It can be debated as to whether or not it is “true” (actually, authentic!)
-–> It can be used as a supporting argument, and have its relevance and impact debated just like any other argument
-–> It would have an extra attribute: PROVENANCE, the source of that evidence. Provenance is critical in submitting evidence in a court of law. So should it be in a debate
-It makes a huge difference, for example, which news outlet is submitting a story.
-t makes a difference if we’re talking about something Donald Trump said about his foreign policy vs. anyone else in his cabinet (who seem to often have a different policy…)
-CRITICAL in this day and age, people now cast doubt not only on reported news, but on original quotes, photos and videos. The fact is it is getting easier and easier to fabricate digital evidence.
-Fortunately, technology is already coming to the rescue vis-a-vis Blockchain technologies and digital hashes. Hopefully at some point in the near future, it will be possible to validate if a video is from the original source, or if it has been altered (Snapchat shows us, however, that even “original” content can be altered at the time of creation - perhaps in the future, even the hardware and software used for a recording will need to be part of its provenance…)
-PHILOSOPHIES:
-I’ll just throw these out there for now
-Debates should be canonical.
-This facilitates gathering all the information in one place.
-It also avoids the problems of repeating the debate with only partial information elsewhere.
-Lastly, it empowers people with the power to make their point without having to rely only on what’s in their head. I’ve tried to debate gun control many times, but generally
-it’s with people that are much more passionate, and informed about the issue than I. It’s an imbalanced exchange.
-A debate should be separated from the ones debating
-How often have we watched a debate, political, Oxford-style, or otherwise, and picked a “winner” based mostly on WHO made the best arguments?
-That’s NOT a great way to make important decisions. It’s a great way for motivating and hitting emotional chords, but it’s only part of the whole story.
-Emotions are for motivating. Logic is for making decisions.
-The emotional component of a debate SHOULD NOT be stripped from the debate. BUT it should be used to motivate people to participate, not to make a final decision.
-Debates are not “won"
-Too often we talk about who “won” a debate. The NPR show Intelligence Squared chooses a winning side based on which one was better able sway the opinion of the audience more. Political debates result in discussions about who won, both by gaining votes, and by seeming more “presidential” or “confident”.
-That attitude actually serves to drive a wedge between people.
-Debate should REALLY be about learning. Learning about he topic. Learning about the trade-offs. Learning about how your family, or your friends or neighbors feel and think about an issue. Learning not to demonize those that disagree with you, but rather to understand it’s a difference in values (usually rather noble ones).
-Nelson Cardozo [1 day ago]
-About this, I think politics.stackexchange.com is a great example of that. In this, avoid emotional arguments is crucial to make a good point.
-Timothy High [10:55 AM]
-Debates are the one natural place we have that brings opposites together
-Timothy High [10:57 AM]
-In this age, we are terribly worried about the “information bubbles” that we, google and Facebook are creating around us. As they seek to serve us the information we most “like’, and we choose to like the things that most agree with us, it has been demonstrated that we’ve created our own isolated groups.
-(There’s a lot of talk about this in the Sovereign white paper, as well)
-People are asking FB and Google to change their BUSINESS model in order to force us to eat our vegetables and see news that’s good for us.
-We can try to force it, but it’s working against natural incentives.
-Debate creates a natural opportunity to see the other side while trying to make your own points.
-It should be possible to grasp the essence of a debate on all sides in under 30 seconds.
-We are used to reading tweets, and only looking at the headlines of articles. We are becoming lazy and information-poor. The debate should be able to accommodate that lazine
-ss while providing the ability to drill down into it as much as necessary.
-Kialo does this pretty well, along my lines of thinking.
-The point is that the problem with tweets and headlines is not their brevity, but their lack of support a reliability.
-If I tweet that “Liz Warren is a liar because she said she’s an Indian” it sounds like flamebait
-but if I send that same statement out as an argument backed by dozens of arguments and evidence, you will know right away what I’m saying (and whether or not to agree)
-There is no “right” answer
-There’s just getting closer to the truth as best we can.
-In a decision, there’s also figuring out what the trade offs are, and making your choice between them.
-Debates can be as logical as we can make them. But a machine can never decide for us.
-A canonical debate is essential for direct democracy
-Up to this point in history, democratic decisions have been made based on incomplete information.
-It is no wonder decisions about who should lead the most powerful nation in the world sometimes come down to relatively irrelevant but emotional issues like gay marriage and
-abortion
-people are asked to decide on to many extremely complex issues at once with to little real information
-worse, these days, the issues that affect us the most, local elections, have so little information readily available that many voters don’t even recognize the candidates.
-If you build it, they MUST come
-if we are ever successful at hosting a truly canonical debate (think Wikipedia - level success) there will be no place for the liars and cheaters to hide
-Let Breitbart try and make absurd claims off-debate. the first thing that will happen is someone else will submit the article as “evidence” and see it get destroyed in public
-once Breitbart, or MSNBC, etc. starts appearing there, their followers will have no choice but to recognize the importance of the debate contents
-A canonical debate changes the incentives of news sources
-so far in the internet era, the incentive seems to be on the creation of sensationalist news and “clickbait” in order to make money off views
-once reporting itself can be constructively debated, reputations will be on the line, and false claims easily refuted
-The canonical debate will become a place which drives traffic out to news sources - those with the best original investigative reporting (via “evidence”), the best fact-chec
-king, and the best fact-based opinion papers and stories that can tie it all together in a thoughtful way.
-No more running around calling something “FAKE news!” - the proof is in the pudding.
 
 ===3.7 Other Features.===
 
