@@ -188,19 +188,25 @@ Especially for local elections and referendums, which should be more familiar wi
 
 ===1.4 The Human Condition.===
 
+There are many problems with our attempts at collaboration that could be more effective were it not for certain characteristics of the people participating in these activities. These problems may be difficult to solve directly with technology, but can certainly be improved through proper education, and some guidance from the tools used in collaboration.
+
 '''''People don't know how to argue'''''
 
-A large percentage of the world population does not know what makes for a reasonable argument. People need to learn about logical fallacies, cognitive dissonance, etc.
+A large percentage of the world population does not know what makes for a reasonable argument. While logic and rhetoric are taught in many schools, it seems that it is not very common to employ these skills in practice. Both online and offline, it appears that discussions are rife with logical fallacies, and it is more common to see arguments of an adversarial rather than a constructive nature.
 
 '''''People assume the worst'''''
 
-It appears at least that most people arguing (especially online) assume the worst of people that disagree with them. This is in part due to tribalism. But it seems to have become a social norm to assume bad intentions (or stupidity), rather than an honest difference of opinion, as the source of disagreement.
+In online discussions, even among friends, it seems that very simple statements can be read with the worst possible interpretation. This is in part due to tribalism, but it seems to have become a social norm to assume bad intentions (or stupidity), rather than an honest difference of opinion, as the source of disagreement. The problem is exacerbated when brief written statements are the medium, since there is no room for nuance, caveats, or detailed context. In order to make a point, it may be necessary to resort to extreme examples, without room to explain that the author understands they are exaggerating. Responses are often equally extreme. This phenomenon has even given rise to the infamous [https://en.wikipedia.org/wiki/Godwin%27s_law Godwin's Law], which is basically an attempt to make people recognize when the discussion has veered too far from good sense.
 
 This problem could be solved if everyone were to adopt the [https://en.wikipedia.org/wiki/Principle_of_charity Principle of Charity]. Unfortunately, it would be hoping too much to expect this to happen any time soon.
 
 '''''People are lazy'''''
 
-Humans are generally too lazy to do the research necessary to verify if any supposed fact they read online is actually true. There is a natural bias towards believing information that supports a pre-existing opinion, and doubting one that debunks it. This leads to certain lies spreading very quickly online.
+Humans are generally too lazy to do the research necessary to verify if any supposed fact they read online is actually true. Although there are several reliable fact-checking services available, very few people go to the effort of consulting them. Meanwhile, there is a natural human bias towards believing information that supports a pre-existing opinion, and doubting one that debunks it. This leads to certain lies spreading very quickly online.
+
+'''''Cognitive Biases'''''
+
+Lastly, there is a long (and growing) and well-documented list of errors or irrationality in human thinking, collectively known as [https://en.wikipedia.org/wiki/List_of_cognitive_biases cognitive biases]. These are perhaps the most subtle and most difficult issues to rectify in the course of deliberation. However, as they are studied, and people learn more about them, our chances of succeeding improve.
 
 ===1.5 Current State of the Art.===
 
