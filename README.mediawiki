@@ -211,17 +211,23 @@ Lastly, there is a long (and growing) and well-documented list of errors or irra
 
 ===1.5 Current State of the Art.===
 
+There have been in the past, and are at present, many attempts to resolve the problems with debate listed above to one degree or another. Since concern has grown following the 2016 election cycle for the United States regarding the problem of "fake news", many solutions have been created to focus on countering the trend and to restore trust in journalism. Fact-checking sites have become an integral part of the online discussion, existing platforms such as Facebook and Google are rethinking their model for recommending content. Also, projects and businesses have been created with the aim of providing additional context to discussions via various means. In the area of argument mapping, there have been many efforts to create a rich and complete picture of important debates, some by way of careful curation by an internal team, while others permit external users to supply the arguments.
+
+None of the approaches we have seen so far have been able to provide a complete solution for the problems we have listed above. In this section we outline many of the characteristics we believe are required, but are generally missing from the solutions we have seen.
+
 '''''Centralization of control'''''
 
-If the debate is “owned” by a single entity (in terms of who can edit the data), without complete and trustworthy transparency and history, the solution is subject to accusations of favoritism. This therefore can degrade trust in the substance of the debate itself.
+If the debate is "owned" by a single entity (in terms of who can edit the data), without complete and trustworthy transparency and history, the solution is subject to accusations of favoritism. As noble as the mission may be, it is always possible to cast aspersions on the organization that holds the keys to its operation. We have seen this in the case of [https://en.wikipedia.org/wiki/WikiLeaks WikiLeaks], which has been accused of international partisanship. We are also beginning to see this occur with [https://www.forbes.com/sites/kalevleetaru/2016/12/22/the-daily-mail-snopes-story-and-fact-checking-the-fact-checkers/#49d400b1227f fact-checking sites].
+
+If any entity has the power to edit the history of a debate, prevent access to certain parties, or change votes, it doesn't matter how honest the organization actually is. It will be possible for anyone that disagrees with the results to cast doubts upon the reliability of the platform, and provide an excuse for their followers to ignore the information. It also provides fertile ground for such parties to create their own competing platforms, and thus end this attempt at canonicality.
 
 '''''Centralization of data'''''
 
-If the content of the debate is owned by a single party, there is a risk that the debate will one day disappear with the end of that entity, and all work will be lost (or sold!). This undermines the perceived value in participation.
+Even if the platform is completely transparent and verifiable, if the content of the debate is owned by a single party, there is a risk that the debate will one day disappear if that entity ceases to exist. This undermines the perceived value in participation in a number of ways: The more permanent a contribution seems, the more incentive one has to go through the effort. Also, no matter how trusted the custodian of the information may be during its time of operation, there is a risk that a change of management, or a case of desperate insolvency may lead to a corruption of the original intents.
 
 '''''Conflicts of interest'''''
 
-Commercial implementations (e.g. Kialo) will need to find a profitable business model. This creates the risk of selling personal data to advertisers (and political parties and beyond!).
+The problem that faces the majority of communication platforms online at present is the inherent conflict of interest between the platform host, which generally has a commercial for-profit purpose, and its users. This is the crisis currently facing Facebook and other platforms at the moment, which generate revenue by selling user data for advertising and other purposes. These platforms are already extremely powerful due to the [https://www.ft.com/content/3dfa397c-9a73-11e4-8426-00144feabdc0 number of "signals"] users are providing them, based on simple upvotes. A platform that deals in complex debate topics has an incredible opportunity to understand the thinking, beliefs and opinions of its users on just about any subject that motivates them enough to participate. There is an incredible danger for this platform to be abused by its host unless all care is taken to ensure the good of the platform is completely aligned with the good of its users.
 
 '''''Fake accounts'''''
 
