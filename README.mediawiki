@@ -231,19 +231,27 @@ The problem that faces the majority of communication platforms online at present
 
 '''''Fake accounts'''''
 
-Most implementations do not provide adequate protection against “Sybil” accounts (fake accounts). Any solution that includes voting (upvotes, scoring, etc.) is therefore subject to “attacks” by networks of fake accounts attempting to sway the outcome of the debate.
+Most implementations do not provide adequate protection against [https://github.com/DemocracyEarth/paper#263_Sybil_Attack "Sybil" accounts] (fake accounts). Any solution that includes voting (upvotes, scoring, etc.) is subject to "attacks" by networks by fake accounts attempting to sway the outcome of the debate. This has been a major enabler of propaganda campaigns, for such mundane purposes as [https://devumi.com/twitter-followers/ increasing the reputation] of public figures and thought leaders to actual [https://www.recode.net/2018/2/16/17021048/robert-mueller-russia-facebook-social-media-donald-trump-presidential-campaign-2016-hillary-clinton attempts by foreign governments] to sway elections.
+
+In order to make it easy for new users to sign up, most platforms opt for very low requirements in terms of verification of new users. None to date, outside of official government agencies, and certain financial institutions with "Know Your Customer" (KYC) requirements go through any effort to certify that there is a one-to-one correspondence between user accounts and actual human beings. 
+
+When governance is a concern, and a one-vote-per-person strategy is the standard, this guarantee is necessary. Likewise, in the case of the canonical debate, where trust is an essential component, and where the goal is to attempt to honestly portray our collective knowledge and opinions, it is critical to fight for allowing only one vote per human.
 
 '''''Not reusable'''''
 
-Most solutions seen so far do not treat the debates as canonical. That is, they treat each debate as a separate, isolated entity, whose result cannot be used in future debates. This prevents knowledge from accumulating to the degree we believe possible.
+Traditional argument mapping focuses on the debate around the validity of a single statement. This is decided by way of a tree structure of supporting and attacking arguments, each of which themselves may be attacked or defended. The result, in a complete mapping, is a judgement that can be made regarding that single statement. No consideration is given regarding how that result could be used in future debates, nor in how the effectiveness of one of the underlying arguments could be reused in a new context (debate).
+
+Most solutions seen so far follow this pattern. They do not treat the debates as canonical. That is, they treat each debate as a major topic to be discussed on its own, a separate, isolated entity, whose result cannot be used in future debates. This prevents knowledge from accumulating to the degree we believe possible, and necessary if we are to find any hope of a trajectory towards a better future.
 
 '''''Not popular'''''
 
-No solution so far has managed to become THE place for debate.
+There is a certain circularity behind the reasoning in this problem, and in fact it is difficult, if not impossible, to design a solution that can resolve this issue with any guarantee. Unfortunately, by definition, the canonical debate must be so well-known as to be the main, if not the only place to consult and participate in this type of debate. 
+
+No solution so far has managed to become THE place for debate. Until one succeeds in this respect, our knowledge will remain fragmented, with continued loss in efficiency, and no guarantee of providing a complete vision on complex and confusing topics. Our proposal for a canonical debate can offer strategies for accomplishing this goal, but there is no way of ensuring we will succeed.
 
 '''''Insufficient curation'''''
 
-Many implementations lack the tools necessary to keep the debate organized, clean and productive
+In order for a canonical debate to remain canonical, in the sense of singular and unique, it is necessary to ensure that there is no duplication of information or arguments. There are a number of other challenges as well related to keeping the debates organized, readable and sensible that, at least for now, require expert human attention to maintain. Unfortuantely, most current implementations lack the tools necessary to keep the debate organized, clean and productive.
 
 '''''Bad user experience'''''
 
@@ -261,7 +269,7 @@ Solutions generally don’t take a rigorous approach to "context" (specifically 
 
 The scoring system offered by the solution is non-existent or oversimplified.
 
-'''''No concept of generic vs. complete'''''
+'''''No concept of generic vs. specific'''''
 
 No concept of “generic” claims, tied to concrete claims. That is, no way to discuss generally about a controversial topic (e.g. abortion), and then tie it to a more specific case (e.g. late-term abortions).
 
