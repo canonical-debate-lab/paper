@@ -255,31 +255,37 @@ In order for a canonical debate to remain canonical, in the sense of singular an
 
 '''''Bad user experience'''''
 
-Debate is a VERY complex activity. It needs to be trivially easy to read and to use. Kialo is the best attempt I’ve seen so far. C.f. the comment regarding Argunet here: https://www.lesswrong.com/posts/dJJYgmaYYFmHoQM4L/debate-tools-an-experience-report
+Debate is a VERY complex activity. It needs to be trivially easy to read and to use. Unfortunately, argument maps in general tend to be extremely boring for the average user to read and navigate, which defeats the purpose of educating the public. Furthermore, it can be rather cumbersome to understand the structure of a debate and provide a valuable contribution [https://www.lesswrong.com/posts/dJJYgmaYYFmHoQM4L/debate-tools-an-experience-report without exerting more effort] than what more than the most dedicated (or fanatical) users may be willing to provide.
 
-'''''Overly simplified model'''''
+In preliminary experiments with various projects created by our founding members, we have seen first-hand the difficulty in capturing the complexity of debates while at the same time creating an environment that doesn't discourage use. We applaud the site [https://www.kialo.com/ Kialo] for making great strides in terms of usability and innovation in terms of the visualization of argument maps. However, the site lacks many of the other characteristics listed here, and we believe that there is both more improvements that should be made, and more complexity that must be incorporated into a canonical solution.
 
-This is a catch-all for features otherwise not called out in this section. The solution just doesn’t offer all the features we consider necessary. (That is, they don’t solve all the concerns listed in the Problems section).
+'''''Boring'''''
+
+Overlapping with, but distinct from the problem of the user experience, it is apparent that deconstructed debates, removed from individuals, and avoiding incendiary speech can unfortunately be very dry. This makes the platform difficult to achieve mass adoption, and therefore canonicality. A successful solution must find a way to engage human emotion in the process, while at the same time maintaining its integrity.
 
 '''''No context'''''
 
-Solutions generally don’t take a rigorous approach to "context" (specifically as defined in our white paper).
+None of the solutions we have seen to date have taken "context" to be a critical element of any claims or arguments. Context is not used at all as an element of the debate, and can only colloquially be said to be "relating to the debate at hand". Unfortunately, the result tends to be that claims and arguments are made at a somewhat generic level, or are given as examples that are so concrete that they can only be considered anectdotal evidence at best.
 
-'''''Inadequate scoring'''''
-
-The scoring system offered by the solution is non-existent or oversimplified.
+This lack of context impedes the reusability of claim. It can result in them being used incorrectly, as statements may be given multiple interpretations, or used in a more generic or specific situation than they were originally intended. It can also cause confusion in the debate itself if the participants use different interpretations of the claim being made.
 
 '''''No concept of generic vs. specific'''''
 
-No concept of “generic” claims, tied to concrete claims. That is, no way to discuss generally about a controversial topic (e.g. abortion), and then tie it to a more specific case (e.g. late-term abortions).
+It is very common to begin a debate with a very broad statement, such as "Illicite drugs should be legalized." When such a broad topic is debated in earnest, you will find that the discussion can range from one spectrum of the debate (e.g. all drugs vs. a specific illegal substance, such as heroine) to another (in which geographical locations, and under which conditions).
+
+It should become evident after some contact with generic debates that they are generally unresolvable. The best you can do is come up with conditions under which the claim would be true, and others in which it would be false. Unfortunately, solutions that we have analyzed so far do not provide any inherent support for navigating such a "debate space", and carrying arguments or heuristics from one level of granularity to another.
+
+'''''Inadequate scoring'''''
+
+Scoring of claims and arguments is an important feature of this type of platform, as we will describe in more detail in later sections. Amongst other purposes, the scores serve as a mechanism for sorting arguments in order of those that are the most relevant to arguments that will have little or no impact. 
 
 '''''No tools for contemplation'''''
 
 Debates are generally treated as a fixed entity, with only the overall popular consensus considered. There is no way to inspect the debate specifically from the perspective of the user, or from the perspective of someone else.
 
-'''''Boring'''''
+'''''Overly simplified model'''''
 
-Deconstructed debates, removed from individuals and avoiding incendiary speech can unfortunately be very dry. This makes it difficult to achieve mass adoption.
+This is a catch-all for features otherwise not called out in this section. The solution just doesn’t offer all the features we consider necessary. (That is, they don’t solve all the concerns listed in the Problems section).
 
 <div id="Principles"></div>
 
