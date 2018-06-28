@@ -241,7 +241,7 @@ When governance is a concern, and a one-vote-per-person strategy is the standard
 
 Traditional argument mapping focuses on the debate around the validity of a single statement. This is decided by way of a tree structure of supporting and attacking arguments, each of which themselves may be attacked or defended. The result, in a complete mapping, is a judgement that can be made regarding that single statement. No consideration is given regarding how that result could be used in future debates, nor in how the effectiveness of one of the underlying arguments could be reused in a new context (debate).
 
-Most solutions seen so far follow this pattern. They do not treat the debates as canonical. That is, they treat each debate as a major topic to be discussed on its own, a separate, isolated entity, whose result cannot be used in future debates. This prevents knowledge from accumulating to the degree we believe possible, and necessary if we are to find any hope of a trajectory towards a better future.
+Most solutions seen so far follow this pattern. They do not treat the debates as canonical. That is, they treat each debate as a major topic to be discussed on its own, a separate, isolated entity, whose result cannot be used in future debates. Rather than creating a repository of proposed and vetted facts, the debates stand alone as isolated topics of discussion. This prevents knowledge from accumulating to the degree we believe necessary if we are to find any hope of a trajectory towards a better future.
 
 '''''Not popular'''''
 
@@ -273,19 +273,17 @@ This lack of context impedes the reusability of claim. It can result in them bei
 
 It is very common to begin a debate with a very broad statement, such as "Illicite drugs should be legalized." When such a broad topic is debated in earnest, you will find that the discussion can range from one spectrum of the debate (e.g. all drugs vs. a specific illegal substance, such as heroine) to another (in which geographical locations, and under which conditions).
 
-It should become evident after some contact with generic debates that they are generally unresolvable. The best you can do is come up with conditions under which the claim would be true, and others in which it would be false. Unfortunately, solutions that we have analyzed so far do not provide any inherent support for navigating such a "debate space", and carrying arguments or heuristics from one level of granularity to another.
+It should become evident after some contact with generic debates that they are unresolvable without considering the issues within a specific context. The ideal outcome of such a discussion is not to find a definitive answer, but rather to uncover the criteria and conditions under which the claim would be true, and those in which it would be false. Unfortunately, solutions that we have analyzed so far do not provide any explicit support for navigating such a "debate space", and carrying conditional arguments or heuristics from one level of granularity to another.
 
 '''''Inadequate scoring'''''
 
-Scoring of claims and arguments is an important feature of this type of platform, as we will describe in more detail in later sections. Amongst other purposes, the scores serve as a mechanism for sorting arguments in order of those that are the most relevant to arguments that will have little or no impact. 
+Scoring of claims and arguments is an important feature of this type of platform, as we will describe in more detail in later sections. Scoring can serve as a mechanism for sorting arguments in order to highlight those that are the most relevant and have the greatest impact on the issue at hand, while clearing irrelevant or "spammy" arguments out of the way. Scoring can also be a tool for understanding oneself and other people, when handled properly. However, no single scoring model could be considered impartial and accurate for all purposes. An ideal solution should provide more than one way to score and view a debate. 
 
-'''''No tools for contemplation'''''
+The systems we have analyzed up to now, with the exception of some [http://www.arg-tech.org/index.php/projects/ computational frameworks] by the people at [http://www.arg-tech.org/ ARG-tech], have taken only a cursory or superficial approach to scoring. Generally only one method of scoring is supported.
 
-Debates are generally treated as a fixed entity, with only the overall popular consensus considered. There is no way to inspect the debate specifically from the perspective of the user, or from the perspective of someone else.
+'''''Limited tools for learning and contemplation'''''
 
-'''''Overly simplified model'''''
-
-This is a catch-all for features otherwise not called out in this section. The solution just doesn’t offer all the features we consider necessary. (That is, they don’t solve all the concerns listed in the Problems section).
+Debates are commonly treated as a group activity, in which the final, total outcome is what matters. However, we believe that it is at least as important to encourage each participant to actively engage and reflect on the content, regardless of the final outcome. While tools will allow a user to dive into each argument if they so desire, there is little additional support provided for learning and contemplation. We believe that, when given the proper tools and support, a place of debate can educate users on how to hold constructive debates, can be used to help participants understand their own views, and better understand the perspective of others involved in the debate.
 
 <div id="Principles"></div>
 
