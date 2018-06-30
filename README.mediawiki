@@ -305,6 +305,10 @@ Imagine if each argument only had to be made once, for everyone. If you map thes
 
 There are 8 million of us, and we are spending our time repeating what others already know. Instead, we must find ways to make this knowledge accumulate and grow.
 
+'''''Keep it constructive'''''
+
+In all aspects of the design of the solution, it is important to focus on making sure the discussion remains constructive. Personal attacks, intentional mistruths and activities of bad faith must all be discouraged by the platform itself in order to avoid falling into the traps we have described in the first section of this document.
+
 '''''Respect human nature'''''
 
 When it comes down to it, we are all humans, and we need to find a way to work together, rather than against one another. However, for better or worse, we understand that humans are imperfect, have desires, and do not always do what seems to be the most logical action. Rather than ignore this fact, or try to fight against what sometimes seems to be destructive natural impulses, we must recognize what it is to be human, and design our solutions to work with these traits.
@@ -321,9 +325,17 @@ If there can be cast any doubt as to the sanctity of the information contained i
 
 '''''Include everyone'''''
 
+There is a tendency to believe that only experts should be heard on important subjects. This bias stems in part from good intentions: if they are experts, then they should know better than anyone the truth behind the claims. Experts in various fields also tend to be better at expressing an idea and using rhetoric to form their arguments. However, this does not necessarily mean that the actual premise behind the arguments is any more or less sound. As an example, a common divide can be seen between academics who study an issue deeply, and the people that are actually affected by the issue. While an expert may be able to provide information on macro trends and statistics, only someone that is directly involved, regardless of educational level or time studying the situation, could convey the experience of being involved in the situation.
 
+As mentioned earlier in this paper, no one person is capable of containing all the information relevant to a complex issue in their head. In order to maintain the first principle of making knowledge accumulate, we must be able to call upon every person to provide whatever relevant information they may have. As is commin with brainstorming exercises, it is important to provide first an opportunity to generate as much information as possible before applying a filter in a second step to evaluate the quality of the information. If the filter is applied first, there is a great risk of preventing important information and opinions from entering the discussion.
+
+There is another, equally important reason for including everyone. By doing so, we increase the buy-in by everyone to accept the debate itself. If there is a division between the "cans" and "cannots", this will create a sense of disenfranchisement in the exercise, ultimately leading to a sense of irrelevance.
+
+Finally, and perhaps most importantly, we believe that only by getting people involved in debates can they learn the difference between what makes a debate constructive, as opposed to the mainly destructive exchanges that have become the norm. People must be accepted into the discussion, and encouraged to contribute, no matter what the level of their education or argumentation literacy may be. This alone is enough to justify the effort, if we can see a general improvement in the ability of people to discuss controversial topics productively rather than with rancor.
 
 '''''Make it about learning, not winning'''''
+
+Too often, debates are about who wins, rather than whether or not we have arrived at the proper conclusion. In fact, in many cases, the right conclusion may be a matter of beliefs, values and priorities. When the debate focuses on choosing a winner, it can be counter-productive and alienating. When the debate focuses on what we can learn, and allows each person to take away their own conclusions, it relieves some of the pressure, and allows room for people to focus on reason rather than expressions of emotion.
 
 ===2.2 Beliefs.===
 
