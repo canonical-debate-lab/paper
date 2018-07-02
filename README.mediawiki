@@ -36,7 +36,7 @@ This document is hosted as a living document of the group's high-level vision. I
 
 ==1. Problems.==
 
-Once upon a time, there was the optimistic belief that the Internet would bring about an era of enlightenment, peace and unprecedented productivity. The technological and logistic advances that came with this new era permit access to information in a capacity never before experienced by humans, and modes of instantaneous and asynchronous communication between people that were science fiction only decades before. These structural changes were supposed to eradicate the problem of human ignorance, and bring people around the world together in h higher levels of mutual understanding and cooperation.
+Those of us that are old enough may remember a time when there was the optimistic belief that the Internet would bring about an era of enlightenment, peace and unprecedented productivity. The technological and logistic advances that came with this new era permit access to information in a capacity never before experienced by humans, and modes of instantaneous and asynchronous communication between people that were science fiction only decades before. These structural changes were supposed to eradicate the problem of human ignorance, and bring people around the world together in h higher levels of mutual understanding and cooperation.
 
 So, what happened? More than 20 years after the dawn of the World Wide Web, The Oxford Dictionary declared "[https://en.oxforddictionaries.com/word-of-the-year/word-of-the-year-2016 post-truth]" as its world of the year. This year also heralded a major shift in world politics towards nationalistic, isolationist trends, and become common practice to categorize information which one considers displeasing as "fake news".
 
@@ -291,7 +291,49 @@ Debates are commonly treated as a group activity, in which the final, total outc
 
 We have seen many good attempts at resolving the problems listed above, and there are many promising projects under development right now. However, many of these solutions are incomplete or may fall into certain pitfalls that we have seen in the past. In order to ensure that the canonical debate solution does not make the same missteps, we have established the following fundamental principles that should guide all design decisions, organizational activities and even outreach and marketing campaigns. Ours is an open and community-based project, and in lieu of a single central figure to give the orders, we use these principles, shared beliefs and common goals as our guiding light.
 
-===2.1 Guiding Principles.===
+===2.1 Beliefs.===
+
+We hold a number of beliefs in common which give us confidence that our current problems in deliberation can indeed be solved. We call them "beliefs" in the same vein as the term will be used further on in this paper: that is, these are claims that we make which yet to be proved or disproved. We choose to accept these claims as fact until proven otherwise, and use this as inspiration us to go forth with this effort.
+
+'''''The problems are structural'''''
+
+We believe that all the majority of the problems we have listed in the first section can indeed be solved by making structural changes to the internet and to the way we interact. Just as Twitter, Google and Facebook (not to mention television and other innovations in communication) have all changed the way we exchange information, there is always the opportunity for a new innovation to cause a major shift. 
+
+One source of inspiration for all the members of the Canonical Debate Lab is the realization that each of us separately has come to the same conclusion that there is something missing, and our visions as to what that may be are remarkably alike. To borrow a phrase, we believe that the need for a Canonical Debate is self-evident, to the point that each of us has started creating the same invention independently and without prior communication. We are now ready to work together.
+
+'''''Debating can bring people together'''''
+
+Many of the problems we have discussed reflect upon the way in which people are becoming increasingly isolated into separate groups, each of which shares a common world view, in opposition to other groups. Social networks and biased television news channels increase this isolation. The number of opportunities for people of differing opinions to exchange information across these self-created borders is diminishing.
+
+However, debate is one human activity that by its own nature brings people of differing beliefs together for this very purpose. While it is not always done constructively, there is at least some contact between worlds for those that choose to engage.
+
+If the nature of debate can be changed, and if more people can be involved in debate, we believe this is a rare opportunity to reverse the trends of isolation.
+
+'''''Social norms can be changed'''''
+
+There has been a lot of focus of late on the importance of "social norms". Donald Trump, acting as an unconventional President of the United States, has raised discussions on the realization that many of the institutions that U.S. citizens have taken for granted (such as full divestment from one's business interests, the way the President relates to journalists, the handling of presidential pardons, and various other processes and traditions) are not actually written into law, but are merely norms which previous presidents have chosen to follow. There has also been much discussion regarding his actions which "normalize" certain behaviors, such as using insulting language to make a point, and being loose with facts.
+
+Millenials have been characterized as regarding gay marriage and non-binary gender identities as much more "normal" than previous generations. Objective journalism was once considered the gold standard in reporting, but has fallen away to much more biased news. And people walking down the street, or hanging out with friends, and looking at their phones rather than each other has also become commonplace.
+
+The point is that what is considered normal and acceptable has changed over time, and will continue to change. We believe that while trolling and insulting people with whom one disagrees is currently a norm, this may be changed with a slant towards constructive discussion and respect for other beliefs. Social norms are very difficult to change intentionally, and are best led by example and repetition. We believe that the canonical debate platform provides ample opportunity to demonstrate what constructive debate can be, and can provide tools that discourage negative attacks online. We hope that over time, as people get accustomed with the debate, it will affect social norms in a positive manner.
+
+'''''True disagreements are about beliefs, values and priorities'''''
+
+Many of our arguments on and offline can be boiled down to misunderstandings, misjudgements, an unwillingness to consider the opinions of others, or simple lack of information (and thus arguments based on assumptions). One of the main goals of the Canonical Debate is to ensure that everyone can have the proper information at their fingertips, organized and clearly stated in order to remove any ambiguity.
+
+This leads to an interesting question: if we are able to assemble all human knowledge towards resolving a debate, what will be the result? Will there be anything left to discuss? Will everyone have no choice but to agree on all things?
+
+While we hope that the Canonical Debate can resolve the petty disputes described above, we believe that there are true disagreements that cannot be solved simply by assembling all the facts together in one place. The most important discussions are those that pit one value against another. Nearly all decisions in politics, and all the important decisions in a person's life involve making trade offs and picking priorities. These are the most important discussions that can be had between people. We believe that the Canonical Debate can clear the fog of petty discussions and allow people to focus on those that really matter.
+
+'''''We can get closer to the truth'''''
+
+Donald Trump has admitted that what he considers "fake news" is simply [https://www.vox.com/policy-and-politics/2018/5/9/17335306/trump-tweet-twitter-latest-fake-news-credentials anything he doesn't like]. His Counselor Kellyanne Conway coined the dubious phrase [https://en.wikipedia.org/wiki/Alternative_facts "alternative facts"]. Over time we have seen that even what appear to be scientific facts will continue to be doubted and debated by those that choose to believe the contrary, no matter how strong the evidence.
+
+We believe that this is a natural state of human existence. To some degree, it is healthy to have sceptics who are ever-vigilant and willing to doubt any claim. Such variety in thinking can lead to a larger surface of knowledge being explored overall. 
+
+However, despite recent efforts to make people even doubt the existence of truth, we do believe that such tactics can be overcome by a tool such as the Canonical Debate. A platform which encourages collaboration and in which, by definition, each contribution is constructive, can only help us to get closer to seeing the truth behind each statement. While not every statement or fact can be proved, the fact that each one is itself debatable brings us closer one step at a time.
+
+===2.2 Guiding Principles.===
 
 We present here a list of fundamental principles that we believe are necessary to consider in any decision made on behalf of this project. 
 
@@ -337,15 +379,13 @@ Finally, and perhaps most importantly, we believe that only by getting people in
 
 Too often, debates are about who wins, rather than whether or not we have arrived at the proper conclusion. In fact, in many cases, the right conclusion may be a matter of beliefs, values and priorities. When the debate focuses on choosing a winner, it can be counter-productive and alienating. When the debate focuses on what we can learn, and allows each person to take away their own conclusions, it relieves some of the pressure, and allows room for people to focus on reason rather than expressions of emotion.
 
-===2.2 Beliefs.===
+'''''We should inspire with emotion, but argue with reason'''''
 
-'''''Debating brings people together'''''
+Many of the hot-headed arguments we see online follow the reverse of this principle: arguments are crafted to "jab" at our "opponents" in order to elicit the most outrage. This tit-for-tat atmosphere rewards arguments for their emotional content rather than for their accuracy, which does little to advance the accumulation of knowledge, or arriving at a collective consensus.
 
-'''''Honest disagreements are about beliefs, values and priorities'''''
+We must work to foster an environment that instead rewards participation based on the strength of arguments, in terms of their accuracy and their relevance. Debates should be evaluated based on their reasoning, rather than on their rhetorical devices.
 
-'''''We can get closer to the truth'''''
-
-'''''Inspire with emotion; Argue with reason'''''
+However, it is equally important to recognize the value that emotion can bring to a debate. A purely logical debate, free of any emotional triggers, can alienate all but the most erudite of participants. This is perhaps one of the main factors that prevents academic papers from reaching mainstream audiences. Emotion can inspire participation, and drive engagement, which is critical to the success of creating a canonical debate. Thus, a key aspect to designing the solution is choosing the right times to inspire users with emotion, and when to filter it out in deference to level-headed reason.
 
 ===2.3 Design Goals.===
 
