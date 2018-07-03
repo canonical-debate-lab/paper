@@ -293,7 +293,7 @@ We have seen many good attempts at resolving the problems listed above, and ther
 
 ===2.1 Beliefs.===
 
-We hold a number of beliefs in common which give us confidence that our current problems in deliberation can indeed be solved. We call them "beliefs" in the same vein as the term will be used further on in this paper: that is, these are claims that we make which yet to be proved or disproved. We choose to accept these claims as fact until proven otherwise, and use this as inspiration us to go forth with this effort.
+We hold a number of beliefs in common which give us confidence that our current problems in deliberation can indeed be solved. We call them "beliefs" in the same vein as the term will be used further on in this paper: that is, these are claims that we make which have yet to be proved or disproved. We choose to accept these claims as fact until proven otherwise, and use this as inspiration to go forth with this effort.
 
 '''''The problems are structural'''''
 
@@ -311,7 +311,7 @@ If the nature of debate can be changed, and if more people can be involved in de
 
 '''''Social norms can be changed'''''
 
-There has been a lot of focus of late on the importance of "social norms". Donald Trump, acting as an unconventional President of the United States, has raised discussions on the realization that many of the institutions that U.S. citizens have taken for granted (such as full divestment from one's business interests, the way the President relates to journalists, the handling of presidential pardons, and various other processes and traditions) are not actually written into law, but are merely norms which previous presidents have chosen to follow. There has also been much discussion regarding his actions which "normalize" certain behaviors, such as using insulting language to make a point, and being loose with facts.
+There has been a lot of focus of late on the importance of "social norms". Donald Trump, acting as an unconventional President of the United States, has brought about the realization that many of the institutions that U.S. citizens have taken for granted (such as full divestment from one's business interests, the way the President relates to journalists, the handling of presidential pardons, and various other processes and traditions) are not actually written into law, but are merely norms which previous presidents have chosen to follow. There has also been much discussion regarding his actions which "normalize" certain behaviors, such as using insulting language to make a point, and being loose with facts.
 
 Millenials have been characterized as regarding gay marriage and non-binary gender identities as much more "normal" than previous generations. Objective journalism was once considered the gold standard in reporting, but has fallen away to much more biased news. And people walking down the street, or hanging out with friends, and looking at their phones rather than each other has also become commonplace.
 
@@ -389,10 +389,28 @@ However, it is equally important to recognize the value that emotion can bring t
 
 ===2.3 Design Goals.===
 
+Each of the objectives below are reactions to the problems that we have identified in the first section of this document. We believe that each of them are realistic goals, and many of the elements in the Solution section of this document relate to these goals. The success of our effort should be measured by the clarity with which we can draw a line from each problem statement above to one or more goals below, and finally to one or more elements of our solution. But, of course, none of this matters if we do not in the end produce a working platform that actually achieves all of these goals.
+
 '''''Create the canonical debate'''''
+
+In the most mundane sense of this goal, our objective is to design and implement the software necessary to provide the functionality that we consider essential to this project. This includes supporting all the objectives listed here below. 
+
+However, as those of us who are founding members know, simply building software is the easy part, and is not enough. In order for the debate to be truly canonical, we must be sure that everyone that has information to contribute to a debate, and everyone that would like information on the debate topic, all interact with the same base of knowledge. Whether this means making the Canonical Debate a household name, or it means creating one solid backbone upon which a multitude of services interact is not important. What matters is that we succeed in finally making knowledge accumulate productively.
+
 '''''Make debates reusable'''''
+
+We consider debates, in their simplest form, to be facts that someone has proposed as being true. Once a person has learned of (or created out of whole cloth) such a fact, it is natural for them to make use of it in order to prove or disprove other claims that have been made. Reuse of "facts" already occurs naturally. What is missing is the complete context of supporting and detracting arguments that have been made regarding this supposed fact. Claims are already reusable. Our goal is to make the entire debate and the overall consensus regarding that claim part of the act of reuse.
+
 '''''Promote constructive discourse'''''
+
+The system must be designed in such a way that it discourages disparaging remarks between individuals and groups, while promoting a focus on working together to improve the common understanding regarding the topic under debate. Disagreements should be welcomed as long as they are based on reason, and as long as the participants are encouraged to be accepting of them.
+
 '''''Teach people about debates'''''
+
+A large part of the world population has never been exposed to the study of logic and argumentation. This fact alone has significant ramifications regarding the quality of democracry throughout the world. If the Canonical Debate is successful, it will be a place where people of all backgrounds will interact with controversial topics. This provides an excellent opportunity to expose people to the elements that turn a debate into a constructive activity.
+
+Many design elements have been considered for creating learning opportunities for canonical debate users. However, we believe that simply through everyday contact with well-formed arguments and the criteria by which they are judged, we should see a significant change to the understanding people have in general regarding constructive argumentation.
+
 '''''Promote the best arguments'''''
 '''''Require context'''''
 '''''Reduce sources of bias'''''
