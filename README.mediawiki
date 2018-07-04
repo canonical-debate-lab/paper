@@ -412,6 +412,13 @@ A large part of the world population has never been exposed to the study of logi
 Many design elements have been considered for creating learning opportunities for canonical debate users. However, we believe that simply through everyday contact with well-formed arguments and the criteria by which they are judged, we should see a significant change to the understanding people have in general regarding constructive argumentation.
 
 '''''Promote the best arguments'''''
+
+The integrity of debates can be undermined by any of a large number of false, weak or irrelevant arguments that distract from the most important points. Philosophers have studied for millenia the category of possible errors of logic and misconception collectively known as [https://en.wikipedia.org/wiki/List_of_fallacies (formal and informal) fallacies]. 
+
+A platform that offers access to everyone around the world is sure to see the widest variety possible of arguments for any given debate. The quality of these arguments will vary widely with respect to their quality and strength. They will also vary in terms of the motives behind the participants making those arguments. For those who disagree with the debate in principle (or because they feel threatened by the progress of the debate), an obvious tactic would be to flood the debate with poor arguments meant to distract or overwhelm any potential viewers.
+
+In order to make the platform resistent to this type of attack, and to improve usability in general, it must support one or more methods for sorting the arguments according to their strength and relevance. The most salient arguments should be seen first, easy to read and absorb at a quick glance. Weak or irrelevant arguments should only be seen by those users that would like to see a complete picture of everything that was discussed, regardless of quality.
+
 '''''Require context'''''
 '''''Reduce sources of bias'''''
 '''''Make arguments anonymous'''''
