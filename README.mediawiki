@@ -454,11 +454,33 @@ The following is a brief list of the types of bias that the platform should avoi
 There are many other biases which may or may not play a part in a debate. We leave it up to the participants of the debate themselves to point out when they believe a bias is in effect, and therefore provide counterarguments to highlight them.
 
 '''''Make arguments anonymous'''''
+
+If you consider the previous objective, it should be clear that there are several cognitive biases that occur as a result of an identification of the argument with the person that is making the argument. What is not completely covered there, but equally important, is the list of problems that come from a participant being aware that their statements and opinions may be visible by the public. We discuss this in more detail in the first section regarding the problems with other forms of debate.
+
+On a more conceptual basis, the idea of a canonical debate implies that what is being discussed at any moment is the validity of a proposed fact or claim. While it requires a person to suggest the fact for debate, it does not make sense to associate that claim with the person who originally made the proposal. For example, in a debate regarding whether or not the earth orbits the sun, it should not make a difference if the original sponsor of the debate were Galileo or a professional chef in Istambul. What matters is the proposal itself.
+
 '''''Prevent spam and fake accounts'''''
+
+Social networks and content providers on the Internet share a common problem in the battle to reduce the impact of authentic exchanges of information becoming drowned out or obfuscated by publications from fake or even automated sources. It is well known that such efforts in the past have been successful on just about every public platform to alter the focus of conversations and sway opinions by exploiting biases such as the [https://en.wikipedia.org/wiki/Bandwagon_effect Bandwagon Effect] and an [https://en.wikipedia.org/wiki/Availability_cascade Availability Cascade].
+
+In a platform as crucial as the Canonical Debate, which aims to be the definitive source of information regarding any controversy, it would be very dangerous to follow the lax policies of other platforms regarding accounts. Principally in the features related to voting and scoring popular opinion, everything possible must be done to ensure a one-vote-per-person policy.
+
+In the Solutions section below, we discuss opportunities and technologies that may be used to enforce a policy of a single account per human. This is in contrast to the posture taken by Google, Twitter, Facebook and Apple, which apply only lax security requirements for users to verify that they are not creating a second account, and which, as a consequence, suffer from influence attacks by humans and bots.
+
 '''''Be fully transparent'''''
+
+As a direct consequence of our principle of being completely trustworthy, it is clear that the debates must offer complete transparency to all users in terms of debate history (but not in terms of user information - see below). All users of the platform must have access to every change that was ever made to each debate so that they may trust that no one has manipulated the results. Furthermore, we must provide a mechanism to prove undeniably that this history was not altered in any way, so that no accusations may be directed at a debate or the platform with regards to the falsification of this history.
+
 '''''Be fully distributed'''''
-'''''Make the platform last'''''
+
+We recognize in Problems section of this document the risks associated with a debate platform that is owned and controlled by a single entity. The only solution we know to avoid these pitfalls is to therefore create one with decentralized ownership and control. Only then can we ensure that the platform may be free from accusations of bias, and that it can survive the Canonical Debate Lab and its individual members.
+
 '''''Eliminate conflicts of interest'''''
+
+Most critical of all in order to promote trustworthiness, and to prevent these goals and our principles from being violated or altered in the future, is to construct a platform that in all ways possible is free from conflicts of interest. The greatest category of risks that we have identified stems from platforms which are designed with a profit motive by the owning entity. The solution in this case is fairly clear and simple: divest the platform of any possible commercial interests, and divest it from control by any single entity which may wish to purturb these goals. 
+
+This is on a grand scale, but the elimination of conflicts of interest must be considered at every level of detail in the design. For example, the motivations of the users of the site must be considered. The platform must be designed such that a debate cannot be manipulated by individuals or groups wishing to control the outcome of a debate. The platform should encourage positive motives, such as learning and collaboration, and discourage negative ones, including personal gain (in terms of monetary value or reputation) in relation to a debate, attacks against other participants, and so on.
+
 '''''Foster an ecosystem'''''
 '''''Keep it organized'''''
 '''''Make it effortless'''''
