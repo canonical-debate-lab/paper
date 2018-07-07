@@ -481,14 +481,28 @@ Most critical of all in order to promote trustworthiness, and to prevent these g
 
 This is on a grand scale, but the elimination of conflicts of interest must be considered at every level of detail in the design. For example, the motivations of the users of the site must be considered. The platform must be designed such that a debate cannot be manipulated by individuals or groups wishing to control the outcome of a debate. The platform should encourage positive motives, such as learning and collaboration, and discourage negative ones, including personal gain (in terms of monetary value or reputation) in relation to a debate, attacks against other participants, and so on.
 
-'''''Foster an ecosystem'''''
 '''''Keep it organized'''''
+
+The platform must provide tools, both automated and for assisting people, to keep the canonical debate organized. We recognize that content moderation (or, as we prefer, curation) will be a very necessary activity. While some moderation-style activities, such as improving the text of a claim or argument, can be performed by the users and debate participants themselves, others may require a group of specialists trained to perform reorganizations quickly and correctly. Some examples include removing duplicate claims, and reorganizing arguments such that they may be grouped under a more general statement.
+
+This category is important enough that it has warranted an entire section dedicated to describing these activities, and how the platform can facilitate them.
+
 '''''Make it effortless'''''
+
+For the canonical debate to become truly canonical, it must be trivially easy for anyone to use and to navegate. This will not be an easy task, given the inherent complexity of debates. However, we understand the importance of making the platform usable, and will focus a great amount of effort on designing and testing the user experience.
+
+For the casual users, one critical objective is that anyone should be able to view a debate and grasp its most important arguments in under a minute. If they wish to delve deeper, this should be easy to do as well, but in order for the platform to serve as a universal reference, passing users must be able to get their answers right away.
+
+Even the newest users should be able to figure out on their own how to participate in a debate, whether that be voting on the arguments of others or creating a brand new one of their own. More advanced users that understand the concepts underpinning the platform should be able to provide extra context for their claims and arguments, and easily find pre-existing claims to use as arguments in a separate debate. 
+
+The platform must find the right balance between complexity and simplicity, and allow the users to choose the experience they want.
+
 '''''Promote engagement'''''
 '''''Include everyone'''''
 '''''Respect the individual'''''
 '''''Illuminate different perspectives'''''
 '''''Bring people together'''''
+'''''Foster an ecosystem'''''
 
 ==3. Solution.==
 
