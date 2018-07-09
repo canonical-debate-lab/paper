@@ -498,11 +498,34 @@ Even the newest users should be able to figure out on their own how to participa
 The platform must find the right balance between complexity and simplicity, and allow the users to choose the experience they want.
 
 '''''Promote engagement'''''
+
+Through empirical experience, after many attempts to create a solution like the canonical debate, it has become clear the necessity of finding ways to encourage more users to participate. While there are some people that may dedicate their whole lives to a specific subject, and will be more than happy to provide every piece of their knowledge in the central debate, it can be a tedious task to supply (or even read) all this information. 
+
+The platform must be designed with many different use cases in mind, from the casual reader looking for a quick primer to experts, activists, representatives of political organizations, and researchers. It must be useful for each of these stakeholders, but it must also elicit active engagement by people that might otherwise be only passive users. Debate can be a very emotional and provocative activity, and as we have stated in our principles, if this is done properly, it should be easy to motivate users to get involved.
+
 '''''Include everyone'''''
-'''''Respect the individual'''''
+
+As already mentioned several times, the Canonical Debate cannot be canonical unless it is universally accepted as the definitive place to go to learn about any debate. This means that it must be accessible, usable and provide value for everyone. It must provide features for every necessary stakeholder of the platform that can be identified.
+
+A less obvious aspect of this objective is that the platform must also not alienate any of its stakeholders. The designers of the platform must identify situations that have the potential to drive users away from the system, and find solutions to ameliorate the problem. 
+
+One specific example of this problem is how to treat users that disagree intensely with the current results of a debate. This specific situation is an opportunity to inspire those users to engage, perhaps by contributing more arguments, but is also a moment of risk in which the participant may choose to give up and take their arguments elsewhere. The platform must be designed to allow users in such situations something they can do to feel they at least have some opportunity to change minds (e.g. provide new information, vote their opinion), and to deal constructively with the notion that the majority of people disagree with them (e.g. provide tools to better understand the reasons behind the opinions of others, and permit them to see the debate from their perspective rather than from that of popular opinion).
+
 '''''Illuminate different perspectives'''''
+
+We realize that even with all the facts available, people will still come to different conclusions regarding a debate. In order to promote the best arguments, we must provide some mechanism for judging and weighting them. However, we do not believe that a single model can accurately and uncontroversially represent the prioritization for everyone. Many of these, such as the popular vote, may in fact alienate users that disagree with the results. 
+
+To solve this problem, the solution must support multiple methods for scoring and weighting arguments and claims. This support should ideally be extensible to permit new methods. It should then be possible for users to view the debate using any one of these different perspectives in order to better understand the arguments, their relation to each other, and to the user.
+
 '''''Bring people together'''''
+
+We truly believe that constructive debate is the most natural way for people to come into contact with the opinions of people that see things differently from themselves. Whereas other platforms provide tools and opportunities for their users to isolate themselves into like-minded groups, the Canonical Debate will have the opposite effect. It can even provide tools to notify users when an argument which disagrees with their opinions has been added to a debate with which the user has engaged.
+
+The Canonical Debate will also provide tools, as part of the previous objective of illuminating perspectives, for the individual to explore the opinions of people with whom they disagree. With this tool, it will be possible to explore the world view of other individuals, and come to a better understanding of their philosophy. We believe that the more practice people have with trying to understand the reasoning of others, the more they will learn to treat them with respect.
+
 '''''Foster an ecosystem'''''
+
+While the Canonical Debate must remain pure in content, motivation and incentives, we understand that there are so many ways to view and treat debates. There are already several projects that are considering using the Canonical Debate as the core data source for their unique view on user interactions, and others which may have unique ways of contributing new information to the Canonical Debate itself. The Canonical Debate must therefore provide an open API for projects to read from and contribute to the debates (with, of course, proper measures for security and protection against external attacks). The Canonical Debate must not be for profit, but we believe it can work hand-in-hand with other projects, both community and commercial project alike.
 
 ==3. Solution.==
 
