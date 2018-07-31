@@ -297,7 +297,7 @@ We hold a number of beliefs in common which give us confidence that our current 
 
 '''''The problems are structural'''''
 
-We believe that all the majority of the problems we have listed in the first section can indeed be solved by making structural changes to the internet and to the way we interact. Just as Twitter, Google and Facebook (not to mention television and other innovations in communication) have all changed the way we exchange information, there is always the opportunity for a new innovation to cause a major shift. 
+We believe that the majority of the problems we have listed in the first section can indeed be solved by making structural changes to the internet and to the way we interact. Just as Twitter, Google and Facebook (not to mention television and other innovations in communication) have all changed the way we exchange information, there is always the opportunity for a new innovation to cause a major shift. 
 
 One source of inspiration for all the members of the Canonical Debate Lab is the realization that each of us separately has come to the same conclusion that there is something missing, and our visions as to what that may be are remarkably alike. To borrow a phrase, we believe that the need for a Canonical Debate is self-evident, to the point that each of us has started creating the same invention independently and without prior communication. We are now ready to work together.
 
@@ -529,9 +529,8 @@ While the Canonical Debate must remain pure in content, motivation and incentive
 
 ==3. Solution.==
 
-Work in Progress - these are just notes taken from the Slack channel
+The solution that is evident to us is to build the missing piece to the internet, one that achieves the objectives we have laid out in this document. The problem is a structural one. But it is possible to build a fix, one that can change the way people interact. There are several examples of this. Consider how the world was before and after each of these "pieces" were added:
 
-The solution is to build the missing piece to the internet. The problem is a structural one. But it is possible to build a fix, one that can change the way people interact. There are several examples of this. Think how the world was before and after each of these pieces were added:
 * Google
 * Wikipedia
 * Text messaging
@@ -540,20 +539,21 @@ The solution is to build the missing piece to the internet. The problem is a str
 
 None of these pieces have fulfilled the “promise of the internet”, but they have radically changed the way we interact, for better or worse. What, then, is needed to fulfill that promise?
 
+We propose the creation of a ''Canonical Debate'', a central location on the Internet into which all information related to any debatable topic may accumulate. The goal will be to build a repository of proposed and disputable facts which may be used as the foundation for further suppositions and assertions. If we are successful, the platform will become an indispensable tool for the Internet, bolstering journalism, dialog, decision-making and democracy for all.
 
 ===3.1 Basic Elements.===
 
-There is a general academic consensus regarding the structure of a debate, at least as it relates to [https://en.wikipedia.org/wiki/Argumentation_theory argumentation] in the form of a dialectic. However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
+There is a general academic consensus regarding the structure of a debate, at least as it relates to [https://en.wikipedia.org/wiki/Argumentation_theory argumentation] in the form of a [https://en.wikipedia.org/wiki/Dialectic Dialectic], supported by an [https://en.wikipedia.org/wiki/Argument_map Argument Map]. However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
 
-What follows is a description of the principle elements of such a debate, and how they relate to one another.
+We propose creating what could be called a ''Canonical Debate Map'', a single reusable inter-connected graph of debates and arguments that exist independent of the context of a single conversation between a limited group of participants. What follows is a description of the principle elements of such a map, and how they relate to one another.
 
 ===3.1.1 Claim.===
 
-A Claim in Gruff is a [https://en.wikipedia.org/wiki/Proposition proposition], a statement which is intended to be taken as fact, or as the truth. In many cases (in fact, in the majority of cases), agreement on the validity of the statement is not universal. These differences of opinion form the foundation for debate, and the purpose of Gruff is to provide the tools for participants to work together to come to the best possible vision regarding the validity of a Claim.
+A Claim in the Canonical Debate is a [https://en.wikipedia.org/wiki/Proposition proposition], a statement which is intended to be taken as fact, or as the truth. In many cases (in fact, in the majority of cases), agreement on the validity of the statement is not universal. These differences of opinion form the foundation for debate, and the purpose of the Canonical Debate is to provide the tools for participants to work together to come to the best possible vision regarding the validity of a Claim.
 
 =====3.1.1.1 Examples of and Variations on Claims.=====
 
-Although deceptively simple in concept, in practice there is a lot to consider (and for Gruff to support). Gruff can work with several types of Claim:
+Although deceptively simple in concept, in practice there is a lot to consider (and for Gruff to support). The Canonical Debate can work with several types of Claim:
 
 * A proposed fact: ''The Earth is not flat.''
 * A statement of subjective opinion: '''This reporter is a moron.'''
@@ -571,15 +571,15 @@ What they all have in common is that their outcome is binary. In other words, a 
 
 One of the problems stated in the first section of this white paper is that the quality of our debates is weakened by the fractured nature of current discussions. A common fact may be discussed ad nauseum online, and yet reach no conclusion as each new participant must start from a position of ignorance. A mixture of impatience and limited memory leads to each new participant receiving an abbreviated or erroneous version of the debate, upon which they must build their opinions and pass on to the next person.
 
-In the Gruff platform, Claims are created, and their debate can result in a large number of arguments and counter arguments. Even a simple example, such as the previous "The Earth is not flat" Claim can generate [https://www.popsci.com/10-ways-you-can-prove-earth-is-round#page-2 a large quantity of proofs] and counter-proofs. But that's not the end of life for a Claim: the validity of one Claim can affect the debate over another. For example, the statement "We should sail west to reach the Indies" could hang quite critically on whether or not the Earth is a sphere. Likewise, a statement about how long the sun stays up in the summer on the North Pole would depend on this.
+In the Canonical Debate platform, Claims are created, and their debate can result in a large number of arguments and counter arguments. Even a simple example, such as the Claim "The Earth is not flat" can generate [https://www.popsci.com/10-ways-you-can-prove-earth-is-round#page-2 a large quantity of proofs] and counter-proofs. But that's not the end of life for a Claim: the validity of one Claim can affect the debate over another. For example, the statement "We should sail west to reach the Indies" could hang quite critically on whether or not the Earth is a sphere. Likewise, a statement about how long the sun stays up in the summer on the North Pole would depend on this.
 
-All too common what happens in a one-on-one debate is that we use claims that we take for granted to prove the proposition at hand, only to discover that the other party doesn't agree with our statement. It's one thing if it's a difference of opinion, but it is a problem if the other party doesn't have the same information as you regarding your claim, or has information that you don't have. In such cases, we can either ignore this problem (in which case the counterpart will probably just ignore your claim), or divert attention from the main debate at hand to go into detail rehashing a debate over this new claim.
-
-Debate platforms must also deal with this problem: What happens when a Claim that has already been fully debated is used in a totally separate debate? Many systems ignore this issue, and leave it up to the users to restate their Claims in each new debate, resulting in a repetition of the previous debate, often skipping some arguments, and perhaps adding new ones that were missed the first time around.
+The debate platform must also deal with this problem: What happens when a Claim that has already been fully debated is used in a totally separate debate? Many systems ignore this issue, and leave it up to the users to restate their Claims in each new debate, resulting in a repetition of the previous debate, often skipping some arguments, and perhaps adding new ones that were missed the first time around.
 
 We can solve this problem by making Claims ''canonical''. For each Claim, there can and must be only one place to debate its validity. When a Claim is used in a debate with another Claim, it would be a waste to make a new copy. Instead, that debate refers to the Claim (and all its discussions) in its [https://en.wikipedia.org/wiki/Canonical_form canonical] place so that none of the original debate is lost. Furthermore, should new arguments or information ever arise relating to the Claim, it can be added to the canonical debate, and its impact will ripple across all other debates that have relied on this Claim in some form.
 
 =====3.1.1.3 Attributes.=====
+
+Although not a final design, we believe that the following attributes would be helpful to define for every Claim:
 
 * Unique ID
 * Title
