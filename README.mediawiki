@@ -601,7 +601,21 @@ Multiple premises, etc.
 
 =====3.1.1.6 Changing Perspectives.=====
 
-Positive vs. Negative vs. Question
+One of our stated goals is to [[#illuminate-different-perspectives|"Illuminate different perspectives"]]. This requires tools that permit actually choosing a perspetive from which to view a debate. With regards to a Claim, this could mean a number of user-facing changes, which would require a way to capture and maintain this information.
+
+'''''Variations in Title'''''
+
+A Claim is a Dialectic, and yet it must be stated in the form of some type of affirmation. This creates a conflict, since some users may be offended by the assertion chosen by the first person that proposed the Claim. For example a debate regarding the existence of god may be stated equally as '''God exists''', or as '''God does not exist'''. While both outcomes are equally likely (at least at the outset), it would be arbitrary to allow the submitter to choose the Title for all. Furthermore, if one outcome is clearly more favored than the other (such as in the case of '''The Sun revolves around the Earth''' leaning towards a convincing NO), it would be awkward to always require viewing the debate according to the initial Title.
+
+We therefore propose supporting multiple versions of the Title for a Claim. Here are some of the variations we are considering:
+
+* '''Positive and negative assertions''' - Since each Claim has two sides, it makes sense to be able to state the Claim from either perspective. The Claim should therefore support two forms of Title: a positive statement (e.g. '''The Earth is flat''') and a negative version ('''The Earth is not flat''').
+* '''Inquisitive form''' - A more neutral approach to the Title of a Claim would be to state it as a question: '''Does God exist?'''. Again, it would be useful to support storing an inquistive version of the Claim Title for use in linking to and viewing the debate.
+* '''Variations in emotional "temperature"''' - It might be interesting to view other versions of a Claim Title according to the emotional impact that the title might contain, independent of the actual content of the debate itself. One of the main problems with a typical Argument Map, especially one that seeks to separate the arguments from the individuals making the claims, is that the resulting map can be logical to the point of alienating the common reader. Following the principle that [[#inspire-with-emotion-argue-with-reason|"We should inspire with emotion, but argue with reason"]], it might be "inspiring" to see a debate that says "Only an idiot would believe that the Earth is flat", at least at first. Certainly users would find it entertaining to play with the "tempurature level" of debates as they explore the content of the Canonical Debate.
+
+All of these potential variations imply that a single Title for the Claim might not be sufficient to cover every potential use. It would also be naive to assume that the first person to submit a Title would always choose the best way to phrase the proposition in a concise and clear manner on the first try. This implies that Titles should not only support multiple perspectives, but also support a process for proposing alternative versions of the same Title, and electing the most effective one along the same lines as the goal to [[#promote-the-best-arguments|Promote the best arguments]]. 
+
+One approach would be to allow users to submit alternative Titles for each type above, and allow users to vote on the best option. However, this is only one of several approaches currently being examined.
 
 ====3.1.2 Argument.====
 
