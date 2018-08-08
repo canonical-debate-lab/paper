@@ -537,7 +537,7 @@ The solution that is evident to us is to build the missing piece to the internet
 * Twitter
 * Facebook
 
-None of these pieces have fulfilled the “promise of the internet”, but they have radically changed the way we interact, for better or worse. What, then, is needed to fulfill that promise?
+None of these pieces have fulfilled the "promise of the internet", but they have radically changed the way we interact, for better or worse. What, then, is needed to fulfill that promise?
 
 We propose the creation of a ''Canonical Debate'', a central location on the Internet into which all information related to any debatable topic may accumulate. The goal will be to build a repository of proposed and disputable facts which may be used as the foundation for further suppositions and assertions. If we are successful, the platform will become an indispensable tool for the Internet, bolstering journalism, dialog, decision-making and democracy for all.
 
@@ -593,7 +593,13 @@ Although not a final design, we believe that the following attributes would be h
 
 =====3.1.1.4 Confidence/Belief.=====
 
-TODO: talk about the sliding scale of confidence in a Claim. Even though a Claim is a binary proposition, it doesn't mean we have to believe it completely. And since debates are done as a group, the veracity score is really a measure of the overall group's belief in the statement.
+One of the most important facets of a Claim is what we call its Truth Score. It is not always the best term for the attribute, since some Claims aren't statements of fact, but rather statements with which one may simply agree or disagree. Nevertheless, it is important to provide some kind of measure of how correct, agreeable or accurate the claim is.
+
+Although the Claim is a Dialectic, with a supposedly binary outcome, truths are never absolute, at least in the light of the human capacity to doubt and contradict just about anything. Therefore, the Truth Score is meant to be a sliding scale of confidence in the statement, from 0% to 100%, or from 0 to 1.0, or whichever scale seems appropriate for the user experience.
+
+As will be described in the [[#331-scoring|scoring section]] below, many scores and approaches are possible. There are two reasons for this. First, we must admit that no one algorithm will likely match the intuition of every human in every debate and circumstance. Scoring algorithms are only models that try to approximate through basic mathematical rules what humans may think about a debate. They will probably never be "correct" in ever circumstance. What we can hope for is that these models may illuminate specific aspects of a debate. 
+
+This leads to the second point, which is that there are many ways to view the outcome of a debate. The principle perspectives that we see a need to support are the "objective" result (models which score independent of human opinion), the "popular" result (models based on aggregate user opinions), and the "individual" result (models which focus on the opinions of a single individual). We call the latter model the set of "beliefs" of an individual. This has some interesting implications and applications in the system, as will become apparent.
 
 =====3.1.1.5 Complex Claims.=====
 
@@ -619,22 +625,26 @@ One approach would be to allow users to submit alternative Titles for each type 
 
 ====3.1.2 Argument.====
 
-When a Claim is used in a debate to prove or disprove another Claim, we call this an Argument. Arguments are generally made either in favor of a Claim or against it (although sometimes it can go either way - see below). There are a few different, but synonymous ways to describe which side of the debate an Argument supports:
+When a Claim is used in a debate to prove or disprove another Claim, we call this an Argument. This is a very important distinction from the non-canonical approach normally adopted for Argument Maps. In a standard Argument Map, arguments are their own standalone, separate entities. In the Canonical Debate, there is a unique Claim that may be used many times as an Argument in various debates. In this way, we can ensure that the accumulated knowledge (description, scores, and Arguements) related to that Claim are carried over into any debate in which the Claim is used.
+
+Arguments are generally made either in favor of a Claim or against it (although sometimes it can go either way - see below). There are a few different, but synonymous ways to describe which side of the debate an Argument supports:
 
 * Argument In Favor/Argument Against
 * Argument For/Argument Against
 * Pro Argument/Con Argument
 * Supporting Argument/Attacking Argument (or Opposing Argument)
 
-Although an Argument may be confused with the Claim it represents, it is not the same thing. It may have an identical title as the Claim on which it's based, but generally it will have a title that's more suiting or conversational for the debate (e.g. Claim: ''John Doe hates Jane Blow''; Argument: ''I hate your mother'').
+Although an Argument may be confused with the Claim it represents, it is not the same thing. It may have an identical title as the Claim on which it's based, but it may also have a title that's more suited to the debate (e.g. Claim: ''John Doe hates Jane Blow''; Argument: ''I hate your mother'').
 
 =====3.1.2.1 Relevance.=====
 
-While the veracity of the Claim is important on its own, what is important for an Argument is its relevance. That is, it's important to judge not only whether or not the Claim is true, but whether or not using it in the debate is meaningful. 
+While the veracity of the Claim is important on its own, what is important for an Argument is its relevance. That is, it's important to judge not only whether or not the Claim is true, but whether or not using it in the debate is meaningful.
 
-The most common example of an Argument that is by nature irrelevant is the well-known [https://en.wikipedia.org/wiki/Ad_hominem ad hominem fallacy], in which the arguer attacks the nature of their opponent rather than the substance of their arguments. For example, the statement You have something green stuck between your teeth may be absolutely true, but that would have no consequence in a debate against the Claim The Earth is spherical.
+The most common example of an Argument that is by nature irrelevant is the well-known [https://en.wikipedia.org/wiki/Ad_hominem ad hominem fallacy], in which the arguer attacks the nature of their opponent rather than the substance of their arguments. For example, the statement ''You have something green stuck between your teeth'' may be absolutely true, but that would have no consequence in a debate against the Claim ''The Earth is flat''.
 
-A subtle distinction could be made between the ''relevance'' of an Argument (is it related to the topic at hand?) and its ''importance'' (how much should we care?). After some reflection, it was decided that the distinction between these two characteristics is unimportant for the purpose of this platform, and so the two are grouped together into the single attribute called Relevance.
+This measurement is captured as a score in the same way that the we capture the Truth score for a Claim. So, while Claims have a Truth score, Arguments have a Relevance score.
+
+A subtle distinction could be made between the ''relevance'' of an Argument (is it related to the topic at hand?) and its ''importance'' (how much should we care?). After much discussion, it was decided that the distinction between these two characteristics is unimportant for the purpose of this platform, and so the two are grouped together into the single attribute called Relevance.
 
 =====3.1.2.2 Argument for an Argument.=====
 
