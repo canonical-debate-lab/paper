@@ -1,7 +1,7 @@
 <pre>
   DEF: 1
   Title: The Canonical Debate
-  Author: @CanonicalDebateLab.
+  Author: @canonical-debate-lab
   Comments-Summary: No comments yet.
   Status: Active
   Type: Paper
@@ -10,15 +10,15 @@
   Replaces: 0
 </pre>
 
-=The Canonical Debate.=
+=The Canonical Debate=
 
 A proposal to fix the current state of online discourse through the promotion of fact-based reasoning, and the accumulation of human knowledge, brought to you by the Canonical Debate Lab, a community project of the [http://democracy.earth Democracy Earth Foundation].
 
-==i. Abstract.==
+==i. Abstract==
 
 Thomas Jefferson once said, "The cornerstone of democracy rests on the foundation of an educated electorate." We are living in the Internet Era, where information should be more available and abundant than ever, and yet it has also been said that we are now living in an era of "Post-Truth." We at The Canonical Debate Lab believe it is time to take the power away from the hands of elected representatives, and place it finally where it belongs, in the hands of the public. However, in order for this to be successful, we must ensure that the citizens of the world have all the information they need to make the right choices for themselves, and to make sure that this information has been validated to the maximum extent possible. Although some may say that the Internet is "broken", we believe that the problem is a structural one, and thus one that can be fixed. In this white paper, we define what we believe to be the missing piece to the Internet: a canonical debate, a place online where individuals with different opinions can come together, rather than apart, to debate and discuss openly and constructively the issues that face them, to propose solutions for these problems, analyze the trade offs and choose the one that best suits their needs. This tool reverses many of the natural incentives of other social networks that have led to information bubbles, clickbait headlines, sensationalist journalism, and "fake news." We believe that with this tool, we can finally fulfill the promise that was given with the rise of the Internet.
 
-==ii. Contents.==
+==ii. Contents==
 
 This document describes our vision for online debates and decision making in several parts, first from a conceptual and philosophical level, followed by a detailed description of our proposed solution for this vision:
 
@@ -34,7 +34,7 @@ This document is hosted as a living document of the group's high-level vision. I
 
 <div id="Problems"></div>
 
-==1. Problems.==
+==1. Problems==
 
 Those of us that are old enough may remember a time when there was the optimistic belief that the Internet would bring about an era of enlightenment, peace and unprecedented productivity. The technological and logistic advances that came with this new era permit access to information in a capacity never before experienced by humans, and modes of instantaneous and asynchronous communication between people that were science fiction only decades before. These structural changes were supposed to eradicate the problem of human ignorance, and bring people around the world together in h higher levels of mutual understanding and cooperation.
 
@@ -42,23 +42,23 @@ So, what happened? More than 20 years after the dawn of the World Wide Web, The 
 
 The state of debate and collective deliberation, both online and off, appears to have taken a major step backwards since the dawn of the Internet. We of the Canonical Debate Lab believe, however, that all is not lost. We believe that the problem is structural in nature, and therefore can be solved with a structural fix.
 
-===1.1 The Problem With Debate Online.===
+===1.1 The Problem With Debate Online===
 
 The state of debate as it occurs via the available suite of "online" tools is particularly disappointing. None of the technologies in use today (with the exception of email and a few others) were available twenty years ago, and yet with this incredible growth in capability, we have failed to address fundamental issues with deliberation, and created many new ones.
 
-'''''Debates are scattered'''''
+====1.1.1 Debates are scattered====
 
 As in the pre-Internet era, there is no one place to look for information regarding a single topic of debate. It requires more work than the average person is willing to do to collect all the relevant information. Given the overhead involved in a task as small as verifying the facts behind even a single news article, no single person can ever hope to gain a complete understanding of our most complex and important issues.
 
-'''''Arguments are made in silos'''''
+====1.1.2 Arguments are made in silos====
 
 Rather than responding point by point to each argument, online debate is generally executed in long form, where a single person or group offers a complete set of opinions on a single, or possibly multiple subjects. This format makes it nearly impossible for one side to completely address the points of the other side, and gives leeway to gloss over them with only a superficial treatment, or even ignore them completely. As such, it is difficult to every fully resolve the case regarding even a single fact. It also enables many fallacies, such as the [https://en.wikipedia.org/wiki/Straw_man Strawman Fallacy] and [https://en.wikipedia.org/wiki/Cherry_picking Cherry Picking].
 
-'''''Effort is wasted in repetition'''''
+====1.1.3 Effort is wasted in repetition====
 
 Because debates are held in multiple places, with multiple overlapping, incomplete sets of of information at varying levels of specificity, accuracy and truth, most of effort in debate is wasted in repetition. There is currently no efficient way to "onboard" newcomers to the debate with the accumulated set of information that has been discussed. More knowledgeable participants must inevitably answer the same questions multiple times, and rebut arguments that have been made to them before, with no way to resolve a question [https://theflatearthsociety.org/home/ once and for all].
 
-'''''Models promote polarization'''''
+====1.1.4 Models promote polarization====
 
 Trends in the polarization of political opinion have been traced back in large degree to current models of online discussion and information sources, which increase engagement by way of learning user preferences, and giving them more of the same. The result is what's known as information bubbles, or echo chambers, in which people rarely come into contact with information or opinions contrary to the user's own. 
 
@@ -71,7 +71,7 @@ Recent studies have shown how such one-sided interactions lead to increasing rad
 * Ad-driven business models find success in giving users more of what they want, rather than showing them something that will upset them.
 * Superficial, entertaining, and sensationalist reporting generally gets more attention (and gives better financial returns) than balanced, information-rich text.
 
-'''''Trolling is rewarded'''''
+====1.1.5 Trolling is rewarded=====
 
 Many Internet destinations which encourage interaction with the public do so in a format that favors "trolling" or "flame bait": flippant remarks designed to insult or enrage readers, or to get a cheap laugh, without substantially advancing the conversation. Comments sections in news and video sites, as well as most unmoderated forums, are notorious for this problem, resulting in a perverse circus-like competition of comments which often cross the line to hate speech. Many news sites have chosen to turn off public comments entirely, and it is a common joke that "the comments section may be hazardous to your health."
 
@@ -79,7 +79,7 @@ Microblog formats, like Twitter, do better in some respects, but suffer from sim
 
 Research into the psychology of online trolling has found that there is a notably sadistic tendency to those which exhibit this behavior. Their intention is specifically to cause some form of emotional harm to their readers, who have no reasonable recourse other than try to ignore such comments. A direct response only worsens the situation, giving more opportunity for the troll to insult or enrage the reader. It is unfortunate, then, that most sites do not have enough resources nor the proper structure to moderate open conversation. Trolls are thus given a much louder voice than those with more moderate tendencies, leading to the misperception that the majority of people in the world have [https://www.facebook.com/Million-Moderate-March-161343150543101/ extreme and insulting opinions]. 
 
-'''''Debate is tied to reputation'''''
+====1.1.6 Debate is tied to reputation====
 
 When a controversial issue is discussed online in an official capacity, rather than anonymously or pseudonymously, it means the arguments being made are tied to a person or entity with a reputation to establish and maintain. This creates a bias in the arguments that can be made. In order to expand human knowledge and make the best decisions, it is necessary to confront all possibilities, no matter how controversial they may at first seem. Unfortunately, public entities reasonably fear making unpopular arguments, or alienating their supporters or readers. 
 
@@ -87,7 +87,7 @@ Exploratory arguments are especially dangerous, in that they may be misunderstoo
 
 While this may appear to be an insignificant issue, there is an exaggerated danger online of reputational damage that can be very difficult to undo. Many people have [https://www.nytimes.com/2015/02/21/your-money/speaking-about-politics-can-cost-you-your-job.html lost their job] expressing an unpopular opinion online. The cartoonist Scott Adams was labeled a misogynist (correctly or not) for posting thought experiments on his blog, prompting him to preface many of his subsequent posts with a [http://blog.dilbert.com/2011/11/09/cains-inexplicably-high-polling/ disclaimer]. More recently, the author and podcaster Sam Harris dared to discuss with an open mind the controversial research of Charles Murray and found himself placed on [https://twitter.com/SamHarrisOrg/status/987378512813219840 a list of racist leaders]. There is a very real risk in tackling controversy online, with very little chance of recovering from reputational damage.
 
-'''''Experts are drowned out'''''
+====1.1.7 Experts are drowned out====
 
 One of the great achievements of the internet is the extent to which it has enabled just about anyone to join in on the global conversation, to publish writings and opinions with little to no cost and effort. The internet can be compared to the revolution created by the Gutenberg printing press in terms of its impacts on communications and society. 
 
@@ -97,15 +97,15 @@ Especially in the case of real-time news, it is much easier to get a sense of ge
 
 Real information is commonly buried in academic papers, and primary sources are hard to find. The format and language used by experts is generally too dense and erudite to be useful to the average person.
 
-'''''Debates can be "hacked"'''''
+====1.1.8 Debates can be "hacked"====
 
 As difficult as it may be with the cacophony of superficial opinions to find a vein of expert and verified information, the problem can easily be exacerbated by those who do not want the truth to be known. Through use of bots, fake accounts and other guerrilla marketing techniques the online debate can be swayed by a false sense of popularity for otherwise unfounded positions.
 
 Such were the findings of the U.S. House Intelligence Committee, which found that a Russian agency was created specifically to sew distrust and division in the U.S. via [https://www.usnews.com/news/politics/articles/2018-05-10/lawmakers-release-thousands-of-russian-facebook-ads online ads]. Networks of fake accounts were also used to promote falsified information that would also increase the internal strife. While politicians may label "fake news" as [http://nymag.com/daily/intelligencer/2018/05/trump-admits-he-calls-all-negative-news-fake.html anything with which they do not agree], there is a real threat of sophisticated attacks on our online information systems which are intended to promote false versions of the truth.
 
-===1.2 The Problem With Debate Offline.===
+===1.2 The Problem With Debate Offline===
 
-'''''Not enough time'''''
+====1.2.1 Not enough time====
 
 When a topic is important enough to debate with another person, there are usually multiple arguments on either side that must be considered. Each argument must be based on one or more facts that to their own merit may require justification, and so on. In-person debates, whether between an informal group of people, or formally presented and moderated in front of an audience, are too short to cover all the relevant points, to the final level of detail. 
 
@@ -121,115 +121,115 @@ While this is a very interesting and civilized form of discussion, the limited t
 
 This limitation exists in formal debate, but holds for informal discussion as well. In order to not distract from the "main point", we have to pick and choose which points are worth discussing at any given moment.
 
-'''''Not enough memory'''''
+====1.2.2 Not enough memory====
 
 Humans cannot possibly hold in their minds a complete picture of all the information related to a specific debate. Even experts on a subject would be expected to have to refer to documents, studies and other primary sources of information in order to hold a comprehensive discussion on a topic of debate. When a debate is held in real time, to compensate, points must often be made on the basis of “feelings”. At best, an aggregated opinion based on previous in-depth studies can be expressed, but it must be taken on faith by the other parties, or disregarded entirely. This is yet one more reason why the act of passing on important information from one person to the next can only be partially successful.
 
-'''''It's usually about "winning"'''''
+====1.2.3 It's usually about "winning"====
 
 If discussion were always a cooperative activity in which parties joined forces (memory and intellect) to come to the best conclusion, then it is possible that humankind would be able to overcome the limitations cited above. Unfortunately, debates are often adversarial in nature, and too often focus on which side can “win” the debate, either by making the best show of things to an external audience, or by convincing their "opponents" that they are in the right (or at least overwhelming them with better arguments). Under such conditions, truth is only a secondary concern, and it can be tempting to employ logical fallacies in the name of making a point.
 
 Unfortunately, as common as this posture is, truth may not be the only casualty here. The adversarial approach belies a lack of empathy for other participants, and can lead to alienation between those of differing opinions, driving a wedge between those that would otherwise benefit from cooperation.
 
-'''''Preparation matters'''''
+====1.2.4 Preparation matters====
 
 Under ideal circumstances, a debate would have the best representation possible from all perspectives. Unfortunately, in addition to the limitations cited above of time and human memory, there is the problem of unevenness of knowledge and experience between individuals. A debate may be won or lost based on which side has studied the subject in more depth, and is more prepared to relate and defend their arguments. No real-time debate can be said to present a complete picture, and witnesses and participants can therefore be swayed by whichever side is better prepared to represent their half.
 
-'''''Eloquence matters'''''
+====1.2.5 Eloquence matters====
 
 One final variable in the result of a debate that is immaterial to the actual substance of the subject is the way in which the arguments are made. Unfortunately, the "winner" of a debate may be decided by who is the better speaker, rather than by which side has the strongest case. 
 
-===1.3 The Problem with Politics.===
+===1.3 The Problem with Politics===
 
 Politics, or governance in general, is one area in which the results of a debate can have an enormous impact on the lives of the people involved. Unfortunately, political debates as they stand today, with the most vocal participants being delegates or representatives who have their own careers and agendas at stake, suffer their own set of acute deficiencies.
 
-'''''Risk aversion'''''
+====1.3.1 Risk aversion====
 
 Politics is a strange form of popularity contest, in which careers are based and world-changing decisions made on the basis of getting the most votes (for a person, not an issue). This means that bold or risky opinions are discouraged, as are blue-sky brainstorms and general speculation. As a result, there is a bias in the process towards more tepid and conservative proposals, even though this often leads to sub-par outcomes.
 
-'''''Uncertainty is not allowed'''''
+====1.3.2 Uncertainty is not allowed====
 
 Politicians are discouraged from showing uncertainty. This reduces the level of honesty in the discussion, and closes the door on external discourse.
 
-'''''Changing opinions is a sign of weakness'''''
+====1.3.3 Changing opinions is a sign of weakness====
 
 It is considered a lack of leadership, intelligence and/or backbone to change one’s opinion in public as a politician. This almost completely eliminates the purpose of constructive discourse, which is to arrive at a consensus cooperatively through the exchange of arguments and evidence.
 
-'''''Ambiguity is rewarded'''''
+====1.3.4 Ambiguity is rewarded====
 
 In order to appeal to a larger group, and to avoid risking the accusation of being a “waffler”, statements from politicians tend to be as abstract, unspecific and non-committal as possible, while still trying to strike an emotional chord. This kind of discourse avoids the difficult questions rather than facing them head-on.
 
-'''''The problems are too complex'''''
+====1.3. The problems are too complex====
 
 In fact, many of the policy issues that will be affected by the outcome of political debates and public votes are much too complex for any single individual to master. It would be absurd to expect an entire population to grasp these issues in the depth required. This is known as the problem of [https://en.wikipedia.org/wiki/Rational_ignorance Rational Ignorance]: if it takes more effort than is worth it to understand something well enough (to vote on it), people won’t do it. Thus, political discussions tend to resort to metaphors and proxy issues (such as the issue of gay marriage) as a substitute for meatier topics.
 
-'''''Horse trading'''''
+====1.3.5 Horse trading====
 
 There is a problem with the way legislation is designed and proposed. It is designed based on what the authors THINK will be passable, then goes through a round of horse-trading, in which items get slipped into the bill totally unrelated to the purpose of the legislation in order to “buy” the votes of specific representatives. In the end, decisions are made at least partially not on whether or not it is a good idea, but rather, that it is a “passable” idea.
 
-'''''Gaming the system'''''
+====1.3.6 Gaming the system====
 
 An important part of politics is also figuring out the best way to get legislation passed by avoiding proper due dilligence and the need to build consensus. Decisions may be rushed: either presented and rushed to vote before all the delegates have had a chance to read it, or rushed so that there can be a vote before the session ends, before vacation, or before dynamics change (elections).
 
 Then there are also the “at least we tried” bills: legislation proposed insincerely as a form of showing constituents that an attempt was made, without really reaching across the table to find some sort of middle ground.
 
-'''''Focus on the wrong things'''''
+====1.3.7 Focus on the wrong things====
 
 Politics very often focuses on the character of the candidate, rather than on the issues they support. While to some degree this is justified in that the character of a representative matters to the extent that voters much trust in them to make the right decisions over their term, it would be difficult to argue that voters have enough information to really predict how their representative will think and behave. Furthermore, discussions about their "character" often focus on less relevant issues, such as their romantic involvements, the way they shake hands, or the way they screamed on camera in an unfortunate moment.
 
 Also, legislation is often dressed up in such a way to be easy to publicize and gain acceptance, while hiding the details of its impact. Legislation is intentionally named with [https://en.wikipedia.org/wiki/Backronym bacronyms] that purport to represent its purpose, such as the [https://en.wikipedia.org/wiki/Patriot_Act USA PATRIOT Act] and the [https://en.wikipedia.org/wiki/Jumpstart_Our_Business_Startups_Act JOBS Act], in the hopes that voters will read no further. Also, legislation will be given nicknames meant to deride its purpose in order to [https://www.nytimes.com/2017/02/07/upshot/one-third-dont-know-obamacare-and-affordable-care-act-are-the-same.html create voter bias].
 
-'''''The real debate is hidden'''''
+====1.3.8 The real debate is hidden====
 
 Much of what really happens in the process of policy decisions happens behind closed doors, off the public record. Whether it’s in conversations with lobbyists, political whips, large donors, personal family influence, conversations with a pastor, or something else, much of what goes into making up the mind of a representative happens out of sight, through personal contact. Once a decision has been made, a conscious effort is made to find a way to frame it to the public in such a way that it can be "justified". While this is actually a natural part of the process (imagine if you were a representative - wouldn’t you want feedback from family and friends?), as a side effect, it actually disempowers the remainder of a representative’s constituents.
 
-'''''Lack of local information'''''
+====1.3.9 Lack of local information====
 
 Especially for local elections and referendums, which should be more familiar with voters, there is ironically a severe lack of relevant information. This is unfortunate, as the more local an issue is, the more likely it is to impact voters. Unfortunately, there is no consistent resource for local voter information the way there is for national issues.
 
-===1.4 The Human Condition.===
+===1.4 The Human Condition===
 
 There are many problems with our attempts at collaboration that could be more effective were it not for certain characteristics of the people participating in these activities. These problems may be difficult to solve directly with technology, but can certainly be improved through proper education, and some guidance from the tools used in collaboration.
 
-'''''People don't know how to argue'''''
+====1.4.1 People don't know how to argue====
 
 A large percentage of the world population does not know what makes for a reasonable argument. While logic and rhetoric are taught in many schools, it seems that it is not very common to employ these skills in practice. Both online and offline, it appears that discussions are rife with logical fallacies, and it is more common to see arguments of an adversarial rather than a constructive nature.
 
-'''''People assume the worst'''''
+====1.4.2 People assume the worst====
 
 In online discussions, even among friends, it seems that very simple statements can be read with the worst possible interpretation. This is in part due to tribalism, but it seems to have become a social norm to assume bad intentions (or stupidity), rather than an honest difference of opinion, as the source of disagreement. The problem is exacerbated when brief written statements are the medium, since there is no room for nuance, caveats, or detailed context. In order to make a point, it may be necessary to resort to extreme examples, without room to explain that the author understands they are exaggerating. Responses are often equally extreme. This phenomenon has even given rise to the infamous [https://en.wikipedia.org/wiki/Godwin%27s_law Godwin's Law], which is basically an attempt to make people recognize when the discussion has veered too far from good sense.
 
 This problem could be solved if everyone were to adopt the [https://en.wikipedia.org/wiki/Principle_of_charity Principle of Charity]. Unfortunately, it would be hoping too much to expect this to happen any time soon.
 
-'''''People are lazy'''''
+====1.4.3 People are lazy====
 
 Humans are generally too lazy to do the research necessary to verify if any supposed fact they read online is actually true. Although there are several reliable fact-checking services available, very few people go to the effort of consulting them. Meanwhile, there is a natural human bias towards believing information that supports a pre-existing opinion, and doubting one that debunks it. This leads to certain lies spreading very quickly online.
 
-'''''Cognitive Biases'''''
+====1.4.4 Cognitive Biases====
 
 Lastly, there is a long (and growing) and well-documented list of errors or irrationality in human thinking, collectively known as [https://en.wikipedia.org/wiki/List_of_cognitive_biases cognitive biases]. These are perhaps the most subtle and most difficult issues to rectify in the course of deliberation. However, as they are studied, and people learn more about them, our chances of succeeding improve.
 
-===1.5 Current State of the Art.===
+===1.5 Current State of the Art===
 
 There have been in the past, and are at present, many attempts to resolve the problems with debate listed above to one degree or another. Since concern has grown following the 2016 election cycle for the United States regarding the problem of "fake news", many solutions have been created to focus on countering the trend and to restore trust in journalism. Fact-checking sites have become an integral part of the online discussion, existing platforms such as Facebook and Google are rethinking their model for recommending content. Also, projects and businesses have been created with the aim of providing additional context to discussions via various means. In the area of argument mapping, there have been many efforts to create a rich and complete picture of important debates, some by way of careful curation by an internal team, while others permit external users to supply the arguments.
 
 None of the approaches we have seen so far have been able to provide a complete solution for the problems we have listed above. In this section we outline many of the characteristics we believe are required, but are generally missing from the solutions we have seen.
 
-'''''Centralization of control'''''
+====1.5.1 Centralization of control====
 
 If the debate is "owned" by a single entity (in terms of who can edit the data), without complete and trustworthy transparency and history, the solution is subject to accusations of favoritism. As noble as the mission may be, it is always possible to cast aspersions on the organization that holds the keys to its operation. We have seen this in the case of [https://en.wikipedia.org/wiki/WikiLeaks WikiLeaks], which has been accused of international partisanship. We are also beginning to see this occur with [https://www.forbes.com/sites/kalevleetaru/2016/12/22/the-daily-mail-snopes-story-and-fact-checking-the-fact-checkers/#49d400b1227f fact-checking sites].
 
 If any entity has the power to edit the history of a debate, prevent access to certain parties, or change votes, it doesn't matter how honest the organization actually is. It will be possible for anyone that disagrees with the results to cast doubts upon the reliability of the platform, and provide an excuse for their followers to ignore the information. It also provides fertile ground for such parties to create their own competing platforms, and thus end this attempt at canonicality.
 
-'''''Centralization of data'''''
+====1.5.2 Centralization of data====
 
 Even if the platform is completely transparent and verifiable, if the content of the debate is owned by a single party, there is a risk that the debate will one day disappear if that entity ceases to exist. This undermines the perceived value in participation in a number of ways: The more permanent a contribution seems, the more incentive one has to go through the effort. Also, no matter how trusted the custodian of the information may be during its time of operation, there is a risk that a change of management, or a case of desperate insolvency may lead to a corruption of the original intents.
 
-'''''Conflicts of interest'''''
+====1.5.3 Conflicts of interest====
 
 The problem that faces the majority of communication platforms online at present is the inherent conflict of interest between the platform host, which generally has a commercial for-profit purpose, and its users. This is the crisis currently facing Facebook and other platforms at the moment, which generate revenue by selling user data for advertising and other purposes. These platforms are already extremely powerful due to the [https://www.ft.com/content/3dfa397c-9a73-11e4-8426-00144feabdc0 number of "signals"] users are providing them, based on simple upvotes. A platform that deals in complex debate topics has an incredible opportunity to understand the thinking, beliefs and opinions of its users on just about any subject that motivates them enough to participate. There is an incredible danger for this platform to be abused by its host unless all care is taken to ensure the good of the platform is completely aligned with the good of its users.
 
-'''''Fake accounts'''''
+====1.5.4 Fake accounts====
 
 Most implementations do not provide adequate protection against [https://github.com/DemocracyEarth/paper#263_Sybil_Attack "Sybil" accounts] (fake accounts). Any solution that includes voting (upvotes, scoring, etc.) is subject to "attacks" by networks by fake accounts attempting to sway the outcome of the debate. This has been a major enabler of propaganda campaigns, for such mundane purposes as [https://devumi.com/twitter-followers/ increasing the reputation] of public figures and thought leaders to actual [https://www.recode.net/2018/2/16/17021048/robert-mueller-russia-facebook-social-media-donald-trump-presidential-campaign-2016-hillary-clinton attempts by foreign governments] to sway elections.
 
@@ -237,71 +237,71 @@ In order to make it easy for new users to sign up, most platforms opt for very l
 
 When governance is a concern, and a one-vote-per-person strategy is the standard, this guarantee is necessary. Likewise, in the case of the canonical debate, where trust is an essential component, and where the goal is to attempt to honestly portray our collective knowledge and opinions, it is critical to fight for allowing only one vote per human.
 
-'''''Not reusable'''''
+====1.5.5 Not reusable====
 
 Traditional argument mapping focuses on the debate around the validity of a single statement. This is decided by way of a tree structure of supporting and attacking arguments, each of which themselves may be attacked or defended. The result, in a complete mapping, is a judgement that can be made regarding that single statement. No consideration is given regarding how that result could be used in future debates, nor in how the effectiveness of one of the underlying arguments could be reused in a new context (debate).
 
 Most solutions seen so far follow this pattern. They do not treat the debates as canonical. That is, they treat each debate as a major topic to be discussed on its own, a separate, isolated entity, whose result cannot be used in future debates. Rather than creating a repository of proposed and vetted facts, the debates stand alone as isolated topics of discussion. This prevents knowledge from accumulating to the degree we believe necessary if we are to find any hope of a trajectory towards a better future.
 
-'''''Not popular'''''
+====1.5.6 Not popular====
 
 There is a certain circularity behind the reasoning in this problem, and in fact it is difficult, if not impossible, to design a solution that can resolve this issue with any guarantee. Unfortunately, by definition, the canonical debate must be so well-known as to be the main, if not the only place to consult and participate in this type of debate. 
 
 No solution so far has managed to become THE place for debate. Until one succeeds in this respect, our knowledge will remain fragmented, with continued loss in efficiency, and no guarantee of providing a complete vision on complex and confusing topics. Our proposal for a canonical debate can offer strategies for accomplishing this goal, but there is no way of ensuring we will succeed.
 
-'''''Insufficient curation'''''
+====1.5.7 Insufficient curation====
 
 In order for a canonical debate to remain canonical, in the sense of singular and unique, it is necessary to ensure that there is no duplication of information or arguments. There are a number of other challenges as well related to keeping the debates organized, readable and sensible that, at least for now, require expert human attention to maintain. Unfortuantely, most current implementations lack the tools necessary to keep the debate organized, clean and productive.
 
-'''''Bad user experience'''''
+====1.5.8 Bad user experience====
 
 Debate is a VERY complex activity. It needs to be trivially easy to read and to use. Unfortunately, argument maps in general tend to be extremely boring for the average user to read and navigate, which defeats the purpose of educating the public. Furthermore, it can be rather cumbersome to understand the structure of a debate and provide a valuable contribution [https://www.lesswrong.com/posts/dJJYgmaYYFmHoQM4L/debate-tools-an-experience-report without exerting more effort] than what more than the most dedicated (or fanatical) users may be willing to provide.
 
 In preliminary experiments with various projects created by our founding members, we have seen first-hand the difficulty in capturing the complexity of debates while at the same time creating an environment that doesn't discourage use. We applaud the site [https://www.kialo.com/ Kialo] for making great strides in terms of usability and innovation in terms of the visualization of argument maps. However, the site lacks many of the other characteristics listed here, and we believe that there is both more improvements that should be made, and more complexity that must be incorporated into a canonical solution.
 
-'''''Boring'''''
+====1.5.9 Boring====
 
 Overlapping with, but distinct from the problem of the user experience, it is apparent that deconstructed debates, removed from individuals, and avoiding incendiary speech can unfortunately be very dry. This makes the platform difficult to achieve mass adoption, and therefore canonicality. A successful solution must find a way to engage human emotion in the process, while at the same time maintaining its integrity.
 
-'''''No context'''''
+====1.5.10 No context====
 
 None of the solutions we have seen to date have taken "context" to be a critical element of any claims or arguments. Context is not used at all as an element of the debate, and can only colloquially be said to be "relating to the debate at hand". Unfortunately, the result tends to be that claims and arguments are made at a somewhat generic level, or are given as examples that are so concrete that they can only be considered anectdotal evidence at best.
 
 This lack of context impedes the reusability of claim. It can result in them being used incorrectly, as statements may be given multiple interpretations, or used in a more generic or specific situation than they were originally intended. It can also cause confusion in the debate itself if the participants use different interpretations of the claim being made.
 
-'''''No concept of generic vs. specific'''''
+====1.5.11 No concept of generic vs. specific====
 
 It is very common to begin a debate with a very broad statement, such as "Illicite drugs should be legalized." When such a broad topic is debated in earnest, you will find that the discussion can range from one spectrum of the debate (e.g. all drugs vs. a specific illegal substance, such as heroine) to another (in which geographical locations, and under which conditions).
 
 It should become evident after some contact with generic debates that they are unresolvable without considering the issues within a specific context. The ideal outcome of such a discussion is not to find a definitive answer, but rather to uncover the criteria and conditions under which the claim would be true, and those in which it would be false. Unfortunately, solutions that we have analyzed so far do not provide any explicit support for navigating such a "debate space", and carrying conditional arguments or heuristics from one level of granularity to another.
 
-'''''Inadequate scoring'''''
+====1.5.12 Inadequate scoring====
 
 Scoring of claims and arguments is an important feature of this type of platform, as we will describe in more detail in later sections. Scoring can serve as a mechanism for sorting arguments in order to highlight those that are the most relevant and have the greatest impact on the issue at hand, while clearing irrelevant or "spammy" arguments out of the way. Scoring can also be a tool for understanding oneself and other people, when handled properly. However, no single scoring model could be considered impartial and accurate for all purposes. An ideal solution should provide more than one way to score and view a debate. 
 
 The systems we have analyzed up to now, with the exception of some [http://www.arg-tech.org/index.php/projects/ computational frameworks] by the people at [http://www.arg-tech.org/ ARG-tech], have taken only a cursory or superficial approach to scoring. Generally only one method of scoring is supported.
 
-'''''Limited tools for learning and contemplation'''''
+====1.5.13 Limited tools for learning and contemplation====
 
 Debates are commonly treated as a group activity, in which the final, total outcome is what matters. However, we believe that it is at least as important to encourage each participant to actively engage and reflect on the content, regardless of the final outcome. While tools will allow a user to dive into each argument if they so desire, there is little additional support provided for learning and contemplation. We believe that, when given the proper tools and support, a place of debate can educate users on how to hold constructive debates, can be used to help participants understand their own views, and better understand the perspective of others involved in the debate.
 
 <div id="Principles"></div>
 
-==2. Principles.==
+==2. Principles==
 
 We have seen many good attempts at resolving the problems listed above, and there are many promising projects under development right now. However, many of these solutions are incomplete or may fall into certain pitfalls that we have seen in the past. In order to ensure that the canonical debate solution does not make the same missteps, we have established the following fundamental principles that should guide all design decisions, organizational activities and even outreach and marketing campaigns. Ours is an open and community-based project, and in lieu of a single central figure to give the orders, we use these principles, shared beliefs and common goals as our guiding light.
 
-===2.1 Beliefs.===
+===2.1 Beliefs===
 
 We hold a number of beliefs in common which give us confidence that our current problems in deliberation can indeed be solved. We call them "beliefs" in the same vein as the term will be used further on in this paper: that is, these are claims that we make which have yet to be proved or disproved. We choose to accept these claims as fact until proven otherwise, and use this as inspiration to go forth with this effort.
 
-'''''The problems are structural'''''
+====2.1.1 The problems are structural====
 
 We believe that the majority of the problems we have listed in the first section can indeed be solved by making structural changes to the internet and to the way we interact. Just as Twitter, Google and Facebook (not to mention television and other innovations in communication) have all changed the way we exchange information, there is always the opportunity for a new innovation to cause a major shift. 
 
 One source of inspiration for all the members of the Canonical Debate Lab is the realization that each of us separately has come to the same conclusion that there is something missing, and our visions as to what that may be are remarkably alike. To borrow a phrase, we believe that the need for a Canonical Debate is self-evident, to the point that each of us has started creating the same invention independently and without prior communication. We are now ready to work together.
 
-'''''Debating can bring people together'''''
+====2.1.2 Debating can bring people together====
 
 Many of the problems we have discussed reflect upon the way in which people are becoming increasingly isolated into separate groups, each of which shares a common world view, in opposition to other groups. Social networks and biased television news channels increase this isolation. The number of opportunities for people of differing opinions to exchange information across these self-created borders is diminishing.
 
@@ -309,7 +309,7 @@ However, debate is one human activity that by its own nature brings people of di
 
 If the nature of debate can be changed, and if more people can be involved in debate, we believe this is a rare opportunity to reverse the trends of isolation.
 
-'''''Social norms can be changed'''''
+====2.1.3 Social norms can be changed====
 
 There has been a lot of focus of late on the importance of "social norms". Donald Trump, acting as an unconventional President of the United States, has brought about the realization that many of the institutions that U.S. citizens have taken for granted (such as full divestment from one's business interests, the way the President relates to journalists, the handling of presidential pardons, and various other processes and traditions) are not actually written into law, but are merely norms which previous presidents have chosen to follow. There has also been much discussion regarding his actions which "normalize" certain behaviors, such as using insulting language to make a point, and being loose with facts.
 
@@ -317,7 +317,7 @@ Millenials have been characterized as regarding gay marriage and non-binary gend
 
 The point is that what is considered normal and acceptable has changed over time, and will continue to change. We believe that while trolling and insulting people with whom one disagrees is currently a norm, this may be changed with a slant towards constructive discussion and respect for other beliefs. Social norms are very difficult to change intentionally, and are best led by example and repetition. We believe that the canonical debate platform provides ample opportunity to demonstrate what constructive debate can be, and can provide tools that discourage negative attacks online. We hope that over time, as people get accustomed with the debate, it will affect social norms in a positive manner.
 
-'''''True disagreements are about beliefs, values and priorities'''''
+====2.1.4 True disagreements are about beliefs, values and priorities====
 
 Many of our arguments on and offline can be boiled down to misunderstandings, misjudgements, an unwillingness to consider the opinions of others, or simple lack of information (and thus arguments based on assumptions). One of the main goals of the Canonical Debate is to ensure that everyone can have the proper information at their fingertips, organized and clearly stated in order to remove any ambiguity.
 
@@ -325,7 +325,7 @@ This leads to an interesting question: if we are able to assemble all human know
 
 While we hope that the Canonical Debate can resolve the petty disputes described above, we believe that there are true disagreements that cannot be solved simply by assembling all the facts together in one place. The most important discussions are those that pit one value against another. Nearly all decisions in politics, and all the important decisions in a person's life involve making trade offs and picking priorities. These are the most important discussions that can be had between people. We believe that the Canonical Debate can clear the fog of petty discussions and allow people to focus on those that really matter.
 
-'''''We can get closer to the truth'''''
+====2.1.5 We can get closer to the truth====
 
 Donald Trump has admitted that what he considers "fake news" is simply [https://www.vox.com/policy-and-politics/2018/5/9/17335306/trump-tweet-twitter-latest-fake-news-credentials anything he doesn't like]. His Counselor Kellyanne Conway coined the dubious phrase [https://en.wikipedia.org/wiki/Alternative_facts "alternative facts"]. Over time we have seen that even what appear to be scientific facts will continue to be doubted and debated by those that choose to believe the contrary, no matter how strong the evidence.
 
@@ -333,11 +333,11 @@ We believe that this is a natural state of human existence. To some degree, it i
 
 However, despite recent efforts to make people even doubt the existence of truth, we do believe that such tactics can be overcome by a tool such as the Canonical Debate. A platform which encourages collaboration and in which, by definition, each contribution is constructive, can only help us to get closer to seeing the truth behind each statement. While not every statement or fact can be proved, the fact that each one is itself debatable brings us closer one step at a time.
 
-===2.2 Guiding Principles.===
+===2.2 Guiding Principles===
 
 We present here a list of fundamental principles that we believe are necessary to consider in any decision made on behalf of this project. 
 
-'''''Knowledge should accumulate'''''
+====2.2.1 Knowledge should accumulate====
 
 As has been discussed, the human species so far has been extremely inefficient in terms of our ability to accumulate knowledge. For millenia, the only option available was through the spoken word and collective memory of people. Tools have evolved for improving this process, beginning with painting and other works of art and symbolism, then moving on to the written word in various formats, and so on. Tools of mass communication, and instantaneous communication across large geographic divides have also evolved, to the point that in the current era, we have more information than we can possibly digest. While the process is still imperfect, it is clear that tools can significantly improve our ability to accumulate knowledge.
 
@@ -347,11 +347,11 @@ Imagine if each argument only had to be made once, for everyone. If you map thes
 
 There are 8 million of us, and we are spending our time repeating what others already know. Instead, we must find ways to make this knowledge accumulate and grow.
 
-'''''Keep it constructive'''''
+====2.2.2 Keep it constructive====
 
 In all aspects of the design of the solution, it is important to focus on making sure the discussion remains constructive. Personal attacks, intentional mistruths and activities of bad faith must all be discouraged by the platform itself in order to avoid falling into the traps we have described in the first section of this document.
 
-'''''Respect human nature'''''
+====2.2.3 Respect human nature====
 
 When it comes down to it, we are all humans, and we need to find a way to work together, rather than against one another. However, for better or worse, we understand that humans are imperfect, have desires, and do not always do what seems to be the most logical action. Rather than ignore this fact, or try to fight against what sometimes seems to be destructive natural impulses, we must recognize what it is to be human, and design our solutions to work with these traits.
 
@@ -361,11 +361,11 @@ In practice, this means many things:
 * We must understand the common cognitive biases, teach people about them, and find ways to work within their constraints
 * We must create a solution that people will want to use, rather than have to be forced to use
 
-'''''Be trustworthy'''''
+====2.2.4 Be trustworthy====
 
 If there can be cast any doubt as to the sanctity of the information contained in the canonical debate, it will provide a wedge which those who refuse to accept it can use to drive people away from the platform. If this happens, it means that the debate in the end will not be canonical, and many of our objectives will not be achieved. Trustworthiness must be a primary concern in any decision undertaken on behalf of this project. Transparency, decentralization, and the elimination of conflicts of interest all play a major role in this effort.
 
-'''''Include everyone'''''
+====2.2.5 Include everyone====
 
 There is a tendency to believe that only experts should be heard on important subjects. This bias stems in part from good intentions: if they are experts, then they should know better than anyone the truth behind the claims. Experts in various fields also tend to be better at expressing an idea and using rhetoric to form their arguments. However, this does not necessarily mean that the actual premise behind the arguments is any more or less sound. As an example, a common divide can be seen between academics who study an issue deeply, and the people that are actually affected by the issue. While an expert may be able to provide information on macro trends and statistics, only someone that is directly involved, regardless of educational level or time studying the situation, could convey the experience of being involved in the situation.
 
@@ -375,11 +375,11 @@ There is another, equally important reason for including everyone. By doing so, 
 
 Finally, and perhaps most importantly, we believe that only by getting people involved in debates can they learn the difference between what makes a debate constructive, as opposed to the mainly destructive exchanges that have become the norm. People must be accepted into the discussion, and encouraged to contribute, no matter what the level of their education or argumentation literacy may be. This alone is enough to justify the effort, if we can see a general improvement in the ability of people to discuss controversial topics productively rather than with rancor.
 
-'''''Make it about learning, not winning'''''
+====2.2.6 Make it about learning, not winning====
 
 Too often, debates are about who wins, rather than whether or not we have arrived at the proper conclusion. In fact, in many cases, the right conclusion may be a matter of beliefs, values and priorities. When the debate focuses on choosing a winner, it can be counter-productive and alienating. When the debate focuses on what we can learn, and allows each person to take away their own conclusions, it relieves some of the pressure, and allows room for people to focus on reason rather than expressions of emotion.
 
-'''''We should inspire with emotion, but argue with reason'''''
+====2.2.7 We should inspire with emotion, but argue with reason====
 
 Many of the hot-headed arguments we see online follow the reverse of this principle: arguments are crafted to "jab" at our "opponents" in order to elicit the most outrage. This tit-for-tat atmosphere rewards arguments for their emotional content rather than for their accuracy, which does little to advance the accumulation of knowledge, or arriving at a collective consensus.
 
@@ -387,31 +387,31 @@ We must work to foster an environment that instead rewards participation based o
 
 However, it is equally important to recognize the value that emotion can bring to a debate. A purely logical debate, free of any emotional triggers, can alienate all but the most erudite of participants. This is perhaps one of the main factors that prevents academic papers from reaching mainstream audiences. Emotion can inspire participation, and drive engagement, which is critical to the success of creating a canonical debate. Thus, a key aspect to designing the solution is choosing the right times to inspire users with emotion, and when to filter it out in deference to level-headed reason.
 
-===2.3 Design Goals.===
+===2.3 Design Goals===
 
 Each of the objectives below are reactions to the problems that we have identified in the first section of this document. We believe that each of them are realistic goals, and many of the elements in the Solution section of this document relate to these goals. The success of our effort should be measured by the clarity with which we can draw a line from each problem statement above to one or more goals below, and finally to one or more elements of our solution. But, of course, none of this matters if we do not in the end produce a working platform that actually achieves all of these goals.
 
-'''''Create the canonical debate'''''
+====2.3.1 Create the canonical debate====
 
 In the most mundane sense of this goal, our objective is to design and implement the software necessary to provide the functionality that we consider essential to this project. This includes supporting all the objectives listed here below. 
 
 However, as those of us who are founding members know, simply building software is the easy part, and is not enough. In order for the debate to be truly canonical, we must be sure that everyone that has information to contribute to a debate, and everyone that would like information on the debate topic, all interact with the same base of knowledge. Whether this means making the Canonical Debate a household name, or it means creating one solid backbone upon which a multitude of services interact is not important. What matters is that we succeed in finally making knowledge accumulate productively.
 
-'''''Make debates reusable'''''
+====2.3.2 Make debates reusable====
 
 We consider debates, in their simplest form, to be facts that someone has proposed as being true. Once a person has learned of (or created out of whole cloth) such a fact, it is natural for them to make use of it in order to prove or disprove other claims that have been made. Reuse of "facts" already occurs naturally. What is missing is the complete context of supporting and detracting arguments that have been made regarding this supposed fact. Claims are already reusable. Our goal is to make the entire debate and the overall consensus regarding that claim part of the act of reuse.
 
-'''''Promote constructive discourse'''''
+====2.3.3 Promote constructive discourse====
 
 The system must be designed in such a way that it discourages disparaging remarks between individuals and groups, while promoting a focus on working together to improve the common understanding regarding the topic under debate. Disagreements should be welcomed as long as they are based on reason, and as long as the participants are encouraged to be accepting of them.
 
-'''''Teach people about debates'''''
+====2.3.4 Teach people about debates====
 
 A large part of the world population has never been exposed to the study of logic and argumentation. This fact alone has significant ramifications regarding the quality of democracry throughout the world. If the Canonical Debate is successful, it will be a place where people of all backgrounds will interact with controversial topics. This provides an excellent opportunity to expose people to the elements that turn a debate into a constructive activity.
 
 Many design elements have been considered for creating learning opportunities for canonical debate users. However, we believe that simply through everyday contact with well-formed arguments and the criteria by which they are judged, we should see a significant change to the understanding people have in general regarding constructive argumentation.
 
-'''''Promote the best arguments'''''
+====2.3.5 Promote the best arguments====
 
 The integrity of debates can be undermined by any of a large number of false, weak or irrelevant arguments that distract from the most important points. Philosophers have studied for millenia the category of possible errors of logic and misconception collectively known as [https://en.wikipedia.org/wiki/List_of_fallacies (formal and informal) fallacies]. 
 
@@ -419,7 +419,7 @@ A platform that offers access to everyone around the world is sure to see the wi
 
 In order to make the platform resistent to this type of attack, and to improve usability in general, it must support one or more methods for sorting the arguments according to their strength and relevance. The most salient arguments should be seen first, easy to read and absorb at a quick glance. Weak or irrelevant arguments should only be seen by those users that would like to see a complete picture of everything that was discussed, regardless of quality.
 
-'''''Require context'''''
+====2.3.6 Require context====
 
 Context, in the general sense of the term, is important for many reasons. One of the problems we mentioned previously is that of a debate with very poorly-defined parameters for the discussion. A debate may be conducted (or occur naturally) in relation to a very general statement. In such a case, the different sides of the debate may find that they spend a good part of their time arguing over or using completely different definitions of the same set of words. Likewise, a general statement may leave only implied or subject to interpretation the specifics of the cases involved. For example, in a debate on public healthcare, one group may be focused on how it applies to Canada, while another is considering its implementation in Germany, or South Africa.
 
@@ -427,7 +427,7 @@ As the concept applies to evidence, or research papers, or scientific findings, 
 
 When a claim is made on the platform, it is important to make sure that any ambiguities have been satisfied. When this happens, it can then be made clear exactly what the discussion is about. Furthermore, it makes it much easier to determine if any evidence that is proposed is relevant to the object of the discussion, and if so, to what degree. 
 
-'''''Reduce sources of bias'''''
+====2.3.7 Reduce sources of bias====
 
 Earlier, we have acknowledged that humans are susceptible to various forms of bias when it comes to choosing a side on which to stand. Many of these biases, such as the [https://youarenotsosmart.com/2011/03/25/the-sunk-cost-fallacy/ Sunken Cost Fallacy], [https://en.wikipedia.org/wiki/Confirmation_bias Confirmation Bias] and [https://en.wikipedia.org/wiki/Belief_revision Belief Revision] are pre-determined by previous activities by the users. However, there are many biases that can cause an irrational influence on readers of a debate that can, with some effort, be avoided.
 
@@ -453,13 +453,13 @@ The following is a brief list of the types of bias that the platform should avoi
 
 There are many other biases which may or may not play a part in a debate. We leave it up to the participants of the debate themselves to point out when they believe a bias is in effect, and therefore provide counterarguments to highlight them.
 
-'''''Make arguments anonymous'''''
+====2.3.8 Make arguments anonymous====
 
 If you consider the previous objective, it should be clear that there are several cognitive biases that occur as a result of an identification of the argument with the person that is making the argument. What is not completely covered there, but equally important, is the list of problems that come from a participant being aware that their statements and opinions may be visible by the public. We discuss this in more detail in the first section regarding the problems with other forms of debate.
 
 On a more conceptual basis, the idea of a canonical debate implies that what is being discussed at any moment is the validity of a proposed fact or claim. While it requires a person to suggest the fact for debate, it does not make sense to associate that claim with the person who originally made the proposal. For example, in a debate regarding whether or not the earth orbits the sun, it should not make a difference if the original sponsor of the debate were Galileo or a professional chef in Istambul. What matters is the proposal itself.
 
-'''''Prevent spam and fake accounts'''''
+====2.3.9 Prevent spam and fake accounts====
 
 Social networks and content providers on the Internet share a common problem in the battle to reduce the impact of authentic exchanges of information becoming drowned out or obfuscated by publications from fake or even automated sources. It is well known that such efforts in the past have been successful on just about every public platform to alter the focus of conversations and sway opinions by exploiting biases such as the [https://en.wikipedia.org/wiki/Bandwagon_effect Bandwagon Effect] and an [https://en.wikipedia.org/wiki/Availability_cascade Availability Cascade].
 
@@ -467,27 +467,27 @@ In a platform as crucial as the Canonical Debate, which aims to be the definitiv
 
 In the Solutions section below, we discuss opportunities and technologies that may be used to enforce a policy of a single account per human. This is in contrast to the posture taken by Google, Twitter, Facebook and Apple, which apply only lax security requirements for users to verify that they are not creating a second account, and which, as a consequence, suffer from influence attacks by humans and bots.
 
-'''''Be fully transparent'''''
+====2.3.10 Be fully transparent====
 
 As a direct consequence of our principle of being completely trustworthy, it is clear that the debates must offer complete transparency to all users in terms of debate history (but not in terms of user information - see below). All users of the platform must have access to every change that was ever made to each debate so that they may trust that no one has manipulated the results. Furthermore, we must provide a mechanism to prove undeniably that this history was not altered in any way, so that no accusations may be directed at a debate or the platform with regards to the falsification of this history.
 
-'''''Be fully distributed'''''
+====2.3.11 Be fully distributed====
 
 We recognize in Problems section of this document the risks associated with a debate platform that is owned and controlled by a single entity. The only solution we know to avoid these pitfalls is to therefore create one with decentralized ownership and control. Only then can we ensure that the platform may be free from accusations of bias, and that it can survive the Canonical Debate Lab and its individual members.
 
-'''''Eliminate conflicts of interest'''''
+====2.3.12 Eliminate conflicts of interest====
 
 Most critical of all in order to promote trustworthiness, and to prevent these goals and our principles from being violated or altered in the future, is to construct a platform that in all ways possible is free from conflicts of interest. The greatest category of risks that we have identified stems from platforms which are designed with a profit motive by the owning entity. The solution in this case is fairly clear and simple: divest the platform of any possible commercial interests, and divest it from control by any single entity which may wish to purturb these goals. 
 
 This is on a grand scale, but the elimination of conflicts of interest must be considered at every level of detail in the design. For example, the motivations of the users of the site must be considered. The platform must be designed such that a debate cannot be manipulated by individuals or groups wishing to control the outcome of a debate. The platform should encourage positive motives, such as learning and collaboration, and discourage negative ones, including personal gain (in terms of monetary value or reputation) in relation to a debate, attacks against other participants, and so on.
 
-'''''Keep it organized'''''
+====2.3.13 Keep it organized====
 
 The platform must provide tools, both automated and for assisting people, to keep the canonical debate organized. We recognize that content moderation (or, as we prefer, curation) will be a very necessary activity. While some moderation-style activities, such as improving the text of a claim or argument, can be performed by the users and debate participants themselves, others may require a group of specialists trained to perform reorganizations quickly and correctly. Some examples include removing duplicate claims, and reorganizing arguments such that they may be grouped under a more general statement.
 
 This category is important enough that it has warranted an entire section dedicated to describing these activities, and how the platform can facilitate them.
 
-'''''Make it effortless'''''
+====2.3.14 Make it effortless====
 
 For the canonical debate to become truly canonical, it must be trivially easy for anyone to use and to navegate. This will not be an easy task, given the inherent complexity of debates. However, we understand the importance of making the platform usable, and will focus a great amount of effort on designing and testing the user experience.
 
@@ -497,13 +497,13 @@ Even the newest users should be able to figure out on their own how to participa
 
 The platform must find the right balance between complexity and simplicity, and allow the users to choose the experience they want.
 
-'''''Promote engagement'''''
+====2.3.15 Promote engagement====
 
 Through empirical experience, after many attempts to create a solution like the canonical debate, it has become clear the necessity of finding ways to encourage more users to participate. While there are some people that may dedicate their whole lives to a specific subject, and will be more than happy to provide every piece of their knowledge in the central debate, it can be a tedious task to supply (or even read) all this information. 
 
 The platform must be designed with many different use cases in mind, from the casual reader looking for a quick primer to experts, activists, representatives of political organizations, and researchers. It must be useful for each of these stakeholders, but it must also elicit active engagement by people that might otherwise be only passive users. Debate can be a very emotional and provocative activity, and as we have stated in our principles, if this is done properly, it should be easy to motivate users to get involved.
 
-'''''Include everyone'''''
+====2.3.16 Include everyone====
 
 As already mentioned several times, the Canonical Debate cannot be canonical unless it is universally accepted as the definitive place to go to learn about any debate. This means that it must be accessible, usable and provide value for everyone. It must provide features for every necessary stakeholder of the platform that can be identified.
 
@@ -511,23 +511,23 @@ A less obvious aspect of this objective is that the platform must also not alien
 
 One specific example of this problem is how to treat users that disagree intensely with the current results of a debate. This specific situation is an opportunity to inspire those users to engage, perhaps by contributing more arguments, but is also a moment of risk in which the participant may choose to give up and take their arguments elsewhere. The platform must be designed to allow users in such situations something they can do to feel they at least have some opportunity to change minds (e.g. provide new information, vote their opinion), and to deal constructively with the notion that the majority of people disagree with them (e.g. provide tools to better understand the reasons behind the opinions of others, and permit them to see the debate from their perspective rather than from that of popular opinion).
 
-'''''Illuminate different perspectives'''''
+====2.3.17 Illuminate different perspectives====
 
 We realize that even with all the facts available, people will still come to different conclusions regarding a debate. In order to promote the best arguments, we must provide some mechanism for judging and weighting them. However, we do not believe that a single model can accurately and uncontroversially represent the prioritization for everyone. Many of these, such as the popular vote, may in fact alienate users that disagree with the results. 
 
 To solve this problem, the solution must support multiple methods for scoring and weighting arguments and claims. This support should ideally be extensible to permit new methods. It should then be possible for users to view the debate using any one of these different perspectives in order to better understand the arguments, their relation to each other, and to the user.
 
-'''''Bring people together'''''
+====2.3.18 Bring people together====
 
 We truly believe that constructive debate is the most natural way for people to come into contact with the opinions of people that see things differently from themselves. Whereas other platforms provide tools and opportunities for their users to isolate themselves into like-minded groups, the Canonical Debate will have the opposite effect. It can even provide tools to notify users when an argument which disagrees with their opinions has been added to a debate with which the user has engaged.
 
 The Canonical Debate will also provide tools, as part of the previous objective of illuminating perspectives, for the individual to explore the opinions of people with whom they disagree. With this tool, it will be possible to explore the world view of other individuals, and come to a better understanding of their philosophy. We believe that the more practice people have with trying to understand the reasoning of others, the more they will learn to treat them with respect.
 
-'''''Foster an ecosystem'''''
+====2.3.19 Foster an ecosystem====
 
 While the Canonical Debate must remain pure in content, motivation and incentives, we understand that there are so many ways to view and treat debates. There are already several projects that are considering using the Canonical Debate as the core data source for their unique view on user interactions, and others which may have unique ways of contributing new information to the Canonical Debate itself. The Canonical Debate must therefore provide an open API for projects to read from and contribute to the debates (with, of course, proper measures for security and protection against external attacks). The Canonical Debate must not be for profit, but we believe it can work hand-in-hand with other projects, both community and commercial project alike.
 
-==3. Solution.==
+==3. Solution==
 
 The solution that is evident to us is to build the missing piece to the internet, one that achieves the objectives we have laid out in this document. The problem is a structural one. But it is possible to build a fix, one that can change the way people interact. There are several examples of this. Consider how the world was before and after each of these "pieces" were added:
 
@@ -541,17 +541,17 @@ None of these pieces have fulfilled the "promise of the internet", but they have
 
 We propose the creation of a ''Canonical Debate'', a central location on the Internet into which all information related to any debatable topic may accumulate. The goal will be to build a repository of proposed and disputable facts which may be used as the foundation for further suppositions and assertions. If we are successful, the platform will become an indispensable tool for the Internet, bolstering journalism, dialog, decision-making and democracy for all.
 
-===3.1 Basic Elements.===
+===3.1 Basic Elements===
 
 There is a general academic consensus regarding the structure of a debate, at least as it relates to [https://en.wikipedia.org/wiki/Argumentation_theory argumentation] in the form of a [https://en.wikipedia.org/wiki/Dialectic Dialectic], supported by an [https://en.wikipedia.org/wiki/Argument_map Argument Map]. However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
 
 We propose creating what could be called a ''Canonical Debate Map'', a single reusable inter-connected graph of debates and arguments that exist independent of the context of a single conversation between a limited group of participants. What follows is a description of the principle elements of such a map, and how they relate to one another.
 
-===3.1.1 Claim.===
+===3.1.1 Claim===
 
 A Claim in the Canonical Debate is a [https://en.wikipedia.org/wiki/Proposition proposition], a statement which is intended to be taken as fact, or as the truth. In many cases (in fact, in the majority of cases), agreement on the validity of the statement is not universal. These differences of opinion form the foundation for debate, and the purpose of the Canonical Debate is to provide the tools for participants to work together to come to the best possible vision regarding the validity of a Claim.
 
-=====3.1.1.1 Examples of and Variations on Claims.=====
+=====3.1.1.1 Examples of and Variations on Claims=====
 
 Although deceptively simple in concept, in practice there is a lot to consider (and for Gruff to support). The Canonical Debate can work with several types of Claim:
 
@@ -567,7 +567,7 @@ In each of these examples, there is a slightly different set of possible outcome
 
 What they all have in common is that their outcome is binary. In other words, a Claim is a [https://en.wikipedia.org/wiki/Dialectic Dialectic].
 
-=====3.1.1.2 Canonicality.=====
+=====3.1.1.2 Canonicality=====
 
 One of the problems stated in the first section of this white paper is that the quality of our debates is weakened by the fractured nature of current discussions. A common fact may be discussed ad nauseum online, and yet reach no conclusion as each new participant must start from a position of ignorance. A mixture of impatience and limited memory leads to each new participant receiving an abbreviated or erroneous version of the debate, upon which they must build their opinions and pass on to the next person.
 
@@ -577,21 +577,21 @@ The debate platform must also deal with this problem: What happens when a Claim 
 
 We can solve this problem by making Claims ''canonical''. For each Claim, there can and must be only one place to debate its validity. When a Claim is used in a debate with another Claim, it would be a waste to make a new copy. Instead, that debate refers to the Claim (and all its discussions) in its [https://en.wikipedia.org/wiki/Canonical_form canonical] place so that none of the original debate is lost. Furthermore, should new arguments or information ever arise relating to the Claim, it can be added to the canonical debate, and its impact will ripple across all other debates that have relied on this Claim in some form.
 
-=====3.1.1.3 Attributes.=====
+=====3.1.1.3 Attributes=====
 
 Although not a final design, we believe that the following attributes would be helpful to define for every Claim:
 
 * '''Unique ID''' - It is important to guarantee that each and every Claim can be referenced within an from outside of the system via a simple identifier not tied to the other changeable attributes.
-* '''Title''' - Each Claim should have a brief explanation, easy to read and quick to digest. Ideally, this "title" should be enough for the average reader to understand what is being claimed at a glance. A more advanced implementation under consideration would be to allow multiple versions of the Title, based on how users wish to view the Claim ([[#3116-Ccanging-perspectives|see below]]).
+* '''Title''' - Each Claim should have a brief explanation, easy to read and quick to digest. Ideally, this "title" should be enough for the average reader to understand what is being claimed at a glance. A more advanced implementation under consideration would be to allow multiple versions of the Title, based on how users wish to view the Claim ([[#3116-changing-perspectives|see below]]).
 * '''Description''' - A Description would be a more in-depth explanation of the Claim being made, which might include clarifications on the words used in the Title (although disambiguation should generally be handled by [[#321-context|Context]]), and any necessary background information to help readers understand why the Claim is being made. For the sake of expedience, Descriptions should be optional when creating a Claim.
 * '''Links''' - Claims should support an optional set of external references (Links) to supporting information. This will be especially useful in the case of Claims of evidence, such as the claim that there is a video which shows the occurrence of an event.
 * '''Related media''' - For the sake of improving the user experience, Claims should provide the opportunity to provide images, videos, logos or other media which can accompany the Claim for display within a web site or other user interface. For example, a Claim regarding a person or event might include a photo of said person or event for display along with the Title and other attributes.
 * '''Context''' - In any debate, it is critical to define exactly what is being claimed and argued. This process is known as ''disambiguation''. In a canonical debate, this becomes even more important in order to avoid any misunderstandings, duplications of information, and more. The solution we propose for the Canonical Debate is the use of [[#321-context|Context]] elements related to the Claim. See the relevant section below on this topic for more information.
-* '''Truth Score''' - As previously mentioned in the [[#inadequate-scoring|Problems section]], it is important to provide a mechanism for evaluating claims and arguments within the system. In fact, we propose the implementation of [[#331-scoring|multiple scoring mechanisms]] as described below. In the case of a Claim, the attribute to be measured is the question of its veracity, or agreeability. 
+* '''Truth Score''' - As previously mentioned in the [[#1512-inadequate-scoring|Problems section]], it is important to provide a mechanism for evaluating claims and arguments within the system. In fact, we propose the implementation of [[#331-scoring|multiple scoring mechanisms]] as described below. In the case of a Claim, the attribute to be measured is the question of its veracity, or agreeability. 
 * '''Arguments For/Against the Claim''' - A Claim that stands on its own is not much of a debate. It could be considered a stated fact (or half-fact, depending on the scoring mechanism), but is devoid of any further consideration. Most Claims, especially in the Canonical Debate, will be supported and attacked by one or more [[#312-argument.|Arguments]] for or against the Claim.
 * '''Arguments based on this Claim''' - Regarding [[#3112-canonicality|canonicality]], Claims are meant to be reused in further debates. This is done, as described below, by making an [[#312-argument|Argument]] based on the Claim. Claims should therefore maintain and provide a list of these Arguments which are affected by the truth of the Claim.
 
-=====3.1.1.4 Confidence/Belief.=====
+=====3.1.1.4 Confidence/Belief=====
 
 One of the most important facets of a Claim is what we call its Truth Score. It is not always the best term for the attribute, since some Claims aren't statements of fact, but rather statements with which one may simply agree or disagree. Nevertheless, it is important to provide some kind of measure of how correct, agreeable or accurate the claim is.
 
@@ -601,13 +601,13 @@ As will be described in the [[#331-scoring|scoring section]] below, many scores 
 
 This leads to the second point, which is that there are many ways to view the outcome of a debate. The principle perspectives that we see a need to support are the "objective" result (models which score independent of human opinion), the "popular" result (models based on aggregate user opinions), and the "individual" result (models which focus on the opinions of a single individual). We call the latter model the set of "beliefs" of an individual. This has some interesting implications and applications in the system, as will become apparent.
 
-=====3.1.1.5 Complex Claims.=====
+=====3.1.1.5 Complex Claims=====
 
 Multiple premises, etc.
 
-=====3.1.1.6 Changing Perspectives.=====
+=====3.1.1.6 Changing Perspectives=====
 
-One of our stated goals is to [[#illuminate-different-perspectives|"Illuminate different perspectives"]]. This requires tools that permit actually choosing a perspetive from which to view a debate. With regards to a Claim, this could mean a number of user-facing changes, which would require a way to capture and maintain this information.
+One of our stated goals is to [[#2317-illuminate-different-perspectives|"Illuminate different perspectives"]]. This requires tools that permit actually choosing a perspetive from which to view a debate. With regards to a Claim, this could mean a number of user-facing changes, which would require a way to capture and maintain this information.
 
 '''''Variations in Title'''''
 
@@ -617,13 +617,13 @@ We therefore propose supporting multiple versions of the Title for a Claim. Here
 
 * '''Positive and negative assertions''' - Since each Claim has two sides, it makes sense to be able to state the Claim from either perspective. The Claim should therefore support two forms of Title: a positive statement (e.g. '''The Earth is flat''') and a negative version ('''The Earth is not flat''').
 * '''Inquisitive form''' - A more neutral approach to the Title of a Claim would be to state it as a question: '''Does God exist?'''. Again, it would be useful to support storing an inquistive version of the Claim Title for use in linking to and viewing the debate.
-* '''Variations in emotional "temperature"''' - It might be interesting to view other versions of a Claim Title according to the emotional impact that the title might contain, independent of the actual content of the debate itself. One of the main problems with a typical Argument Map, especially one that seeks to separate the arguments from the individuals making the claims, is that the resulting map can be logical to the point of alienating the common reader. Following the principle that [[#inspire-with-emotion-argue-with-reason|"We should inspire with emotion, but argue with reason"]], it might be "inspiring" to see a debate that says "Only an idiot would believe that the Earth is flat", at least at first. Certainly users would find it entertaining to play with the "tempurature level" of debates as they explore the content of the Canonical Debate.
+* '''Variations in emotional "temperature"''' - It might be interesting to view other versions of a Claim Title according to the emotional impact that the title might contain, independent of the actual content of the debate itself. One of the main problems with a typical Argument Map, especially one that seeks to separate the arguments from the individuals making the claims, is that the resulting map can be logical to the point of alienating the common reader. Following the principle that [[#227-we-should-inspire-with-emotion-but-argue-with-reason|"We should inspire with emotion, but argue with reason"]], it might be "inspiring" to see a debate that says "Only an idiot would believe that the Earth is flat", at least at first. Certainly users would find it entertaining to play with the "tempurature level" of debates as they explore the content of the Canonical Debate.
 
-All of these potential variations imply that a single Title for the Claim might not be sufficient to cover every potential use. It would also be naive to assume that the first person to submit a Title would always choose the best way to phrase the proposition in a concise and clear manner on the first try. This implies that Titles should not only support multiple perspectives, but also support a process for proposing alternative versions of the same Title, and electing the most effective one along the same lines as the goal to [[#promote-the-best-arguments|Promote the best arguments]]. 
+All of these potential variations imply that a single Title for the Claim might not be sufficient to cover every potential use. It would also be naive to assume that the first person to submit a Title would always choose the best way to phrase the proposition in a concise and clear manner on the first try. This implies that Titles should not only support multiple perspectives, but also support a process for proposing alternative versions of the same Title, and electing the most effective one along the same lines as the goal to [[#235-promote-the-best-arguments|Promote the best arguments]]. 
 
 One approach would be to allow users to submit alternative Titles for each type above, and allow users to vote on the best option. However, this is only one of several approaches currently being examined.
 
-====3.1.2 Argument.====
+====3.1.2 Argument====
 
 When a Claim is used in a debate to prove or disprove another Claim, we call this an Argument. This is a very important distinction from the non-canonical approach normally adopted for Argument Maps. In a standard Argument Map, arguments are their own standalone, separate entities. In the Canonical Debate, there is a unique Claim that may be used many times as an Argument in various debates. In this way, we can ensure that the accumulated knowledge (description, scores, and Arguements) related to that Claim are carried over into any debate in which the Claim is used.
 
@@ -636,7 +636,7 @@ Arguments are generally made either in favor of a Claim or against it (although 
 
 Although an Argument may be confused with the Claim it represents, it is not the same thing. It may have an identical title as the Claim on which it's based, but it may also have a title that's more suited to the debate (e.g. Claim: ''John Doe hates Jane Blow''; Argument: ''I hate your mother'').
 
-=====3.1.2.1 Relevance.=====
+=====3.1.2.1 Relevance=====
 
 While the veracity of the Claim is important on its own, what is important for an Argument is its relevance. That is, it's important to judge not only whether or not the Claim is true, but whether or not using it in the debate is meaningful.
 
@@ -646,7 +646,7 @@ This measurement is captured as a score in the same way that the we capture the 
 
 A subtle distinction could be made between the ''relevance'' of an Argument (is it related to the topic at hand?) and its ''importance'' (how much should we care?). After much discussion, it was decided that the distinction between these two characteristics is unimportant for the purpose of this platform, and so the two are grouped together into the single attribute called Relevance.
 
-=====3.1.2.2 Argument for an Argument.=====
+=====3.1.2.2 Argument for an Argument=====
 
 As we like to say, "everything's debatable". That includes the Relevance of an Argument. One person may find it totally acceptable that the mattress is missing a spring in the corner; another may consider that the most important part of the bed. In this case, it becomes important for each side to make Arguments for or against the Argument, rather than the Claim (or Argument!) the Argument is attacking or supporting.
 
@@ -671,11 +671,11 @@ What is only implicit in the example is that each of these Arguments and sub-Arg
 ** Argument Against Argument: ''We can put in a new spring''
 ** Claim: ''A new spring can be placed in the mattress at the corner where one is missing''
 
-=====3.1.2.3 Relevance vs. Truth: Strength.=====
+=====3.1.2.3 Relevance vs. Truth: Strength=====
 
 While an Argument is concerned with its Relevance, its Claim is concerned with its Truth. 
 
-=====3.1.2.4 Arguments That Are Pro AND Con.=====
+=====3.1.2.4 Arguments That Are Pro AND Con=====
 
 TODO: What about Arguments that can be considered for OR against something. Ex: "If we don't get a new mattress, my mother can't come stay with us?" Depending on one's feelings about the person's mother, that could be a very strong argument for OR against the proposition. How should Gruff handle this?
 
@@ -701,7 +701,7 @@ Vs.
 
 In both cases, the Argument is a wash. But in the first case, the representation of the Argument is confused (on which side of the debate do you show it?) and the scoring even more so. In the second case, the representation is redundant, and the Arguments will have to be duplicated on both sides (which seems contrary to the canonical philosophy).
 
-=====3.1.2.5 Attributes.=====
+=====3.1.2.5 Attributes=====
 
 Arguments have many of the same attributes as Claims, at least in terms of displaying them to debaters. In fact, the average person may not understand the concept of separating an Argument from its Claim; when one writes out the main points in a debate, they generally provide ONLY the Argument (with its Context-relative title), and the Claim itself remains implicit.
 
@@ -721,15 +721,15 @@ In terms of the user interface, the Argument could also be displayed with some o
 * Media
 * Context
 
-=====3.1.2.6 The Debate Graph.=====
+=====3.1.2.6 The Debate Graph=====
 
 TODO: Claims are the nodes; Arguments are the edges
 
-=====3.1.2.7 Common Argument Types.=====
+=====3.1.2.7 Common Argument Types=====
 
 Although the platform will probably not provide explicit support for the Argument types below, it is interesting to note them here and discuss how they will be represented in the system.
 
-======3.1.2.7.1 Evidence.======
+======3.1.2.7.1 Evidence======
 
 Supporting evidence is essentially an objective fact presented as some sort of "proof" for a Claim. Common types of evidence include:
 
@@ -742,7 +742,7 @@ Unlike other forms of argumentation, evidence has a very strong history of [http
 
 As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be in practical measures impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
 
-======3.1.2.7.2 Logical and Informal Fallacies.======
+======3.1.2.7.2 Logical and Informal Fallacies======
 
 The first thing one learns when studying rhetoric is the notion of a [https://en.wikipedia.org/wiki/Fallacy logical fallacy]. Some fallacies are formal, and so, if an Argument is shown to be an example of one, it can be shown to be completely ineffective (i.e. a Relevance Score of 0). Others are informal, and may in fact maintain some validity even in the face of an accusation of being a fallacy.
 
@@ -762,7 +762,7 @@ Once this Claim has been presented (and debated - and this topic is, in fact, co
 
 Note that deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies.
 
-======3.1.2.7.3 Basic Values and Principles.======
+======3.1.2.7.3 Basic Values and Principles======
 
 TODO
 
@@ -772,13 +772,13 @@ A placeholder argument requesting that someone with expertise in the field provi
 
 It is common for people in a debate to realize that information outside the scope of their knowledge could dramatically sway their opinion on a matter, assuming it could be trusted. In a live debate, those points can only be avoided, but in the canonical debate, there is the opportunity to request for experts to fill in the blanks. Much like Quora, it should be possible for users to follow specific topics (Contexts) in order to receive notifications for RFIs in their area of expertise.
 
-====3.1.4 Debate.====
+====3.1.4 Debate====
 
 Although the whole purpose of the project is to facilitate debates, a debate is not really a first-class citizen in Gruff. Debate is more of a verb than a noun. In fact, there is no object or element in the design of Gruff specifically called a "Debate". Rather, we say that everything on the platform (Claims, Arguments, Evidence) is ''debatable''. Debating is the process of working as a group to come to a consensus, if not on the truth of a Claim, at least on what are the principle points of difference, the beliefs and the set of values that each one must know and balance.
 
-===3.2 Supporting Elements.===
+===3.2 Supporting Elements===
 
-====3.2.1 Context.====
+====3.2.1 Context====
 
 Many logical fallacies are made during the course of debates just on the basis of using evidence, statistics or supposed facts from one context and applying them within the very different context of the debate. Another common problem is cherry-picking a study from one very specific place, and obscuring or removing its context in an attempt to make a much more general statement. It is also very common to witness a disconnect between the two sides of a debate as one side focuses on one context and the other focuses on another.
 
@@ -797,7 +797,7 @@ do not. I merely despise
 
 Thus, it would be desirable to provide Context definitions even for verbs, although that may prove difficult to achieve.
 
-=====3.2.1.1 Knowledge Graphs.=====
+=====3.2.1.1 Knowledge Graphs=====
 
 It would be a phenomenal task to attempt to build a database of all the possible Contexts that could be required for public debates. Fortunately, there are some incredible organizations that have already shouldered this burden. These include:
 
@@ -812,7 +812,7 @@ Any of these online databases can be used as the source for a Context element, w
 
 However, if none of these sources provides the required reference, it should be possible to define one, either within the system itself, or via some other external source.
 
-=====3.2.1.2 Context to Refine Debates.=====
+=====3.2.1.2 Context to Refine Debates=====
 
 One very common problem in debates is the tendency to generalize the statistics in one context to a much larger context, without any clear indication that it is reasonable to do so. This is known as the [https://en.wikipedia.org/wiki/Hasty_generalization Hasty Generalization fallacy], and is only one example of fallacies due to loose or uncareful use of Context. One of the benefits of making Context explicit is the ability to identify when this is the case, and correct for it.
 
@@ -826,11 +826,11 @@ This is an extremely general statement. There should therefore be a much greater
 
 This would be a relatively easier Claim to prove, and perhaps a better place to start for a much more complex debate. However, it's easy to envision breakdowns of this one Claim by city, and perhaps even by neighborhood, year, or population, should it interest the debating public.
 
-=====3.2.1.3 Context and Arguments.=====
+=====3.2.1.3 Context and Arguments=====
 
 This section began by discussing the relationship between Context and Claims, and yet the first examples were really relating Contexts to Arguments. This was a bit misleading, as Arguments do not themselves possess any Context. Arguments merely provide a link between two separate Claims, each of which has its own set of Contexts. Therefore, the Context of an Argument is actually the Context of its underlying Claim (which is being used within the Context of the target Claim or Argument).
 
-=====3.2.1.4 Context and Relevance.=====
+=====3.2.1.4 Context and Relevance=====
 
 Consider then the following Claim:
 
@@ -846,21 +846,21 @@ Likewise, if the study were regarding undocumented immigrants in Germany rather 
 
 In the current iteration of Gruff, no attempt is being made to automate calculations of relevance based on Context; however, Context may be used to flag to users when there is no match whatsoever, or to recommend Claims that seem to have Contexts that match the target Claim.
 
-=====3.2.1.4 Autocomplete, Duplicate Argument reduction, etc..=====
+=====3.2.1.4 Autocomplete, Duplicate Argument reduction, etc.=====
 
-====3.2.2 User.====
+====3.2.2 User====
 
-=====3.2.2.1 Debater.=====
+=====3.2.2.1 Debater=====
 
-=====3.2.2.2 Curator.=====
+=====3.2.2.2 Curator=====
 
-====3.2.3 Reference (Link).====
+====3.2.3 Reference (Link)====
 
-===3.3 Scoring.===
+===3.3 Scoring===
 
 It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, Gruff supports several different formulas for rating, or "Scoring" Claims and Arguments.
 
-====3.3.1 Purpose.====
+====3.3.1 Purpose====
 
 Scoring serves the following purposes:
 
@@ -875,7 +875,7 @@ Scoring serves the following purposes:
 ''Important!''
 Scoring should not be about who "wins". The goal is not to put your side on top! (although that seems like the obvious point). The point is to get a clearer view of your own personal viewpoint on the debate. When this is what is given the focus, the value of the debate becomes clearer. 
 
-====3.3.2 Criteria.====
+====3.3.2 Criteria====
 
 Before designing a scoring method, it's important to reflect on what are characteristics we want in a scoring algorithm. Certainly, the method should help us achieve each of the goals listed in the section above. No one algorithm (at least so far) is perfectly suited to every objective, and so Gruff supports several different approaches, as described below. Multiple equations were tried and discarded, and others were maintained.
 
@@ -913,9 +913,9 @@ Some of the more difficult questions to consider here are:
 * Is one 80% Strength Argument more effective, the same, or less than two 40% Strength Arguments?
 * If not, how many 40% Arguments would it take to defeat an 80% Argument
 
-====3.3.3 Scoring Methods.====
+====3.3.3 Scoring Methods====
 
-=====3.3.3.1 Claim vs. Argument.=====
+=====3.3.3.1 Claim vs. Argument=====
 
 The Score of a Claim is a representation of its truthfulness, the confidence that people can have that the statement represents a true statement. Since this is synonymous with a debate, arriving at a Truth Score for the Claim can be considered the objective of that debate. However, as will be shown below, the Truth Score of a Claim is an important factor in the scores of Arguments upon which they are based. In other words, the Truth Score reflects on any debate in which a Claim is used.
 
@@ -923,9 +923,9 @@ Debates over an Argument affect its Relevance Score. These debates take the form
 
 Depending on the Scoring Method, as described below, the way a Relevance Score is calculated may or may not be mathematically equivalent to the way a Truth Score is derived.
 
-======3.3.3.1.1 Truth Score.======
+======3.3.3.1.1 Truth Score======
 
-======3.3.3.1.2 Strength Score.======
+======3.3.3.1.2 Strength Score======
 
 Now, consider the following situation: Argument A has a Relevance Score of 70%, and Argument B has a Relevance Score of -70%; however, the Claim underlying Argument A (let's call this Claim AC) has a Truth Score of only 50%, while the Claim underlying Argument B (Claim BC) has a Truth Score of 100% (everyone magically seems to agree with it). How should that impact Claim A? Should an Argument that stands on shakier grounds be considered just as strong as one that doesn't?
 
@@ -939,34 +939,34 @@ Therefore, the Strength Score S of an Argument A, with a Relevance Score of RA, 
 
 S = RA * TC
 
-======3.3.3.1.3 Roll-up Scores.======
+======3.3.3.1.3 Roll-up Scores======
 
 TODO: explain the idea behind roll-up scores
 
 
-=======3.3.3.1.3.1 Roll-up Levels.=======
+=======3.3.3.1.3.1 Roll-up Levels=======
 
 TODO: explain that for many algorithms, you choose how deep you want to go
 
-=======3.3.3.1.3.2 Arguments and Claims without Arguments.=======
+=======3.3.3.1.3.2 Arguments and Claims without Arguments=======
 
 What should we do for the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it will not be possible to calculate any deeper than this. Instead, the calculation will have to substitute this for its Popular Score; that is, its Strength Score or Truth Score, without any other weighting.
 
 In the case of a Claim with no Popular Score (no votes), the default Score of 50% is used. For an Argument with no Popular Score, the default Score of 0% is used.
 
 
-=====3.3.3.2 Types of Scores.=====
+=====3.3.3.2 Types of Scores=====
 
-======3.3.3.2.1 Objective Scoring.======
+======3.3.3.2.1 Objective Scoring======
 
 Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Claims according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote you provide a claim to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Claims. 
 
 As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
 
 
-======3.3.3.2.2 Personal Scores.======
+======3.3.3.2.2 Personal Scores======
 
-======3.3.3.2.3 Popular Vote.======
+======3.3.3.2.3 Popular Vote======
 
 The Popular Vote is a very straightforward mechanism for scoring. On any Claim or Argument, Debaters can register their opinion on the Score of an element. The Popular Vote, then, is simply the average of all votes.
 
@@ -984,9 +984,9 @@ There will certainly be some distortion due to this effect - there is no escapin
 
 This is true, but the Popular Score here is not meant to be used as THE measure used for a vote. Rather, it is meant to help each potential voter figure out where they stand on the issue when the time comes to vote. The "tyranny of the majority" is a problem for a democracy, and therefore outside the scope of this system. For more information on how this can be resolved, see the [https://github.com/DemocracyEarth/paper Democracy Earth white paper]. With the creation of this system, we certainly hope that the majority will be much more understanding and accommodating, rather than tyrannical.
 
-=====3.3.3.3 Score Perspectives.=====
+=====3.3.3.3 Score Perspectives=====
 
-======3.3.3.3.1 Belief Perspective.======
+======3.3.3.3.1 Belief Perspective======
 
 Scoring up to this point has been based on using the average of the Popular Score for each element. This is fine when what one wants is a census on popular opinion. However, this is not enough to support two of the main objectives of this platform:
 
@@ -1026,7 +1026,7 @@ Investigating deeper might reveal that this specific user tends to agree very st
 
 By allowing users to highlight specific Beliefs in this manner, the platform is able to provide the introspection and deep understanding that is our goal.
 
-====3.3.5 Ranking of Arguments.====
+====3.3.5 Ranking of Arguments====
 
 One of the most important roles for scoring is to enable the ranking of Arguments, from "best" (strongest or most relevant) to worst. This is, most of all, in support of the Objective:
 
@@ -1036,7 +1036,7 @@ By assigning a Score based on popular or personal opinion, or on the preponderan
 
 One type of user interface currently under consideration is the possibility of voting by ranking. The ability to manually sort Arguments in order of "best" to "worst", and use this as a mechanism for voting is a compelling possibility. It remains to be decided what such a ranking would mean, however. Would the average user be sophisticated enough to sort ONLY by Relevance, or would the ranking have to be considered its overall Strength, according to how convincing the user considers each Argument to be (and how, then, would one register a Relevance Score for an Argument with a base Claim that is totally false)?
 
-===3.4 Viewing.===
+===3.4 Viewing===
 
 * Search
 * Read debate
@@ -1047,33 +1047,33 @@ One type of user interface currently under consideration is the possibility of v
 * See my Roll-up
 * See Rolls-up by "type" (clustered types of opinion)
 
-===3.5 Debating.===
+===3.5 Debating===
 
-====3.5.1 Create Claim.====
+====3.5.1 Create Claim====
 
-====3.5.2 Create Argument from Claim.====
+====3.5.2 Create Argument from Claim====
 
-====3.5.3 Create Argument without Claim.====
+====3.5.3 Create Argument without Claim====
 
-====3.5.4 Vote.====
+====3.5.4 Vote====
 
-===3.6 Curation.===
+===3.6 Curation===
 
 ====3.6.1 Who Should Curate?====
 
-====3.6.2 Curation Actions.====
+====3.6.2 Curation Actions====
 
 What follows is a guide to the types of actions that a Curator may choose to execute in the effort to maintain the debates canonical and constructive. For those who are familiar with software development, these are analogous to types of [https://en.wikipedia.org/wiki/Code_refactoring code refactoring], only for arguments in a debate.
 
-=====3.6.2.1 Fundamental Actions.=====
+=====3.6.2.1 Fundamental Actions=====
 
 The following actions are the simplest, most rudimentary actions that are required to keep a debate organized and canonical. Some are actions that only users can do, but the act of creation of new content is part of debating in general.
 
-======3.6.2.1.1 Create Claim or Argument.======
+======3.6.2.1.1 Create Claim or Argument======
 
 This is the most obvious action required of any debate. It only deserves mention here as it is a required step in some of the more complex actions listed below, including Split Claim and Group Arguments.
 
-======3.6.2.1.2 Delete Claim.======
+======3.6.2.1.2 Delete Claim======
 
 This is a highly contentious and dangerous action to put in the hands of anyone. The fact that historical forms of the debate can be viewed helps temper the problem, but it remains to be seen whether or not this should be an option at all.
 
@@ -1081,11 +1081,11 @@ The simplest case, that of a Claim with no Arguments of its own, and no votes, a
 
 If a Claim with parent or sub-Arguments gets deleted, it would necessarily require the deletion of those Arguments as well (and then the deletion of their Arguments, and so on), so it makes sense to treat this option with care.
 
-======3.6.2.1.3 Delete Argument.======
+======3.6.2.1.3 Delete Argument======
 
 This carries the same risks as Delete Claim. However, it makes a little more sense than the latter, in the case that an Argument is created that has absolutely no relevance to the debate whatsoever. Also, since an Argument is merely the connection of one Claim to another (or to an Argument), it would be much easier to recreate the Argument, if necessary.
 
-======3.6.2.1.4 Attribute Enhancements.======
+======3.6.2.1.4 Attribute Enhancements======
 
 This is the simplest form of curation, involving small changes to the text or attributes of a Claim or an Argument. These changes may include:
 
@@ -1099,11 +1099,11 @@ This type of change is not structural, and should not have a major impact on the
 
 Given its simplicity, one approach under consideration would be to make this type of enhancement available to average Debaters. In a [https://github.com/bigokro/gruff previous experiment], it was possible for common users to propose a new version of a Title or Description. Debaters could then vote on which of all proposed versions they considered to be the best. The version with the most votes was then the version that would appear to users (it would still be possible to click a tab to see all the proposed versions at once). While simple, and subject to attack by bad-intentioned users (or those wanting to make a joke), it would nevertheless be a way to improve Claim and Argument quality without extra overhead for the Curators. An additional feature to counterbalance could be the option to override and lock a Title or Description by a Curator in order to prevent such attacks.
 
-=====3.6.2.2 Compound Actions.=====
+=====3.6.2.2 Compound Actions=====
 
 These are actions that could be reproduced with some extra work by a combination of the actions above, but it is recommended that the system support these as explicit options.
 
-======3.6.2.2.1 Merge Duplicates.======
+======3.6.2.2.1 Merge Duplicates======
 
 Probably the most common problem in attempting to maintain a canonical debate is the occurrence of duplicate Arguments or Claims. Whether Debaters are misunderstand what has previously been said, are too lazy to read the points that have already been made, or just want to say it in their own words, duplication is rampant in online debates.
 
@@ -1179,7 +1179,7 @@ If the selection is done algorithmically, then a scoring system should be devise
 
 In general, the number of Arguments and the number of Score votes should be the primary criteria for winner selection.
 
-======3.6.2.2.2 Split Claim.======
+======3.6.2.2.2 Split Claim======
 
 Some Claims may be made in such a way that they are really a combination unrelated facts. An exaggerated example might be something like the phrase "You're ugly and you smell bad", which is really the combination of the two Claims "You're ugly" and "You smell bad". A Curator in such a situation would therefore need to make a change such that two Claims are made from the one.
 
@@ -1204,11 +1204,11 @@ When the manual approach is used for such an operation, it creates a problem. A 
 
 If the facilitated approach is used, the system should not only notify users, but should also zero out any previous votes on both of the resulting Claims. There is no way to algorithmically determine how the voting will change with enough certainty to try.
 
-======3.6.2.2.3 Split Argument.======
+======3.6.2.2.3 Split Argument======
 
 This is not in fact a feature that needs to be supported. Since an Argument is merely the expression of a Claim used to support or attack another Claim or Argument, you cannot have multiple Arguments in a single entity. However, it's possible to create text that appears to be two Arguments in one. In such a case, the proper solution would be to correct the Title and Description such that it is appropriate for the base Claim, and then locate (or create) a Claim for the second half of the Argument and create a new Argument. If there are any child (or parent) Arguments relating to the second half of the Argument, these should then be move (see Move Argument below).
 
-======3.6.2.2.4 Move Argument.======
+======3.6.2.2.4 Move Argument======
 
 This is one of the most critical and frequent types of Curation. The idea of a canonical debate, and the idea of separating Arguments into their distinct logical components, is not (yet) a common practice for most people. Our natural instinct is to provide a defense or counter-argument of any kind we are able to conjure, regardless of whether it is relevant or not. This is only made worse by the need to have the last word. Creating a constructive and canonical debate, however, takes careful thought and effort.
 
@@ -1294,7 +1294,7 @@ Given these conditions, one of the following would be recommended:
 # Allow the Curator to choose which sub-Arguments should be deleted (and set the Scores of the remaining to zero).
 # Don't allow this action for Arguments that already have sub-Arguments.
 
-======3.6.2.2.5 Group Arguments.======
+======3.6.2.2.5 Group Arguments======
 
 The examples given above for Move Argument reveal another possibility: what should be done when there are multiple Arguments all related to the same basic point? For example, imagine these Arguments for the debate I should get a diamond embedded in my tooth:
 
@@ -1316,7 +1316,7 @@ Grouping Arguments, then, consists of the following Fundamental and Compound Act
 One thing to keep in mind, is that for some subjects, the most popular arguments are in fact significantly overlapping with each other. So if we always just regrouped, we may end up regrouping some arguments deeper down where (casual reader) people won't see them. This has some negativity in that if we link people to the discussion, they may be confused by that half of the points they find convincing were moved to a deeper level, making them think the content added is not fairly representing their side. If they searched, they would find it, but many people wouldn't try that on their first visits. I'm not saying this is a critical issue necessarily, just bringing it up for consideration.
 (The overlap rating solution has a similar problem in that it pushes arguments down in the ordering, so it doesn't solve it either. Just bringing the subject up.) (edited)
 
-=======3.6.2.2.5.1 Heuristics for Grouping Arguments.=======
+=======3.6.2.2.5.1 Heuristics for Grouping Arguments=======
 
 TODO: establish a list of guidelines
 
@@ -1324,7 +1324,7 @@ TODO: establish a list of guidelines
 
 .... something about specific to general (e.g. Study A, Study B, Study C... should be regrouped as "Studies show")
 
-======3.6.2.2.6 Clone Claim.======
+======3.6.2.2.6 Clone Claim======
 
 In the course of a discussion, it is common to see the main subject of the debate evolve over time. An extreme example of this is the informal logical fallacy known as Moving the Goalposts. However, even (or especially) in the case of a constructive discourse, the original debate may require some refinement in order to come to a reasonable conclusion on the subject.
 
@@ -1361,7 +1361,7 @@ Cloning could also support creating a more general Argument:
 # Choose Clone Claim, with a more general Context, Title and Description.
 # Automatically create an Argument linking the more specific Claim to the new one.
 
-======3.6.2.2.7 Refine Argument.======
+======3.6.2.2.7 Refine Argument======
 
 ''Diamond-embedded teeth are preferred by dentists over gold capping.''
 
@@ -1370,38 +1370,38 @@ Partially true - Score?
 ''In Liberland, diamond-embedded teeth are preferred by dentists over gold capping.''
 
 
-====3.6.2 On Annoying Debaters.====
+====3.6.2 On Annoying Debaters====
 
 
 Moving a lot will start to piss people off...
 
-====3.6.3 Viewing Previous Versions.====
+====3.6.3 Viewing Previous Versions====
 
 
-===3.7 Other Features.===
+===3.7 Other Features===
 
-====3.7.1 Notifications.====
+====3.7.1 Notifications====
 
-====3.7.2 Search.====
+====3.7.2 Search====
 
-====3.7.3 Recommendations.====
+====3.7.3 Recommendations====
 
-====3.7.4 Other Opportunities for Machine Learning.====
+====3.7.4 Other Opportunities for Machine Learning====
 
-=====3.7.4.1 Stopping Trolls.=====
+=====3.7.4.1 Stopping Trolls=====
 
 https://www.wired.com/2017/02/googles-troll-fighting-ai-now-belongs-world/
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 https://arxiv.org/abs/1610.08914
 https://arxiv.org/abs/1805.05345
 
-===3.8 Technologies.===
+===3.8 Technologies===
 
 TBD - in experimental phase
 
-===3.9 Blockchain.===
+===3.9 Blockchain===
 
-===3.10 Problem Solving.===
+===3.10 Problem Solving===
 
 The first phase of Gruff will not focus on more complex questions, the kind that make up discussions around legislation. While Gruff is excellent for debating specific points of a proposed solution, its structure is inadequate for this situation.
 
@@ -1449,21 +1449,21 @@ All this is to say - debating a single claim is a good place to start, even if t
 
 ----
 
-==4. About.==
+==4. About==
 
 The Canonical Debate Lab is a community project of the Democracy Earth Foundation it is made possible by collaborators and supporters around the world. While we maintain a close relationship with the Democracy Earth Foundation, we hold our own separate community events, keep our own Slack Team and Github repository and act as an independent organization.
 
-===4.1 Team & Collaborators.===
+===4.1 Team & Collaborators===
 
 Timothy High, Bruno Sato, Stephen Wicklund, Iwan Itterman, Kevin Wiesmueller, Bentley Davis, Jamie Joyce, Oz Fraier, Benjamin Brown, James Tolley.
 
-===4.2 Acknowledgements.===
+===4.2 Acknowledgements===
 
 These are some of the minds that inspired the ideas expressed on this document.
 
 Mark Klein (MIT).
 
-===4.3 Supporters.===
+===4.3 Supporters===
 
 These organizations supported our work through partnerships and recognition of our research and development efforts.
 
