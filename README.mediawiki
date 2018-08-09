@@ -648,28 +648,20 @@ A subtle distinction could be made between the ''relevance'' of an Argument (is 
 
 =====3.1.2.2 Argument for an Argument.=====
 
-As we like to say, "everything's debatable". That includes the Relevance of an Argument. One person may find it totally acceptable that the mattress is missing a spring in the corner; another may consider that the most important part of the bed. In this case, it becomes important for each side to make Arguments for or against the Argument, rather than the Claim (or Argument!) the Argument is attacking or supporting.
+As we like to say, "everything's debatable". That includes the Relevance of an Argument. Consider arguments being made in a criminal case of a bank robbery, in which evidence is being presented against the defendant: 
 
-* Argument: ''The mattress is missing a spring in the corner''
-** For: ''I need to sit on that corner to put on my shoes''
-*** Against: ''We can turn the mattress around so that the corner you sit on has a spring''
-**** Against: ''But then it will be where my head always ends up''
-** Against: ''We can put in a new spring''
+'''The defendant has a black mask exactly like the mask that was worn by the person seen robbing the bank.'''
 
-A number of Arguments and counter-Arguments have been provided in this example. The main Argument has two sub-Arguments, one arguing in favor and one against its Relevance. The argument in favor then has one Argument against its Relevance, and that sub-Argument has an Argument against.
+This is an Argument in favor of the Claim that "The defendant is the one who robbed the bank." There are two ways that one could attempt to counter this Argument:
 
-What is only implicit in the example is that each of these Arguments and sub-Arguments are themselves based on a Claim (as with ALL Arguments). A more explicit version of the Arguments, with their Claims, would be as follows:
+# Argue that they do not, in fact, have a mask identical to that of the culprit: "The defendant's mask is red, not black."
+# Argue that the argument being made is weak or unimportant: "Everyone has a mask like that."
 
-* Argument: ''The mattress is missing a spring in the corner''
-* Claim: ''The mattress is missing a spring in the corner''
-** Argument For Argument: ''I need to sit on that corner to put on my shoes''
-** Claim: ''John Doe needs to sit on the corner of the mattress that is missing a spring in order to put on his shoes''
-*** Argument Against Argument: ''We can turn the mattress around so that the corner you sit on has a spring''
-*** Claim: ''The mattress can be turned so that the missing spring is not in the corner where John Doe needs to put on his shoes''
-**** Argument Against Argument: ''But then it will be where my head always ends up''
-**** Claim: ''If the mattress is rotated so that the missing spring is away from the place where John Doe puts on his shoes, it will place the missing spring where his head ends up at night''
-** Argument Against Argument: ''We can put in a new spring''
-** Claim: ''A new spring can be placed in the mattress at the corner where one is missing''
+The first example is actually an argument about the truth behind the Argument. That is, it is an Argument against the Truth of the Claim on which the Argument was based. The second approach is actually an Argument against the Argument itself. It is attacking the Relevance of the Argument. It doesn't try to refute the truth of the statement ("Yes, they do have a mask like that, but..."), but rather tries to minimize its importance. 
+
+When circumstantial evidence is presented, there is always a portion of the discussion that will necessarily focus on exactly how relevant (or "damning") the evidence is. There will also probably be some discussion as to the truth of the argument. However, when direct evidence is provided (e.g. an eyewitness, or video footage of a crime), there is little room for debate regarding its importance. The only counterarguments available would be related to the validity of the evidence ("This witness is lying!", or "That's not my client in the video."). Arguments about Relevance are not limited to criminal cases, of course. One could argue that a scientific study that was presented as proof is not totally relevant because it considers a different geographic region than the one under discussion, for example. Basically, any argument that could begin with "Yes, that is true, but..." is probably an Argument for or against an Argument.
+
+Understanding the difference between Relevance Arguments and Claim Arguments is a point that may be confusing at first to the average user, so it will be very important to make the disctinction abundantly clear via the user interface. We believe that in doing so, it will help those that become familiar with the platform learn about the structure of arguments, which is, after all, [[234-teach-people-about-debates|one of our objectives]].
 
 =====3.1.2.3 Relevance vs. Truth: Strength.=====
 
@@ -721,15 +713,19 @@ In terms of the user interface, the Argument could also be displayed with some o
 * Media
 * Context
 
-=====3.1.2.6 The Debate Graph.=====
+=====3.1.2.6 Complex Arguments.=====
+
+Multiple claims, etc.
+
+=====3.1.2.7 The Debate Graph.=====
 
 TODO: Claims are the nodes; Arguments are the edges
 
-=====3.1.2.7 Common Argument Types.=====
+=====3.1.2.8 Common Argument Types.=====
 
 Although the platform will probably not provide explicit support for the Argument types below, it is interesting to note them here and discuss how they will be represented in the system.
 
-======3.1.2.7.1 Evidence.======
+======3.1.2.8.1 Evidence.======
 
 Supporting evidence is essentially an objective fact presented as some sort of "proof" for a Claim. Common types of evidence include:
 
@@ -742,7 +738,7 @@ Unlike other forms of argumentation, evidence has a very strong history of [http
 
 As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be in practical measures impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
 
-======3.1.2.7.2 Logical and Informal Fallacies.======
+======3.1.2.8.2 Logical and Informal Fallacies.======
 
 The first thing one learns when studying rhetoric is the notion of a [https://en.wikipedia.org/wiki/Fallacy logical fallacy]. Some fallacies are formal, and so, if an Argument is shown to be an example of one, it can be shown to be completely ineffective (i.e. a Relevance Score of 0). Others are informal, and may in fact maintain some validity even in the face of an accusation of being a fallacy.
 
@@ -762,7 +758,7 @@ Once this Claim has been presented (and debated - and this topic is, in fact, co
 
 Note that deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies.
 
-======3.1.2.7.3 Basic Values and Principles.======
+======3.1.2.8.3 Basic Values and Principles.======
 
 TODO
 
