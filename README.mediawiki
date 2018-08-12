@@ -71,7 +71,7 @@ Recent studies have shown how such one-sided interactions lead to increasing rad
 * Ad-driven business models find success in giving users more of what they want, rather than showing them something that will upset them.
 * Superficial, entertaining, and sensationalist reporting generally gets more attention (and gives better financial returns) than balanced, information-rich text.
 
-====1.1.5 Trolling is rewarded=====
+====1.1.5 Trolling is rewarded====
 
 Many Internet destinations which encourage interaction with the public do so in a format that favors "trolling" or "flame bait": flippant remarks designed to insult or enrage readers, or to get a cheap laugh, without substantially advancing the conversation. Comments sections in news and video sites, as well as most unmoderated forums, are notorious for this problem, resulting in a perverse circus-like competition of comments which often cross the line to hate speech. Many news sites have chosen to turn off public comments entirely, and it is a common joke that "the comments section may be hazardous to your health."
 
@@ -665,33 +665,30 @@ Understanding the difference between Relevance Arguments and Claim Arguments is 
 
 =====3.1.2.3 Relevance vs. Truth: Strength=====
 
-While an Argument is concerned with its Relevance, its Claim is concerned with its Truth. 
+While an Argument is concerned with its Relevance, its Claim is concerned with its Truth. Both must somehow contribute to the total effectiveness of the Argument within the debate. In the previous section, we mentioned how an Argument could be attacked by focusing on either one of these aspects. Indeed, an Argument is meaningless if it is based on a complete lie, or if it is irrelevant to the target of the debate.
+
+We call the combination of these two attributes, the Relevance of the Argument, and the Truth of its underlying Claim, its Strength. A strong Argument is one that is true and relevance. A weak Argument is one that fails in at least one of these regards. We will discuss exactly how this works in more detail down in the [[#33-scoring|Scoring]] section below.
 
 =====3.1.2.4 Arguments That Are Pro AND Con=====
 
-TODO: What about Arguments that can be considered for OR against something. Ex: "If we don't get a new mattress, my mother can't come stay with us?" Depending on one's feelings about the person's mother, that could be a very strong argument for OR against the proposition. How should Gruff handle this?
+Just to make things more complicated, there are many cases where an argument can be considered to be supporting or attacking a Claim based on the perspective of the viewer. This is especially common in qualitative discussions (e.g. "Barack Obama was a good president") and decisions regarding a course of action (e.g. "The U.S. should build a wall on the border with Mexico"). In such cases, the arguments made may be as controversial as the original Claim itelf.
 
-* Put scoring on a scale of -100 to 100, rather than 0 to 100 (for example)
-* Allow debaters to add the same Claim to the debate twice, once via an Argument FOR the Claim, and once via an Argument AGAINST. It would then be up to each debater to make sure they have balanced their votes on each side… (20 for one side and 80 for the other, for example)
+Consider the following two Arguments, related to the examples above:
 
-It's interesting to consider the impact on sub-arguments in each of these cases (and roll-up!). Take, for example, the Argument above:
+''Barack Obama authorized the use of drone strikes on terror targets in Pakistan.''
 
-''Should we get a new mattress?''
-* For/Against: ''If we don't, my mother can't stay with us''
-** For: ''I love my mother'' (Score: 100 for)
-** Against: ''You hate my mother'' (Score: 100 against/-100 for)
+''Building a wall would send a message that the United States is no longer a friendly destination for those south of the border.''
 
-Vs.
+In both cases, it depends on your opinion regarding these subjects whether or not the argument supports or undermines the main point. The Canonical Debate platform must be built in such a way that it allows for this situation.
 
-''Should we get a new mattress?''
-* For: ''If we don't, my mother can't stay with us''
-** For: ''I love my mother'' (Score: 100)
-** Against: ''You hate my mother'' (Score: 100)
-* Against: ''If we don't, my mother can't stay with us''
-** For: ''You hate my mother'' (Score: 100)
-** Against: ''I love my mother'' (Score: 100)
+There are two approaches that are currently under consideration:
 
-In both cases, the Argument is a wash. But in the first case, the representation of the Argument is confused (on which side of the debate do you show it?) and the scoring even more so. In the second case, the representation is redundant, and the Arguments will have to be duplicated on both sides (which seems contrary to the canonical philosophy).
+# Repeat the same Argument on each side, with one version supporting the Claim, and the other version attacking it
+# Display the Argument on the pro side or the con side depending on the aggregate result of the underlying arguments
+
+The first approach makes it explicit the fact that the Argument is a double-edged sword, by essentially displaying each edge as a separate entity in the debate. However, it may result in the same sub-Arguments being repeated on both sides. The second approach is probably more intuitive (why see the same argument twice?), but then the Scoring system must be designed such that the same Argument may show up on one side or another depending on the balance between scores on each side. Also, under the second option, if both sides are equally balanced, it isn't clear on which side to show the Argument.
+
+This is one area still under consideration. As we experiment with the different approaches, we will update this document according to what we have learned.
 
 =====3.1.2.5 Attributes=====
 
