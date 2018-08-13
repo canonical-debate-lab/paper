@@ -692,23 +692,23 @@ This is one area still under consideration. As we experiment with the different 
 
 =====3.1.2.5 Attributes=====
 
-Arguments have many of the same attributes as Claims, at least in terms of displaying them to debaters. In fact, the average person may not understand the concept of separating an Argument from its Claim; when one writes out the main points in a debate, they generally provide ONLY the Argument (with its Context-relative title), and the Claim itself remains implicit.
+Arguments have many of the [[#3113-attribute|same attributes as Claims]], at least in terms of displaying them to debate participants. In fact, the average person may not understand the concept of separating an Argument from its Claim; when one writes out the main points in a debate, they generally provide ONLY the Argument (with its Context-relative title), and the Claim itself remains implicit.
 
 Nevertheless, Arguments do have a few differences:
 
-* Unique ID
-* Title
-* Description
-* Relevance Score
-* The Claim upon which the Argument is based
-* Arguments For/Against the Argument
-* The Claim or Argument which this Argument supports or attacks (the Target)
+* '''Unique ID''' - An Argument will have an ID separate from its Claim.
+* '''Title''' - The Argument has a title which may or may not be the same as its base Claim. This provides an opportunity to make the debate more readable to people, by substituting pronouns (e.g. "he", "she", "they") for proper nouns in the Claim Title (e.g. "The Space Shuttle Columbia", "armadillo"), and so on.
+* '''Description''' - A Description for an Argument would entail providing some further background on the Argument itself, perhaps the reason why it was chosen in the debate at hand. It is an optional attribute.
+* '''Relevance Score''' - As noted, Arguments have a Relevance Score rather than a Truth Score. The [[#3123-relevance-vs-truth-strength|Strength Score]], however, would not be considered an attribute, as it is derived from the combination of the Relevance Score and the base Claim's Truth Score.
+* '''Arguments For/Against the Argument''' - The Relevance Score of the Argument can be supported or undermined by other Arguments.
+* '''Base Claim''' - Every Argument must be based on a Claim. We call this Claim its ''Base Claim'', and the Truth Score of that Claim has a major impact on its Strength.
+* '''Target''' - The Claim or Argument which this Argument supports or attacks. For example, if one makes an Argument to show that someone else's point is irrelevant, the Target would be the other, irrelevant, Argument.
 
-In terms of the user interface, the Argument could also be displayed with some of the properties of its base Claim, such as:
+In terms of the user interface, the Argument could also be displayed with some of the properties of its Base Claim, such as:
 
-* Relevant links
-* Media
-* Context
+* '''Relevant links''' - The links from its Base Claim should be relevant for the Argument as well.
+* '''Media''' - The interface could show the images and other media from the Base Claim along with the Argument.
+* '''Context''' - An Argument would not have its own Context. Rather, its Context is that of its Base Claim, being used within the Context of its Target Claim or Argument. There are many possibilities implied by this relationship of differing Contexts (that of the base and the target). We will discuss this more in the section on [[321-context|Context]] and in our discussions of [[374-other-opportunities-for-machine-learning|opportunities for machine learning]] features below.
 
 =====3.1.2.6 Complex Arguments.=====
 
@@ -716,7 +716,11 @@ Multiple claims, etc.
 
 =====3.1.2.7 The Debate Graph.=====
 
-TODO: Claims are the nodes; Arguments are the edges
+An Argument Map is generally conceived as a tree, with the focus of the debate, the proposition, at the top, and then the arguments and counter-arguments cascading below. This structure is oversimplified for a Canonical Debate. In a tree-like structure it must be assumed that each "branch" is a separate, independent argument (you wouldn't expect the same argument to appear in two places in the same debate). In the Canonical Debate, we know that while Arguments are unique, Claims may be reused many times, creating more of a network pattern of Arguments connecting Claims and other Arguments.
+
+The proper name for a network-like structure of entities interconnected in this manner is a ''graph'', much like the [https://www.wired.com/insights/2014/04/can-facebook-friend-graph-teach-us-data/|Facebook Friend Graph], although probably much sparser. Although the distinction seems technical, there is one very interesting implication from this. While the tree-like Argument Maps stand on their own, the Canonical Debate Graph is something that can be navigated, much like a [https://en.wikipedia.org/wiki/Ontology_(information_science)|knowledge graph] (and that is no coincidence).
+
+If and when the Canonical Debate has been fully realized, it should be possible to navigate from one Claim to another via their interconnecting Arguments. This permits users to visualize and understand the impacts that one "fact" (e.g. "The sails of ships can be seen dropping below the horizon.") may have on another (e.g. "The Earth is not flat."). We will explore this topic more in our discussion of [[#33331-belief-perspective|beliefs]].
 
 =====3.1.2.8 Common Argument Types.=====
 
