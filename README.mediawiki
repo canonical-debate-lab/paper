@@ -603,7 +603,15 @@ This leads to the second point, which is that there are many ways to view the ou
 
 =====3.1.1.5 Complex Claims=====
 
-Multiple premises, etc.
+Some Claims can be very simple, singular statements of fact (or opinion). For example, the Claim that "I am a genius", true or not, is a fairly focused discussion that can be had. However, many Claims turn out to actually be a combination of two or more proposed facts, each of which may be debated separately. If we change the Claim to state that "I am a stable genius", the truth of the Claim now rests on two supposed facts: "I am stable" and "I am a genius".
+
+We call this a Multi-premise Claim, a Claim which is composed of more than one Claim. For the purpose of The Canonical Debate, we may refer to a "simple" Claim, with only one proposed fact, as a ''premise'' in order to differentiate this type of Claim from a Multi-premise Claim.
+
+In the example above, the two Claims are joined together in what is known as an "and" relationship. That is, in order for the Claim to be true, the first Claim must be true AND the second must be true. If either is false, the whole Claim falls apart ("You may be stable, but you ain't no genius."). It is also possible to create a Claim in which only one of the options needs to be true for the whole Claim to be true. This is known as an "or" relationship: "Either Fred or Velma or Daphne was present at the meeting."
+
+For those familiar with [https://en.wikipedia.org/wiki/Boolean_algebra|Boolean logic], it may be apparent now that Multi-premise Claims are a mechanism for supporting the full breadth of possible relationships between Claims in a premise. It is also possible to support Claims containing an "exclusive or" relationship, such as "Either Fred or Velma or Daphne was present at the meeting, but only one of them went". A Multi-premise Claim can even contain other Multi-premise Claims, so it is possible to express (and debate) statements such as "Fred and either Velma or Daphne were present at the meeting" (where "Velma or Daphne" is one Multi-premise Claim used by the "Fred and (Velma or Daphne)" Multi-premise Claim).
+
+A Multi-premise Claim behaves much like any other Claim, in that its truth may be debated, and it may be used as the basis for [[#312-argument|Arguments (see below)]]. The difference lies in the way that it is debated (each Claim may separately be attacked and defended), and the way that it is [[#33-scoring|scored (again, see below)]].
 
 =====3.1.1.6 Changing Perspectives=====
 
@@ -710,11 +718,7 @@ In terms of the user interface, the Argument could also be displayed with some o
 * '''Media''' - The interface could show the images and other media from the Base Claim along with the Argument.
 * '''Context''' - An Argument would not have its own Context. Rather, its Context is that of its Base Claim, being used within the Context of its Target Claim or Argument. There are many possibilities implied by this relationship of differing Contexts (that of the base and the target). We will discuss this more in the section on [[321-context|Context]] and in our discussions of [[374-other-opportunities-for-machine-learning|opportunities for machine learning]] features below.
 
-=====3.1.2.6 Complex Arguments.=====
-
-Multiple claims, etc.
-
-=====3.1.2.7 The Debate Graph.=====
+=====3.1.2.6 The Debate Graph.=====
 
 An Argument Map is generally conceived as a tree, with the focus of the debate, the proposition, at the top, and then the arguments and counter-arguments cascading below. This structure is oversimplified for a Canonical Debate. In a tree-like structure it must be assumed that each "branch" is a separate, independent argument (you wouldn't expect the same argument to appear in two places in the same debate). In the Canonical Debate, we know that while Arguments are unique, Claims may be reused many times, creating more of a network pattern of Arguments connecting Claims and other Arguments.
 
@@ -722,11 +726,11 @@ The proper name for a network-like structure of entities interconnected in this 
 
 If and when the Canonical Debate has been fully realized, it should be possible to navigate from one Claim to another via their interconnecting Arguments. This permits users to visualize and understand the impacts that one "fact" (e.g. "The sails of ships can be seen dropping below the horizon.") may have on another (e.g. "The Earth is not flat."). We will explore this topic more in our discussion of [[#33331-belief-perspective|beliefs]].
 
-=====3.1.2.8 Common Argument Types.=====
+=====3.1.2.7 Common Argument Types.=====
 
 Although the platform will probably not provide explicit support for the Argument types below, it is interesting to note them here and discuss how they will be represented in the system.
 
-======3.1.2.8.1 Evidence.======
+======3.1.2.7.1 Evidence.======
 
 Supporting evidence is essentially an objective fact presented as some sort of "proof" for a Claim. Common types of evidence include:
 
@@ -739,7 +743,7 @@ Unlike other forms of argumentation, evidence has a very strong history of [http
 
 As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be in practical measures impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
 
-======3.1.2.8.2 Logical and Informal Fallacies.======
+======3.1.2.7.2 Logical and Informal Fallacies.======
 
 The first thing one learns when studying rhetoric is the notion of a [https://en.wikipedia.org/wiki/Fallacy logical fallacy]. Some fallacies are formal, and so, if an Argument is shown to be an example of one, it can be shown to be completely ineffective (i.e. a Relevance Score of 0). Others are informal, and may in fact maintain some validity even in the face of an accusation of being a fallacy.
 
@@ -759,7 +763,7 @@ Once this Claim has been presented (and debated - and this topic is, in fact, co
 
 Note that deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies.
 
-======3.1.2.8.3 Basic Values and Principles.======
+======3.1.2.7.3 Basic Values and Principles.======
 
 TODO
 
