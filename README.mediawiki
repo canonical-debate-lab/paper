@@ -584,7 +584,7 @@ Although not a final design, we believe that the following attributes would be h
 * '''Unique ID''' - It is important to guarantee that each and every Claim can be referenced within an from outside of the system via a simple identifier not tied to the other changeable attributes.
 * '''Title''' - Each Claim should have a brief explanation, easy to read and quick to digest. Ideally, this "title" should be enough for the average reader to understand what is being claimed at a glance. A more advanced implementation under consideration would be to allow multiple versions of the Title, based on how users wish to view the Claim ([[#3116-changing-perspectives|see below]]).
 * '''Description''' - A Description would be a more in-depth explanation of the Claim being made, which might include clarifications on the words used in the Title (although disambiguation should generally be handled by [[#321-context|Context]]), and any necessary background information to help readers understand why the Claim is being made. For the sake of expedience, Descriptions should be optional when creating a Claim.
-* '''Links''' - Claims should support an optional set of external references (Links) to supporting information. This will be especially useful in the case of Claims of evidence, such as the claim that there is a video which shows the occurrence of an event.
+* '''References''' - Claims should support an optional set of external references (URLs, or "links") to supporting information. This will be especially useful in the case of Claims of evidence, such as the claim that there is a video which shows the occurrence of an event.
 * '''Related media''' - For the sake of improving the user experience, Claims should provide the opportunity to provide images, videos, logos or other media which can accompany the Claim for display within a web site or other user interface. For example, a Claim regarding a person or event might include a photo of said person or event for display along with the Title and other attributes.
 * '''Context''' - In any debate, it is critical to define exactly what is being claimed and argued. This process is known as ''disambiguation''. In a canonical debate, this becomes even more important in order to avoid any misunderstandings, duplications of information, and more. The solution we propose for the Canonical Debate is the use of [[#321-context|Context]] elements related to the Claim. See the relevant section below on this topic for more information.
 * '''Truth Score''' - As previously mentioned in the [[#1512-inadequate-scoring|Problems section]], it is important to provide a mechanism for evaluating claims and arguments within the system. In fact, we propose the implementation of [[#331-scoring|multiple scoring mechanisms]] as described below. In the case of a Claim, the attribute to be measured is the question of its veracity, or agreeability. 
@@ -601,7 +601,7 @@ As will be described in the [[#331-scoring|scoring section]] below, many scores 
 
 This leads to the second point, which is that there are many ways to view the outcome of a debate. The principle perspectives that we see a need to support are the "objective" result (models which score independent of human opinion), the "popular" result (models based on aggregate user opinions), and the "individual" result (models which focus on the opinions of a single individual). We call the latter model the set of "beliefs" of an individual. This has some interesting implications and applications in the system, as will become apparent.
 
-=====3.1.1.5 Complex Claims=====
+=====3.1.1.5 Multi-premise Claims=====
 
 Some Claims can be very simple, singular statements of fact (or opinion). For example, the Claim that "I am a genius", true or not, is a fairly focused discussion that can be had. However, many Claims turn out to actually be a combination of two or more proposed facts, each of which may be debated separately. If we change the Claim to state that "I am a stable genius", the truth of the Claim now rests on two supposed facts: "I am stable" and "I am a genius".
 
@@ -718,7 +718,7 @@ In terms of the user interface, the Argument could also be displayed with some o
 * '''Media''' - The interface could show the images and other media from the Base Claim along with the Argument.
 * '''Context''' - An Argument would not have its own Context. Rather, its Context is that of its Base Claim, being used within the Context of its Target Claim or Argument. There are many possibilities implied by this relationship of differing Contexts (that of the base and the target). We will discuss this more in the section on [[321-context|Context]] and in our discussions of [[374-other-opportunities-for-machine-learning|opportunities for machine learning]] features below.
 
-=====3.1.2.6 The Debate Graph.=====
+=====3.1.2.6 The Debate Graph=====
 
 An Argument Map is generally conceived as a tree, with the focus of the debate, the proposition, at the top, and then the arguments and counter-arguments cascading below. This structure is oversimplified for a Canonical Debate. In a tree-like structure it must be assumed that each "branch" is a separate, independent argument (you wouldn't expect the same argument to appear in two places in the same debate). In the Canonical Debate, we know that while Arguments are unique, Claims may be reused many times, creating more of a network pattern of Arguments connecting Claims and other Arguments.
 
@@ -726,11 +726,11 @@ The proper name for a network-like structure of entities interconnected in this 
 
 If and when the Canonical Debate has been fully realized, it should be possible to navigate from one Claim to another via their interconnecting Arguments. This permits users to visualize and understand the impacts that one "fact" (e.g. "The sails of ships can be seen dropping below the horizon.") may have on another (e.g. "The Earth is not flat."). We will explore this topic more in our discussion of [[#33331-belief-perspective|beliefs]].
 
-=====3.1.2.7 Common Argument Types.=====
+=====3.1.2.7 Common Argument Types=====
 
 Although the platform will probably not provide explicit support for the Argument types below, it is interesting to note them here and discuss how they will be represented in the system.
 
-======3.1.2.7.1 Evidence.======
+======3.1.2.7.1 Evidence======
 
 Supporting evidence is essentially an objective fact presented as some sort of "proof" for a Claim. Common types of evidence include:
 
@@ -743,7 +743,9 @@ Unlike other forms of argumentation, evidence has a very strong history of [http
 
 As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be in practical measures impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
 
-======3.1.2.7.2 Logical and Informal Fallacies.======
+Current plans for the Canonical Debate do not include creating a type specifically for the treatment of evidence. It should be noted that evidence isn't really an Argument, but rather a Claim (e.g. "This video shows XYX") that, if true, can be used as an Argument in support of another Claim. The use of [[#3115-multi-premise-claims|Multi-premise Claims]], along with the [[#3113-attributes|References attribute]], should go some way towards providing a mechanism for presenting evidence in canonical debates.
+
+======3.1.2.7.2 Logical and Informal Fallacies======
 
 The first thing one learns when studying rhetoric is the notion of a [https://en.wikipedia.org/wiki/Fallacy logical fallacy]. Some fallacies are formal, and so, if an Argument is shown to be an example of one, it can be shown to be completely ineffective (i.e. a Relevance Score of 0). Others are informal, and may in fact maintain some validity even in the face of an accusation of being a fallacy.
 
@@ -755,15 +757,15 @@ An Argument that could be used against the Strength of this Argument would be:
 
 ''This is an Appeal to Authority, and doesn't help explain why one shouldn't invest.''
 
-In Gruff, every Argument must have an underlying Claim, and in this case that Claim would be:
+In the Canonical Debate, every Argument must have an underlying Claim, and in this case that Claim might be stated as:
 
-''Using an Appeal to Authority as an Argument does not help support a debate logically''
+''Using an Appeal to Authority as an argument does not help support a debate logically''
 
 Once this Claim has been presented (and debated - and this topic is, in fact, contentious) in the system, it is ready to be reused for any other debate as needed. And so it should be for the entire list of both formal and informal fallacies.
 
-Note that deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies.
+Deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies. Although some fallacies are fairly black and white (in the sense that if the argument is indeed a fallacy of that type, then the Argument must be completely irrelevant), some fallacies are something of a sliding scale in terms of how effective they are (for example, the [https://en.wikipedia.org/wiki/Slippery_slope Slippery Slope fallacy]). The point is to provide room for debate, and to penalize to the appropriate degree.
 
-======3.1.2.7.3 Basic Values and Principles.======
+======3.1.2.7.3 Basic Values and Principles======
 
 TODO
 
