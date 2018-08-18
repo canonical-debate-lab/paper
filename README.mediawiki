@@ -767,17 +767,26 @@ Deep consideration has been given to making fallacies a special category or feat
 
 ======3.1.2.7.3 Basic Values and Principles======
 
+As we stated in the [[#214-true-disagreements-are-about-beliefs-values-and-priorities|introductory sections]], there is a type of argument that can be said to be based on principle. These are often the type of arguments that are invoked in political discussions, and other debates where emotion is involved. 
+
 TODO
+
+
+3.1.2.4 Arguments That Are Pro AND Con
 
 ====3.1.3 Request for Information (RFI)====
 
-A placeholder argument requesting that someone with expertise in the field provide some concrete information (e.g. "What is the difference in relative salary between men and women for college graduates for the period from 2010 through 2017?"). 
+It is common for people in a debate to realize that information outside the scope of their knowledge could dramatically sway their opinion on a matter, assuming it could be trusted. In a [[#12-the-problem-with-debate-offline|live debate]], those points can only be avoided, but in the Canonical Debate, there is the opportunity to request help from experts to fill in the blanks. Much like [https://www.quora.com/ Quora], it should be possible for users to follow specific topics ([[#321-context|Contexts]]) in order to receive notifications for RFIs in their area of expertise.
 
-It is common for people in a debate to realize that information outside the scope of their knowledge could dramatically sway their opinion on a matter, assuming it could be trusted. In a live debate, those points can only be avoided, but in the canonical debate, there is the opportunity to request for experts to fill in the blanks. Much like Quora, it should be possible for users to follow specific topics (Contexts) in order to receive notifications for RFIs in their area of expertise.
+Although we have not fully decided how it should look and behave at this stage, we believe it is important to define an explicit element that could be used for this purpose. An RFI would act as a placeholder argument which would be visible in the debate, but differentiated from other Arguments. It would best be framed as a question rather than an affirmation (e.g. "What is the difference in relative salary between men and women for college graduates for the period from 2010 through 2017?"), and would help frame the discussion in such a way as to allow participants to proceed with the debate while formally acknowledging the limits of their knowledge.
 
 ====3.1.4 Debate====
 
-Although the whole purpose of the project is to facilitate debates, a debate is not really a first-class citizen in Gruff. Debate is more of a verb than a noun. In fact, there is no object or element in the design of Gruff specifically called a "Debate". Rather, we say that everything on the platform (Claims, Arguments, Evidence) is ''debatable''. Debating is the process of working as a group to come to a consensus, if not on the truth of a Claim, at least on what are the principle points of difference, the beliefs and the set of values that each one must know and balance.
+Although the whole purpose of the project is to facilitate debates, a debate is not really a first-class citizen in the Canonical Debate. Debate is more of a verb than a noun. In fact, there is no object or element in the design of the platform specifically called a "Debate". Rather, we say that everything on the platform (Claims, Arguments, etc.) is ''debatable''. Debating is the process of working as a group to come to a consensus, if not on the truth of a Claim, at least on what are the principle points of difference, the beliefs and the set of values that each one must know and balance.
+
+The term "Debate" does have a functional purpose, however, and so it is useful to provide an official definition of the term: A Debate is the word we use to mean "the current Claim under consideration". The Canonical Debate [[#3126-the-debate-graph|is a graph]], and so there is no official starting point, or final Claim to be discussed. However, when viewing a discussion, it is useful to display a subset of the graph as if it were a standalone tree, with the truth of one Claim being decided at the top. If, for example, this Claim were "The Eath is flat.", we could say that we are debating that Claim, even though there are many other equally important (in other circumstances) Claims involved.
+
+A Debate is the Claim on which we are focusing at any given moment.
 
 ===3.2 Supporting Elements===
 
