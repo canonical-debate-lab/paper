@@ -679,7 +679,7 @@ We call the combination of these two attributes, the Relevance of the Argument, 
 
 =====3.1.2.4 Arguments That Are Pro AND Con=====
 
-Just to make things more complicated, there are many cases where an argument can be considered to be supporting or attacking a Claim based on the perspective of the viewer. This is especially common in qualitative discussions (e.g. "Barack Obama was a good president") and decisions regarding a course of action (e.g. "The U.S. should build a wall on the border with Mexico"). In such cases, the arguments made may be as controversial as the original Claim itelf.
+Unfortunately, argumentation can at times get complicated. There are many cases where an argument can be considered to be supporting or attacking a Claim based on the perspective of the viewer. This is especially common in qualitative discussions (e.g. "Barack Obama was a good president") and decisions regarding a course of action (e.g. "The U.S. should build a wall on the border with Mexico"). In such cases, the arguments made may be as controversial as the original Claim itelf.
 
 Consider the following two Arguments, related to the examples above:
 
@@ -767,12 +767,29 @@ Deep consideration has been given to making fallacies a special category or feat
 
 ======3.1.2.7.3 Basic Values and Principles======
 
-As we stated in the [[#214-true-disagreements-are-about-beliefs-values-and-priorities|introductory sections]], there is a type of argument that can be said to be based on principle. These are often the type of arguments that are invoked in political discussions, and other debates where emotion is involved. 
+As we stated in the [[#214-true-disagreements-are-about-beliefs-values-and-priorities|introductory sections]], there is a type of argument that can be said to be based on principle. These are often the type of arguments that are invoked in political discussions, and other debates where emotion is involved. Particularly in the case of [[#3124-arguments-that-are-pro-and--con|ambivalent Arguments]], there is a good chance that the reasoning behind each side of the argument is based on some kind of principle, or prioritization of values
 
-TODO
+For example, in the case of the example argument regarding drone strikes, the side in favor of them might argue something like:
 
+''Using drones instead of foot soldiers reduces U.S. military casualties.''
 
-3.1.2.4 Arguments That Are Pro AND Con
+Meanwhile, the other side might argue that:
+
+''Using drones instead of foot soldiers increases the number of civilian casualties.''
+
+Digging deeper into these arguments, there are some implicit value judgements that are being weighed in the balance here. One way to describe them would be:
+
+''U.S. military casualties are bad.''
+
+and:
+
+''Civilian casualties are bad.''
+
+Both statements are value judgements. Some may agree with one of them (not everyone cares about American soldiers, and others [https://edition.cnn.com/2015/12/02/politics/donald-trump-terrorists-families/index.html might not have a problem with civilian deaths]), while others may actually agree to both statements, to varying degrees. The outcome of such an Argument may depend on which way the viewer chooses to prioritize each value statement.
+
+In the structure we have defined for the Canonical Debate, it makes sense to define each value and principle as a canonical Claim all its own. This would to some degree provide an opportunity to capture, in argument form, the reasoning behind each concept. It would also provide the mechanism for applying each of them as an Argument into any debate, including the opportunity to debate the relevance of such an application. This structure fulfills, and puts to test, our belief that [[#214-true-disagreements-are-about-beliefs-values-and-priorities|true disagreements are about beliefs, values and priorities]].
+
+As a final consideration, such basic value-based Claims provide an excellent opportunity to examine contradictions in personal beliefs (e.g. "Why is it that you care so much about security in this one debate, but not at all in another?"). As part of our effort to [[#2317-illuminate-different-perspectives|teach people about themselves and others]], it would be a valuable tool to highlight apparent contradictions. It would also help people reflect deep within themselves the reasons behind their own opinions.
 
 ====3.1.3 Request for Information (RFI)====
 
