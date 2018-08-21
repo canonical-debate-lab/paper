@@ -809,39 +809,51 @@ A Debate is the Claim on which we are focusing at any given moment.
 
 ====3.2.1 Context====
 
-Many logical fallacies are made during the course of debates just on the basis of using evidence, statistics or supposed facts from one context and applying them within the very different context of the debate. Another common problem is cherry-picking a study from one very specific place, and obscuring or removing its context in an attempt to make a much more general statement. It is also very common to witness a disconnect between the two sides of a debate as one side focuses on one context and the other focuses on another.
+Many logical fallacies are made during the course of debates just on the basis of using evidence, statistics or supposed facts from one context and applying them within the very different context of the debate. Another common problem is cherry-picking a study from one very specific set of conditions, and obscuring or removing its context in an attempt to make a much more general statement. Unfortunately, a lot of time is also lost haggling over definitions of the debate, and in correcting misunderstandings due to imprecisions in language.
 
-The canonical debate platform resolves this problem through the explicit declaration of Context elements for each Claim. These elements to some degree can be thought of as the dictionary definition of each of the words used in the Claim itself. For example, in the argument: ''John Doe hates my mother'', the Context could be declared as follows:
+The Canonical Debate platform resolves this problem through the explicit declaration of Context elements for each Claim. These elements to some degree can be thought of as the dictionary definition of each of the words used in the Claim itself. For example, in the argument: ''John Doe hates my mother'', the Context could be declared as follows:
 
-'''John Doe''' (''Context: Jonathan Randall Joe, SSN: 112-12-0234, USA'') 
-hates 
-'''my mother''' (''Janathan Rosalyn Blow, SSN: 052-33-0101, USA'')
+'''John Doe''' (''Jonathan Randall Joe, SSN: 112-12-0234, USA'') hates '''my mother''' (''Janathan Rosalyn Blow, SSN: 052-33-0101, USA'')
 
 This Claim has been declared with two Contexts which, presumably, avoid confusion about which individuals we are discussing. However, this still leaves some wiggle room for an Argument of the type:
 
-No
-'''I''' (''Context: Jonathan Randall Joe, SSN: 112-12-0234, USA'')
-do not. I merely despise
-'''her''' (''Janathan Rosalyn Blow, SSN: 052-33-0101, USA'').
+No '''I''' (''Jonathan Randall Joe, SSN: 112-12-0234, USA'') do not. I merely despise '''her''' (''Janathan Rosalyn Blow, SSN: 052-33-0101, USA'').
 
 Thus, it would be desirable to provide Context definitions even for verbs, although that may prove difficult to achieve.
 
 =====3.2.1.1 Knowledge Graphs=====
 
-It would be a phenomenal task to attempt to build a database of all the possible Contexts that could be required for public debates. Fortunately, there are some incredible organizations that have already shouldered this burden. These include:
+Defining Context as dictionary definitions for the terms used in Claims would already be a step forward. However, so much more is possible, and necessary, in order to achieve [[#236-require-context|our objectives]], and make the most of the possibilities. By couching Claims in their proper context, it allows us to ask related but distinct questions by looking at variations in the terms.
+
+Consider the possible debate:
+
+<u>'''Abraham Lincoln'''</u> was the <u>'''best'''</u> <u>'''President'''</u> the <u>'''United States'''</u> ever had.
+
+If definitions could be related to one another in some form of taxonomy, this would allow us to "navigate" around different Claims just by their relationship via context elements. From the debate above, it would be possible to search for debates regarding "Who was the worst President of the United States?", "What else was Abraham Lincoln the best at?" "Who was the best Prime Minister of the U.K.?", and so on. If one considers each Context element as an axis on which Claims reside, it is possible to imagine these Claims living in a multi-dimensional, interconnected space of debates about proposed facts.
+
+It would be a phenomenal task to attempt to build a database of all the possible Contexts that could be required for public debates, not to mention building the infrastructure and taxonomies that guide the relationship between all these elements. Fortunately this concept of relating entities within an interconnected web of domains already exists, under the name [https://en.wikipedia.org/wiki/Ontology_(information_science) Ontology], or more recently (and informally) ''knowledge graph''. 
+
+There are some incredible organizations that have already shouldered this burden and are continuously improving their data set. These include:
 
 * [https://www.wikidata.org/wiki/Wikidata:Main_Page Wikidata]
 * [https://www.wikipedia.org/ Wikipedia]
 * [https://www.google.com/intl/bn/insidesearch/features/search/knowledge.html Google Knowledge Graph]
 * [http://wiki.dbpedia.org/ DBPedia]
 
-Any of these online databases can be used as the source for a Context element, which includes an external link to the specific definition.
+Our proposal is to make Context elements represent one of these external knowledge graph entities within the platform. Any of these online databases can be used as the source for a Context element, and where an entity is defined in more than one, the Context entity should provide a reference to each of the matching systems.
 
-[https://en.wikipedia.org/wiki/Donald_Trump_Jr. Donald Trump] does not wear a [https://en.wikipedia.org/wiki/Toup%C3%A9e toupée].
+There may very well be cases in which a Context element is needed, but there is no matching entity in any known external graph. In such a case, it should be possible to define at the very least a simple definition to explain the terms that are being used in an unambiguous fashion. Ideally, the community would do well to add the new element to one of the external partner systems that serve as a source to the Canonical Debate.
 
-However, if none of these sources provides the required reference, it should be possible to define one, either within the system itself, or via some other external source.
+=====3.2.1.2 Attributes=====
 
-=====3.2.1.2 Context to Refine Debates=====
+Context elements are simpler than Claims and Arguments, but still require some data in order to fulfill their purpose:
+
+* '''Unique ID''' - As with Claims, Contexts should not have duplicate entries representing the same concept.
+* '''Name''' - A Context element should have a an appropriate, and not necessarily unique, name.
+* '''Definition''' - In the case of a Context without any external references, a definition would be required. Otherwise, the definition would be an optional summary to differentiate this item from other Contexts with similar names (for example, it would be useful to say that "Paris" is "A prince of Troy in Greek mythology" in order to differentiate that figure from one of the several cities in the world with the same name).
+* '''Knowledge Graph References''' - Given that there may be more than one potential reference entity in external knowledge graphs, each Context element should contain one external reference for each system which matches it. Each system has its own method of reference (for example, the Google Knowledge Graph uses an identifer like ''kg:/m/0dl567'' to represent one of its elements, whereas for Wikipedia, a URL might be the appropriate format), so each field should support the appropriate format.
+
+=====3.2.1.3 Context to Refine Debates=====
 
 One very common problem in debates is the tendency to generalize the statistics in one context to a much larger context, without any clear indication that it is reasonable to do so. This is known as the [https://en.wikipedia.org/wiki/Hasty_generalization Hasty Generalization fallacy], and is only one example of fallacies due to loose or uncareful use of Context. One of the benefits of making Context explicit is the ability to identify when this is the case, and correct for it.
 
@@ -855,11 +867,11 @@ This is an extremely general statement. There should therefore be a much greater
 
 This would be a relatively easier Claim to prove, and perhaps a better place to start for a much more complex debate. However, it's easy to envision breakdowns of this one Claim by city, and perhaps even by neighborhood, year, or population, should it interest the debating public.
 
-=====3.2.1.3 Context and Arguments=====
+=====3.2.1.4 Context and Arguments=====
 
 This section began by discussing the relationship between Context and Claims, and yet the first examples were really relating Contexts to Arguments. This was a bit misleading, as Arguments do not themselves possess any Context. Arguments merely provide a link between two separate Claims, each of which has its own set of Contexts. Therefore, the Context of an Argument is actually the Context of its underlying Claim (which is being used within the Context of the target Claim or Argument).
 
-=====3.2.1.4 Context and Relevance=====
+=====3.2.1.5 Context and Relevance=====
 
 Consider then the following Claim:
 
@@ -875,7 +887,7 @@ Likewise, if the study were regarding undocumented immigrants in Germany rather 
 
 In the current iteration of Gruff, no attempt is being made to automate calculations of relevance based on Context; however, Context may be used to flag to users when there is no match whatsoever, or to recommend Claims that seem to have Contexts that match the target Claim.
 
-=====3.2.1.4 Autocomplete, Duplicate Argument reduction, etc.=====
+=====3.2.1.6 Autocomplete, Duplicate Argument reduction, etc.=====
 
 ====3.2.2 User====
 
