@@ -855,7 +855,7 @@ Context elements are simpler than Claims and Arguments, but still require some d
 
 =====3.2.1.3 Context to Refine Debates=====
 
-One very common problem in debates is the tendency to generalize the statistics in one context to a much larger context, without any clear indication that it is reasonable to do so. This is known as the [https://en.wikipedia.org/wiki/Hasty_generalization Hasty Generalization fallacy], and is only one example of fallacies due to loose or uncareful use of Context. One of the benefits of making Context explicit is the ability to identify when this is the case, and correct for it.
+One very common problem in debates is the tendency to generalize the statistics in one context to a much larger context, without any clear indication that it is reasonable to do so. This is known as the [https://en.wikipedia.org/wiki/Hasty_generalization Hasty Generalization fallacy], and is only one example of fallacies due to loose or uncareful use of context. One of the benefits of making Context explicit is the ability to identify when this is the case, and correct for it.
 
 Consider the following Claim:
 
@@ -873,29 +873,33 @@ This section began by discussing the relationship between Context and Claims, an
 
 =====3.2.1.5 Context and Relevance=====
 
-Consider then the following Claim:
+Consider the following Claim:
 
-''Study X conducted by the University of Lalaland shows that violent crime rates in communities in the U.S. with a high population of Nambian refugees shows an unusually high number of violent crimes between 2014 and 2017.''
+''Study X conducted by the University of Lalandia shows that violent crime rates in communities in the U.S. with a high population of Nambian refugees shows an unusually high number of violent crimes between 2014 and 2017.''
 
-Should this Claim be used as an Argument in the prior debate regarding crime rates, a few things should become evident regarding its Context:
+If this Claim were to be used as an Argument in the prior debate regarding crime rates, a few things should become evident regarding its Context:
 
 # It refers to refugees, rather than undocumented immigrants
 # The study covers only a portion of the time period being debated in the Claim
 
-This implies that the Relevance score of the Argument itself should NOT be the maximum possible score. It cannot conclusively prove the Claim because its Context is not a perfect match. In fact the first point implies that this Argument may not be relevant at all.
-Likewise, if the study were regarding undocumented immigrants in Germany rather than the United States, or during a previous century, its relevance would also be in question. What this reveals is that Context is directly linked to the Relevance of Arguments that are used for or against a Claim.
+This implies that the Relevance score of the Argument itself should NOT be the maximum possible score. It cannot conclusively prove the Claim because its Context is not a perfect match. In fact the first point implies that this Argument may not be relevant at all. Likewise, if the study were regarding undocumented immigrants in Germany rather than the United States, or during a previous century, its relevance would also be in question. What this reveals is that Context is directly linked to the Relevance of Arguments that are used for or against a Claim.
 
-In the current iteration of Gruff, no attempt is being made to automate calculations of relevance based on Context; however, Context may be used to flag to users when there is no match whatsoever, or to recommend Claims that seem to have Contexts that match the target Claim.
+In the current iteration of the Canonical Debate platform, no attempt is being made to automate calculations of Relevance based on Context; however, Context may be used to flag to users when there is no match whatsoever, or to recommend Claims that seem to have Contexts that match the target Claim.
 
-=====3.2.1.6 Autocomplete, Duplicate Argument reduction, etc.=====
+=====3.2.1.6 Recommendations, duplicate Argument reduction, etc.=====
+
+The previous section gave a glimpse into the additional possibilities that a careful use of Context can provide. Context opens the door to a number of features that can improve the user experience, help keep the debates organized, and more. These are described in more detail in the sections below in [[#37-other-features|features]] and [[#38-technology|technology]], but here are a few important ideas to consider:
+
+* '''Navigation''' - Users can find related debates by navigating according to the relationships between Context elements as defined in external knowledge graphs.
+* '''Recommendations''' - The system can recommend debates to the user according to their interests, which may be defined by specific Context elements. It can also recommend Claims which may potentially be used as Arguments due to the similarity in Contexts between the potential Base Claim and the debate Claim. And, users can sign up to receive notifications for [[#313-request-for-information-rfi|RFIs]] attached to specific Context elements.
+* '''Prevention of duplicate Claims''' - As will be described in the section on [[#36-curation|Curation]] below, one of the bigest challenges to keeping the Canonical Debate organized will be to prevent the creation of redundant Claims. The platform can provide a method to detect potentially duplicate entries by comparing the Context elements to those of other existing Claims, and require the user to check these similarities before approving the creation.
+* '''Claim hierarchies''' - As will be described in the section [[#3101-claim-hierarchies|below]] there is an interesting relationship between similar Claims that can be explored and exploited by adding and removing Context elements one at a time.
 
 ====3.2.2 User====
 
 =====3.2.2.1 Debater=====
 
 =====3.2.2.2 Curator=====
-
-====3.2.3 Reference (Link)====
 
 ===3.3 Scoring===
 
@@ -1442,7 +1446,13 @@ TBD - in experimental phase
 
 ===3.9 Blockchain===
 
-===3.10 Problem Solving===
+===3.10 Future Evolutions===
+
+====3.10.1 Claim hierarchies====
+
+General to specific "Context spaces" for debates
+
+====3.10.2 Problem Solving====
 
 The first phase of Gruff will not focus on more complex questions, the kind that make up discussions around legislation. While Gruff is excellent for debating specific points of a proposed solution, its structure is inadequate for this situation.
 
