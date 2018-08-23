@@ -891,9 +891,37 @@ In the current iteration of Gruff, no attempt is being made to automate calculat
 
 ====3.2.2 User====
 
-=====3.2.2.1 Debater=====
+Every human-facing system has users in one form or another. The Canonical Debate, which is designed to improve the shared knowledge between people, is no exception. While the exact set of attributes recorded for each user have not been fully designed, it is important to discuss certain aspects related to users that are unique or significant to the Canonical Debate platform.
 
-=====3.2.2.2 Curator=====
+=====3.2.2.1 Characteristics=====
+
+The more significant characteristics of users in the Canonical Debate are described below.
+
+======3.2.2.1.1 Uniqueness======
+
+The Canonical Debate focuses on issues that are by nature contentious. Although the goal should be to [[#233-promote-constructive-discourse|work cooperatively]] towards the best answers, we know that many will prioritize [[#226-make-it-about-learning-not-winning|winning over reaching an agreement]].
+
+In a system like this, where popular opinion (or the appearance of such) wins the day, it is important to prevent dishonest attempts to change or sway the results. One of the main vectors of attack in such situations is the creation of [[#154-fake accounts|fake, or Sybil, accounts]] in order to afford multiple voices to a single person. [[#239-prevent-spam-and-fake-accounts|It is essential]] that we do not let this happen, at least to a degree that creates a notable impact on any results.
+
+This is not an easy task to achieve. It means implementing a policy of one account per person. This is a policy that has never been embraced by any of the big players online. Twitter, Google, Facebook, and so many more apply something of a hybrid approach to users, such that they attempt to make it difficult to create multiple accounts, but far from impossible. Twitter goes through extra efforts to verify certain well-known public figures, but leave the door wide open for accounts of unverified status. Only governments, financial institutions, and similar entities that have something to lose from impostors go through the painstaking effort of ensuring that accounts are matched to a person, and that the person maintains only a single account.
+
+As we will describe better [[#39-blockchain|below]], we propose adopting a solution that does not fully exist at the moment for guaranteeing the identity of users. The technology world is currently undergoing a revolution in terms of defining one's own "digital identity". The fruits of this labor, if successful, could mean an opportunity to guarantee (within an acceptible margin of error) a policy of one account per person.
+
+======3.2.2.1.2 Anonymity======
+
+Certain aspects of the Canonical Debate require [[#33323-popular-vote|some type of "voting"]] in order to express one's own, and the total sum of opinions regarding topics of debate. As is commonly understood, it is important to ensure the anonymity of votes in order to reduce the risk of coersion by force or by bribery. 
+
+This seems somewhat antithetical to the previous characteristic of guaranteeing there be only one account per person. However, there are many groups working right at this moment on solutions to anonymize voting transactions, even when there is rich information available regarding the participants of a system. At the very least, the system should strive to separate the votes from the users to outside viewers, but in the near future we believe it will be possible to protect this information even from those that work to maintain the system.
+
+======3.2.2.1.3 Interests and expertise======
+
+Each user will have their points of interest with regards to debates within the system. Some of this information can be derived based on their activity. However, it should also be possible for users to declare certain areas of expertise or interest that they have in order to guide recommendations for new Claims, as well as a way to enable notifications whenever a new debate or RFI is created which is of their interest. 
+
+=====3.2.2.2 Roles=====
+
+======3.2.2.2.1 Debater======
+
+======3.2.2.2.2 Curator======
 
 ====3.2.3 Reference (Link)====
 
