@@ -105,6 +105,16 @@ Such were the findings of the U.S. House Intelligence Committee, which found tha
 
 ===1.2 The Problem With Debate Offline===
 
+We are calling "offline" any debate or discussion that occurs in real time between a limited number of people, without significant aid from reference materials. These debates range from informal conversation with friends and family to formal debating events, in which carefully chosen participants have been given time to prepare their best case on a matter.
+
+While every instance of this form of communication is important, there are many ways in which it is sufficient to advance our collective knowledge in an efficient and lasting manner. The main deficiencies are listed below, but are succinctly captured in the following quote from a [https://www.quora.com/What-is-Ben-Shapiro%E2%80%99s-IQ discussion in Quora regarding Ben Shapiro]:
+
+<blockquote>
+He has a style of speech that just seems from another world, his ability to recall relevant data and shut down his opponents and leave them flustered is a sight to behold, as is his ability to articulate himself with razor sharp precision.
+</blockquote>
+
+While impressive, the one adjective missing from this description is the word "constructive".
+
 ====1.2.1 Not enough time====
 
 When a topic is important enough to debate with another person, there are usually multiple arguments on either side that must be considered. Each argument must be based on one or more facts that to their own merit may require justification, and so on. In-person debates, whether between an informal group of people, or formally presented and moderated in front of an audience, are too short to cover all the relevant points, to the final level of detail. 
