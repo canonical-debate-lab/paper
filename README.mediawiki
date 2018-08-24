@@ -935,9 +935,25 @@ Each user will have their points of interest with regards to debates within the 
 
 =====3.2.2.2 Roles=====
 
+Although there may be accounts with special privileges, such as system administrators and the like, in general principle, there are two types of users that deserve mention here.
+
 ======3.2.2.2.1 Debater======
 
+The average user is what we would call a "Debater". These are the people that come to the platform to either learn about the information relevant to a debate, or intend to actively contribute information (Arguments and Claims) to the Canonical Debate. These users might perform actions such as:
+
+* '''Search for debates''' - A typical Debater would be interested in browsing the Canonical Debate for topics of interest via several different mechanisms, including simple text- or Context-based searches, navigation across [[#3211-knowledge-graphs|knowledge graphs]], responses to activity notifications, and so on.
+* '''Create Claims and Arguments''' - Debaters may wish to contribute their own Arguments to a specific debate, or even start their own debate by proposing a new Claim that has not been previously discussed.
+* '''Suggest improvements to existing debates''' - Debaters may propose a better description for an existing Claim, or add links and media to enrich an item that already exists.
+* '''Vote on debates''' - Debaters may show their beliefs regarding a debate by voting on Claims and Arguments (hopefully after carefully reviewing the information that is available). These votes will affect the [[33323-popular-vote|Popular Score]], and can serve as a reference for the Debaters to [[#33322-personal-scores|reflect on their own beliefs]] in the future.
+* '''View scoring perspectives''' - Debaters can switch between [[#3332-types-of-scores|different scoring mechanisms]] to view the results of a debate according to the chosen set of rules. This includes the option to select the scores of a specific (anonymous) user, in order to get [[#2317-illuminate-different-perspectives|a better understanding]] of how other Debaters may think.
+
 ======3.2.2.2.2 Curator======
+
+Curators are a special type of user tasked with the responsibility of [[#2313-keep-it-organized|keeping the debates organized]], clean, constructive and canonical. These users may be draw from the general pool of Debaters as having shown a particular interest in maintaining the quality of the conversation, and having a good record of responsibility. The Curator role is very similar in this degree to the [https://en.wikipedia.org/wiki/Wikipedia:Administrators role of moderator (or "Administrator") on Wikipedia].
+
+The Curator role is specifically concerned with maintaining the structure of the Canonical Debate. This includes removing duplicate Arguments or Claims, adding missing Context to existing Claims, regrouping similar Arguments under a single, more readable heading, moving misplaced Arguments to where they belong, and so on. This subject deserves a much more in-depth treatment, and so has been given [[#34-curation|a section all its own]] below.
+
+There is discussion as to whether or not curation should be done by Debaters themselves, rather than creating a whole separate role for the task. On the one hand, the structure of the Canonical Debate should be as debatable as anything else, and not be subject to the whims of an elite class of people. On the other hand, this is the type of task that requires a special understanding of the structure of the Canonical Debate, and the work of keeping the debates organized would be much more efficient and consistent when not handled by way of popular vote. In initial stages of the Canonical Debate platform, the system will restrict these actions to users with this specialized role. After experimentation, it may make sense to try a more open approach.
 
 ===3.3 Scoring===
 
@@ -1119,44 +1135,23 @@ By assigning a Score based on popular or personal opinion, or on the preponderan
 
 One type of user interface currently under consideration is the possibility of voting by ranking. The ability to manually sort Arguments in order of "best" to "worst", and use this as a mechanism for voting is a compelling possibility. It remains to be decided what such a ranking would mean, however. Would the average user be sophisticated enough to sort ONLY by Relevance, or would the ranking have to be considered its overall Strength, according to how convincing the user considers each Argument to be (and how, then, would one register a Relevance Score for an Argument with a base Claim that is totally false)?
 
-===3.4 Viewing===
+===3.4 Curation===
 
-* Search
-* Read debate
-* See underlying Claim
-* See underlying Arguments
-* See popular Score
-* See Roll-up Score to N levels
-* See my Roll-up
-* See Rolls-up by "type" (clustered types of opinion)
+====3.4.1 Who Should Curate?====
 
-===3.5 Debating===
-
-====3.5.1 Create Claim====
-
-====3.5.2 Create Argument from Claim====
-
-====3.5.3 Create Argument without Claim====
-
-====3.5.4 Vote====
-
-===3.6 Curation===
-
-====3.6.1 Who Should Curate?====
-
-====3.6.2 Curation Actions====
+====3.4.2 Curation Actions====
 
 What follows is a guide to the types of actions that a Curator may choose to execute in the effort to maintain the debates canonical and constructive. For those who are familiar with software development, these are analogous to types of [https://en.wikipedia.org/wiki/Code_refactoring code refactoring], only for arguments in a debate.
 
-=====3.6.2.1 Fundamental Actions=====
+=====3.4.2.1 Fundamental Actions=====
 
 The following actions are the simplest, most rudimentary actions that are required to keep a debate organized and canonical. Some are actions that only users can do, but the act of creation of new content is part of debating in general.
 
-======3.6.2.1.1 Create Claim or Argument======
+======3.4.2.1.1 Create Claim or Argument======
 
 This is the most obvious action required of any debate. It only deserves mention here as it is a required step in some of the more complex actions listed below, including Split Claim and Group Arguments.
 
-======3.6.2.1.2 Delete Claim======
+======3.4.2.1.2 Delete Claim======
 
 This is a highly contentious and dangerous action to put in the hands of anyone. The fact that historical forms of the debate can be viewed helps temper the problem, but it remains to be seen whether or not this should be an option at all.
 
@@ -1164,11 +1159,11 @@ The simplest case, that of a Claim with no Arguments of its own, and no votes, a
 
 If a Claim with parent or sub-Arguments gets deleted, it would necessarily require the deletion of those Arguments as well (and then the deletion of their Arguments, and so on), so it makes sense to treat this option with care.
 
-======3.6.2.1.3 Delete Argument======
+======3.4.2.1.3 Delete Argument======
 
 This carries the same risks as Delete Claim. However, it makes a little more sense than the latter, in the case that an Argument is created that has absolutely no relevance to the debate whatsoever. Also, since an Argument is merely the connection of one Claim to another (or to an Argument), it would be much easier to recreate the Argument, if necessary.
 
-======3.6.2.1.4 Attribute Enhancements======
+======3.4.2.1.4 Attribute Enhancements======
 
 This is the simplest form of curation, involving small changes to the text or attributes of a Claim or an Argument. These changes may include:
 
@@ -1182,11 +1177,11 @@ This type of change is not structural, and should not have a major impact on the
 
 Given its simplicity, one approach under consideration would be to make this type of enhancement available to average Debaters. In a [https://github.com/bigokro/gruff previous experiment], it was possible for common users to propose a new version of a Title or Description. Debaters could then vote on which of all proposed versions they considered to be the best. The version with the most votes was then the version that would appear to users (it would still be possible to click a tab to see all the proposed versions at once). While simple, and subject to attack by bad-intentioned users (or those wanting to make a joke), it would nevertheless be a way to improve Claim and Argument quality without extra overhead for the Curators. An additional feature to counterbalance could be the option to override and lock a Title or Description by a Curator in order to prevent such attacks.
 
-=====3.6.2.2 Compound Actions=====
+=====3.4.2.2 Compound Actions=====
 
 These are actions that could be reproduced with some extra work by a combination of the actions above, but it is recommended that the system support these as explicit options.
 
-======3.6.2.2.1 Merge Duplicates======
+======3.4.2.2.1 Merge Duplicates======
 
 Probably the most common problem in attempting to maintain a canonical debate is the occurrence of duplicate Arguments or Claims. Whether Debaters are misunderstand what has previously been said, are too lazy to read the points that have already been made, or just want to say it in their own words, duplication is rampant in online debates.
 
@@ -1262,7 +1257,7 @@ If the selection is done algorithmically, then a scoring system should be devise
 
 In general, the number of Arguments and the number of Score votes should be the primary criteria for winner selection.
 
-======3.6.2.2.2 Split Claim======
+======3.4.2.2.2 Split Claim======
 
 Some Claims may be made in such a way that they are really a combination unrelated facts. An exaggerated example might be something like the phrase "You're ugly and you smell bad", which is really the combination of the two Claims "You're ugly" and "You smell bad". A Curator in such a situation would therefore need to make a change such that two Claims are made from the one.
 
@@ -1287,11 +1282,11 @@ When the manual approach is used for such an operation, it creates a problem. A 
 
 If the facilitated approach is used, the system should not only notify users, but should also zero out any previous votes on both of the resulting Claims. There is no way to algorithmically determine how the voting will change with enough certainty to try.
 
-======3.6.2.2.3 Split Argument======
+======3.4.2.2.3 Split Argument======
 
 This is not in fact a feature that needs to be supported. Since an Argument is merely the expression of a Claim used to support or attack another Claim or Argument, you cannot have multiple Arguments in a single entity. However, it's possible to create text that appears to be two Arguments in one. In such a case, the proper solution would be to correct the Title and Description such that it is appropriate for the base Claim, and then locate (or create) a Claim for the second half of the Argument and create a new Argument. If there are any child (or parent) Arguments relating to the second half of the Argument, these should then be move (see Move Argument below).
 
-======3.6.2.2.4 Move Argument======
+======3.4.2.2.4 Move Argument======
 
 This is one of the most critical and frequent types of Curation. The idea of a canonical debate, and the idea of separating Arguments into their distinct logical components, is not (yet) a common practice for most people. Our natural instinct is to provide a defense or counter-argument of any kind we are able to conjure, regardless of whether it is relevant or not. This is only made worse by the need to have the last word. Creating a constructive and canonical debate, however, takes careful thought and effort.
 
@@ -1377,7 +1372,7 @@ Given these conditions, one of the following would be recommended:
 # Allow the Curator to choose which sub-Arguments should be deleted (and set the Scores of the remaining to zero).
 # Don't allow this action for Arguments that already have sub-Arguments.
 
-======3.6.2.2.5 Group Arguments======
+======3.4.2.2.5 Group Arguments======
 
 The examples given above for Move Argument reveal another possibility: what should be done when there are multiple Arguments all related to the same basic point? For example, imagine these Arguments for the debate I should get a diamond embedded in my tooth:
 
@@ -1399,7 +1394,7 @@ Grouping Arguments, then, consists of the following Fundamental and Compound Act
 One thing to keep in mind, is that for some subjects, the most popular arguments are in fact significantly overlapping with each other. So if we always just regrouped, we may end up regrouping some arguments deeper down where (casual reader) people won't see them. This has some negativity in that if we link people to the discussion, they may be confused by that half of the points they find convincing were moved to a deeper level, making them think the content added is not fairly representing their side. If they searched, they would find it, but many people wouldn't try that on their first visits. I'm not saying this is a critical issue necessarily, just bringing it up for consideration.
 (The overlap rating solution has a similar problem in that it pushes arguments down in the ordering, so it doesn't solve it either. Just bringing the subject up.) (edited)
 
-=======3.6.2.2.5.1 Heuristics for Grouping Arguments=======
+=======3.4.2.2.5.1 Heuristics for Grouping Arguments=======
 
 TODO: establish a list of guidelines
 
@@ -1407,7 +1402,7 @@ TODO: establish a list of guidelines
 
 .... something about specific to general (e.g. Study A, Study B, Study C... should be regrouped as "Studies show")
 
-======3.6.2.2.6 Clone Claim======
+======3.4.2.2.6 Clone Claim======
 
 In the course of a discussion, it is common to see the main subject of the debate evolve over time. An extreme example of this is the informal logical fallacy known as Moving the Goalposts. However, even (or especially) in the case of a constructive discourse, the original debate may require some refinement in order to come to a reasonable conclusion on the subject.
 
@@ -1444,7 +1439,7 @@ Cloning could also support creating a more general Argument:
 # Choose Clone Claim, with a more general Context, Title and Description.
 # Automatically create an Argument linking the more specific Claim to the new one.
 
-======3.6.2.2.7 Refine Argument======
+======3.4.2.2.7 Refine Argument======
 
 ''Diamond-embedded teeth are preferred by dentists over gold capping.''
 
@@ -1453,44 +1448,44 @@ Partially true - Score?
 ''In Liberland, diamond-embedded teeth are preferred by dentists over gold capping.''
 
 
-====3.6.2 On Annoying Debaters====
+====3.4.2 On Annoying Debaters====
 
 
 Moving a lot will start to piss people off...
 
-====3.6.3 Viewing Previous Versions====
+====3.4.3 Viewing Previous Versions====
 
 
-===3.7 Other Features===
+===3.5 Other Features===
 
-====3.7.1 Notifications====
+====3.5.1 Notifications====
 
-====3.7.2 Search====
+====3.5.2 Search====
 
-====3.7.3 Recommendations====
+====3.5.3 Recommendations====
 
-====3.7.4 Other Opportunities for Machine Learning====
+====3.5.4 Other Opportunities for Machine Learning====
 
-=====3.7.4.1 Stopping Trolls=====
+=====3.5.4.1 Stopping Trolls=====
 
 https://www.wired.com/2017/02/googles-troll-fighting-ai-now-belongs-world/
 https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge
 https://arxiv.org/abs/1610.08914
 https://arxiv.org/abs/1805.05345
 
-===3.8 Technologies===
+===3.6 Technologies===
 
 TBD - in experimental phase
 
-===3.9 Blockchain===
+===3.7 Blockchain===
 
-===3.10 Future Evolutions===
+===3.8 Future Evolutions===
 
-====3.10.1 Claim hierarchies====
+====3.8.1 Claim hierarchies====
 
 General to specific "Context spaces" for debates
 
-====3.10.2 Problem Solving====
+====3.8.2 Problem Solving====
 
 The first phase of Gruff will not focus on more complex questions, the kind that make up discussions around legislation. While Gruff is excellent for debating specific points of a proposed solution, its structure is inadequate for this situation.
 
