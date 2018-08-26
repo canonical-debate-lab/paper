@@ -963,16 +963,15 @@ It's very important to collect all the Arguments and information available relat
 
 Scoring serves the following purposes:
 
-* Sort Arguments in terms of their effectiveness
+* Sort Arguments [[#235-promote-the-best-arguments|in terms of their effectiveness]]
 * Reveal popular opinions on debates
-* Allow users to view debates through the lens of their own beliefs
-* Allow users to view the same debates through the lens of other users (anonymously)
-* Reveal how the validity (or lack thereof) of underlying Claims can strengthen or weaken Arguments
-* Reveal inconsistencies in the beliefs of a user
+* Allow users to view debates [[#2316-include-everyone|through the lens of their own beliefs]]
+* Allow users to view the same debates [[#2317-illuminate-different-perspectives|through the lens of other users]] (anonymously)
+* Reveal how the validity (or lack thereof) of underlying Claims [[#234-teach-people-about-debates|can strengthen or weaken Arguments]]
+* Reveal [[#237-reduce-sources-of-bias|inconsistencies in the beliefs]] of a user
 * Reveal hidden biases
 
-''Important!''
-Scoring should not be about who "wins". The goal is not to put your side on top! (although that seems like the obvious point). The point is to get a clearer view of your own personal viewpoint on the debate. When this is what is given the focus, the value of the debate becomes clearer. 
+Scoring [[#226-make-it-about-learning-not-winning|should not be about who "wins"]]. The natural instict will be for participants to try to put their side on top. The real point is to get a clearer view of your own personal viewpoint on the debate. When this is what is given the focus, as is design goal for this platform, the value of the debate will become clearer. Hopefully, the populace will learn to view their own discussions in such a light as well.
 
 ====3.3.2 Criteria====
 
