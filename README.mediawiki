@@ -959,6 +959,18 @@ There is discussion as to whether or not curation should be done by Debaters the
 
 It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, Gruff supports several different formulas for rating, or "Scoring" Claims and Arguments.
 
+For the sake of discussion, we will give examples here, and in the sections below of Scores in a percent range from 0% to 100%, with the following meanings:
+
+* '''0% Truth''' - Indicates that a Claim is completely false; that there is no truth whatsoever behind the Claim.
+* '''50% Truth''' - Indicates an outcome in which the truth behind a Claim is suspect. Depending on the type of Claim, this can mean that the Claim is as likely to be true as it is to be false, or that half of the population believes the Claim while half do not, or that there is a 50% probability of the Claim being true (for example, if it refers to events that are unknowable, or in the future).
+* '''100% Truth''' - Indicates that a Claim is definitely true, or that everyone agrees with the Claim.
+* '''O% Relevance''' - Indicates that an Argument is totally irrelevant, or has no impact on the discussion whatsoever.
+* '''50% Relevance''' - With Relevance, this can have one of several meanings, or be a combination these. This could indicate that  people are divided as to whether or not the Argument is relevant. This could also mean that the Argument is relevant, but that it only somewhat impacts the discussion (that is, it's only "partially convincing").
+* '''100% Relevance''' - Indicates that an Argument is completely relevant, and on its own should be enough to decide if a Claim is true or false ''if it's underlying Claim is completely true''. That is, an Argument can be completely relevant and convincing, but still be based on a lie.
+* '''0% Strength''' - Indicates that an Argument should have absolutely no impact on the debate, either because it is based on a false Claim, or because it is based on an irrelevant Argument (or both).
+* '''50% Strength''' - Indicates an Argument that is at least partially effective, and should help to sway the outcome of a debate towards the side that it supports.
+* '''100% Strength''' - Indicates that this Argument is irrefutable, and should alone be enough to resolve the debate.
+
 ====3.3.1 Purpose====
 
 Scoring serves the following purposes:
@@ -975,33 +987,39 @@ Scoring [[#226-make-it-about-learning-not-winning|should not be about who "wins"
 
 ====3.3.2 Criteria====
 
-Before designing a scoring method, it's important to reflect on what are characteristics we want in a scoring algorithm. Certainly, the method should help us achieve each of the goals listed in the section above. No one algorithm (at least so far) is perfectly suited to every objective, and so Gruff supports several different approaches, as described below. Multiple equations were tried and discarded, and others were maintained.
+Before designing a scoring method, it's important to reflect on what are characteristics we want in a scoring algorithm. Certainly, the method should help us achieve each of the goals listed in the section above. No one algorithm (at least so far) is perfectly suited to every objective, and so the Canonical Debate supports several different approaches, as described below. We also intend to support new scoring methods for experiemental purposes, and as our techniques and understanding improve.
 
-The following guidelines were used in the selection process. None of the methods satisfies all of them in every case.
+No algorithm that we have designed to date satisfies every one of these criteria completely and in a consistent manner. Therefore, each algorithm should be considered a best effort. No algorithm should ever be mistaken as being the final word on the truth, and Debaters are encouraged to use their best sense and reason to make up their own minds. 
 
-'''''The result of just one Argument shouldn’t be better than the Strength of that argument'''''
+=====3.3.2.1 Scores should not be biased by content=====
 
-It would be misleading, for example, to award a score of 100% to a Claim that is supported by only one Argument with a Strength Score of 30% (because it's either possibly untrue, or largely irrelevant).
+This point seems so obvious that it was initially taken for granted and not even included on the list. But it is important to be clear on this point: a Scoring algorithm that gives preference to one side of a debate over another simply based on which side the debate is supporting represents an obvious [[#237-reduce-sources-of-bias|bias that should not be accepted]]. Such a method would go against the objective of [[#233-promote-constructive-discourse|being constructive]], and choosing Arguments [[#235-promote-the-best-arguments|based on their merit]].
 
-'''''Adding another Argument on a side should increase the weight on that side'''''
+=====3.3.2.2 The Score of a Claim with just one Argument shouldn’t be better than the Strength of that Argument=====
+
+It would be misleading, for example, to award a score of 100% to a Claim that is supported by only one Argument with a Strength Score of 30%. This would mean that a single somewhat flawed Argument has left participants without a single doubt as to the truth of the debate.
+
+=====3.3.2.3 Adding another Argument on a side should increase the weight on that side======
 
 If a Claim is supported by an Argument with nearly 100% Strength, and a second, weaker Argument is provided to prop up the first, it wouldn't make sense to take an average (for example), which would reduce the overall support of the Claim. 
 
 As a corollary to this, increasing the score of one of the Arguments should always increase the weight on that side, or at least not be harmful to its case.
 
-'''''A single Argument with a Strength of 100% and no opposition should have a result of 100%''''
+=====3.3.2.4 A single Argument with a Strength of 100% and no opposition should have a result of 100%=====
 
-And, correspondingly, a 100% effective counter-argument should result in a score of 0%, assuming there are no supporting Arguments. A good example of this is a piece of irrefutable evidence: just one good piece of evidence should be enough to prove a Claim.
+And, correspondingly, a 100% effective counter-argument should result in a Truth score of 0%, assuming there are no supporting Arguments. A good example of this is a piece of irrefutable evidence: just one good piece of evidence should be enough to prove a Claim.
 
-'''''Adding an Argument with a Score of 0% should not affect the result'''''
+=====3.3.2.5 Adding an Argument with a Score of 0% should not affect the result=====
 
-An Argument with a Score of 0% is either completely false, totally irrelevant, or both. It would definitely be a problem if participants could alter the outcome of a debate by spamming the discussion with ineffective Arguments.
+An Argument with a Strength Score of 0% is either completely false, totally irrelevant, or both. It would definitely be a problem if participants could alter the outcome of a debate by spamming the discussion with ineffective Arguments.
 
-'''''Re-grouping shouldn’t change the outcome significantly'''''
+=====3.3.2.6 Re-grouping shouldn’t change the outcome significantly=====
 
-This is the hardest criteria to support mathematically. Intuitively, assuming that all Arguments have been sufficiently vetted, rebutted and voted, performing a Group Arguments curation to place several weaker Arguments beneath a more general heading should not weaken or exaggerate the outcome for that side. Three partially-relevant Arguments (30% each, let's say), should be just as effective separately as one more relevant (e.g. 65%) Argument that has them as supporting Arguments.
+[[#34-curation|Curation]] is a subject we will discuss in more detail below, but it has profound implications for Scoring in general. Curation involves reorganizing elements of a debate in order to improve the structure, but these actions may change the way the debate is scored. In some cases, such as when an Argument was made against a Claim when it should have been against an Argument, it is natural that the reorganization affects the score (since it is a correction). In the case of [[#34225-group-arguments|regrouping]], the action is done more for the purpose of clarity, and ideally should not change the result. If this type of curation can affect scores, it could be used as a mechanism for Curators to influence the outcome of the debate.
 
-'''''The outcome should match human intuition'''''
+This is the hardest criteria to support mathematically. Intuitively, assuming that all Arguments have been sufficiently vetted, rebutted and voted, reorganizing similar arguments under a larger heading should not change the outcome. Three partially-relevant Arguments (30% each, let's say), should be just as effective separately as one more relevant (e.g. 65%) Argument that has them as supporting Arguments.
+
+=====3.3.2.7 The outcome should match human intuition=====
 
 This is the necessary catch-all for any criteria we may have missed. If the outcome of a calculation doesn't match what people would expect (and this is hard to define, since each person has a slightly different intuition), then we must pause and consider what we were expecting and why. Then, adjust the algorithm accordingly.
 
