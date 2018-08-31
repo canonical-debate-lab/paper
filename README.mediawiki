@@ -1035,13 +1035,15 @@ Scoring (i.e. calculating mathematically the truth of) Claims is at once presump
 
 For the Canonical Debate, we seek to establish certain principles that should be followed in order to work with our model, but otherwise intend to provide a platform for users to view the results of debates from a variety of perspectives and methodologies. In the section below, we describe the fundamental pieces of our model that relate to Scoring, the initial methods supported for this purpose, as well as options for extending these basic approaches.
 
-=====3.3.3.1 Claim vs. Argument=====
+=====3.3.3.1 From Claim to Argument to Claim=====
 
-The Score of a Claim is a representation of its truthfulness, the confidence that people can have that the statement represents a true statement. Since this is synonymous with a debate, arriving at a Truth Score for the Claim can be considered the objective of that debate. However, as will be shown below, the Truth Score of a Claim is an important factor in the scores of Arguments upon which they are based. In other words, the Truth Score reflects on any debate in which a Claim is used.
+The Score of a Claim is a [[#3114_ConfidenceBelief|representation of its truthfulness]], the confidence that people can have that the statement represents a true statement. Since this is synonymous with a debate, arriving at a Truth Score for the Claim can be considered the objective of that debate. 
 
-Debates over an Argument affect its Relevance Score. These debates take the form of other Arguments in support of or attacking the relevance or significance of the Argument in the context of this debate (arguments against the accuracy of the argument are actually Arguments applied to the base Claim, rather than the Argument itself).
+Likewise, the [[#3121_Relevance|Relevance Score]] of an Argument is a measure of the impact that it can have in affecting the outcome of the Claim or Argument which it targets. This is in turn combined with the Truth Score of the Claim upon which it is based in order to create a [[#3123_Relevance_vs_Truth_Strength|Strength Score]], which is the final measure of its impact. 
 
-Depending on the Scoring Method, as described below, the way a Relevance Score is calculated may or may not be mathematically equivalent to the way a Truth Score is derived.
+Each Scoring Method has its own way of weighing and summing up the impact of each Argument on its target Claim or Argument in order to produce a final score. What is common to all of them is the notion that the score of a Claim affects the Strength of an Argument that uses it, which in turn affects the score of its target Claim, which will then affect the Strength of an Argument in the next debate, and so on.
+
+It is through this interconnectivity of Scores that we achieve our main purpose. The scoring mechanisms highlight, each in their own way, the ways in which the validity (or lack thereof) of a Claim affects any other Arguments and Claims on which they are based. By [[#221_Knowledge_should_accumulate|sorting out and choosing the best]] of these Claims, it is possible to build [[#215_We_can_get_closer_to_the_truth|ever-stronger understandings of the truth]].
 
 ======3.3.3.1.1 Truth Score======
 
