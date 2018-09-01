@@ -1045,37 +1045,55 @@ Each Scoring Method has its own way of weighing and summing up the impact of eac
 
 It is through this interconnectivity of Scores that we achieve our main purpose. The scoring mechanisms highlight, each in their own way, the ways in which the validity (or lack thereof) of a Claim affects any other Arguments and Claims on which they are based. By [[#221_Knowledge_should_accumulate|sorting out and choosing the best]] of these Claims, it is possible to build [[#215_We_can_get_closer_to_the_truth|ever-stronger understandings of the truth]].
 
-======3.3.3.1.1 Truth Score======
+======3.3.3.1.1 Flat Scores======
 
-======3.3.3.1.2 Strength Score======
+Although the true benefit from scoring comes from viewing the way the Arguments affect the outcome, it is possible to calculate a Score without any such considerations. 
 
-Now, consider the following situation: Argument A has a Relevance Score of 70%, and Argument B has a Relevance Score of -70%; however, the Claim underlying Argument A (let's call this Claim AC) has a Truth Score of only 50%, while the Claim underlying Argument B (Claim BC) has a Truth Score of 100% (everyone magically seems to agree with it). How should that impact Claim A? Should an Argument that stands on shakier grounds be considered just as strong as one that doesn't?
+A simple poll is one example. Although the Arguments under a Claim may affect the final opinion of each participant, it is possible to calculate a Score by asking each reader what they think, and then average the results.
 
-For this, we can borrow a basic principle from software engineering: if you have one system that is down 90% of the time, and it depends on another that is also offline 90% of the time, how reliable is it? The answer to this problem is to [http://www.weibull.com/hotwire/issue181/article181.htm multiply the two reliabilities] to get the reliability of the system as a whole: 
+When a Score comes only from data collected at the level of the item being discussed, we call this a ''Flat Score''.
 
-0.9 x 0.9 = 0.81, or 81%
+======3.3.3.1.2 Roll-up Scores======
 
-This makes a lot of intuitive sense for a Strength Score, as well. If an Argument has a Relevance of 100% (absolutely definitive, if true) and its Claim has a Truth of 100% (absolutely true), then the Strength should be 100% (you can't possibly do better than that). If both are 0% (totally irrelevant, and false), then Strength would have to be 0%. But also, something that is 100% convincing, but based on a total lie should be 0% effective, as with an absolute truth that is completely off the subject. And, what about something that is absolutely convincing if true, but we're only 50% sure it's true? A Strength of 50% seems perfectly reasonable.
+The more interesting cases, however, come from calculating the Score at the top level by somehow combining the Scores of the Arguments which target them. Since the Scores of those Arguments are, in turn, calculated from the combination of Arguments which target them (and their Base Claim), it is possible to generate a Score for one item by recursively calculating each item that is connected to them in the Debate Graph.
 
-Therefore, the Strength Score S of an Argument A, with a Relevance Score of RA, which is based on a Claim C, with a Truth Score of TC, is:
+We call these types of Scores ''Roll-up Scores'', since their behavior reflects [https://en.wikipedia.org/wiki/OLAP_cube#Operations a common operation in data analysis], that of summing up multiple values into a broader vision.
 
-S = RA * TC
+======3.3.3.1.3 Roll-up Levels======
 
-======3.3.3.1.3 Roll-up Scores======
+There are several problems that the platform encounters when calculating the result of a Score based on the sum total of information that affects it. 
 
-TODO: explain the idea behind roll-up scores
+The most mundane problem is that performance. As information is added to the system, and opinions are given regarding that information, each change can cause a giant ripple across the entire space of Arguments and Claims so far accumulated. While this is a trivial concern when the data set is small, or the number of users and rate of new information is limited, the problem grows exponentially as Claims are added.
 
+A simple way to deal with this issue is to allow the user to define the number of "levels" to which they wish to calculate the Score of the Claim they are viewing. This would create an immediate and manageable limitation to the degree of calculation required for their needs.
 
-=======3.3.3.1.3.1 Roll-up Levels=======
+A Roll-up Score from Level 1 entails calculating the Score based solely on the Strength Scores of the Arguments which have the Claim (or Argument) as a target. Since Strength Score requires both the Relevance Score of the Arguments and the Truth Score of their Base Claims, this means that a Level 1 Roll-up Score uses one set of Arguments which targets a Claim, and their Claims. In this case, there would be no consideration of Arguments which target an Argument.
 
-TODO: explain that for many algorithms, you choose how deep you want to go
+A Roll-up Score of Level 2 would require a lot more computation. Not only would this calculation require all the data of a Level 1 Roll-up, it would require calculating those values based on the values of their Arguments (and Base Claims). In this case, this means that Arguments which are targeted by other Arguments have their Relevance Scores derived from the results of those sub-Arguments (and, of course, their Base Claims).
 
-=======3.3.3.1.3.2 Arguments and Claims without Arguments=======
+In other words, a Roll-up Score of Level 2 requires calculating the Level 1 Roll-up of each Argument affecting the Level-1 Arguments and Claims, and then performing a Level 1 Roll-up calculation for the primary Claim from the results. A Level 3 Roll-up requires a Level 2 Roll-up calculation on the Arguments targeting the Claim, which requires a Level 1 Roll-up on their Arguments, and so on.
 
-What should we do for the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it will not be possible to calculate any deeper than this. Instead, the calculation will have to substitute this for its Popular Score; that is, its Strength Score or Truth Score, without any other weighting.
+We can generalize this by saying that any Level ''N'' Roll-up Score can be performed by calculating a Level ''N-1'' Score on each of the Arguments (and their Base Claim) that target a Claim or Argument.
 
-In the case of a Claim with no Popular Score (no votes), the default Score of 50% is used. For an Argument with no Popular Score, the default Score of 0% is used.
+=======3.3.3.1.4 Claims without Arguments=======
 
+How can we calculate the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it is not possible to calculate any deeper than this. 
+
+The correct answer to this question depends on the philosophy behind the Scoring Method that is being used. This is one of the parameters that every Scoring Method must define. Should Arguments with no defense nor counter-argument be ignored, be given the maximum consideration, or somewhere in between? What should we consider the Truth Score of a Claim (especially a new Claim) that has been subject to no discussion whatsoever? Should it be considered true until proven false? Or vice-versa, or half and half?
+
+There is no general solution to this question, only the requirement that default Score must be defined.
+
+======3.3.3.1.5 Cyclical Debates======
+
+A more philosophical issue is the problem of creating [https://en.wikipedia.org/wiki/Cycle_(graph_theory) cycles]. A cycle occurs in a graph when one item references another item which has references that come back to the original item. A Debater may try to make an Argument that uses a Claim which itself is being debated based on Argument from the original Claim.
+
+The simplest example of this is known in philosophy as [https://en.wikipedia.org/wiki/Begging_the_question "Begging the Question"]. It is clearly an ineffective form of argumentation. But this poses a question: should the Canonical Debate platform permit this to happen? Or should the system detect any circular references and prevent a Debater from proposing such an Argument? 
+
+Though not clearly stated in our [[#2316_Include_everyone|principles]], underlying our philosophy is the idea that every argument should be captured so that it can be properly debated. An omission of an Argument, or rather the act of preventing someone from making an Argument, would not only be contrary to that goal, but also alienating for those that find it salient enough to consider. Ideally, we would want to catch this type of argument, if only so that it may have its chance and be properly refuted.
+
+It is also quite possible that a cycle may occur even in the case of well-reasoned debate with only subtle flaws. Like putting the proverbial [https://en.wikipedia.org/wiki/Cart_before_the_horse cart before the horse], it is quite likely that someone will confuse a cause for an effect, which might naturally result in a circuitous but undeniable cycle.
+
+This means that Scoring algorithms must take cyclical debates into account. There are already well-established solutions for [https://en.wikipedia.org/wiki/Cycle_(graph_theory)#Cycle_detection detecting a cycle], so this should be trivial. Once the Scoring Method realizes that it has already seen a specific Claim before, it must choose what to do. One solution would be to treat it as if it were a [[#3.3.3.1.4 Claims without Arguments|an argumentless Claim]]. But that is just one possibility. It is up to each Scoring Method to define how it should treat a cyclical debate.
 
 =====3.3.3.2 Types of Scores=====
 
