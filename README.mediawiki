@@ -1035,7 +1035,7 @@ Scoring (i.e. calculating mathematically the truth of) Claims is at once presump
 
 For the Canonical Debate, we seek to establish certain principles that should be followed in order to work with our model, but otherwise intend to provide a platform for users to view the results of debates from a variety of perspectives and methodologies. In the section below, we describe the fundamental pieces of our model that relate to Scoring, the initial methods supported for this purpose, as well as options for extending these basic approaches.
 
-=====3.3.3.1 From Claim to Argument to Claim=====
+=====3.3.3.1 Score interconnectivity=====
 
 The Score of a Claim is a [[#3114_ConfidenceBelief|representation of its truthfulness]], the confidence that people can have that the statement represents a true statement. Since this is synonymous with a debate, arriving at a Truth Score for the Claim can be considered the objective of that debate. 
 
@@ -1095,86 +1095,71 @@ It is also quite possible that a cycle may occur even in the case of well-reason
 
 This means that Scoring algorithms must take cyclical debates into account. There are already well-established solutions for [https://en.wikipedia.org/wiki/Cycle_(graph_theory)#Cycle_detection detecting a cycle], so this should be trivial. Once the Scoring Method realizes that it has already seen a specific Claim before, it must choose what to do. One solution would be to treat it as if it were a [[#3.3.3.1.4 Claims without Arguments|an argumentless Claim]]. But that is just one possibility. It is up to each Scoring Method to define how it should treat a cyclical debate.
 
-=====3.3.3.2 Types of Scores=====
+=====3.3.3.2 Sources for Score Values=====
+
+Scoring Methods, as described in the previous section, are mainly focused on the mathematical formulas used to calculate a final score based on multiple values associated across many Claims and Arguments. What hasn't been discussed is exactly how the initial score values are generated. There are many possible solutions, which fall along a sliding scale from completely objective to fully subjective. 
 
 ======3.3.3.2.1 Objective Scoring======
 
-Reason Score is a vote-free scoring algorithm that places an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. Reason Score is meant to provide an objective account of the debate, rather than a personal or subjective one. With the voting-based scoring methods, you can defend your side of the debate by scoring the Claims according to your Belief. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote you provide a claim to explain why you would have voted differently than the current score.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in more complete sets of Claims. 
+A fundamental question of philosophy (and science) is if there exists an [https://en.wikipedia.org/wiki/Objectivity_(philosophy) objective truth]. And, if one exists, is it possible for us to see it? Until we have this answer, the best we can do is try our best to find it. ''Objective Scoring'' is an approach to Scoring Method that avoids subjective opinions in favor of looking for an answer based on the content alone.
 
-As a side benefit, Reason Score values do not have to be set to zero after Curation actions (see below), unlike with voting scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
+The source of these values depends on the algorithm, and it can be a serious challenge to generate objective data from information provided by subjective humans. One approach could be to use data mining across many independent sources, or to use AI algorithms to determine a score based on use of language, graph connectivity, or other strategies.  
 
+[https://reasonscore.com/ Reason Score] is one very interesting example from the Canonical Debate Lab. It is a vote-free scoring algorithm that follows more or less the graph connectivity strategy by placing an emphasis on the interaction of Claims and counter-Claims, rather than popular opinion. With voting-based (subjective) scoring methods, Debaters try to can defend their side of the debate by scoring the Claims according to their personal beliefs. With Reason Score, the only way to impact the final result is by providing a new, reasonable Claim. Instead of casting a vote, Debaters must provide a claim to explain why they disagree with the current outcome.  Reason Score therefore encourages Debaters to think through their objections to a given topic and put it in words, which can result in a more complete set of Claims. 
 
-======3.3.3.2.2 Personal Scores======
+As a side benefit, Reason Score values do not have to be reset after [[#34_Curation|Curation actions]], unlike opinion-based scores. On the other hand, Curation can have a significant impact on the results. Assuming Curation is handled correctly, this is not necessarily a negative trait.
+
+======3.3.3.2.2 Belief Scores======
+
+On the opposite end of the scale, the most subjective of all Scoring Methods is to allow each Debater to rate every Claim and Argument according to one's own personal opinion on the matters. This method draws upon at most a single score per item in the Debate Graph, according to where the user has provided a Score and where they have not.
+
+This strategy is at heart a very introspective exercise, providing a user with the opportunity to consider their own opinions on each matter based only on the Arguments and information at hand (hopefully, as complete as society is able to provide). By Scoring each item separately, and then viewing the results at varying [[#33313_Rollup_Levels|Roll-up Levels]], they can see how the Score changes when viewed at a flat level, as opposed to how it is scored according the Arguments, the Claims on which those are based, and so on.
+
+The more complete a user is able to analyze and score the Debate Graph, the more interesting and useful the tool will become for them. If there is a large discrepancy between their Flat Score, and the Level 1 Score (or deeper), this will prompt them to reflect on why that is. It could be that an Argument "feels right" to them, but is based on something they realized is not true (or likely). Or, it could be that during the process of scoring distant topics in the graph, they were convinced of a Claim they had previously disregarded. This might prompt them to adjust their opinion at the Flat Level. The most interesting of all these cases is when one discovers that they are treating certain values, beliefs or principles in an inconsistent manner, depending on the debate. This makes this type of Scoring a powerful tool for [[#237_Reduce_sources_of_bias|studying one's own biases]].
+
+Equally powerful would be the ability to view the Belief Scores of another user (while protecting their identity). Debaters could be given the option of choosing to view the Personal Scores of a user that disagrees with them on a given Claim, or even of someone who more or less seems to agree with them. 
+
+Debaters should be encouraged to define their own Personal Scores before viewing the Scores of others. This act of introspection is very important to the goal of [[#235_Teach_people_about_themselves|teaching people about themselves]]. Allowing them to see the opinions of others first could also lead to an [https://en.wikipedia.org/wiki/Anchoring Anchoring effect].
 
 ======3.3.3.2.3 Popular Vote======
 
-The Popular Vote is a very straightforward mechanism for scoring. On any Claim or Argument, Debaters can register their opinion on the Score of an element. The Popular Vote, then, is simply the average of all votes.
+The Popular Vote is a very straightforward mechanism for scoring. On any Claim or Argument, Debaters can register their opinion according to their [[#33322_Belief_Scores|Belief Score]] of an element. The Popular Vote, then, is simply the process of combining all the Belief Scores for that element. The simplest calculation would be to take an average of these scores, but each Scoring Method can choose its formula.
 
 Popular voting can be considered a "dangerous" form of viewing the results of a debate. There are several reasons for this:
 
 '''''It can be subject to attack by dishonest voters, especially those with many fake accounts'''''
 
-This is a very genuine concern. It is critical that debates not be influenced or dominated by bad actors with fake accounts. As stated in the Principles, the system must guarantee to the best of our ability that there is only one account per person. 
+This is a very genuine concern. It is critical that debates not be influenced or dominated by bad actors with fake accounts. As stated in the Principles, the system must guarantee to the best of our ability that there is only [[#239_Prevent_spam_and_fake_accounts|one account per person]]. 
 
-'''''Just showing the Popular Vote can distort the outcome, due to popularity bias'''''
+'''''Just showing the Popular Vote can distort the outcome, due to [https://en.wikipedia.org/wiki/Bandwagon_effect popularity bias]'''''
 
-There will certainly be some distortion due to this effect - there is no escaping the way our brain works, not completely. However, the main purpose here is not to see which side wins, but rather to provide the tools to help people understand themselves, which is the first tool in the fight against cognitive bias. 
+There will certainly be some distortion due to this effect - there is no escaping the way our brain works, not completely. However, the main purpose here is [[#226_Make_it_about_learning_not_winning|not to see which side wins]], but rather to provide the tools to help people understand themselves, which is the first tool in the fight against cognitive bias. Similar to our warning in the previous section, we believe that the best defense against this would be to encourage users to begin by analyzing their own opinion. However, this would at best be a nudge, only marginally successful. While this is a very valid concern, we do believe that the benefits outweigh the bias it may create.
 
 '''''There is no guarantee the popular outcome is the right outcome'''''
 
-This is true, but the Popular Score here is not meant to be used as THE measure used for a vote. Rather, it is meant to help each potential voter figure out where they stand on the issue when the time comes to vote. The "tyranny of the majority" is a problem for a democracy, and therefore outside the scope of this system. For more information on how this can be resolved, see the [https://github.com/DemocracyEarth/paper Democracy Earth white paper]. With the creation of this system, we certainly hope that the majority will be much more understanding and accommodating, rather than tyrannical.
+This is true, but the Canonical Debate is not intended to be a system for voting and decision-making. Rather, it is meant to be a tool for informing users in [[#221_Knowledge_should_accumulate|the best way possible]] in their votes and decisions outside the platform. The [https://en.wikipedia.org/wiki/Tyranny_of_the_majority tyranny of the majority] is a problem for a democracy, but is therefore outside the scope of this system. For more information on how this can be resolved, see the [https://github.com/DemocracyEarth/paper Democracy Earth white paper]. With the creation of this system, we certainly hope that the majority will be [[#2317_Illuminate_different_perspectives|much more understanding and accommodating]], rather than tyrannical.
 
 =====3.3.3.3 Score Perspectives=====
 
-======3.3.3.3.1 Belief Perspective======
+We have discussed how there can be many different algorithms to calculate Scores, and different ways to choose the source for those Scores. We have also discussed how each method is imperfect, and at best can serve to highlight certain aspects of the debate. Given that each method will have certain biases, it should be possible to give users access to the variety of approaches.
 
-Scoring up to this point has been based on using the average of the Popular Score for each element. This is fine when what one wants is a census on popular opinion. However, this is not enough to support two of the main objectives of this platform:
+We call the combination of a Scoring algorithm (mathematical formula for combining Scores), plus the method of generating these Scores (Score source) a ''Score Perspective''. Although we recommend that the platform begin by requesting a user to define their own Belief Scores, it should provide users the option to switch between the many Score Perspectives available.
 
-'''''Provide tools for people to understand themselves'''''
-'''''Provide ways for people to see the world from another’s perspective'''''
+====3.3.4 Ranking of Arguments====
 
-An individual's vote on the score of a Claim or an Argument is, in essence, a statement of their Belief on that subject. For example, it may fine to see that 56% of participants believe that a particular person was telling the truth when they made a statement, but if you believe they were lying, you would want to see that reflected in the Truth Score as a 0%, not as 56%.
+One of the most important roles for scoring is to enable the [[#235_Promote_the_best_arguments|ranking of Arguments]], from "best" (strongest or most relevant) to worst.  By assigning a Score based on popular or personal opinion, or on the preponderance of facts, it becomes possible to design an interface which highlights the most salient information in a given debate. 
 
-As we saw with the Roll-up Score calculations above, the score on one item can have a significant impact on the results of another debate that relies on the Claim. When it comes to seeing popular opinion, one should use the Popular Score, but when it comes to making up one's own mind, it would be useful to ignore the opinions of everyone else, and instead use their own scores.
+In a mathematical sense, it is easy to rank the Arguments targeting a given Claim. This is simply the process of sorting the Arguments according to their Strength Scores. However, from a user experience perspective, there are several challenges to consider:
 
-We call this view the Belief Score. It uses the same mathematics as the Popular Vote and Roll-up Score mechanisms, with only one slight change: for any node on which the user has voted, the user's vote shall be used as the Score, rather than the Popular Score. Node for which the user has not voted shall use the Popular Score, until such time as the user has cast a vote.
+* Should Pro and Con Arguments be ranked separately?
+* If so, how should this ranking avoid confusing the viewer by mixing scales (e.g. How should the ranking handle the case when all the Arguments on one side have a higher Strength Score than those on the opposite side?)?
+* How should the ranking deal with the subtle difference in Relevance Scores vs. Strength Scores (i.e. "''If'' this is true, it's the best Argument, although we're not yet sure.")?
+* Should the interface hide Arguments that don't meet a certain threshold? What if none of the Arguments on one side meet that threshold?
+* Should the interface show Arguments that are new, or haven't met a certain threshold of Scoring and Debate?
 
-Given the simple case of two Arguments A1 and A2 in favor of a Claim, and one Argument B1 against:
-A1 (Popular Score: 70%, Belief Score: 40%)
-A2 (Popular Score: 50%, no Belief Score given)
-B1 (Popular Score: 40%, Belief Score 80%)
+One type of user interface currently under consideration is the possibility of Scoring by ranking. It would be a compelling and intuitive way to Score by manually sorting Arguments in order of "best" to "worst", and from this draw numerical Scores. However, this faces the problem mentioned above: Would this ranking be a rating only of the Relevance Score, or of the total Strength Score? Would the average user be sophisticated enough to sort ''only'' by Relevance? If not, how could the Relevance Score be extracted from the sorted Strength Score? How would one register a Relevance Score for an Argument with a base Claim that is totally false?
 
-We can calculate the Popular Truth Score PTS using the Aggregate Strength Score method as:
-
-PTS = 0.5 + 0.5 * (0.73 - 0.4) = 0.865, or 86.5%
-
-However, the Truth Score based on Belief BTS would be:
-
-BTS = 0.5 + 0.5 * (0.40 - 0.8) = 0.30, or 30%
-
-In this case, the Debater's own personal opinion on the subject differs significantly from common opinion, and further Roll-up Scores based on this Claim would reflect this.
-
-It would also be interesting for users to be able "browse" the opinions of other Debaters (while protecting their privacy, of course) in order to gain a deeper understanding of how others think, and what informs their beliefs. Thus, the system should support the possibility of selecting sample votes of other users and "exploring" their votes on related topics. 
-
-In the example above, the user might decide that they would like to see the votes of a user that gave a Score of more than 90% on the Claim. This might then reveal a result as follows:
-
-A1 (Popular Score: 70%, other user's Belief Score: 80%)
-A2 (Popular Score: 50%, other user's Belief Score: 90%)
-B1 (Popular Score: 40%, other user's Belief Score 0%)
- 
-Investigating deeper might reveal that this specific user tends to agree very strongly and unquestionably with some public figure, perhaps the subject of the debate, or that they tend to find a certain subject (reflected in Argument B1) as unimportant.
-
-By allowing users to highlight specific Beliefs in this manner, the platform is able to provide the introspection and deep understanding that is our goal.
-
-====3.3.5 Ranking of Arguments====
-
-One of the most important roles for scoring is to enable the ranking of Arguments, from "best" (strongest or most relevant) to worst. This is, most of all, in support of the Objective:
-
-'''''It should be possible to grasp the principle arguments of a debate in 30 seconds or less'''''
-
-By assigning a Score based on popular or personal opinion, or on the preponderance of facts, it becomes possible to design an interface which highlights the most salient information in a given debate. 
-
-One type of user interface currently under consideration is the possibility of voting by ranking. The ability to manually sort Arguments in order of "best" to "worst", and use this as a mechanism for voting is a compelling possibility. It remains to be decided what such a ranking would mean, however. Would the average user be sophisticated enough to sort ONLY by Relevance, or would the ranking have to be considered its overall Strength, according to how convincing the user considers each Argument to be (and how, then, would one register a Relevance Score for an Argument with a base Claim that is totally false)?
+These problems are far from insurmountable. We discuss them in this white paper only to highlight some of the decisions that an implementation of the Canonical Debate must make. The best approach should be selected through practice and experimentation.
 
 ===3.4 Curation===
 
