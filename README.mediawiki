@@ -1163,7 +1163,21 @@ These problems are far from insurmountable. We discuss them in this white paper 
 
 ===3.4 Curation===
 
+''Curation'' is the act of improving the structure and organization of the Canonical Debate by making small, incremental changes. As we have noted in the [[#157_Insufficient_curation|Problems section]] above, it is important to ensure that a debate in which anyone in the world can participate maintains a [[#2313_Keep_it_organized|standard of quality]] and does not become a random mess of opinions, ideas and comments.
+
+In this section, we outline the many actions that might be necessary to maintain a canonical structure, and to promote a [[#233_Promote_constructive_discourse|constructive discourse]]. 
+
 ====3.4.1 Who Should Curate?====
+
+At this moment, the Canonical Debate Lab has not come to a consensus as to the proper mechanism for performing curation actions. There are two main approaches currently under consideration for this task, and it is possible that both approaches will be tried in practice before a final decision is made.
+
+One solution would be to hand-pick a group of users and give them the power to perform these curation actions. The is the approach used, for example, by Wikipedia, which has a special class of moderators, or [https://en.wikipedia.org/wiki/Wikipedia:Administrators Administrators] tasked with the responsibility of making sure the site's articles adhere to the standards they've defined. 
+
+Another approach would be to allow any Debater to propose an improvement to an existing debate, and allow others to provide their opinions on the subject. After all, as we like to say, [[#3122_Argument_for_an_Argument|everything is debatable]].
+
+The number of arguments on both sides of this debate are enough to fill out an Argument Map all its own. The basic trade offs come down to the problem that Curation seems to be a specialized skill that requires detachment from the debate at hand (the Curator should not be intentionally trying to influence the outcome of a debate), and will need to be performed quickly in order to keep popular debates from becoming too disorganized. Maintaining an audit trail of Curator actions could be one way of keeping Curators from abusing their power.
+
+Allowing Debaters to propose and debate improvements to the debate structure is more consistent with the general philosophy behind the platform. In many cases, it may be more efficient than having a small group of Curators, since there are many more Debaters to keep an eye on every part of the debate. On the other hand, this would replace one ostensibly non-partisan Curator with an indeterminate number of partisan Debaters. This could expose the debates to a form of [https://github.com/DemocracyEarth/paper#261_Polyopoly Polyopoly Attack] in which a single, outsized, motivated group could dominate a single debate to propose changes that are detrimental to the overall quality. Also, this platform [[#33323_Popular_Vote|does not itself intend to be a platform for making decisions]], only to facilitate external decisions. Thus, there is no intention of providing a voting mechanism that establishes a final outcome (such as triggering a suggested Curation action).
 
 ====3.4.2 Curation Actions====
 
