@@ -1,0 +1,346 @@
+<pre>
+  DEF: 1
+  Title: Curation Actions for the Canonical Debate
+  Author: @CanonicalDebateLab.
+  Comments-Summary: No comments yet.
+  Status: Active
+  Type: Paper
+  Created: 2018-09-04
+  License: MIT
+  Replaces: 0
+</pre>
+
+===3.4 Curation===
+
+''Curation'' is the act of improving the structure and organization of the Canonical Debate by making small, incremental changes. As we have noted in the [[#157_Insufficient_curation|Problems section]] above, it is important to ensure that a debate in which anyone in the world can participate maintains a [[#2313_Keep_it_organized|standard of quality]] and does not become a random mess of opinions, ideas and comments.
+
+In this section, we outline the many actions that might be necessary to maintain a canonical structure, and to promote a [[#233_Promote_constructive_discourse|constructive discourse]]. 
+
+====3.4.1 Who Should Curate?====
+
+At this moment, the Canonical Debate Lab has not come to a consensus as to the proper mechanism for performing curation actions. There are two main approaches currently under consideration for this task, and it is possible that both approaches will be tried in practice before a final decision is made.
+
+One solution would be to hand-pick a group of users and give them the power to perform these curation actions. The is the approach used, for example, by Wikipedia, which has a special class of moderators, or [https://en.wikipedia.org/wiki/Wikipedia:Administrators Administrators] tasked with the responsibility of making sure the site's articles adhere to the standards they've defined. 
+
+Another approach would be to allow any Debater to propose an improvement to an existing debate, and allow others to provide their opinions on the subject. After all, as we like to say, [[#3122_Argument_for_an_Argument|everything is debatable]].
+
+The number of arguments on both sides of this debate are enough to fill out an Argument Map all its own. The basic trade offs come down to the problem that Curation seems to be a specialized skill that requires detachment from the debate at hand (the Curator should not be intentionally trying to influence the outcome of a debate), and will need to be performed quickly in order to keep popular debates from becoming too disorganized. Maintaining an audit trail of Curator actions could be one way of keeping Curators from abusing their power.
+
+Allowing Debaters to propose and debate improvements to the debate structure is more consistent with the general philosophy behind the platform. In many cases, it may be more efficient than having a small group of Curators, since there are many more Debaters to keep an eye on every part of the debate. On the other hand, this would replace one ostensibly non-partisan Curator with an indeterminate number of partisan Debaters. This could expose the debates to a form of [https://github.com/DemocracyEarth/paper#261_Polyopoly Polyopoly Attack] in which a single, outsized, motivated group could dominate a single debate to propose changes that are detrimental to the overall quality. Also, this platform [[#33323_Popular_Vote|does not itself intend to be a platform for making decisions]], only to facilitate external decisions. Thus, there is no intention of providing a voting mechanism that establishes a final outcome (such as triggering a suggested Curation action).
+
+====3.4.2 Curation Actions====
+
+What follows is a guide to the types of actions that a Curator may choose to execute in the effort to maintain the debates canonical and constructive. For those who are familiar with software development, these are analogous to types of [https://en.wikipedia.org/wiki/Code_refactoring code refactoring], only for arguments in a debate.
+
+=====3.4.2.1 Fundamental Actions=====
+
+The following actions are the simplest, most rudimentary actions that are required to keep a debate organized and canonical. Some are actions that only users can do, but the act of creation of new content is part of debating in general.
+
+======3.4.2.1.1 Create Claim or Argument======
+
+This is the most obvious action required of any debate. It only deserves mention here as it is a required step in some of the more complex actions listed below, including Split Claim and Group Arguments.
+
+======3.4.2.1.2 Delete Claim======
+
+This is a highly contentious and dangerous action to put in the hands of anyone. The fact that historical forms of the debate can be viewed helps temper the problem, but it remains to be seen whether or not this should be an option at all.
+
+The simplest case, that of a Claim with no Arguments of its own, and no votes, actually makes sense. There's little or no harm done in this case, and can be considered a simple act of housekeeping (a User can always come along and create the Claim a second time).
+
+If a Claim with parent or sub-Arguments gets deleted, it would necessarily require the deletion of those Arguments as well (and then the deletion of their Arguments, and so on), so it makes sense to treat this option with care.
+
+======3.4.2.1.3 Delete Argument======
+
+This carries the same risks as Delete Claim. However, it makes a little more sense than the latter, in the case that an Argument is created that has absolutely no relevance to the debate whatsoever. Also, since an Argument is merely the connection of one Claim to another (or to an Argument), it would be much easier to recreate the Argument, if necessary.
+
+======3.4.2.1.4 Attribute Enhancements======
+
+This is the simplest form of curation, involving small changes to the text or attributes of a Claim or an Argument. These changes may include:
+
+* Changing the Title
+* Changing the Description
+* Changing media elements
+* Adding References
+* Adding or correcting Context elements
+
+This type of change is not structural, and should not have a major impact on the scoring of the element. As such, there is no need to reset the scores that have been chosen for this element. However, it would probably make sense to send a notification to the contributors when this action is performed.
+
+Given its simplicity, one approach under consideration would be to make this type of enhancement available to average Debaters. In a [https://github.com/bigokro/gruff previous experiment], it was possible for common users to propose a new version of a Title or Description. Debaters could then vote on which of all proposed versions they considered to be the best. The version with the most votes was then the version that would appear to users (it would still be possible to click a tab to see all the proposed versions at once). While simple, and subject to attack by bad-intentioned users (or those wanting to make a joke), it would nevertheless be a way to improve Claim and Argument quality without extra overhead for the Curators. An additional feature to counterbalance could be the option to override and lock a Title or Description by a Curator in order to prevent such attacks.
+
+=====3.4.2.2 Compound Actions=====
+
+These are actions that could be reproduced with some extra work by a combination of the actions above, but it is recommended that the system support these as explicit options.
+
+======3.4.2.2.1 Merge Duplicates======
+
+Probably the most common problem in attempting to maintain a canonical debate is the occurrence of duplicate Arguments or Claims. Whether Debaters are misunderstand what has previously been said, are too lazy to read the points that have already been made, or just want to say it in their own words, duplication is rampant in online debates.
+
+Merging is the act of taking two identical Claims or Arguments and unifying them into one. It sounds simple, but would require the following fundamental actions to reproduce:
+
+# Move each of the child Arguments over to one of the two Arguments or Claims (the "Survivor").
+# In the case of merging a Claim, for each Argument that uses the non-Survivor as base, create a new Argument identical to it using the Survivor as a base instead. Repeat also for any Arguments attached to those Arguments, and so on.
+# Perform any changes to Title or Description as appropriate (note that the history of Attribute Enhancements on the non-Survivor will be lost).
+# Delete the Argument or Claim that was not selected as the Survivor
+
+Doing this as a single supported action makes the operation smoother, with less risk of human error. Even so, it has a profound impact on every one of the attributes previously listed:
+
+Unique ID
+
+There are only two reasonable approaches in this case: choose one of the existing IDs, or create a brand new ID. Conceptually, there should be no problem with pre-existing links to one of the entities connecting to the new merged entity. On the other hand, it would be a loss if prior links were broken (although it would be possible to show the old version, and direct the user to the new merged edition). As will become evident in other cases below, it makes sense to choose one of the two entities (the one that has received more "attention") to persist as before, but with the modifications as noted below.
+
+Title and Description
+
+There can be only one of each of these elements. Ideally, the "best' of each should be chosen. If the system was set up to allow the public to vote on multiple proposals of each, then the most voted option across both versions of the entity should be chosen the victor. If not, the Curator performing the merge can be asked to select which of each version they prefer. In the simplest case the Curator or the system may select which of the two versions is the "survivor" (see below), and the Title and Description of that entity will be the one that prevails.
+
+Links and Related Media
+
+These elements are additive in nature. There is no inherent problem in having multiple external links nor media (assuming they are appropriate). In the case of a merge, it would be sufficient to maintain a (unique, if both entities contain the same entry) copy of each. This can then be followed up with an Attribute Enhancement, as described above, should this be desired.
+
+Context
+
+Assuming both merged entities were properly constructed, it should be assumed that their Context elements are identical, or nearly so. If not so, at least in spirit, then the system should not permit the merger at all. Thus, the best solution to this problem is to require that each entity have the same Contexts before a merger can occur. If this requires some Attribute Enhancement Curation prior to the merger, so be it.
+
+Score
+
+The most profound impact upon merger is on the Score of the two entities. Conceptually, no change has been made to either - they are two identical entities that have been expressed in two different ways. However, differences in their attributes (descriptions and links), and differences in the Arguments made for or against them could have an effect on the votes that have been cast so far (see Move Argument below).
+
+There are three possible ways to handle this situation: 
+
+# Merge all the votes (maintain all the previous scores and calculate a new average).
+# Maintain only the votes of the survivor.
+# Zero out all previous votes.
+
+Until further experimentation has been performed with the platform, it would be unwise to select one over the other. It should be noted that the first option poses a problem when the same Debater has voted on both entities, and given different scores. Regardless of the option chosen, users that have previously voted should be notified of the change.
+
+Arguments Based on Merged Claims
+
+Given that both Claims are identical in nature, any Arguments that have been based on either of them should still be valid under the merged Claim. Thus, the merged version should become the base Claim for all the Arguments involved.
+
+The one edge case here is what happens when both of the merged Claims have an Argument that attacks or defends the same Claim or Argument. In the case that both either attack or defend the target, the merger of the Claim should be performed first, followed by a merger of the Arguments that are based on the newly merged Claim. In the case that they are on opposite sides of the debate, the result depends on the implementation:
+
+* If the system was implemented to treat Arguments that are Pro and Con (see above) as a single entity, the system should merge Scores as discussed above.
+* If the system was implemented to maintain two separate copies of Pro and Con versions of an Argument, then the two should be maintained.
+
+Claims upon which Merged Arguments Were Based
+
+Claims aren't affected by the Arguments that use them in debates. There should be no impact to a base Claim under such circumstances. However, Arguments should not be merged unless they both have the same base Claim.
+
+The Target
+
+It doesn't make sense to merge two Arguments unless they are both attacking or defending the same Argument or Claim. There should be no change, and the the merged entity should maintain the Target as before. The only consideration is with how a change to the Score should affect the roll-up Score of the Target. Debaters that had previously voted on the Target should be notified of the change to its Arguments.
+
+Arguments For or Against a Merged Claim or Argument
+
+In principle, the two entities that were merged were identical in nature. As with Arguments that are based on merged Claims, Arguments attacking or defending the merged entities can be preserved, using the merged entity as their new Target. Also similarly, this may trigger a merging of any identical Arguments (those that have the same base Claim), as described above.
+
+Choosing the Survivor
+
+The easiest solution to choosing which entity is the one that survives is to simply ask the Curator to choose. This may, in fact, be the most effective solution as well, since humans may perceive subtleties that an algorithm may not.
+
+If the selection is done algorithmically, then a scoring system should be devised to determine which is the best option to maintain. The calculation should consider the following, according to a yet-to-be-determined system of weighting:
+
+* Did either of the two previously receive Attribute Enhancement curations?
+* Which one has the Title and Description with the most votes (if voting is used)?
+* Which one has more Score votes?
+* Which has the most Arguments?
+* Which has the best Arguments?
+
+In general, the number of Arguments and the number of Score votes should be the primary criteria for winner selection.
+
+======3.4.2.2.2 Split Claim======
+
+Some Claims may be made in such a way that they are really a combination unrelated facts. An exaggerated example might be something like the phrase "You're ugly and you smell bad", which is really the combination of the two Claims "You're ugly" and "You smell bad". A Curator in such a situation would therefore need to make a change such that two Claims are made from the one.
+
+The manual approach would be to use step-by-step modifications to arrive at the final objective:
+
+# Create a new Claim with a Title and Description referring to the second half of the original Claim
+# Rename the Title and edit the Description of the original Claim so that they reflect only the first half of the Claim
+# Move (see Move Argument below) any parent or child Arguments to the second Claim as appropriate
+# Update the Contexts of each Claim to reflect the reduced scope of each new Argument
+
+If this type of operation becomes commonplace and burdensome, the system can facilitate many of the steps with a single tool that uses Context to help automate the process:
+
+# Initiate the process to split the Claim
+# Choose a new Title and Description for each
+# Let the system choose the new Contexts for each, providing manual help as needed
+# Let the system choose according to the new Contexts which Arguments, and which of the Arguments that are based on the old Claim should be associated with each of the new Claims (or both). Provide manual corrections as needed.
+# Submit the selections to have the system perform the operations as configured
+
+Score
+
+When the manual approach is used for such an operation, it creates a problem. A new Claim is created with no previous votes, but the old one, which is now only half of its original self, will still maintain its Score. Due to the Move Argument operations, Debaters will be notified of the change, but it will be up to them to alter their vote accordingly.
+
+If the facilitated approach is used, the system should not only notify users, but should also zero out any previous votes on both of the resulting Claims. There is no way to algorithmically determine how the voting will change with enough certainty to try.
+
+======3.4.2.2.3 Split Argument======
+
+This is not in fact a feature that needs to be supported. Since an Argument is merely the expression of a Claim used to support or attack another Claim or Argument, you cannot have multiple Arguments in a single entity. However, it's possible to create text that appears to be two Arguments in one. In such a case, the proper solution would be to correct the Title and Description such that it is appropriate for the base Claim, and then locate (or create) a Claim for the second half of the Argument and create a new Argument. If there are any child (or parent) Arguments relating to the second half of the Argument, these should then be move (see Move Argument below).
+
+======3.4.2.2.4 Move Argument======
+
+This is one of the most critical and frequent types of Curation. The idea of a canonical debate, and the idea of separating Arguments into their distinct logical components, is not (yet) a common practice for most people. Our natural instinct is to provide a defense or counter-argument of any kind we are able to conjure, regardless of whether it is relevant or not. This is only made worse by the need to have the last word. Creating a constructive and canonical debate, however, takes careful thought and effort.
+
+When an Argument is made in the wrong place, its impact on the outcome of the debate may be negated due to its irrelevance. This does not mean that it is unimportant, only that it has been used in the wrong Context. The work for the Curator, then, is to find the proper Context for the Argument, and move it there.
+
+Consider a debate over gun control, where the following Claim is being discussed:
+
+''Preventing people with a diagnosis of mental illness from owning firearms does not go far enough to protect the public.''
+
+And the following Argument added as an argument for the Claim:
+
+''The shooter at Marjory Stoneman Douglas High School had no clinical diagnosis of mental illness.''
+
+While somewhat appropriate for the discussion, it would probably get a rather low Score for Strength based on its low impact (a single example). However, it is highly probable there would be a second Argument on the Claim of the type:
+
+''Only 22 percent of mass murderers could be considered mentally ill prior to their crime.''
+
+For a Curator in this situation, the task is simple: move the more specific example away from the Claim over the more general Argument as a supporting argument.
+
+It could be implemented using the Fundamental Actions listed as part of the Merge Claims action:
+
+# Create a new Argument with the new Target as its destination.
+# "Move" (in the way being described here) any sub-Arguments over to the new Argument.
+# Delete the old Argument.
+
+Especially for an Argument with a lot of debate all its own, that would be a tiring and risky task, and history would be lost with the delete action. This feature should be implemented as a single action. Here's how such a move would impact the attributes:
+
+Unique ID
+
+There is no need to change the ID of the Argument, unless the format used for IDs is a unique combination of the base Claim, and the Target (which is now being changed).
+
+Title and Description
+
+In general, no changes would be necessary in this case. There will probably be some minor exceptions.
+
+Links and Related Media
+
+No changes are necessary.
+
+Score
+
+As mentioned above, one of the reasons for moving an Argument is to make it more relevant, or to give it more impact. This means that done properly, Move Argument should result in an increase in its Strength. Unfortunately, there is no way to definitively calculate by how much (nor to tell voters how their votes should change without their input). Therefore, the best solution is to zero out the Score votes, and notify the voters that they'll have to give a new opinion on the subject.
+
+Base Claim
+
+Moving an Argument should have no impact on its base Claim.
+
+The Targets
+
+The original Target (Claim or Argument) will be losing one of its Arguments. It shouldn't directly affect the (voted) Score of the Target to make a radical difference. The current assumption (prior to significant testing) is that the votes should be left undisturbed. Of course, the roll-up Score will be affected mathematically by the change.
+
+The new Target will be gaining a new Argument. However, it will be an Argument without any initial Score. As with the creation of a brand new Argument, there should be no immediate impact on the roll-up of the new Target until voting re-commences.
+
+Arguments For or Against a Moved Argument
+
+This is a complicated issue to consider. Some Arguments may still be as relevant as before, such as:
+
+''This is only a single anecdote.''
+
+However, recall that the purpose of moving the Argument in the first place was essentially to increase its Relevance by placing it in its proper place. In the case of the high school shooter argument, this meant very slightly increasing its impact rather than its relevance. 
+
+Consider this much clearer example regarding ice and snow sports preferences:
+
+''Americans prefer downhill skiing over other winter sports''
+
+And the counter-argument:
+
+''Residents of Minneapolis play ice hockey more than any other winter sport.''
+
+Suppose, then, that this Argument is moved below a second Argument:
+
+''The population of Minnesota prefers ice hockey over downhill skiing.''
+
+What, then to do with this sub-Argument?
+
+''Minneapolis is only 0.1% of the population of the United States''
+
+The sub-Argument not only changes in terms of its impact, it no longer seems relevant. 
+
+Given these conditions, one of the following would be recommended:
+
+# Delete all the sub-Arguments (along with their votes).
+# Allow the Curator to choose which sub-Arguments should be deleted (and set the Scores of the remaining to zero).
+# Don't allow this action for Arguments that already have sub-Arguments.
+
+======3.4.2.2.5 Group Arguments======
+
+The examples given above for Move Argument reveal another possibility: what should be done when there are multiple Arguments all related to the same basic point? For example, imagine these Arguments for the debate I should get a diamond embedded in my tooth:
+
+''Study A shows that 3 out of 4 people prefer diamond-embedded teeth to gold-capped.''
+''Study B shows that in Utah, diamond-embedded teeth are on the rise.''
+''Study C shows that gold-capped teeth are still king.''
+
+Under such circumstances, it may make sense to group these Arguments under a single heading, rather than leaving them on their own.
+
+''Diamond-embedded teeth are more popular than ones that are gold-capped.''
+
+This new statement would be used as a single Argument in the debate, making it easier to understand. The old Arguments would then become sub-Arguments of the new Argument, but there's a subtle point to be made here: This new Argument requires a base Claim of its own.
+
+Grouping Arguments, then, consists of the following Fundamental and Compound Actions:
+
+# Create a new Argument, with a new base Claim
+# Move each of the existing Arguments to become Arguments for or against the new Claim
+
+One thing to keep in mind, is that for some subjects, the most popular arguments are in fact significantly overlapping with each other. So if we always just regrouped, we may end up regrouping some arguments deeper down where (casual reader) people won't see them. This has some negativity in that if we link people to the discussion, they may be confused by that half of the points they find convincing were moved to a deeper level, making them think the content added is not fairly representing their side. If they searched, they would find it, but many people wouldn't try that on their first visits. I'm not saying this is a critical issue necessarily, just bringing it up for consideration.
+(The overlap rating solution has a similar problem in that it pushes arguments down in the ordering, so it doesn't solve it either. Just bringing the subject up.) (edited)
+
+=======3.4.2.2.5.1 Heuristics for Grouping Arguments=======
+
+TODO: establish a list of guidelines
+
+* Arguments that can be grouped as proving a broader premise should be regrouped under a new claim, and that single claim used as an argument in the parent
+
+.... something about specific to general (e.g. Study A, Study B, Study C... should be regrouped as "Studies show")
+
+======3.4.2.2.6 Clone Claim======
+
+In the course of a discussion, it is common to see the main subject of the debate evolve over time. An extreme example of this is the informal logical fallacy known as Moving the Goalposts. However, even (or especially) in the case of a constructive discourse, the original debate may require some refinement in order to come to a reasonable conclusion on the subject.
+
+Consider the debate regarding dental fashion described above:
+
+''Diamond-embedded teeth are more popular than ones that are gold-capped.''
+
+Suppose that during the course of the debate, it becomes clear that while diamond embedding is obviously clear when it comes to the 65 and older crowd, teenagers clearly prefer gold-capped teeth. The canonical claim above would naturally have mixed results, with an outcome of, perhaps, a 47% Truth Score. While that is interesting to observe, it becomes more interesting to look at each of the more specific cases on their own:
+
+''Diamond-embedded teeth are more popular than ones that are gold-capped for people 65 years of age and older.''
+''Diamond-embedded teeth are less popular than ones that are gold-capped for teenagers.''
+
+Each of those Claims would bear the most relevant parts of the more generalized debate, and have, perhaps, a Truth Score closer to 70% (for example). It would then be interesting to create new debates with even more specifics, such as:
+
+''Diamond-embedded teeth are more popular than ones that are gold-capped for people 65 years of age and older on the Island of Tasmania for the period of 2010 through 2018.''
+
+And so on. The act of Curation, then, consists of:
+
+# Identifying the opportunity to create a more specific Claim from the original Claim.
+# Creating the new Claim with a new, more specific Title and Description.
+# Adding or modifying the Context for the more restricted case. 
+# Creating new Arguments for those Arguments that are still relevant considering the new Context. 
+# Creating a new Argument with the new Claim as its base for use in the more general Argument.
+
+The Compound Curation Action can make the process simpler like so:
+
+# Identify the opportunity.
+# Choose Clone Claim, and select the new Context, Title and Description as appropriate.
+# Offer a menu to choose which Arguments would still be relevant in the new Claim (matching Context could help automate this process).
+# Automatically create the Argument linking the new Claim to the general one.
+
+Cloning could also support creating a more general Argument:
+
+# Choose Clone Claim, with a more general Context, Title and Description.
+# Automatically create an Argument linking the more specific Claim to the new one.
+
+======3.4.2.2.7 Refine Argument======
+
+''Diamond-embedded teeth are preferred by dentists over gold capping.''
+
+Partially true - Score?
+
+''In Liberland, diamond-embedded teeth are preferred by dentists over gold capping.''
+
+
+====3.4.2 On Annoying Debaters====
+
+
+Moving a lot will start to piss people off...
+
+====3.4.3 Viewing Previous Versions====
+
