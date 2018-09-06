@@ -1395,9 +1395,37 @@ We have not yet determined the rules and conditions behind such a feature. For e
 
 ===3.5 Other Features===
 
+This is by no means an exhaustive list, but we would like to highlight some interesting features that we believe would either be necessary to [[#2314_Make_it_effortless|maximize the usability]] of the platform, or which present interesting opportunities for users of this platform.
+
 ====3.5.1 Notifications====
 
+Consistent with the goal of [[#2315_Promote_engagement|motivating users to interact]] with the platform, the Canonical Debate needs to support sending notifications to users whenever a Debate of their interest receives new information. Especially in the case where a Debater has registered a [[#33322_Belief_Scores|Belief Score]] for a topic that has been [[#342_On_Annoying_Debaters|curated]], it is important to call them back to give an updated opinion on the new organization.
+
+Notifications can also be a very powerful tool for helping resolve [[#313_Request_for_Information_RFI|RFIs]] when they occur. Debaters can register to receive RFI notifications based on a specific [[#321_Context|Context element]], or combination of Contexts, essentially declaring themselves as an expert (or at least a person with a great interest in) a specific topic. Whether or not they are truly an expert is beside the point - the platform is designed to create a meritocracy of ideas, or at least of arguments.
+
 ====3.5.2 Search====
+
+Many modes of search are possible on the Canonical Debate platform, and each should help promote discovery of information in a [[#2314_Make_it_effortless|quick]] and [[#114_Models_promote_polarization|unbiased manner]].
+
+=====3.5.2.1 Text Search=====
+
+The usual text search capabilities should be enabled to provide users to locate any Claim that matches their interests on a best-effort basis. This includes the standard techniques of using related terms and language-aware matches, including every text field in a single search, including related Context information, and providing a ranking of the results based on the fields which matched and the accuracy of the match.
+
+The platform should specifically ''not'' include rankings based on previous user activity, or based on declared preferences. Such algorithms are not transparent to users, nor necessarily to their creators, and could lead to the creation of information bubbles.
+
+=====3.5.2.2 Graph Navigation=====
+
+A natural form of navigation throughout the platform will be to choose a starting point, a Claim of interest, often by way of some external search or link, and examine [[#3126_The_Debate_Graph|the space of ideas, evidence and arguments]] connected to that initial topic. This type of navigation is the default mode of understanding the issues and ideas related to a debate, as readers seek to challenge or understand the reasoning behind specific arguments, declare their [[#33322_Belief_Scores|Beliefs]] at ever-more detailed levels, and so on.
+
+Though not strictly speaking a form of search, it is a mechanism of discovery. There will generally be little surprise while “drilling down” towards more specific Claims upon which Arguments are based. However, there will be an element of unpredictability and surprise when looking in the opposite direction to see the number of Arguments upon which a certain Claim were made. In many cases, the reuse of a given Claim may be very limited or none at all. However, more fundamental Claims, such as the [[#31272_Logical_and_Informal_Fallacies|Claims which represent logical fallacies]] will yield a complete listing of Arguments of this type.
+
+=====3.5.2.3 Context Navigation=====
+
+Similar to Graph Navigation is the type of exploration we discussed previously that is possible with the use of Context. Knowledge Graph paths provide a way to find issues related to any single subject, item, location, or other category supported by these ontologies. 
+
+=====3.5.2.4 Interest-based Navigation=====
+
+As users (anonymously) register their Beliefs, they accumulate a trail of interests and opinions. This creates the possibility for users to discover new topics of interest on which other users have voted. Users can choose to browse the topics of interest for users that agree with an opinion of their own, or of those that have disagreed with them. And this could be based on the collective interests of a group of users, or they can follow the opinions of a single user. These are all interesting opportunities to browse and discover what interest other users of the platform.
 
 ====3.5.3 Recommendations====
 
