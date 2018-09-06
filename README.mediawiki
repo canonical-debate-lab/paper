@@ -1481,20 +1481,56 @@ Cloning could also support creating a more general Argument:
 
 ======3.4.2.2.7 Refine Argument======
 
-''Diamond-embedded teeth are preferred by dentists over gold capping.''
+If a Claim can be refined, what does that mean for Arguments that are based on that Claim? Consider, again, the case of the blue star bellies:
 
-Partially true - Score?
+''I should get a blue star on my belly''
 
-''In Liberland, diamond-embedded teeth are preferred by dentists over gold capping.''
+Imagine that we use, as an Argument in favor, the original Claim:
 
+''People with blue stars on their bellies are more popular than those without.''
+
+However, another Claim has already been cloned and refined from this original point:
+
+''People 65 years of age or older with blue stars on their bellies are more popular than those of similar age without.''
+
+If the ''I'' in the original Claim is amongst the group of 65 and older, then this second Claim is more appropriate than the original in the debate. It's possible, then, that ''both'' Arguments could be made against the same Claim. This would slant the result of the debate towards the side that they support, since it would essentially be double-scoring the same argument. In this case, the proper action would be to [[#34213_Delete_Argument|delete the less-relevant Argument]].
+
+If only the more general Argument has been made, however, this essentially short-changes the main point. The more general Claim is probably less true, and is certainly less directly relevant than the more specific case, and thus would result in a lower Strength Score than if the more specific Argument were used. In this case, it is appropriate for the Curator to replace the less-specific Argument with the more specific one.
+
+Refine Argument could be described as a combination of the following actions:
+
+# Delete the less appropriate Argument
+# If one does not already exist, create a more specific specific Claim by way of the Clone Claim Action
+# Create a new Argument based on the most appropriate Claim available
+
+The "most appropriate" Argument would be the one that has the highest Strength Score (Relevance and base Truth combination). If a new Argument is being created, there will not yet be a Relevance Score, in which case the Curator must use their best judgement. Context in the Target Claim might help guide this decision, but in general it should not be a difficult decision to make.
 
 ====3.4.2 On Annoying Debaters====
 
+Although Curation should help to keep the Canonical Debate readable, efficient and productive, it will have an impact on Scoring. While [[#33321_Objective_Scoring|Objective Scores]] will be updated automatically, [[#33322_Belief_Scores|Subjective Scores]] will require each previous participant to evaluate the change and register a new vote. 
 
-Moving a lot will start to piss people off...
+The platform can facilitate this need by sending a notification to each Debater that had previously registered interest, but if these changes are ongoing and frequent, it could lead to fatigue and disinterest by Debaters.
+
+Fortunately, the life cycle of a Claim is such that the relevant and unique Arguments will be provided fairly quickly until all the interesting options are exhausted. At that point, given that the debate is canonical, new Arguments will most likely be duplicates of previous Arguments, and therefore deleted or merged before many people have bothered to vote on the new item. There will generally be a flurry of activity in the beginning until the debate is properly organized, and then the changes should settle down.
+
+Regardless, it is important that Curators examine new Claims and Arguments as soon as possible in order to take the proper course of action before too many Debaters have gone to the trouble of scoring the unexamined elements. This will be a major design concern for the Canonical Debate platform.
 
 ====3.4.3 Viewing Previous Versions====
 
+Having Curators, a separate class of users with special privileges, poses a risk that they might abuse their powers to influence a debate. The best defense against this type of risk is to provide [[#2310_Be_fully_transparent|full transparency]] as to what actions each Curator has taken. This requires that each action performed by a Curator be auditable, and be associated with that specific Curator.
+
+To this end, the Canonical Debate platform will provide access to the entire history of any Debate. It will be possible to view what changes were made at what time, and by whom. The identity of Debaters will be protected; however it will be important to show specifically which actions were performed by Curators, and specifically which ones. This will provide the opportunity for others to challenge the objectivity of Curators who seem to be abusing their position.
+
+Beyond the need for checks against abusive Curators, it would be interesting for many other reasons to be able to view the evolution of a debate over time. To satisfy the curiosity of the average user, [[#2316_Include_everyone|assuage the fears]] of doubters, and provide a historical record for researches, we believe that providing a complete audit trail is an essential part of the platform.
+
+====3.4.4 Undoing Curation Actions====
+Even if the actions of a Curator are determined to be abusive, or in the case of a simple innocent mistake, there remains the question of what should be done. Any Curation Action can be reversed by viewing what the debate looked like in the past, and performing a second curation which puts things back as they were.
+
+The problem is that many of these actions are destructive, at least with regards to Subjective Scoring Methods, which generally require that scores be wiped clean after a Curation Action. Thus, even if a bad actor is detected, and their actions are manually undone, there may be a lasting impact in the sense of the Subjective Scoring (votes will be lost).
+
+A possible approach that is still under investigation is the possibility of reversing, or "undoing" Curation Actions that have been deemed biased or inappropriate. This would essentially entail undoing the destructive action, rolling back to the previous version as if the action had never happened. All Belief Scores would be restored, deleted Arguments would be restored, and so on.
+
+We have not yet determined the rules and conditions behind such a feature. For example, what should be done if new Arguments have been based on the invalid changes that were made? What about votes that were cast prior to the reversal? What would even trigger such a reversal? These questions are still under consideration, and should be explained in future versions of this document.
 
 ===3.5 Other Features===
 
