@@ -1459,9 +1459,17 @@ While these types of arguments work contrary to [[#237_Reduce_sources_of_bias so
 
 ===3.6 Technologies===
 
-TBD - in experimental phase
+In this white paper we will not go into too much detail as to the technologies which can or should be employed, except where specifically significant to the [[#23_Design_Goals|project objectives]].
 
-===3.7 Blockchain===
+===3.6.1 Blockchain===
+
+[https://en.wikipedia.org/wiki/Blockchain Blockchain] technology is currently on the rise. Although [https://en.wikipedia.org/wiki/Bitcoin Bitcoin] is the most well-known application of Blockchain, what many people do not understand is that the Blockchain on which it is built presents a revolution in terms of technology.
+
+For the purpose of the Canonical Debate, Blockchain represents the very first widespread solution for a fully-distributed, fully-trustless system. This means that any person (or general-purpose computer) can participate. It means that every participant can [[#2310_Be_fully_transparent|view the entire history of activities]] on the system, and verify that they [[#152_Centralization_of_data|haven't been altered]] by someone trying to manipulate the data. It also means that the system, and the data, [[#2311_Be_fully_distributed||will survive]] as long as there is at least one participant up and running.
+
+Blockchain technologies are currently also being used to enable universal identity solutions, which will be critical for the purpose of [[#239_Prevent_spam_and_fake_accounts|preventing fake accounts]]. Voting solutions and solutions for incentivizing "good behavior" are also undergoing experimentation using this technology.
+
+Blockchain and related technologies are still in their infancy, and there are many problems that remain to be solved. Initial versions of the Canonical Debate will most likely not make use of this technology, as they increase the complexity of the work, and are currently a moving target in terms of best-of-class solutions. What is clear is that some of the goals we have laid out it our vision can only be achieved with the help of this new class of technology.
 
 ===3.7 Future Evolutions===
 
