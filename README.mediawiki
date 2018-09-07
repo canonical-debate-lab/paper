@@ -1463,11 +1463,71 @@ TBD - in experimental phase
 
 ===3.7 Blockchain===
 
-===3.8 Future Evolutions===
+===3.7 Future Evolutions===
 
-====3.8.1 Claim hierarchies====
+This first version of our white paper represents only the initial vision of what is possible vis-à-vis the Canonical Debate. There are many concepts that we would have liked to have included already in this first iteration. However, in order to keep focus and make sure that we could accomplish at least a small part of that vision, we decided to limit our scope for now to the concepts described above.
 
-General to specific "Context spaces" for debates
+This section gives a first glance as some of the ideas that we have agreed to put off until after we have created a first version of the platform, and have gained a better understanding of what we have proposed through actual experience.
+
+====3.7.1 Claim Hierarchies====
+
+We previously spoke several times of there being an indirect relationship between Claims that are in essence alike, but contain [[#3213_Context_to_Refine_Debates|different levels]] [[#34226_Clone_Claim|of specificity]]. It turns out that if we can make this relationship more explicit, some very interesting things can happen.
+
+As an example, consider the following Claim used as a dialectic on the program [https://www.intelligencesquaredus.org/debates/humanitarian-intervention-does-more-harm-good Intelligence Squared]:
+
+''Humanitarian intervention does more harm than good.''
+
+The majority of the participants focused on a subset of the Claim above:
+
+''Humanitarian military intervention does more harm than good.''
+
+However, one of the participants of the debate, Bernard Kouchner, co-founder of Doctors Without Borders, essentially considered the debate closed when he used the argument:
+
+''Humanitarian medical intervention does more harm than good.''
+
+Each of these latter Claims are obviously related to the original Claim in some way. They basically add specificity to the original Claim, placing a tighter constraint on the scope of the discussion. More specifically, the original claim would be associated with the Context element [https://en.wikipedia.org/wiki/Humanitarian_aid humanitarian aid]. If the ontology supports it, the second Claim would be supported with the more specific Context of ''humanitarian military aid''. If this is not supported by the knowledge graph, another option would be to add the Context element [https://en.wikipedia.org/wiki/Military military]. In other words, the Claims are related by sharing the same Context elements, with slight refinements or variations.
+
+As should be evident, it is much easier to prove (or disprove) a more specific Claim than it is to support a more general one.  Thus, the original Claim would probably not have a "final" answer of true or false, but rather a set of trade offs.
+
+Imagine now that the claim regarding military intervention was determined to be mostly false, while the claim regarding medical aid was considered mostly true. The medical intervention Claim would then be used as an Argument against the general Claim, whereas the military intervention Claim would support it.
+
+As the debate progressed, a number of trade offs were brought up regarding the military end of humanitarian intervention:
+
+''Humanitarian military intervention does more harm than good IF there is no clear objective.''
+
+''Humanitarian military intervention does more harm than good IF the intervention is under-budgeted.''
+
+''Humanitarian military intervention does more harm than good IF the intervention is done for political gains rather than humanitarian principles.''
+
+And so on. If we were to reframe this Claim, a better way to state it might be something like:
+
+''Humanitarian military intervention should be an international tool used to genocide and similar atrocities.''
+
+It should be clear by now that this is not a Claim that can be resolved in the general sense. Instead, the debate at this abstract level would act as a guide for debates in a more specific case:
+
+''We should apply humanitarian military intervention to the civil war in Yemen.''
+
+''No, because we cannot build a coalition that has one definite objective.''
+
+This concrete debate can be viewed as an ''instance'' of the more abstract debate, with one of the conditional ''if'' Arguments being applied to the the debate in a more concrete form, with specific discussion regarding the relevance and truth behind that condition.
+
+Thus, we have yet another way of viewing and navigating the "Debate space", that of examining a single core concept at the abstract level, and then at different levels of concreteness. These different levels are defined by an attribute we already know well by now: [[#321_Context|Context]]. Thus, we can see that a general debate becomes more concrete as we either add Context elements ("The Yemeni Civil War"), or switch a Context from a more general one ("humanitarian aid") to a more specific one on an ontological hierarchy ("humanitarian military aid").
+
+This relationship can become even more useful if we offer the functionality to create a new, specific debate from the more abstract one:
+
+''The United Nations should use military intervention in the dispute between Katy Perry and Taylor Swift.''
+
+The platform could then offer to automatically create Arguments and Base Claims to get the debate started:
+
+''The military intervention in the dispute between Katy Perry and Taylor Swift has clear objectives.''
+
+''The military intervention in the dispute between Katy Perry and Taylor Swift has a sufficient budget to be successful.''
+
+Etc. Someone might notice that this is a pretty absurd action to recommend for such a trivial dispute, and make the Argument:
+
+''The dispute between these two singers is just a public, verbal spat, and doesn't warrant military action at all!''
+
+This brand new Argument, brought at the very specific level, can have repercussions across the debate hierarchy: shouldn't every debate regarding military intervention weigh the harm that a military intervention can do against the harm of doing nothing at all? This is another powerful feature that the platform can offer: when an Argument is added anywhere on a debate hierarchy, it can ask the creator if it should be applied at the more abstract levels. If so, it can automatically create a new Argument and Base Claim for each debate in the hierarchy in order to maintain consistency and make sure that no aspect is left unconsidered.
 
 ====3.8.2 Problem Solving====
 
