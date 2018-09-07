@@ -1443,7 +1443,7 @@ Taking this a step further, it is important that users attach Context elements t
 
 =====3.5.3.3 Stopping Trolls=====
 
-One of the original motivations for creating this platform is the [[#115_Trolling_is_rewarded proliferation of online trolls]] which seem to be occupying the space of constructive debate and overwhelming attempts at reasonable conversation. 
+One of the original motivations for creating this platform is the [[#115_Trolling_is_rewarded|proliferation of online trolls]] which seem to be occupying the space of constructive debate and overwhelming attempts at reasonable conversation. 
 
 The Canonical debate platform is designed to provide mechanisms to prevent standard trolling tactics, including [[#238_Make_arguments_anonymous|removing individuals]] from the debate itself (and thus avoiding personal attacks), ensuring that trolls [[#239_Prevent_spam_and_fake_accounts|cannot create multiple accounts]] in order to have multiple online personalities, and making the Claims canonical so that it is not possible to repeat Arguments that have already been made (and to some degree resolved). The platform even attempts to include would-be trolls into the conversation by providing mechanisms to evolve their exaggerated statements into more reasonable Claims that actually address the points they are trying to make. 
 
@@ -1453,7 +1453,7 @@ There are [https://www.wired.com/2017/02/googles-troll-fighting-ai-now-belongs-w
 
 =====3.5.3.4 Identifying Language Temperature=====
 
-Another hot topic of research is focused on [[https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge identifying the "temperature"] of language that is used in [https://arxiv.org/abs/1805.05345 online discussions]. These tools could be used to detect when the description of a Claim or Argument goes beyond a dispassionate argument based on reason to involving rhetoric in an attempt to influence based on biases and emotion.
+Another hot topic of research is focused on [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge identifying the "temperature"] of language that is used in [https://arxiv.org/abs/1805.05345 online discussions]. These tools could be used to detect when the description of a Claim or Argument goes beyond a dispassionate argument based on reason to involving rhetoric in an attempt to influence based on biases and emotion.
 
 While these types of arguments work contrary to [[#237_Reduce_sources_of_bias some of the]] [[#233_Promote_constructive_discourse|platform objectives]], they could be used to benefit another objective: that of [[#234_Teach_people_about_debates|teaching people about argumentation]] and [[#2317_Illuminate_different_perspectives|perspectives]]. Rather than eliminate or "correct" statements that carry a certain emotional content, it would be interesting to maintain multiple versions of the Claim and Argument texts, each one with a slightly different emotional temperature. Given the proper tools to detect and categorize these variations, the platform could offer yet another type of perspective: emotional versus completely logical (or "civilized") debate styles. It would be a fantastic learning opportunity to be able to compare the two. 
 
