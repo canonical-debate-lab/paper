@@ -885,7 +885,7 @@ This section began by discussing the relationship between Context and Claims, an
 
 Consider the following Claim:
 
-''Study X conducted by the University of Lalandia shows that violent crime rates in communities in the U.S. with a high population of Namibian refugees shows an unusually high number of violent crimes between 2014 and 2017.''
+''Study X conducted by the University of Lalandia shows that violent crime rates in communities in the U.S. with a high population of Nambian refugees shows an unusually high number of violent crimes between 2014 and 2017.''
 
 If this Claim were to be used as an Argument in the prior debate regarding crime rates, a few things should become evident regarding its Context:
 
