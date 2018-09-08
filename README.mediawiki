@@ -1539,56 +1539,107 @@ This brand new Argument, brought at the very specific level, can have repercussi
 
 ====3.8.2 Problem Solving====
 
-The first phase of Gruff will not focus on more complex questions, the kind that make up discussions around legislation. While Gruff is excellent for debating specific points of a proposed solution, its structure is inadequate for this situation.
+The end goal of debate is usually to come to some conclusion as to a decision to be made, or a course of action to be taken. In a democracy, there must be a place where legislation and projects can be proposed, discussed, and finally taken to a vote on whether or not to adopt the proposal. Democracy Earth has proposed the [https://github.com/DemocracyEarth/paper#233_Agora Agora] for this purpose as a place where members of an entity or organization can have these debates online in order to reach a better-informed consensus.
 
-* Problem description
-* Debate whether or not the problem needs a solution at all
-* Different proposed solutions
-* Scoring solutions vs. trade offs
-* Governance: cost, time for implementation, when to review success
-* Voting
+We of the Canonical Debate Lab have agreed with the members of the Democracy Earth Foundation that our proposal for a Canonical Debate is an important component of this system. Our current proposal is just the first step, and one that we believe is the foundational component for a more complete decision-making system. Once again, for the sake of starting with a simpler, more reachable goal, we have chosen to focus only on [[#311_Claim|dialectic Claims]]. What follows is a description of the beginnings of a model for the much larger future vision.
 
-timothy.high [2:05 PM]
-it’s just a different structure and a different process: problem solving is not the same thing as debating something that is true/false
-here’s a very easy example:
+=====3.8.2.1 Problem=====
 
-kwiesmueller [2:05 PM]
-But, I am not even sure, if what I mentioned here is even a "problem" but I wanted to kick this thought in from the side, as all philosophical thinking and solutions about debating might be useless if we lose the focus on how, where and by whom decisions are made in the near and distant future
+A dialectic Claim could be used to represent a simple decision:
 
-timothy.high [2:05 PM]
-* How do we stop terrorist attacks on the U.S.?
-Solution: Don’t let ANYONE inside the country
-Solution: Don’t let anyone from principally Muslim countries inside the country
-Solution: Don’t let anyone that is known to be Muslim inside the country
-Solution: Let anyone inside, but do a thorough body and luggage check of everyone that tries to enter
-Solution: Let anyone in, but monitor all communications
-and so on….
-then, discussing these options, you start to come to some general conclusions:
-* Not letting people in is bad for the economy
-* Not letting people in is bad for human rights (esp. for refugees)
-* Surveillance is bad for privacy
-* Not doing anything will put U.S. (or whatever country’s) lives are risk
-If you try to do this as a dialectic, you get something like this:
-— Don’t let anyone into the country
-Pro: Saves U.S. lives
-Pro: Easy to implement
-Con: Bad for the economy
-Con: Bad for human rights
-— Don’t do anything
-Pro: Easy to implement
-Pro: Good for the economy
-Pro: Good for human rights
-Con: Doesn’t save human lives
-The (extreme) point is that it doesn’t fit into a dialectic. You get hundreds of proposals, and for each one you more or less repeat the same arguments over and over: economy would suffer in this case; be good in that case. This one kind of works, this one doesn’t work so well…
-So, you need a different structure: you need to list explicitly the trade offs that you care about (economy, safety, human rights, privacy…), then score each proposal against each of the criteria (with, of course voting and debates)
-All this is to say - debating a single claim is a good place to start, even if the end goal is something different.
+''We should go to the new Indian restaurant for dinner.''
+
+This works fairly well until someone comes up with a counter-proposal for an Argument:
+
+''No, we should go to our favorite sushi bar.''
+
+This counter-argument is itself a second, opposite Claim that must be resolved at the same time as the first Claim. Of course, it will have as one of its opposing Arguments:
+
+''No, we should go to the new Indian restaurant.''
+
+This is a very simple and clear example of a [[#33315_Cyclical_Debates|cycle in the Debate Graph]]. It also points to the fact that the two Claims are intertwined within a larger issue, or ''Problem''. In this case, it might be stated as:
+
+''Where should we go for dinner tonight?''
+
+Notice that this is stated in the form of an open question, which could have many possible answers. True decision-making really needs to be couched within the context of a larger problem that needs to be solved.
+
+The Problem should include a title, a detailed description, and the Context to which it applies. Note also that a Problem might also just be one aspect within an even broader Problem to be solved. For example:
+
+''What should we do tonight?''
+
+=====3.8.2.2 Solution=====
+
+A Solution is essentially a Claim that is a proposed solution to the Problem. It is possible that a Solution may only be seeking to resolve one distinct part of the Problem, rather than the whole issue. Also, some groups of Solutions may be mutually exclusive, while others may be compatible or complimentary: ''We should all go out to dinner'' and ''We should go to a movie'' would probably not be mutually exclusive, whereas ''We should go to the Indian restaurant'' and ''We should go to the sushi bar'' would be.
+
+Discussing the viability of a Solution for the problem would be very much like deciding the truth behind a Claim, which is why we have chosen to begin this project by focusing on the simpler dialectic form.
+
+======3.8.2.2.1 The Null Solution======
+
+One answer to any Problem is to actually deny that the Problem needs to be resolved at all. In the case of the dinner Problem, this might take the form:
+
+''We had a very late lunch, and I'm not even hungry.''
+
+In other cases, this might be simply denying that a problem exists:
+
+Problem: ''How do we attract more tourists to our town?''
+
+Null Solution: ''We don't! I like this town the way it is, free of tourists.''
+
+======3.8.2.2.2 Comparative Arguments======
+
+It would be extremely inefficient and confusing to attempt to resolve open-ended problems through the use of dialectic Claims. One of the main reasons for this is that there would naturally be a repetition of the same Arguments applied to each of the proposed Solutions.
+
+Consider the following Argument against the sushi bar:
+
+''Sushi is more expensive than Indian food.''
+
+This would see itself repeated as an Argument in favor of the Indian restaurant:
+
+''Indian food is less expensive than sushi.''
+
+If we multiply the number of Solutions from two to three, four, or ten proposals, this would require a repetition of certain types of Arguments to every new instance. This would quickly become unmanageable.
+
+Although we haven't come to a conclusion at this point regarding the exact way to model this type of Argument, it is evident that it would be more efficient to take a more comparative approach, rather than listing each Argument separately. This would entail ranking the Solutions according to certain criteria (discussed below). 
+
+=====3.8.2.3 Constraints=====
+
+Problems generally come with a set of constraints as to what would be considered an acceptable solution. In the case of choosing a restaurant, one of those constraints might be the neighborhoods in which the participants are willing to eat. The amount of money each person is willing to spend, the time they have for dinner, and the type of food that the participants are able or willing to eat would all be considered Constraints.
+
+Constraints can serve as the basis for Arguments in favor, or more commonly against a Solution. For example, if there is the Constraint:
+
+''The movie starts at 8:30PM''
+
+Then one could make the Argument against the Indian restaurant proposal:
+
+''The Indian restaurant is all booked up for reservations until 9:30PM.''
+
+(Note that this would actually be an Argument based on a type of [[#3115_Multipremise_Claims|Multi-premise Claim]],  which would include the previous statement, plus ''and the movie starts at 8:30PM'')
+
+The Constraints themselves are as debatable as anything else in the platform. One Debater may decide that they are willing to spend any amount on dinner, while another would like to keep it below $25 a person. Most of the diners may make the assumption that they only wish to eat somewhere nearby, while another may argue that they have a private jet, and would love to take it out of the country for dinner...
+
+=====3.8.2.4 Criteria=====
+
+The selection of one Solution over another requires some kind of framework for making the decision. This framework can usually be expressed as a set of criteria against which each solution should be weighed. 
+
+In some cases, these Criteria may be purely logical, such as the cost of each Solution, the time required, or the consumption of some other limited resource. In other cases, the Criteria may be value-based, or completely subjective, such as comparing the impact each Solution might have on "personal freedom" versus "security".
+
+Consistent with the philosophy of the Canonical Debate platform as expressed thus far, we do not intend to develop a platform for voting on which would be the best Solution (or combination of Solutions), but rather to allow each user to examine their own values, choose their own priorities, and come to a conclusion about which is the right answer according to their own beliefs.
 
 ====3.8.3 Multi-language and Multi-cultural Support====
 
+This is a subject that has been avoided up to now, and yet is one of the most important issues for a Canonical Debate: if we intend to be [[#2316_Include_everyone|all-inclusive]], the platform must provide adequate support for every person that wishes to be involved in the process. This includes supporting all languages, but it also means taking into account local and cultural differences.
+
+This is not a simple task. There are generally two approaches available for global support: either provide translations for each element into every supported language, or provide a separate instance for each variation. [https://www.wikipedia.org/ Wikipedia] takes the latter approach, allowing each language group to define their own version of the encyclopedia. Unfortunately, this leads to a bit of an imbalance, as the English language version supports almost 5 billion articles, way beyond the 2.2 billion articles available in German. The quality of each article varies from language to language as well.
+
+The option to offer translations for each Claim and Argument seems like a more compatible policy with the aims of the Canonical Debate. Claims are meant to be canonical, which means that having a separate Debate Graph for each language would defeat the purpose. An Argument created for the Portuguese version of a debate might be absent from the French version, to the detriment of French users. Claims are related via Context to a Knowledge Graph, and this ontology is meant to be universal, independent of language or culture.
+
+That being said, values vary from culture to culture, so combining [[#33323_Popular_Vote|Popular Scores]] across different cultures might lead to distorted or unexpected results. Perspectives might require a "geographical fencing" feature in order to provide a more relevant result for a given constituency.
+
+Multiculturalism is a very complex topic, and so we have decided to give this subject more thought before coming to a final decision regarding the solution for the Canonical Debate.
 
 ==4. About==
 
-The Canonical Debate Lab is a community project of the Democracy Earth Foundation it is made possible by collaborators and supporters around the world. While we maintain a close relationship with the Democracy Earth Foundation, we hold our own separate community events, keep our own Slack Team and Github repository and act as an independent organization.
+The Canonical Debate Lab is a community project of the Democracy Earth Foundation. It is made possible by collaborators and supporters around the world. While we maintain a close relationship with the Democracy Earth Foundation, we hold our own separate community events, maintain our own Slack Team and Github repository, and act as an independent organization.
 
 ===4.1 Team & Collaborators===
 
