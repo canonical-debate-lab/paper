@@ -1077,7 +1077,7 @@ In other words, a Roll-up Score of Level 2 requires calculating the Level 1 Roll
 
 We can generalize this by saying that any Level ''N'' Roll-up Score can be performed by calculating a Level ''N-1'' Score on each of the Arguments (and their Base Claim) that target a Claim or Argument.
 
-=======3.3.3.1.4 Claims without Arguments=======
+======3.3.3.1.4 Claims without Arguments======
 
 How can we calculate the Roll-up Score if we encounter an Argument or a Claim that doesn't have any Arguments of its own? In this case, it is not possible to calculate any deeper than this. 
 
@@ -1095,7 +1095,7 @@ Though not clearly stated in our [[#2316_Include_everyone|principles]], underlyi
 
 It is also quite possible that a cycle may occur even in the case of well-reasoned debate with only subtle flaws. Like putting the proverbial [https://en.wikipedia.org/wiki/Cart_before_the_horse cart before the horse], it is quite likely that someone will confuse a cause for an effect, which might naturally result in a circuitous but undeniable cycle.
 
-This means that Scoring algorithms must take cyclical debates into account. There are already well-established solutions for [https://en.wikipedia.org/wiki/Cycle_(graph_theory)#Cycle_detection detecting a cycle], so this should be trivial. Once the Scoring Method realizes that it has already seen a specific Claim before, it must choose what to do. One solution would be to treat it as if it were a [[#3.3.3.1.4 Claims without Arguments|an argumentless Claim]]. But that is just one possibility. It is up to each Scoring Method to define how it should treat a cyclical debate.
+This means that Scoring algorithms must take cyclical debates into account. There are already well-established solutions for [https://en.wikipedia.org/wiki/Cycle_(graph_theory)#Cycle_detection detecting a cycle], so this should be trivial. Once the Scoring Method realizes that it has already seen a specific Claim before, it must choose what to do. One solution would be to treat it as if it were a [[#33314_Claims_without_Arguments|an argumentless Claim]]. But that is just one possibility. It is up to each Scoring Method to define how it should treat a cyclical debate.
 
 =====3.3.3.2 Sources for Score Values=====
 
@@ -1208,7 +1208,7 @@ Perhaps the only reason to permit this action would be as a simpler version of [
 
 ======3.4.2.1.3 Delete Argument======
 
-This carries the same risks as Delete Claim. However, it makes a little more sense than the latter, in the case that an Argument is created that has absolutely no relevance to the debate whatsoever (although Scoring and [[#334_Ranking_of_Arguments|ranking]] the Argument out of the top list would be a less controversial solution). More specifically, this action is an important final step in the process of [[3.4.2.2.4 Move Argument|moving an Argument]].
+This carries the same risks as Delete Claim. However, it makes a little more sense than the latter, in the case that an Argument is created that has absolutely no relevance to the debate whatsoever (although Scoring and [[#334_Ranking_of_Arguments|ranking]] the Argument out of the top list would be a less controversial solution). More specifically, this action is an important final step in the process of [[#34224_Move_Argument|moving an Argument]].
 
 ======3.4.2.1.4 Attribute Enhancements======
 
@@ -1340,7 +1340,7 @@ Each of those Claims would bear the most relevant parts of the more generalized 
 
 And so on. 
 
-The creation of related Claims is a very complicated action to perform via strictly Fundamental Actions, and so should be facilitated by more advanced tools in the long term. This activity also relates to a much deeper subject that we have chosen not to fully address in the current version of this white paper: [[#381_Claim_hierarchies|hierarchies of Claims]]. This concept supports navigating through varying levels of Claim specificity by way of [[#3213_Context_to_Refine_Debates|changes to the Context elements]] involved. We are looking forward to developing this concept further in the near future.
+The creation of related Claims is a very complicated action to perform via strictly Fundamental Actions, and so should be facilitated by more advanced tools in the long term. This activity also relates to a much deeper subject that we have chosen not to fully address in the current version of this white paper: [[#371_Claim_Hierarchies|hierarchies of Claims]]. This concept supports navigating through varying levels of Claim specificity by way of [[#3213_Context_to_Refine_Debates|changes to the Context elements]] involved. We are looking forward to developing this concept further in the near future.
 
 ======3.4.2.2.7 Refine Argument======
 
@@ -1457,7 +1457,7 @@ There are [https://www.wired.com/2017/02/googles-troll-fighting-ai-now-belongs-w
 
 Another hot topic of research is focused on [https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge identifying the "temperature"] of language that is used in [https://arxiv.org/abs/1805.05345 online discussions]. These tools could be used to detect when the description of a Claim or Argument goes beyond a dispassionate argument based on reason to involving rhetoric in an attempt to influence based on biases and emotion.
 
-While these types of arguments work contrary to [[#237_Reduce_sources_of_bias some of the]] [[#233_Promote_constructive_discourse|platform objectives]], they could be used to benefit another objective: that of [[#234_Teach_people_about_debates|teaching people about argumentation]] and [[#2317_Illuminate_different_perspectives|perspectives]]. Rather than eliminate or "correct" statements that carry a certain emotional content, it would be interesting to maintain multiple versions of the Claim and Argument texts, each one with a slightly different emotional temperature. Given the proper tools to detect and categorize these variations, the platform could offer yet another type of perspective: emotional versus completely logical (or "civilized") debate styles. It would be a fantastic learning opportunity to be able to compare the two. 
+While these types of arguments work contrary to [[#237_Reduce_sources_of_bias|some of the]] [[#233_Promote_constructive_discourse|platform objectives]], they could be used to benefit another objective: that of [[#234_Teach_people_about_debates|teaching people about argumentation]] and [[#2317_Illuminate_different_perspectives|perspectives]]. Rather than eliminate or "correct" statements that carry a certain emotional content, it would be interesting to maintain multiple versions of the Claim and Argument texts, each one with a slightly different emotional temperature. Given the proper tools to detect and categorize these variations, the platform could offer yet another type of perspective: emotional versus completely logical (or "civilized") debate styles. It would be a fantastic learning opportunity to be able to compare the two. 
 
 ===3.6 Technologies===
 
@@ -1467,7 +1467,7 @@ In this white paper we will not go into too much detail as to the technologies w
 
 [https://en.wikipedia.org/wiki/Blockchain Blockchain] technology is currently on the rise. Although [https://en.wikipedia.org/wiki/Bitcoin Bitcoin] is the most well-known application of Blockchain, what many people do not understand is that the Blockchain on which it is built presents a revolution in terms of technology.
 
-For the purpose of the Canonical Debate, Blockchain represents the very first widespread solution for a fully-distributed, fully-trustless system. This means that any person (or general-purpose computer) can participate. It means that every participant can [[#2310_Be_fully_transparent|view the entire history of activities]] on the system, and verify that they [[#152_Centralization_of_data|haven't been altered]] by someone trying to manipulate the data. It also means that the system, and the data, [[#2311_Be_fully_distributed||will survive]] as long as there is at least one participant up and running.
+For the purpose of the Canonical Debate, Blockchain represents the very first widespread solution for a fully-distributed, fully-trustless system. This means that any person (or general-purpose computer) can participate. It means that every participant can [[#2310_Be_fully_transparent|view the entire history of activities]] on the system, and verify that they [[#152_Centralization_of_data|haven't been altered]] by someone trying to manipulate the data. It also means that the system, and the data, [[#2311_Be_fully_distributed|will survive]] as long as there is at least one participant up and running.
 
 Blockchain technologies are currently also being used to enable universal identity solutions, which will be critical for the purpose of [[#239_Prevent_spam_and_fake_accounts|preventing fake accounts]]. Voting solutions and solutions for incentivizing "good behavior" are also undergoing experimentation using this technology.
 
