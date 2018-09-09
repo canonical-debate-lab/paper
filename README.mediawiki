@@ -568,7 +568,7 @@ A Claim in the Canonical Debate is a [https://en.wikipedia.org/wiki/Proposition 
 Although deceptively simple in concept, in practice there is a lot to consider. The Canonical Debate can work with several types of Claim:
 
 * A proposed fact: ''The Earth is not flat.''
-* A statement of subjective opinion: '''This reporter is a moron.'''
+* A statement of subjective opinion: ''This reporter is a moron.''
 * A proposed course of action: ''We should dedicate all our resources towards preventing meteor impacts.''
 
 In each of these examples, there is a slightly different set of possible outcomes to the debate:
@@ -599,8 +599,8 @@ Although not a final design, we believe that the following attributes would be h
 * '''References''' - Claims should support an optional set of external references (URLs, or "links") to supporting information. This will be especially useful in the case of Claims of evidence, such as the claim that there is a video which shows the occurrence of an event.
 * '''Related media''' - For the sake of improving the user experience, Claims should provide the opportunity to provide images, videos, logos or other media which can accompany the Claim for display within a web site or other user interface. For example, a Claim regarding a person or event might include a photo of said person or event for display along with the Title and other attributes.
 * '''Context''' - In any debate, it is critical to define exactly what is being claimed and argued. This process is known as ''disambiguation''. In a canonical debate, this becomes even more important in order to avoid any misunderstandings, duplications of information, and more. The solution we propose for the Canonical Debate is the use of [[#321-context|Context]] elements related to the Claim. See the relevant section below on this topic for more information.
-* '''Truth Score''' - As previously mentioned in the [[#1512-inadequate-scoring|Problems section]], it is important to provide a mechanism for evaluating claims and arguments within the system. In fact, we propose the implementation of [[#331-scoring|multiple scoring mechanisms]] as described below. In the case of a Claim, the attribute to be measured is the question of its veracity, or agreeability. 
-* '''Arguments For/Against the Claim''' - A Claim that stands on its own is not much of a debate. It could be considered a stated fact (or half-fact, depending on the scoring mechanism), but is devoid of any further consideration. Most Claims, especially in the Canonical Debate, will be supported and attacked by one or more [[#312-argument.|Arguments]] for or against the Claim.
+* '''Truth Score''' - As previously mentioned in the [[#1512-inadequate-scoring|Problems section]], it is important to provide a mechanism for evaluating claims and arguments within the system. In fact, we propose the implementation of [[#33_Scoring|multiple scoring mechanisms]] as described below. In the case of a Claim, the attribute to be measured is the question of its veracity, or agreeability. 
+* '''Arguments For/Against the Claim''' - A Claim that stands on its own is not much of a debate. It could be considered a stated fact (or half-fact, depending on the scoring mechanism), but is devoid of any further consideration. Most Claims, especially in the Canonical Debate, will be supported and attacked by one or more [[#312_Argument|Arguments]] for or against the Claim.
 * '''Arguments based on this Claim''' - Regarding [[#3112-canonicality|canonicality]], Claims are meant to be reused in further debates. This is done, as described below, by making an [[#312-argument|Argument]] based on the Claim. Claims should therefore maintain and provide a list of these Arguments which are affected by the truth of the Claim.
 
 =====3.1.1.4 Confidence/Belief=====
@@ -609,7 +609,7 @@ One of the most important facets of a Claim is what we call its Truth Score. It 
 
 Although the Claim is a Dialectic, with a supposedly binary outcome, truths are never absolute, at least in the light of the human capacity to doubt and contradict just about anything. Therefore, the Truth Score is meant to be a sliding scale of confidence in the statement, from 0% to 100%, or from 0 to 1.0, or whichever scale seems appropriate for the user experience.
 
-As will be described in the [[#331-scoring|scoring section]] below, many scores and approaches are possible. There are two reasons for this. First, we must admit that no one algorithm will likely match the intuition of every human in every debate and circumstance. Scoring algorithms are only models that try to approximate through basic mathematical rules what humans may think about a debate. They will probably never be "correct" in every circumstance. What we can hope for is that these models may illuminate specific aspects of a debate. 
+As will be described in the [[#33_Scoring|scoring section]] below, many scores and approaches are possible. There are two reasons for this. First, we must admit that no one algorithm will likely match the intuition of every human in every debate and circumstance. Scoring algorithms are only models that try to approximate through basic mathematical rules what humans may think about a debate. They will probably never be "correct" in every circumstance. What we can hope for is that these models may illuminate specific aspects of a debate. 
 
 This leads to the second point, which is that there are many ways to view the outcome of a debate. The principle perspectives that we see a need to support are the "objective" result (models which score independent of human opinion), the "popular" result (models based on aggregate user opinions), and the "individual" result (models which focus on the opinions of a single individual). We call the latter model the set of "beliefs" of an individual. This has some interesting implications and applications in the system, as will become apparent.
 
@@ -621,7 +621,7 @@ We call this a Multi-premise Claim, a Claim which is composed of more than one C
 
 In the example above, the two Claims are joined together in what is known as an "and" relationship. That is, in order for the Claim to be true, the first Claim must be true AND the second must be true. If either is false, the whole Claim falls apart ("You may be stable, but you ain't no genius."). It is also possible to create a Claim in which only one of the options needs to be true for the whole Claim to be true. This is known as an "or" relationship: "Either Fred or Velma or Daphne was present at the meeting."
 
-For those familiar with [https://en.wikipedia.org/wiki/Boolean_algebra|Boolean logic], it may be apparent now that Multi-premise Claims are a mechanism for supporting the full breadth of possible relationships between Claims in a premise. It is also possible to support Claims containing an "exclusive or" relationship, such as "Either Fred or Velma or Daphne was present at the meeting, but only one of them went". A Multi-premise Claim can even contain other Multi-premise Claims, so it is possible to express (and debate) statements such as "Fred and either Velma or Daphne were present at the meeting" (where "Velma or Daphne" is one Multi-premise Claim used by the "Fred and (Velma or Daphne)" Multi-premise Claim).
+For those familiar with [https://en.wikipedia.org/wiki/Boolean_algebra Boolean logic], it may be apparent now that Multi-premise Claims are a mechanism for supporting the full breadth of possible relationships between Claims in a premise. It is also possible to support Claims containing an "exclusive or" relationship, such as "Either Fred or Velma or Daphne was present at the meeting, but only one of them went". A Multi-premise Claim can even contain other Multi-premise Claims, so it is possible to express (and debate) statements such as "Fred and either Velma or Daphne were present at the meeting" (where "Velma or Daphne" is one Multi-premise Claim used by the "Fred and (Velma or Daphne)" Multi-premise Claim).
 
 A Multi-premise Claim behaves much like any other Claim, in that its truth may be debated, and it may be used as the basis for [[#312-argument|Arguments (see below)]]. The difference lies in the way that it is debated (each Claim may separately be attacked and defended), and the way that it is [[#33-scoring|scored (again, see below)]].
 
@@ -670,7 +670,7 @@ A subtle distinction could be made between the ''relevance'' of an Argument (is 
 
 As we like to say, "everything's debatable". That includes the Relevance of an Argument. Consider arguments being made in a criminal case of a bank robbery, in which evidence is being presented against the defendant: 
 
-''''''The defendant has a black mask exactly like the mask that was worn by the person seen robbing the bank.''''''
+''The defendant has a black mask exactly like the mask that was worn by the person seen robbing the bank.''
 
 This is an Argument in favor of the Claim that "The defendant is the one who robbed the bank." There are two ways that one could attempt to counter this Argument:
 
@@ -681,7 +681,7 @@ The first example is actually an argument about the truth behind the Argument. T
 
 When circumstantial evidence is presented, there is always a portion of the discussion that will necessarily focus on exactly how relevant (or "damning") the evidence is. There will also probably be some discussion as to the truth of the argument. However, when direct evidence is provided (e.g. an eyewitness, or video footage of a crime), there is little room for debate regarding its importance. The only counterarguments available would be related to the validity of the evidence ("This witness is lying!", or "That's not my client in the video."). Arguments about Relevance are not limited to criminal cases, of course. One could argue that a scientific study that was presented as proof is not totally relevant because it considers a different geographic region than the one under discussion, for example. Basically, any argument that could begin with "Yes, that is true, but..." is probably an Argument for or against an Argument.
 
-Understanding the difference between Relevance Arguments and Claim Arguments is a point that may be confusing at first to the average user, so it will be very important to make the distinction abundantly clear via the user interface. We believe that in doing so, it will help those that become familiar with the platform learn about the structure of arguments, which is, after all, [[234-teach-people-about-debates|one of our objectives]].
+Understanding the difference between Relevance Arguments and Claim Arguments is a point that may be confusing at first to the average user, so it will be very important to make the distinction abundantly clear via the user interface. We believe that in doing so, it will help those that become familiar with the platform learn about the structure of arguments, which is, after all, [[#234_Teach_people_about_debates|one of our objectives]].
 
 =====3.1.2.3 Relevance vs. Truth: Strength=====
 
@@ -712,7 +712,7 @@ This is one area still under consideration. As we experiment with the different 
 
 =====3.1.2.5 Attributes=====
 
-Arguments have many of the [[#3113-attribute|same attributes as Claims]], at least in terms of displaying them to debate participants. In fact, the average person may not understand the concept of separating an Argument from its Claim; when one writes out the main points in a debate, they generally provide ONLY the Argument (with its Context-relative title), and the Claim itself remains implicit.
+Arguments have many of the [[#3113_Attributes|same attributes as Claims]], at least in terms of displaying them to debate participants. In fact, the average person may not understand the concept of separating an Argument from its Claim; when one writes out the main points in a debate, they generally provide ONLY the Argument (with its Context-relative title), and the Claim itself remains implicit.
 
 Nevertheless, Arguments do have a few differences:
 
@@ -728,7 +728,7 @@ In terms of the user interface, the Argument could also be displayed with some o
 
 * '''Relevant links''' - The links from its Base Claim should be relevant for the Argument as well.
 * '''Media''' - The interface could show the images and other media from the Base Claim along with the Argument.
-* '''Context''' - An Argument would not have its own Context. Rather, its Context is that of its Base Claim, being used within the Context of its Target Claim or Argument. There are many possibilities implied by this relationship of differing Contexts (that of the base and the target). We will discuss this more in the section on [[321-context|Context]] and in our discussions of [[374-other-opportunities-for-machine-learning|opportunities for machine learning]] features below.
+* '''Context''' - An Argument would not have its own Context. Rather, its Context is that of its Base Claim, being used within the Context of its Target Claim or Argument. There are many possibilities implied by this relationship of differing Contexts (that of the base and the target). We will discuss this more in the section on [[#321_Context|Context]] and in our discussions of [[#353_Opportunities_for_Machine_Learning|opportunities for machine learning]] features below.
 
 =====3.1.2.6 The Debate Graph=====
 
