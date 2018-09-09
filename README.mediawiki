@@ -28,7 +28,7 @@ This document describes our vision for online debates and decision making in sev
 
 * [[#Principles|Principles]]: The fundamental principles upon which our solution is built.
 
-* [[#Solution|Solution]]: Our proposal for a new platform upon which intelligent decisions can be constructed in collaboration with one another.
+* [[#3_Solution|Solution]]: Our proposal for a new platform upon which intelligent decisions can be constructed in collaboration with one another.
 
 This document is hosted as a living document of the group's high-level vision. It is meant to evolve over time in concert with the ideas and goals of the organization. The project, and this document, are an open source effort, and we welcome all to participate.
 
@@ -243,7 +243,7 @@ The problem that faces the majority of communication platforms online at present
 
 ====1.5.4 Fake accounts====
 
-Most implementations do not provide adequate protection against [https://github.com/DemocracyEarth/paper#263_Sybil_Attack "Sybil" accounts] (fake accounts). Any solution that includes voting (upvotes, scoring, etc.) is subject to "attacks" by networks by fake accounts attempting to sway the outcome of the debate. This has been a major enabler of propaganda campaigns, for such mundane purposes as [https://devumi.com/twitter-followers/ increasing the reputation] of public figures and thought leaders to actual [https://www.recode.net/2018/2/16/17021048/robert-mueller-russia-facebook-social-media-donald-trump-presidential-campaign-2016-hillary-clinton attempts by foreign governments] to sway elections.
+Most implementations do not provide adequate protection against [https://github.com/DemocracyEarth/paper#263_Sybil_Attack "Sybil" accounts] (fake accounts). Any solution that includes voting (upvotes, scoring, etc.) is subject to "attacks" by networks by fake accounts attempting to sway the outcome of the debate. This has been a major enabler of propaganda campaigns, for such mundane purposes as [https://devumi.com/twitter-followers/ increasing the reputation] of public figures and thought leaders to actual [https://science.house.gov/sites/republicans.science.house.gov/files/documents/SST%20Staff%20Report%20-%20Russian%20Attempts%20to%20Influence%20U.S.%20Domestic%20Energy%20Markets%20by%20Exploiting%20Social%20Media%2003.01.18.pdf attempts by foreign governments] to sway elections.
 
 In order to make it easy for new users to sign up, most platforms opt for very low requirements in terms of verification of new users. None to date, outside of official government agencies, and certain financial institutions with "Know Your Customer" (KYC) requirements go through any effort to certify that there is a one-to-one correspondence between user accounts and actual human beings. 
 
