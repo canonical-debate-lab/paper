@@ -20,7 +20,6 @@ We waste so much time repeating old arguments and running in opposite directions
 
 The Canonical Debate Lab is building a resource to gather and organize all information for all sides of contentious issues so everyone can make better decisions with less effort. This tool reverses many of the natural incentives of social networks that have led to information bubbles, clickbait headlines, sensationalist journalism, and "fake news." We believe that with this tool, we can finally fulfill the promise that was given with the rise of the Internet.
 
-
 ==ii. Contents==
 
 This document describes our vision for online debates and decision making in several parts, first from a conceptual and philosophical level, followed by a detailed description of our proposed solution for this vision:
