@@ -40,17 +40,17 @@ This document is hosted as a living document of the group's high-level vision. I
 
 Those of us that are old enough may remember a time when there was the optimistic belief that the Internet would bring about an era of enlightenment, peace and unprecedented productivity. The technological and logistic advances that came with this new era permit access to information in a capacity never before experienced by humans, and modes of instantaneous and asynchronous communication between people that were science fiction only decades before. These structural changes were supposed to eradicate the problem of human ignorance, and bring people around the world together in h higher levels of mutual understanding and cooperation.
 
-So, what happened? More than 20 years after the dawn of the World Wide Web, The Oxford Dictionary declared "[https://en.oxforddictionaries.com/word-of-the-year/word-of-the-year-2016 post-truth]" as its world of the year. This year also heralded a major shift in world politics towards nationalistic, isolationist trends, and become common practice to categorize information which one considers displeasing as "fake news".
+So, what happened? More than 20 years after the dawn of the World Wide Web, The Oxford Dictionary declared "[https://en.oxforddictionaries.com/word-of-the-year/word-of-the-year-2016 post-truth]" as its world of the year. This year also heralded a major shift in world politics towards nationalistic, isolationist trends, and become common practice to [https://factba.se/search#fake%2Bnews categorize information which one considers displeasing as "fake news"].
 
 The state of debate and collective deliberation, both online and off, appears to have taken a major step backwards since the dawn of the Internet. We of the Canonical Debate Lab believe, however, that all is not lost. We believe that the problem is structural in nature, and therefore can be solved with a structural fix.
 
 ===1.1 The Problem With Debate Online===
 
-The state of debate as it occurs via the available suite of "online" tools is particularly disappointing. None of the technologies in use today (with the exception of email and a few others) were available twenty years ago, and yet with this incredible growth in capability, we have failed to address fundamental issues with deliberation, and created many new ones.
+The state of debate as it occurs online is particularly ineffectual and disorganized. None of the technologies in use today (with the exception of email and a few others) were available twenty years ago, and yet with this incredible growth in capability, we have failed to address fundamental issues with deliberation, and created many new ones.
 
 ====1.1.1 Debates are scattered====
 
-As in the pre-Internet era, there is no one place to look for information regarding a single topic of debate. It requires more work than the average person is willing to do to collect all the relevant information. Given the overhead involved in a task as small as verifying the facts behind even a single news article, no single person can ever hope to gain a complete understanding of our most complex and important issues.
+As in the pre-Internet era, there is no one place to look for information regarding a single topic of debate that represents all sides of the issue and presents enough depth and research for the information provided. It requires more work than the average person is willing to do to collect all the relevant information. Given the overhead involved in a task as small as verifying the facts behind even a single news article, no single person can ever hope to gain a complete understanding of our most complex and important issues.
 
 ====1.1.2 Arguments are made in silos====
 
