@@ -32,6 +32,8 @@ This document describes our vision for online debates and decision making in sev
 
 This document is hosted as a living document of the group's high-level vision. It is meant to evolve over time in concert with the ideas and goals of the organization. The project, and this document, are an open source effort, and we welcome all to participate.
 
+__TOC__
+
 ----
 
 <div id="Problems"></div>
