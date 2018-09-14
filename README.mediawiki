@@ -40,7 +40,7 @@ __TOC__
 
 ==1. Problems==
 
-Those of us that are old enough may remember a time when there was the optimistic belief that the Internet would bring about an era of enlightenment, peace and unprecedented productivity. The technological and logistic advances that came with this new era permit access to information in a capacity never before experienced by humans, and modes of instantaneous and asynchronous communication between people that were science fiction only decades before. These structural changes were supposed to eradicate the problem of human ignorance, and bring people around the world together in h higher levels of mutual understanding and cooperation.
+Those of us that are old enough may remember a time when there was the optimistic belief that the Internet would bring about an era of enlightenment, peace and unprecedented productivity. The technological and logistical advances that came with this new era permit access to information in a capacity never before experienced by humans, and modes of instantaneous and asynchronous communication between people that were science fiction only decades before. These structural changes were supposed to eradicate the problem of human ignorance, and bring people around the world together into higher levels of mutual understanding and cooperation.
 
 So, what happened? More than 20 years after the dawn of the World Wide Web, The Oxford Dictionary declared "[https://en.oxforddictionaries.com/word-of-the-year/word-of-the-year-2016 post-truth]" as its world of the year. This year also heralded a major shift in world politics towards nationalistic, isolationist trends, and become common practice to [https://factba.se/search#fake%2Bnews categorize information which one considers displeasing as "fake news"].
 
@@ -56,11 +56,11 @@ As in the pre-Internet era, there is no one place to look for information regard
 
 ====1.1.2 Arguments are made in silos====
 
-Rather than responding point by point to each argument, online debate is generally executed in long form, where a single person or group offers a complete set of opinions on a single, or possibly multiple subjects. This format makes it nearly impossible for one side to completely address the points of the other side, and gives leeway to gloss over them with only a superficial treatment, or even ignore them completely. As such, it is difficult to every fully resolve the case regarding even a single fact. It also enables many fallacies, such as the [https://en.wikipedia.org/wiki/Straw_man Strawman Fallacy] and [https://en.wikipedia.org/wiki/Cherry_picking Cherry Picking].
+Rather than responding point by point to each argument, online debate is generally executed in long form, where a single person or group offers a complete set of opinions on a single, or possibly multiple subjects. This format makes it nearly impossible for one side to completely address the points of the other side, and gives leeway to gloss over them with only a superficial treatment, or even ignore them completely. As such, it is difficult to fully resolve the case regarding even a single fact. It also enables many fallacies, such as the [https://en.wikipedia.org/wiki/Straw_man Strawman Fallacy] and [https://en.wikipedia.org/wiki/Cherry_picking Cherry Picking].
 
 ====1.1.3 Effort is wasted in repetition====
 
-Because debates are held in multiple places, with multiple overlapping, incomplete sets of information at varying levels of specificity, accuracy and truth, most of effort in debate is wasted in repetition. There is currently no efficient way to "onboard" newcomers to the debate with the accumulated set of information that has been discussed. More knowledgeable participants must inevitably answer the same questions multiple times, and rebut arguments that have been made to them before, with no way to resolve a question [https://theflatearthsociety.org/home/ once and for all].
+Because debates are held in multiple places, with multiple overlapping, incomplete sets of information at varying levels of specificity, accuracy and truth, most of the effort in debate is wasted in repetition. There is currently no efficient way to "onboard" newcomers to the debate with the accumulated set of information that has been discussed. More knowledgeable participants must inevitably answer the same questions multiple times, and rebut arguments that have been made to them before, with no way to resolve a question [https://theflatearthsociety.org/home/ once and for all].
 
 ====1.1.4 Models promote polarization====
 
