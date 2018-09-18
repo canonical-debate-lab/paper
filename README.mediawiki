@@ -259,9 +259,9 @@ Most solutions seen so far follow this pattern. They do not treat the debates as
 
 ====1.5.6 Not popular====
 
-There is a certain circularity behind the reasoning in this problem, and in fact it is difficult, if not impossible, to design a solution that can resolve this issue with any guarantee. Unfortunately, by definition, the canonical debate must be so well-known as to be the main, if not the only place to consult and participate in this type of debate. 
+There is a certain circularity behind the reasoning in this problem, and in fact it is difficult, if not impossible, to design a solution that can resolve this issue with any guarantee. That said, it's important that we strive to make the canonical debate well-known enough that it's considered the main, if not the only structured place to consult and participate in this type of debate.
 
-No solution so far has managed to become THE place for debate. Until one succeeds in this respect, our knowledge will remain fragmented, with continued loss in efficiency, and no guarantee of providing a complete vision on complex and confusing topics. Our proposal for a canonical debate can offer strategies for accomplishing this goal, but there is no way of ensuring we will succeed.
+No solution so far has managed to become THE place for debate. Until one succeeds in this respect, our knowledge will remain fragmented, with continued lack of efficiency, and no guarantee of providing a complete vision on complex and confusing topics. Our proposal for a canonical debate can offer strategies for accomplishing this goal, but there is no way of ensuring we will succeed.
 
 ====1.5.7 Insufficient curation====
 
