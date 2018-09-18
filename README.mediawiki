@@ -519,7 +519,7 @@ The platform must be designed with many different use cases in mind, from the ca
 
 ====2.3.16 Include everyone====
 
-As already mentioned several times, the Canonical Debate cannot be canonical unless it is universally accepted as the definitive place to go to learn about any debate. This means that it must be accessible, usable and provide value for everyone. It must provide features for every necessary stakeholder of the platform that can be identified.
+As already mentioned several times, the Canonical Debate cannot be canonical unless it is accepted by society as the definitive place to go to learn about any debate. This means that it must be accessible, usable and provide value for everyone. It must provide features for every necessary stakeholder of the platform that can be identified.
 
 A less obvious aspect of this objective is that the platform must also not alienate any of its stakeholders. The designers of the platform must identify situations that have the potential to drive users away from the system, and find solutions to ameliorate the problem. 
 
@@ -1302,15 +1302,15 @@ Whether or not this action is performed in a single step, or using the Fundament
 
 Very often, multiple Arguments may be presented which are distinct, but are making more or less the same point. Several related anecdotes might be grouped together into a single heading, or multiple studies of the same topic. 
 
-Imagine, for example, these Arguments for the Claim "I should get a blue star on my belly."
+Imagine, for example, these Arguments for the Claim "I should get a tattoo on my arm."
 
-''Study A shows that 3 out of 4 people prefer people with star bellies over those without.''
-''Study B shows that in Utah, star bellies are on the rise.''
-''Study C shows that having no star on your belly is still king.''
+''Study A shows that 3 out of 4 people prefer people with tattooed arms over those without.''
+''Study B shows that in Utah, tattooed arms are on the rise.''
+''Study C shows that having no tattoo on your arm is still king.''
 
 Under such circumstances, it may make sense to group these Arguments under a single heading, rather than leaving them on their own.
 
-''People with blue stars on their bellies are more popular than those without.''
+''People with tattoos on their arms are more popular than those without.''
 
 This new statement would be used as a single Argument in the debate, making it easier to understand. The old Arguments would then become sub-Arguments of the new Argument, but there's a subtle point to be made here: This new Argument requires a base Claim of its own.
 
@@ -1327,18 +1327,18 @@ As a final warning, it is important to note that re-grouping can not only be don
 
 In the course of a discussion, it is common to see the main subject of the debate evolve over time. An extreme example of this is the informal logical fallacy known as [https://en.wikipedia.org/wiki/Moving_the_goalposts Moving the Goalposts]. However, even (or especially) in the case of a constructive discourse, the original debate may require some refinement in order to come to a reasonable conclusion on the subject.
 
-Consider the debate regarding belly adornments described above:
+Consider the debate regarding arm tattoos described above:
 
-''People with blue stars on their bellies are more popular than those without.''
+''People with tattoos on their arms are more popular than those without.''
 
-Suppose that during the course of the debate, it becomes clear that while starred bellies are obviously better when it comes to the 65 and older crowd, teenagers clearly prefer plain bellies. The canonical Claim above would naturally have mixed results, with an outcome of, perhaps, a 47% Truth Score. While that is interesting to observe, it becomes more interesting to look at each of the more specific cases on their own:
+Suppose that during the course of the debate, it becomes clear that while tattooed arms are obviously better when it comes to the 65 and older crowd, teenagers clearly prefer plain arms. The canonical Claim above would naturally have mixed results, with an outcome of, perhaps, a 47% Truth Score. While that is interesting to observe, it becomes more interesting to look at each of the more specific cases on their own:
 
-''People 65 years of age or older with blue stars on their bellies are more popular than those of similar age without.''
-''Teenagers with blue stars on their bellies are less popular than those without.''
+''People 65 years of age or older with tattoos on their arms are more popular than those of similar age without.''
+''Teenagers with tattoos on their arms are less popular than those without.''
 
 Each of those Claims would bear the most relevant parts of the more generalized debate, and have, perhaps, a Truth Score closer to 70% (for example). It would then be interesting to create new debates with even more specifics, such as:
 
-''Bue-starred bellies are more popular than ones without for people 65 years of age and older on the Island of Tasmania for the period of 2010 through 2018.''
+''Tattooed arms are more popular than ones without for people 65 years of age and older on the Island of Tasmania for the period of 2010 through 2018.''
 
 And so on. 
 
@@ -1346,17 +1346,17 @@ The creation of related Claims is a very complicated action to perform via stric
 
 ======3.4.2.2.7 Refine Argument======
 
-If a Claim can be refined, what does that mean for Arguments that are based on that Claim? Consider, again, the case of the blue star bellies:
+If a Claim can be refined, what does that mean for Arguments that are based on that Claim? Consider, again, the case of the tattooed arms:
 
-''I should get a blue star on my belly''
+''I should get a tattoo on my arm''
 
 Imagine that we use, as an Argument in favor, the original Claim:
 
-''People with blue stars on their bellies are more popular than those without.''
+''People with tattoos on their arms are more popular than those without.''
 
 However, another Claim has already been cloned and refined from this original point:
 
-''People 65 years of age or older with blue stars on their bellies are more popular than those of similar age without.''
+''People 65 years of age or older with tattoos on their arms are more popular than those of similar age without.''
 
 If the ''I'' in the original Claim is amongst the group of 65 and older, then this second Claim is more appropriate than the original in the debate. It's possible, then, that ''both'' Arguments could be made against the same Claim. This would slant the result of the debate towards the side that they support, since it would essentially be double-scoring the same argument. In this case, the proper action would be to [[#34213_Delete_Argument|delete the less-relevant Argument]].
 
