@@ -777,7 +777,7 @@ In the Canonical Debate, every Argument must have an underlying Claim, and in th
 
 Once this Claim has been presented (and debated - and this topic is, in fact, contentious) in the system, it is ready to be reused for any other debate as needed. And so it should be for the entire list of both formal and informal fallacies.
 
-Deep consideration has been given to making fallacies a special category or feature within Gruff all its own. However, it became clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies. Although some fallacies are fairly black and white (in the sense that if the argument is indeed a fallacy of that type, then the Argument must be completely irrelevant), some fallacies are something of a sliding scale in terms of how effective they are (for example, the [https://en.wikipedia.org/wiki/Slippery_slope Slippery Slope fallacy]). The point is to provide room for debate, and to penalize to the appropriate degree.
+Deep consideration has been given to making fallacies a special category or feature within the Canonical Debate. However, it has become clear that not only is the basic structure of Claims and Arguments sufficient; it also permits active debate on use of the fallacies. Although some fallacies are fairly black and white (in the sense that if the argument is indeed a fallacy of that type, then the Argument must be completely irrelevant), some fallacies are something of a sliding scale in terms of how effective they are (for example, the [https://en.wikipedia.org/wiki/Slippery_slope Slippery Slope fallacy]). The point is to provide room for debate, and to penalize to the appropriate degree.
 
 ======3.1.2.7.3 Basic Values and Principles======
 
@@ -961,9 +961,9 @@ There is discussion as to whether or not curation should be done by Debaters the
 
 ===3.3 Scoring===
 
-It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, Gruff supports several different formulas for rating, or "Scoring" Claims and Arguments.
+It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, the Canonical Debate supports several different formulas for rating, or "Scoring" Claims and Arguments. What we call here ''Scoring Methods'' loosely relate to what are referred to in the field of computation and argumentation as an [https://en.wikipedia.org/wiki/Argumentation_framework argumentation framework].
 
-For the sake of discussion, we will give examples here, and in the sections below of Scores in a percent range from 0% to 100%, with the following meanings:
+For the sake of discussion, our examples here and in the sections below will represent Scores as a percent range from 0% to 100%, with the following meanings:
 
 * '''0% Truth''' - Indicates that a Claim is completely false; that there is no truth whatsoever behind the Claim.
 * '''50% Truth''' - Indicates an outcome in which the truth behind a Claim is suspect. Depending on the type of Claim, this can mean that the Claim is as likely to be true as it is to be false, or that half of the population believes the Claim while half do not, or that there is a 50% probability of the Claim being true (for example, if it refers to events that are unknowable, or in the future).
@@ -991,9 +991,9 @@ Scoring [[#226-make-it-about-learning-not-winning|should not be about who "wins"
 
 ====3.3.2 Criteria====
 
-Before designing a scoring method, it's important to reflect on what are characteristics we want in a scoring algorithm. Certainly, the method should help us achieve each of the goals listed in the section above. No one algorithm (at least so far) is perfectly suited to every objective, and so the Canonical Debate supports several different approaches, as described below. We also intend to support new scoring methods for experimental purposes, and as our techniques and understanding improve.
+Before designing a scoring method, it's important to reflect on what are characteristics we want in a scoring algorithm. Although we have derived the criteria below based on our own experimentations and intuition, many are supported by [http://comma2018.argdiap.pl/wp-content/uploads/4_ThimmPol.pdf recent literature in the field of argumentation]. Certainly, the method should help us achieve each of the goals listed in the section above. No one algorithm (at least so far) is perfectly suited to every objective, and so the Canonical Debate supports several different approaches, as described below. We also intend to support new scoring methods for experimental purposes, and as our techniques and understanding improve.
 
-No algorithm that we have designed to date satisfies every one of these criteria completely and in a consistent manner. Therefore, each algorithm should be considered a best effort. No algorithm should ever be mistaken as being the final word on the truth, and Debaters are encouraged to use their best sense and reason to make up their own minds. 
+No algorithm that we have designed to date satisfies every one of these criteria completely and in a consistent manner. Therefore, each algorithm should be considered a best effort. In this sense, the criteria described below are really heuristics that may be ignored if they work contrary to the underlying reasoning behind a specific Scoring Method. No algorithm should ever be mistaken as being the final word on the truth, and Debaters are encouraged to use their best sense and reason to make up their own minds. 
 
 =====3.3.2.1 Scores should not be biased by content=====
 
