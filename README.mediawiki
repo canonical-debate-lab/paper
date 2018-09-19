@@ -689,7 +689,9 @@ Understanding the difference between Relevance Arguments and Claim Arguments is 
 
 While an Argument is concerned with its Relevance, its Claim is concerned with its Truth. Both must somehow contribute to the total effectiveness of the Argument within the debate. In the previous section, we mentioned how an Argument could be attacked by focusing on either one of these aspects. Indeed, an Argument is meaningless if it is based on a complete lie, or if it is irrelevant to the target of the debate.
 
-We call the combination of these two attributes, the Relevance of the Argument, and the Truth of its underlying Claim, its Strength. A strong Argument is one that is true and relevance. A weak Argument is one that fails in at least one of these regards. We will discuss exactly how this works in more detail down in the [[#33-scoring|Scoring]] section below.
+We call the combination of these two attributes, the Relevance of the Argument and the Truth of its underlying Claim, its ''Strength''. A strong Argument is one that is true and relevance. A weak Argument is one that fails in at least one of these regards. We will discuss exactly how this works in more detail down in the [[#33-scoring|Scoring]] section below.
+
+Note that in probabilistic argumentation theory, this may be referred to as its [https://www.sciencedirect.com/science/article/pii/S1570868307000845 probability]. For the purpose of the Canonical Debate, we chose a term that might be better understood by the average person unfamiliar with this field. The term Strength also better reflects this new notion of a separation between Truth and Relevance: while "probability" may be a proper term when applied to the uncertainty of truth, chance does not play a role in relevance.
 
 =====3.1.2.4 Arguments That Are Pro AND Con=====
 
