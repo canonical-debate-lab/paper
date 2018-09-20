@@ -64,16 +64,11 @@ Because debates are held in multiple places, with multiple overlapping, incomple
 
 ====1.1.4 Models promote polarization====
 
-Trends in the polarization of political opinion have been traced back in large degree to current models of online discussion and information sources, which increased engagement by way of learning user preferences, and giving them more of the same. The result is what's known as information bubbles, or echo chambers, in which people rarely come into contact with information or opinions contrary to the user's own. 
+Studies have repeatedly shown that [http://www.people-press.org/2014/06/12/political-polarization-in-the-american-public/ polarization in American politics] is a growing concern, to the point that there has even been a dramatic increase in the number of people that would be [http://pcl.stanford.edu/research/2012/iyengar-poq-affect-not-ideology.pdf upset if their child married someone of the opposing political party]. The rise of the Internet, which offers greater options for human networking and access to information sources, was idealized as a revolution that would bring people of diverse ideas together. Trends indicate this has not been the case.
 
-This trend to some degree seems to be an unexpected negative consequence of the ability of the individual to choose between multiple sources of information, and so can be traced prior to the internet to other events, such as the proliferation of opinionated news channels on cable TV. The Internet has certainly exacerbated the situation, giving the uncountable options of information platforms available.
+One theory as to why this may be happening is that it may be due to [https://en.wikipedia.org/wiki/Filter_bubble the filter bubble effect], which is due to social media and news platforms algorithmically selecting content for users based on their likes and preferences, rather than on an analysis of what they need to know. Recent studies have shown that this effect [https://policyreview.info/node/401/pdf may not be as pronounced as initially feared]. However, there is still a risk that has caused enough alarm for [http://www.abc.net.au/news/2018-01-20/heres-how-your-facebook-feed-is-changing/9345754 major platforms to consider changes to their algorithms], and there is no doubt that these algorithms [http://graphics.wsj.com/blue-feed-red-feed/ influence the news we see], and in ways that must be compatible with their business model.
 
-Recent studies have shown how such one-sided interactions lead to increasing radicalization of opinions, as people encounter a wide variety of opinions of varying extremes, but all biased towards one side of the debate. Unfortunately, this problem appears to be an essential part of the structure and business model of most information sources online:
-
-* In order to compete, news sites find it advantageous to carve out a niche by adopting a consistent editorial slant.
-* Social media sites encourage users to improve their experience by organizing into groups of people with shared interest and opinions.
-* Ad-driven business models find success in giving users more of what they want, rather than showing them something that will upset them.
-* Superficial, entertaining, and sensationalist reporting generally gets more attention (and gives better financial returns) than balanced, information-rich text.
+Other studies are showing that even when exposed to opposing viewpoints on social media, [http://www.pnas.org/content/early/2018/08/27/1804840115 the result is an increase], rather than a decrease in polarization of political viewpoints. This may be an indication of the quality (or lack thereof) of such interactions on these social platforms.
 
 ====1.1.5 Trolling is rewarded====
 
