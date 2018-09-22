@@ -94,9 +94,9 @@ One of the great achievements of the internet is the extent to which it has enab
 
 Unfortunately, quantity is not the same thing as quality. While it is much easier to find some amount of information on just about anything, there are few mechanisms in place for selecting based on quality and depth.
 
-Especially in the case of real-time news, it is much easier to get a sense of general popular opinion (or at least, the popular opinion within your self-selected information bubble) than it is to find the most accurate or relevant information. When experts are interviewed, the content is superficial and more opinion-rich than information-rich. 
+Especially in the case of real-time news, it is much easier to get a sense of general popular opinion (or at least, the popular opinion within your self-selected information bubble) than it is to find the most accurate or relevant information. When experts are interviewed, the content is superficial and more opinion-rich than information-rich. It is very likely that [https://www.ofcom.org.uk/__data/assets/pdf_file/0022/115915/Scrolling-News.pdf reader habits are driving this trend], but as news sources respond to accommodate, it creates a vicious cycle.
 
-Real information is commonly buried in academic papers, and primary sources are hard to find. The format and language used by experts is generally too dense and erudite to be useful to the average person.
+Real information is commonly buried in academic papers, and [https://blogs.scientificamerican.com/guest-blog/how-to-track-down-journal-articles-cited-in-news-stories-when-they-dont-link-directly/ primary sources are hard to find, and may be hidden behind paywalls]. The format and language used by experts is generally [https://www.biorxiv.org/content/early/2017/03/28/119370 too dense and erudite to be useful to the average person].
 
 ====1.1.8 Debates can be "hacked"====
 
