@@ -10,7 +10,7 @@
   Replaces: 0
 </pre>
 
-=The Canonical Debate=
+==The Canonical Debate==
 
 A proposal to fix the current state of online discourse through the promotion of fact-based reasoning, and the accumulation of human knowledge, brought to you by the Canonical Debate Lab, a community project of the [http://democracy.earth Democracy Earth Foundation].
 
