@@ -958,7 +958,7 @@ There is discussion as to whether or not curation should be done by Debaters the
 
 ===3.3 Scoring===
 
-It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, the Canonical Debate supports several different formulas for rating, or "Scoring" Claims and Arguments. What we call here ''Scoring Methods'' loosely relate to what are referred to in the field of computation and argumentation as an [https://en.wikipedia.org/wiki/Argumentation_framework argumentation framework].
+It's very important to collect all the Arguments and information available related to a debate, and make them available to everyone interested. However, some Arguments are better than others, and keeping with the principle of reducing friction, there should be a way of separating the chaff from the wheat. In fact, many of our Principles can be supported through a process of numerically evaluating and weighing the different Arguments. To this end, the Canonical Debate supports several different formulas for rating, or "Scoring" Claims and Arguments. What we call here ''Scoring Methods'' loosely relate to what are referred to in the field of computation and argumentation as an [https://en.wikipedia.org/wiki/Argumentation_framework argumentation framework]. More specifically, we deal with the case of uncertain premises, such as is studied under [https://www.researchgate.net/publication/323998722_Bayesian_Argumentation_and_the_Value_of_Logical_Validity Bayesian Argumentation].
 
 For the sake of discussion, our examples here and in the sections below will represent Scores as a percent range from 0% to 100%, with the following meanings:
 
@@ -1000,11 +1000,13 @@ This point seems so obvious that it was initially taken for granted and not even
 
 It would be misleading, for example, to award a score of 100% to a Claim that is supported by only one Argument with a Strength Score of 30%. This would mean that a single somewhat flawed Argument has left participants without a single doubt as to the truth of the debate.
 
-=====3.3.2.3 Adding another Argument on a side should increase the weight on that side======
+=====3.3.2.3 Adding another Argument on a side should increase the weight on that side=====
 
 If a Claim is supported by an Argument with nearly 100% Strength, and a second, weaker Argument is provided to prop up the first, it wouldn't make sense to take an average (for example), which would reduce the overall support of the Claim. 
 
 As a corollary to this, increasing the score of one of the Arguments should always increase the weight on that side, or at least not be harmful to its case.
+
+An example of this would be Proposition 5, as described in [https://www.researchgate.net/publication/323998722_Bayesian_Argumentation_and_the_Value_of_Logical_Validity Bayesian Argumentation and the Value of Logical Validity].
 
 =====3.3.2.4 A single Argument with a Strength of 100% and no opposition should have a result of 100%=====
 
