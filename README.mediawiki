@@ -554,7 +554,12 @@ We propose the creation of a ''Canonical Debate'', a central location on the Int
 
 ===3.1 Basic Elements===
 
-There is a general academic consensus regarding the structure of a debate, at least as it relates to [https://en.wikipedia.org/wiki/Argumentation_theory argumentation] in the form of a [https://en.wikipedia.org/wiki/Dialectic Dialectic], supported by an [https://en.wikipedia.org/wiki/Argument_map Argument Map]. However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
+There is a general academic consensus regarding the structure of a debate, at least as it relates to [https://en.wikipedia.org/wiki/Argumentation_theory argumentation] in the form of a [https://en.wikipedia.org/wiki/Dialectic Dialectic], supported by an [https://en.wikipedia.org/wiki/Argument_map Argument Map]. 
+
+[[File:/images/argument-map.png|center|A simple Argument Map, with supporting and attacking arguments]]
+''A simple Argument Map, with supporting and attacking arguments''
+
+However, to a large degree this research focuses on debates within the context of actors performing the debate, providing their arguments and counter-arguments in response. While this foundational work profoundly informs the design of our solution, it is not generally adapted for the context we are proposing: that of a canonical debate, independent of specific actors.
 
 We propose creating what could be called a ''Canonical Debate Map'', a single reusable inter-connected graph of debates and arguments that exist independent of the context of a single conversation between a limited group of participants. What follows is a description of the principle elements of such a map, and how they relate to one another.
 
