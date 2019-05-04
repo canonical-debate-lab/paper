@@ -12,7 +12,7 @@
 
 =The Canonical Debate=
 
-A proposal to fix the current state of online discourse through the promotion of fact-based reasoning, and the accumulation of human knowledge, brought to you by the Canonical Debate Lab, a community project of the [http://democracy.earth Democracy Earth Foundation].
+A proposal to fix the current state of online discourse through the promotion of fact-based reasoning, and the accumulation of human knowledge, brought to you by the [https://canonicaldebatelab.com/ Canonical Debate Lab], a community project of the [http://democracy.earth Democracy Earth Foundation].
 
 ==i. Abstract==
 
@@ -1647,7 +1647,7 @@ Multiculturalism is a very complex topic, and so we have decided to give this su
 
 ==4. About==
 
-The Canonical Debate Lab is a community project of the Democracy Earth Foundation. It is made possible by collaborators and supporters around the world. While we maintain a close relationship with the Democracy Earth Foundation, we hold our own separate community events, maintain our own Slack Team and Github repository, and act as an independent organization.
+The Canonical Debate Lab is a community project of the Democracy Earth Foundation. It is made possible by collaborators and supporters around the world. While we maintain a close relationship with the Democracy Earth Foundation, we hold our own separate community events, maintain our own [https://canonicaldebatelab.slack.com/ Slack Team] and [https://github.com/canonical-debate-lab Github repository], and act as an independent organization.
 
 ===4.1 Team & Collaborators===
 
@@ -1663,4 +1663,4 @@ Mark Klein (MIT).
 
 These organizations supported our work through partnerships and recognition of our research and development efforts.
 
-Democracy Earth Foundation, Digital Peace Talks, Internet Government.
+[https://democracy.earth/ Democracy Earth Foundation], [http://digitalpeacetalks.com/ Digital Peace Talks], [https://www.internetgovernment.org/ Internet Government].
