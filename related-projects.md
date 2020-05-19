@@ -5,6 +5,7 @@ Please add your own projects and insights you have about others.
 
 | Name/Link | Description |
 | --- | --- |
+| [D-BAS](https://dbas.cs.uni-duesseldorf.de/) | |
 | [Concordis](https://concordis.io/) | <ul><li>Re-Use twitter identity verification</li><li>Challenge thought leaders with argument maps on twitter.</li></ul> |
 | [Socratrees](http://socratrees.wiki) | |
 | [SWARM](https://ieeexplore.ieee.org/iel7/5992/5232784/08487002.pdf?casa_token=u-D1ejVGkfQAAAAA:JPoGntIti5CgwRRIJHetTta03GB4kiSDinTRiCll9VkxG1gihwkJb1QsOY2TRd_aX288P3Ke) | |
