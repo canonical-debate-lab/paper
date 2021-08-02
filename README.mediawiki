@@ -1417,7 +1417,7 @@ Many modes of search are possible on the Canonical Debate platform, and each sho
 
 =====3.5.2.1 Text Search=====
 
-The usual text search capabilities should be enableded to provide users the ability to locate any Claim that matches their interests on a best-effort basis. This includes the standard techniques of using related terms and language-aware matches, including every text field in a single search, including related Context information, and providing a ranking of the results based on the fields which matched and the accuracy of the match.
+The usual text search capabilities should be enabled to provide users the ability to locate any Claim that matches their interests on a best-effort basis. This includes the standard techniques of using related terms and language-aware matches, including every text field in a single search, including related Context information, and providing a ranking of the results based on the fields which matched and the accuracy of the match.
 
 The platform should specifically ''not'' include rankings based on previous user activity, or based on declared preferences. Such algorithms are not transparent to users, nor necessarily to their creators, and could lead to the creation of information bubbles.
 
