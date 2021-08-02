@@ -426,7 +426,7 @@ Many design elements have been considered for creating learning opportunities fo
 
 The integrity of debates can be undermined by any of a large number of false, weak or irrelevant arguments that distract from the most important points. Philosophers have studied for millennia the category of possible errors of logic and misconception collectively known as [https://en.wikipedia.org/wiki/List_of_fallacies (formal and informal) fallacies]. 
 
-A platform that offers access to everyone around the world is sure to see the widest variety possible of arguments for any given debate. The quality of these arguments will vary widely with respect to their quality and strength. They will also vary in terms of the motives behind the participants making those arguments. For those who disagree with the debate in principle (or because they feel threatened by the progress of the debate), an obvious tactic would be to flood the debate with poor arguments meant to distract or overwhelm any potential viewers.
+A platform that offers access to everyone around the world is sure to see the widest variety possible of arguments for any given debate. The quality of these arguments will vary widely with respect to their strength. They will also vary in terms of the motives behind the participants making those arguments. For those who disagree with the debate in principle (or because they feel threatened by the progress of the debate), an obvious tactic would be to flood the debate with poor arguments meant to distract or overwhelm any potential viewers.
 
 In order to make the platform resistant to this type of attack, and to improve usability in general, it must support one or more methods for sorting the arguments according to their strength and relevance. The most salient arguments should be seen first, easy to read and absorb at a quick glance. Weak or irrelevant arguments should only be seen by those users that would like to see a complete picture of everything that was discussed, regardless of quality.
 
@@ -597,7 +597,7 @@ We can solve this problem by making Claims ''canonical''. For each Claim, there 
 
 Although not a final design, we believe that the following attributes would be helpful to define for every Claim:
 
-* '''Unique ID''' - It is important to guarantee that each and every Claim can be referenced within an from outside of the system via a simple identifier not tied to the other changeable attributes.
+* '''Unique ID''' - It is important to guarantee that each and every Claim can be referenced within and from outside of the system via a simple identifier not tied to the other changeable attributes.
 * '''Title''' - Each Claim should have a brief explanation, easy to read and quick to digest. Ideally, this "title" should be enough for the average reader to understand what is being claimed at a glance. A more advanced implementation under consideration would be to allow multiple versions of the Title, based on how users wish to view the Claim ([[#3116-changing-perspectives|see below]]).
 * '''Description''' - A Description would be a more in-depth explanation of the Claim being made, which might include clarifications on the words used in the Title (although disambiguation should generally be handled by [[#321-context|Context]]), and any necessary background information to help readers understand why the Claim is being made. For the sake of expediency, Descriptions should be optional when creating a Claim.
 * '''References''' - Claims should support an optional set of external references (URLs, or "links") to supporting information. This will be especially useful in the case of Claims of evidence, such as the claim that there is a video which shows the occurrence of an event.
@@ -1071,7 +1071,7 @@ We call these types of Scores ''Roll-up Scores'', since their behavior reflects 
 
 There are several problems that the platform encounters when calculating the result of a Score based on the sum total of information that affects it. 
 
-The most mundane problem is that performance. As information is added to the system, and opinions are given regarding that information, each change can cause a giant ripple across the entire space of Arguments and Claims so far accumulated. While this is a trivial concern when the data set is small, or the number of users and rate of new information is limited, the problem grows exponentially as Claims are added.
+The most mundane problem is performance. As information is added to the system, and opinions are given regarding that information, each change can cause a giant ripple across the entire space of Arguments and Claims so far accumulated. While this is a trivial concern when the data set is small, or the number of users and rate of new information is limited, the problem grows exponentially as Claims are added.
 
 A simple way to deal with this issue is to allow the user to define the number of "levels" to which they wish to calculate the Score of the Claim they are viewing. This would create an immediate and manageable limitation to the degree of calculation required for their needs.
 
@@ -1189,7 +1189,7 @@ Allowing Debaters to propose and debate improvements to the debate structure is 
 
 ====3.4.2 Curation Actions====
 
-The following is a guide to the types of actions that a Curator may choose to execute in the effort to maintain the debates canonical and constructive. For those who are familiar with software development, these are analogous to types of [https://en.wikipedia.org/wiki/Code_refactoring code refactoring], but are applied to arguments in a debate.
+The following is a guide to the types of actions that a Curator may choose to execute in the effort to maintain the debate as canonical and constructive. For those who are familiar with software development, these are analogous to types of [https://en.wikipedia.org/wiki/Code_refactoring code refactoring], but are applied to arguments in a debate.
 
 Many of these actions can have a dramatic impact on the [[#33_Scoring|Score]] of a debate. Objective Scoring Methods can recalculate the new values on the fly; however, the Subjective Sores may require notifying Debaters that have contributed an opinion to revise their opinion, or even wipe out all votes entirely to start over. In order to avoid [[#342_On_Annoying_Debaters|major negative consequences]], the sooner a necessary Curation can be done, the better.
 
@@ -1240,7 +1240,7 @@ These are actions that could be reproduced with some extra work by a combination
 
 ======3.4.2.2.1 Merge Duplicates======
 
-Probably the most common problem in attempting to maintain a canonical debate is the occurrence of duplicate Arguments or Claims. Whether Debaters are misunderstand what has previously been said, are too lazy to read the points that have already been made, or just want to say it in their own words, [[#113_Effort_is_wasted_in_repetition|duplication is rampant in online debates]].
+Probably the most common problem in attempting to maintain a canonical debate is the occurrence of duplicate Arguments or Claims. Whether Debaters misunderstand what has previously been said, are too lazy to read the points that have already been made, or just want to say it in their own words, [[#113_Effort_is_wasted_in_repetition|duplication is rampant in online debates]].
 
 Merging is the act of taking two identical Claims or Arguments and unifying them into one. It sounds simple, but would require the following fundamental actions to reproduce:
 
@@ -1255,7 +1255,7 @@ Doing this as a single supported action makes the operation smoother, with less 
 
 Some Claims may be made in such a way that they are really a combination unrelated facts. An exaggerated example might be something like the phrase "You're ugly and you smell bad", which is really the combination of the two Claims "You're ugly" and "You smell bad". A Curator in such a situation would therefore need to make a change such that two Claims are made from the one.
 
-If you have read the previous sections, you might recognize this type of Claim as as [[#3115_Multipremise_Claims|Multi-premise Claim]]. If the platform provides support for this type of structure, than most cases for a Split Claim Action will actually be a conversion to a Multi-premise Claim, which entails creating the separate, distinct Premise Claims, and joining them together into the original Multi-premise Claim.
+If you have read the previous sections, you might recognize this type of Claim as as [[#3115_Multipremise_Claims|Multi-premise Claim]]. If the platform provides support for this type of structure, then most cases for a Split Claim Action will actually be a conversion to a Multi-premise Claim, which entails creating the separate, distinct Premise Claims, and joining them together into the original Multi-premise Claim.
 
 The Split Claim Action is equivalent to the following actions in sequence:
 
@@ -1417,7 +1417,7 @@ Many modes of search are possible on the Canonical Debate platform, and each sho
 
 =====3.5.2.1 Text Search=====
 
-The usual text search capabilities should be enabled to provide users to locate any Claim that matches their interests on a best-effort basis. This includes the standard techniques of using related terms and language-aware matches, including every text field in a single search, including related Context information, and providing a ranking of the results based on the fields which matched and the accuracy of the match.
+The usual text search capabilities should be enableded to provide users the ability to locate any Claim that matches their interests on a best-effort basis. This includes the standard techniques of using related terms and language-aware matches, including every text field in a single search, including related Context information, and providing a ranking of the results based on the fields which matched and the accuracy of the match.
 
 The platform should specifically ''not'' include rankings based on previous user activity, or based on declared preferences. Such algorithms are not transparent to users, nor necessarily to their creators, and could lead to the creation of information bubbles.
 
@@ -1433,7 +1433,7 @@ Similar to Graph Navigation is the type of exploration we discussed previously t
 
 =====3.5.2.4 Interest-based Navigation=====
 
-As users (anonymously) register their Beliefs, they accumulate a trail of interests and opinions. This creates the possibility for users to discover new topics of interest on which other users have voted. Users can choose to browse the topics of interest for users that agree with an opinion of their own, or of those that have disagreed with them. And this could be based on the collective interests of a group of users, or they can follow the opinions of a single user. These are all interesting opportunities to browse and discover what interest other users of the platform.
+As users (anonymously) register their Beliefs, they accumulate a trail of interests and opinions. This creates the possibility for users to discover new topics of interest on which other users have voted. Users can choose to browse the topics of interest for users that agree with an opinion of their own, or of those that have disagreed with them. And this could be based on the collective interests of a group of users, or they can follow the opinions of a single user. These are all interesting opportunities to browse and discover what interests other users of the platform.
 
 ====3.5.3 Opportunities for Machine Learning====
 
@@ -1441,7 +1441,7 @@ Such a rich data set provides a rather limitless field of possibilities for data
 
 ====3.5.3.1 Context Identification====
 
-One of the most difficult tasks will be to ensure that the platform remains canonical, by eliminating duplicate entries for Claims. An important part of this will be to prevent users from creating duplicates in the first place. Many customer support sites already include functionality to avoid customers from repeating questions that have already been answered by attempting to guess the question as the user is typing. Often before the user is allowed to answer the question, the system returns several guesses as to what they were trying to ask, and asks the user to first verify if one of the items presented resolves their issue. In a similar vein, the Canonical Debate platform could perform intelligent searches on existing Claims to show the user those that appear similar to the one they are trying to create. 
+One of the most difficult tasks will be to ensure that the platform remains canonical, by eliminating duplicate entries for Claims. An important part of this will be to prevent users from creating duplicates in the first place. Many customer support sites already include functionality to avoid customers from repeating questions that have already been answered by attempting to guess the question as the user is typing. Often before the user is allowed to ask the question, the system returns several guesses as to what they were trying to ask, and asks the user to first verify if one of the items presented resolves their issue. In a similar vein, the Canonical Debate platform could perform intelligent searches on existing Claims to show the user those that appear similar to the one they are trying to create. 
 
 Taking this a step further, it is important that users attach Context elements to their Claims in order to help with the organization. Similar Context to existing Claims would also be a possible indicator of Claim duplication. However, this is a fairly onerous task to ask the average user to do quickly and correctly. Machine learning algorithms could make a significant impact in the usability of the platform by automatically attempting to determine the Context elements implied by the Claim's text, possibly providing a set of options to choose from for each word or phrase in the statement. This capability would also dramatically improve the success of the previous strategy of suggesting existing Claims that match what the user is trying to do.
 
@@ -1455,7 +1455,7 @@ One of the original motivations for creating this platform is the [[#115_Trollin
 
 The Canonical debate platform is designed to provide mechanisms to prevent standard trolling tactics, including [[#238_Make_arguments_anonymous|removing individuals]] from the debate itself (and thus avoiding personal attacks), ensuring that trolls [[#239_Prevent_spam_and_fake_accounts|cannot create multiple accounts]] in order to have multiple online personalities, and making the Claims canonical so that it is not possible to repeat Arguments that have already been made (and to some degree resolved). The platform even attempts to include would-be trolls into the conversation by providing mechanisms to evolve their exaggerated statements into more reasonable Claims that actually address the points they are trying to make. 
 
-Nevertheless, there is still the possibility that individuals with bad intentions can still perform a type of "Denial of Service" attack by creating duplicate Claims with inflammatory language repeatedly so that users will see them until Curators have time to clean them up. The platform should therefore support tools to detect this type of intentionally bad activity, and prevent these users from continuing their attacks. This type of detection will depend on multiple forms of pattern matching, based both on language and more general patterns of activity.
+Nevertheless, there is the possibility that individuals with bad intentions can still perform a type of "Denial of Service" attack by creating duplicate Claims with inflammatory language repeatedly so that users will see them until Curators have time to clean them up. The platform should therefore support tools to detect this type of intentionally bad activity, and prevent these users from continuing their attacks. This type of detection will depend on multiple forms of pattern matching, based both on language and more general patterns of activity.
 
 There are [https://www.wired.com/2017/02/googles-troll-fighting-ai-now-belongs-world/ many AI projects] in progress aimed at fighting online trolls, and the Canonical Debate platform can benefit from them and others to further prevent this type of activity, as well as providing a new object for research and development.
 
