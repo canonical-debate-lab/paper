@@ -352,11 +352,11 @@ We present here a list of fundamental principles that we believe are necessary t
 
 As has been discussed, the human species so far has been extremely inefficient in terms of our ability to accumulate knowledge. For millennia, the only option available was through the spoken word and collective memory of people. Tools have evolved for improving this process, beginning with painting and other works of art and symbolism, then moving on to the written word in various formats, and so on. Tools of mass communication, and instantaneous communication across large geographic divides have also evolved, to the point that in the current era, we have more information than we can possibly digest. While the process is still imperfect, it is clear that tools can significantly improve our ability to accumulate knowledge.
 
-There are currently nearly 8 billion people on this planet. There are so many topics that bear an importance to all of us, or at least very large groups of us: climate change, human rights, health care, ethics, economics, and on and on. The effort to convey information regarding any of these topics can be enormous, and often imprecise, and takes on the form of 8 million people repeating the same arguments to one another over and over again in the hope that this repetition will generate some form of consensus or common understanding.
+There are currently nearly 8 billion people on this planet. There are so many topics that bear an importance to all of us, or at least very large groups of us: climate change, human rights, health care, ethics, economics, and on and on. The effort to convey information regarding any of these topics can be enormous, and often imprecise, and takes on the form of 8 billion people repeating the same arguments to one another over and over again in the hope that this repetition will generate some form of consensus or common understanding.
 
 Imagine if each argument only had to be made once, for everyone. If you map these discussions into a single location, the repetition becomes clear. By eliminating this duplication, we can free up people to get quickly up to speed on the best information humans have to offer, and move on to add their own contributions.
 
-There are 8 million of us, and we are spending our time repeating what others already know. Instead, we must find ways to make this knowledge accumulate and grow.
+There are 8 billion of us, and we are spending our time repeating what others already know. Instead, we must find ways to make this knowledge accumulate and grow.
 
 ====2.2.2 Keep it constructive====
 
@@ -374,7 +374,7 @@ In practice, this means many things:
 
 ====2.2.4 Be trustworthy====
 
-If there can be cast any doubt as to the sanctity of the information contained in the canonical debate, it will provide a wedge which those who refuse to accept it can use to drive people away from the platform. If this happens, it means that the debate in the end will not be canonical, and many of our objectives will not be achieved. Trustworthiness must be a primary concern in any decision undertaken on behalf of this project. Transparency, decentralization, and the elimination of conflicts of interest all play a major role in this effort.
+If there can be any doubt as to the sanctity of the information contained in the canonical debate, it will provide a wedge which those who refuse to accept it can use to drive people away from the platform. If this happens, it means that the debate in the end will not be canonical, and many of our objectives will not be achieved. Trustworthiness must be a primary concern in any decision undertaken on behalf of this project. Transparency, decentralization, and the elimination of conflicts of interest all play a major role in this effort.
 
 ====2.2.5 Include everyone====
 
@@ -406,7 +406,7 @@ Each of the objectives below are reactions to the problems that we have identifi
 
 In the most mundane sense of this goal, our objective is to design and implement the software necessary to provide the functionality that we consider essential to this project. This includes supporting all the objectives listed here below. 
 
-However, as those of us who are founding members know, simply building software is the easy part, and is not enough. In order for the debate to be truly canonical, we must be sure that everyone that has information to contribute to a debate, and everyone that would like information on the debate topic, all interact with the same base of knowledge. Whether this means making the Canonical Debate a household name, or it means creating one solid backbone upon which a multitude of services interact is not important. What matters is that we succeed in finally making knowledge accumulate productively.
+However, as those of us who are founding members know, simply building software is the easy part, and is not enough. In order for the debate to be truly canonical, we must be sure that everyone that has information to contribute to a debate, and everyone that would like information on the debate topic, all interact with the same base of knowledge. Whether this means making the Canonical Debate a household name or creating one solid backbone upon which a multitude of services interact is not important. What matters is that we succeed in finally making knowledge accumulate productively.
 
 ====2.3.2 Make debates reusable====
 
@@ -510,7 +510,7 @@ The platform must find the right balance between complexity and simplicity, and 
 
 ====2.3.15 Promote engagement====
 
-Through empirical experience, after many attempts to create a solution like the canonical debate, it has become clear the necessity of finding ways to encourage more users to participate. While there are some people that may dedicate their whole lives to a specific subject, and will be more than happy to provide every piece of their knowledge in the central debate, it can be a tedious task to supply (or even read) all this information. 
+Through empirical experience and many attempts to create a solution like the Canonical Debate, the necessity of finding ways to encourage more users to participate has become clear. While there are some people that may dedicate their whole lives to a specific subject, and will be more than happy to provide every piece of their knowledge in the central debate, it can be a tedious task to supply (or even read) all this information. 
 
 The platform must be designed with many different use cases in mind, from the casual reader looking for a quick primer to experts, activists, representatives of political organizations, and researchers. It must be useful for each of these stakeholders, but it must also elicit active engagement by people that might otherwise be only passive users. Debate can be a very emotional and provocative activity, and as we have stated in our principles, if this is done properly, it should be easy to motivate users to get involved.
 
@@ -757,7 +757,7 @@ Supporting evidence is essentially an objective fact presented as some sort of "
 
 Unlike other forms of argumentation, evidence has a very strong history of [https://en.wikipedia.org/wiki/Evidence_(law) formal use in the practice of law]. This includes the importance of proving the provenance and authenticity of the evidence, as well as its reliability.
 
-As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be in practical measures impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
+As a side note, the authenticity of digital media can be hard to prove. As technology improves the capacity to falsify speech and even video, this can be a critical threat to honest debate. Fortunately, cryptography and publicly shared ledgers (blockchain) may provide a countermeasure to this problem: if authentic recordings can be registered automatically on a blockchain the moment they are recorded, it will be practically impossible to alter the recordings after the fact. Technology is always part of a cat-and-mouse game, so it is important to remain vigilant regarding the presentation of evidence.
 
 Current plans for the Canonical Debate do not include creating a type specifically for the treatment of evidence. It should be noted that evidence isn't really an Argument, but rather a Claim (e.g. "This video shows XYX") that, if true, can be used as an Argument in support of another Claim. The use of [[#3115-multi-premise-claims|Multi-premise Claims]], along with the [[#3113-attributes|References attribute]], should go some way towards providing a mechanism for presenting evidence in canonical debates.
 
